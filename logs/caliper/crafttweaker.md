@@ -7,17 +7,18 @@ automatically submitted to any online service.
 
 | Script Name                                | Time  |
 |--------------------------------------------|-------|
-| ContentTweaker\VanillaFactory\VF_Blocks.zs | 350ms |
-| JEI\JEI_Minecraft.zs                       | 67ms  |
-| GameStages\GS_remove.zs                    | 50ms  |
-| GameStages\recipes\craftingShaped.zs       | 49ms  |
-| Dropt\dropt.zs                             | 46ms  |
-| CraftTweaker\crafting\firecrafting.zs      | 46ms  |
-| CraftTweaker\Functions.zs                  | 30ms  |
-| GameStages\recipes\primitiveCrafting.zs    | 21ms  |
-| CraftTweaker\tooltips\tooltips.zs          | 19ms  |
-| ContentTweaker\VanillaFactory\VF_Items.zs  | 15ms  |
-| ElementalResearch\research.zs              | 8ms   |
-| GameStages\GS_Initialization.zs            | 4ms   |
-| CraftTweaker\crafting\remove.zs            | 2ms   |
-| CraftTweaker\GlobalVariables.zs            | 0ms   |
+| ContentTweaker\VanillaFactory\VF_Blocks.zs | 460ms |
+| CraftTweaker\Functions.zs                  | 134ms |
+| Dropt\dropt.zs                             | 94ms  |
+| GameStages\recipes\craftingShaped.zs       | 80ms  |
+| JEI\JEI_Minecraft.zs                       | 73ms  |
+| GameStages\GS_remove.zs                    | 48ms  |
+| CraftTweaker\inworldcrafting.zs            | 43ms  |
+| ContentTweaker\VanillaFactory\VF_Items.zs  | 29ms  |
+| GameStages\recipes\primitiveCrafting.zs    | 19ms  |
+| CraftTweaker\tooltips.zs                   | 14ms  |
+| ElementalResearch\research.zs              | 14ms  |
+| GameStages\GS_Initialization.zs            | 3ms   |
+| CraftTweaker\hwell.zs                      | 2ms   |
+| CraftTweaker\remove.zs                     | 2ms   |
+| CraftTweaker\GlobalVariables.zs            | 1ms   |

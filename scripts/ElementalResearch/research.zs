@@ -44,7 +44,7 @@ air_1.addGivenStage("air_1");
 air_1.build();
 
 var water_1 = Util.createEntry("Water 1");
-water_1.setIcon(<minecraft:bucket>);
+water_1.setIcon(<minecraft:water_bucket>);
 water_1.waterCost = 50;
 water_1.experienceGiven = 2;
 water_1.addRequiredStage("wood");

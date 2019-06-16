@@ -12,12 +12,13 @@ anonymous, and is not automatically submitted to any online service.
 |-------------------|----------|--------|-----------|
 | minecraft         | 817      | 210688 | 823 KB    |
 | tombstone         | 36       | 129024 | 504 KB    |
+| hwell             | 240      | 62976  | 246 KB    |
 | ashenwheat        | 53       | 54272  | 212 KB    |
 | forbidden_arcanus | 178      | 50176  | 196 KB    |
 | cannibalism       | 13       | 13312  | 52 KB     |
 | betterquesting    | 8        | 6656   | 26 KB     |
+| contenttweaker    | 8        | 2816   | 11 KB     |
 | easypickings      | 11       | 2816   | 11 KB     |
-| contenttweaker    | 4        | 1792   | 7 KB      |
 | theoneprobe       | 5        | 1280   | 5 KB      |
 | bq_standard       | 1        | 1024   | 4 KB      |
 | reborncore        | 4        | 1024   | 4 KB      |

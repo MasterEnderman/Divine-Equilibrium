@@ -7,24 +7,25 @@ submitted to any online service.
 
 | Event Name                                   | Listener Count |
 |----------------------------------------------|----------------|
-| ConfigChangedEvent$OnConfigChangedEvent      | 24             |
+| ConfigChangedEvent$OnConfigChangedEvent      | 25             |
 | TickEvent$ClientTickEvent                    | 18             |
-| PlayerEvent$PlayerLoggedInEvent              | 16             |
+| PlayerEvent$PlayerLoggedInEvent              | 17             |
 | GuiScreenEvent$InitGuiEvent$Post             | 11             |
 | GuiOpenEvent                                 | 11             |
 | PlayerEvent$Clone                            | 11             |
+| TickEvent$PlayerTickEvent                    | 10             |
 | PlayerInteractEvent$RightClickBlock          | 10             |
 | AttachCapabilitiesEvent                      | 9              |
 | WorldEvent$Load                              | 9              |
 | LivingDeathEvent                             | 9              |
 | LivingEvent$LivingUpdateEvent                | 9              |
-| TickEvent$PlayerTickEvent                    | 9              |
 | EntityJoinWorldEvent                         | 9              |
 | BlockEvent$BreakEvent                        | 8              |
 | ItemTooltipEvent                             | 7              |
 | InputEvent$KeyInputEvent                     | 7              |
 | PlayerEvent$PlayerRespawnEvent               | 7              |
 | RenderGameOverlayEvent$Post                  | 7              |
+| TickEvent$WorldTickEvent                     | 6              |
 | BlockEvent$HarvestDropsEvent                 | 6              |
 | WorldEvent$Save                              | 6              |
 | LivingDropsEvent                             | 5              |
@@ -33,7 +34,6 @@ submitted to any online service.
 | LivingSpawnEvent$CheckSpawn                  | 5              |
 | WorldEvent$Unload                            | 5              |
 | PlayerEvent$BreakSpeed                       | 5              |
-| TickEvent$WorldTickEvent                     | 5              |
 | StagesSyncedEvent                            | 5              |
 | TickEvent$RenderTickEvent                    | 5              |
 | GuiScreenEvent$DrawScreenEvent$Post          | 5              |
@@ -42,6 +42,7 @@ submitted to any online service.
 | LootTableLoadEvent                           | 4              |
 | PlayerEvent$ItemCraftedEvent                 | 4              |
 | AnvilRepairEvent                             | 4              |
+| PlayerInteractEvent$RightClickItem           | 4              |
 | LivingDamageEvent                            | 4              |
 | PlayerDropsEvent                             | 4              |
 | CommandEvent                                 | 4              |
@@ -58,7 +59,6 @@ submitted to any online service.
 | AdvancementEvent                             | 3              |
 | ModelBakeEvent                               | 3              |
 | GuiScreenEvent$ActionPerformedEvent$Pre      | 3              |
-| PlayerInteractEvent$RightClickItem           | 3              |
 | RegisterRecipeFactoriesEvent                 | 3              |
 | GuiScreenEvent$InitGuiEvent$Pre              | 3              |
 | PlayerEvent$PlayerChangedDimensionEvent      | 3              |
@@ -66,9 +66,12 @@ submitted to any online service.
 | RenderPlayerEvent$Pre                        | 3              |
 | ChunkDataEvent$Load                          | 2              |
 | PlayerInteractEvent                          | 2              |
+| ColorHandlerEvent$Item                       | 2              |
 | LivingExperienceDropEvent                    | 2              |
 | PlayerSleepInBedEvent                        | 2              |
+| EntityTravelToDimensionEvent                 | 2              |
 | LivingEntityUseItemEvent$Finish              | 2              |
+| ItemExpireEvent                              | 2              |
 | PopulateChunkEvent$Pre                       | 2              |
 | FillBucketEvent                              | 2              |
 | WorldEvent$CreateSpawnPosition               | 2              |
@@ -101,11 +104,8 @@ submitted to any online service.
 | PlayerSetSpawnEvent                          | 1              |
 | OverlayToggleEvent                           | 1              |
 | BlockEvent$FarmlandTrampleEvent              | 1              |
-| ColorHandlerEvent$Item                       | 1              |
 | ChunkEvent$Unload                            | 1              |
 | AnimalTameEvent                              | 1              |
-| EntityTravelToDimensionEvent                 | 1              |
-| ItemExpireEvent                              | 1              |
 | RenderTooltipEvent$Color                     | 1              |
 | DroptLoadRulesEvent                          | 1              |
 | PlayerContainerEvent$Open                    | 1              |
@@ -113,6 +113,7 @@ submitted to any online service.
 | EnderTeleportEvent                           | 1              |
 | EntityStruckByLightningEvent                 | 1              |
 | ItemTossEvent                                | 1              |
+| ColorHandlerEvent$Block                      | 1              |
 | PlayerEvent$StartTracking                    | 1              |
 | LivingSpawnEvent$AllowDespawn                | 1              |
 | RenderBlockOverlayEvent                      | 1              |
@@ -123,13 +124,14 @@ submitted to any online service.
 | ArrowNockEvent                               | 1              |
 | PlayerEvent$HarvestCheck                     | 1              |
 | GuiScreenEvent$InitGuiEvent                  | 1              |
-| RenderTooltipEvent$PostText                  | 1              |
 | LivingSpawnEvent$SpecialSpawn                | 1              |
+| RenderTooltipEvent$PostText                  | 1              |
 | PlayerEvent$ItemPickupEvent                  | 1              |
 | ProjectileImpactEvent$Arrow                  | 1              |
 | LivingEntityUseItemEvent$Start               | 1              |
 | PlayerPickupXpEvent                          | 1              |
 | CTGUIEvent                                   | 1              |
+| ServerChatEvent                              | 1              |
 | LivingEntityUseItemEvent                     | 1              |
 | PlayerDestroyItemEvent                       | 1              |
 | LivingPackSizeEvent                          | 1              |
@@ -151,8 +153,8 @@ submitted to any online service.
 | EditModeToggleEvent                          | 1              |
 | GuiScreenEvent$MouseInputEvent$Post          | 1              |
 | FOVUpdateEvent                               | 1              |
-| BaseRegistryEvent                            | 1              |
 | UseHoeEvent                                  | 1              |
+| BaseRegistryEvent                            | 1              |
 | TextureStitchEvent$Post                      | 1              |
 | RegisterPacketEvent                          | 1              |
 
@@ -161,8 +163,8 @@ submitted to any online service.
 | Owner               | Method            | Location                                           | Priority | Source                          | RecieveCanceled |
 |---------------------|-------------------|----------------------------------------------------|----------|---------------------------------|-----------------|
 | Crafting Tweaks     | onActionPerformed | net.blay09.mods.craftingtweaks.client.ClientProxy  | normal   | CraftingTweaks_1.12.2-8.1.9.jar | false           |
-| ModPack Utilities   | action            | com.gendeathrow.mputils.client.gui.GuiEventHandler | normal   | MPUtils-1.12.2-1.5.7.jar        | false           |
 | ModPack Basic Tools | action            | com.gendeathrow.mpbasic.client.SideButtonHandler   | normal   | mpbasic-1.12.2-1.4.11.jar       | false           |
+| ModPack Utilities   | action            | com.gendeathrow.mputils.client.gui.GuiEventHandler | normal   | MPUtils-1.12.2-1.5.7.jar        | false           |
 | ReAuth              | action            | technicianlp.reauth.GuiHandler                     | normal   | reauth-3.6.0.jar                | false           |
 
 
@@ -176,26 +178,26 @@ submitted to any online service.
 ## PlayerInteractEvent
 | Owner         | Method           | Location                                      | Priority | Source                        | RecieveCanceled |
 |---------------|------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
-| Item Stages   | onPlayerInteract | net.darkhax.itemstages.ItemStages             | normal   | ItemStages-1.12.2-2.0.50.jar  | false           |
 | CraftTweaker2 | onPlayerInteract | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
+| Item Stages   | onPlayerInteract | net.darkhax.itemstages.ItemStages             | normal   | ItemStages-1.12.2-2.0.50.jar  | false           |
 
 
 ## LivingDropsEvent
 | Owner            | Method                        | Location                                               | Priority | Source                          | RecieveCanceled |
 |------------------|-------------------------------|--------------------------------------------------------|----------|---------------------------------|-----------------|
+| InControl        | onLivingDrops                 | mcjty.incontrol.ForgeEventHandlers                     | lowest   | incontrol-1.12-3.9.10.jar       | false           |
+| RandomTweaks     | onLivingDrops                 | com.therandomlabs.randomtweaks.common.MiscEventHandler | lowest   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+| Corail Tombstone | onUndeadDrops                 | ovh.corail.tombstone.event.EventHandler                | highest  | tombstone-3.5.3-1.12.jar        | false           |
 | CraftTweaker2    | onEntityLivingDeathDropsEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
 | CraftTweaker2    | mobDrop                       | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
-| Corail Tombstone | onUndeadDrops                 | ovh.corail.tombstone.event.EventHandler                | highest  | tombstone-3.5.3-1.12.jar        | false           |
-| RandomTweaks     | onLivingDrops                 | com.therandomlabs.randomtweaks.common.MiscEventHandler | lowest   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| InControl        | onLivingDrops                 | mcjty.incontrol.ForgeEventHandlers                     | lowest   | incontrol-1.12-3.9.10.jar       | false           |
 
 
 ## AnvilUpdateEvent
 | Owner            | Method        | Location                                           | Priority | Source                          | RecieveCanceled |
 |------------------|---------------|----------------------------------------------------|----------|---------------------------------|-----------------|
 | RandomTweaks     | onAnvilUpdate | com.therandomlabs.randomtweaks.common.AnvilHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| Corail Tombstone | onAnvilUpdate | ovh.corail.tombstone.event.EventHandler            | lowest   | tombstone-3.5.3-1.12.jar        | false           |
 | Bookshelf        | onAnvilUpdate | net.darkhax.bookshelf.Bookshelf                    | normal   | Bookshelf-1.12.2-2.3.584.jar    | false           |
+| Corail Tombstone | onAnvilUpdate | ovh.corail.tombstone.event.EventHandler            | lowest   | tombstone-3.5.3-1.12.jar        | false           |
 
 
 ## PlayerInteractEvent$EntityInteractSpecific
@@ -213,21 +215,21 @@ submitted to any online service.
 ## AttackEntityEvent
 | Owner              | Method                    | Location                                                  | Priority | Source                           | RecieveCanceled |
 |--------------------|---------------------------|-----------------------------------------------------------|----------|----------------------------------|-----------------|
+| RandomTweaks       | onPlayerAttackEntity      | com.therandomlabs.randomtweaks.common.MiscEventHandler    | normal   | randomtweaks-1.12.2-2.5.0.7.jar  | false           |
+| Standard Expansion | onEntityAttack            | bq_standard.handlers.EventHandler                         | lowest   | StandardExpansion-3.4.158.jar    | false           |
 | Item Stages        | onPlayerAttack            | net.darkhax.itemstages.ItemStages                         | normal   | ItemStages-1.12.2-2.0.50.jar     | false           |
 | CraftTweaker2      | onPlayerAttackEntityEvent | crafttweaker.mc1120.events.CommonEventHandler             | normal   | CraftTweaker2-1.12-4.1.19.jar    | false           |
-| Standard Expansion | onEntityAttack            | bq_standard.handlers.EventHandler                         | lowest   | StandardExpansion-3.4.158.jar    | false           |
-| RandomTweaks       | onPlayerAttackEntity      | com.therandomlabs.randomtweaks.common.MiscEventHandler    | normal   | randomtweaks-1.12.2-2.5.0.7.jar  | false           |
 | RandomConfigs      | onPlayerAttackEntity      | com.therandomlabs.randomconfigs.attackspeeds.AttackSpeeds | normal   | randomconfigs-1.12.2-1.3.2.3.jar | false           |
 
 
 ## TickEvent$ServerTickEvent
 | Owner              | Method            | Location                                                          | Priority | Source                                  | RecieveCanceled |
 |--------------------|-------------------|-------------------------------------------------------------------|----------|-----------------------------------------|-----------------|
-| Dropt              | onServerTickEvent | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler         | normal   | dropt-1.12.2-1.14.0.jar                 | false           |
-| Minecraft Forge    | onServerTick      | net.minecraftforge.common.ForgeInternalHandler                    | normal   | forge-1.12.2-14.23.5.2838-universal.jar | false           |
+| Athenaeum          | on                | com.codetaylor.mc.athenaeum.network.tile.TileDataServiceContainer | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar | false           |
 | Standard Expansion | onServerTick      | bq_standard.handlers.EventHandler                                 | normal   | StandardExpansion-3.4.158.jar           | false           |
 | Corail Tombstone   | onServerTick      | ovh.corail.tombstone.event.EventHandler                           | lowest   | tombstone-3.5.3-1.12.jar                | false           |
-| Athenaeum          | on                | com.codetaylor.mc.athenaeum.network.tile.TileDataServiceContainer | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar | false           |
+| Minecraft Forge    | onServerTick      | net.minecraftforge.common.ForgeInternalHandler                    | normal   | forge-1.12.2-14.23.5.2838-universal.jar | false           |
+| Dropt              | onServerTickEvent | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler         | normal   | dropt-1.12.2-1.14.0.jar                 | false           |
 
 
 ## OverlayToggleEvent
@@ -239,32 +241,32 @@ submitted to any online service.
 ## FMLNetworkEvent$ClientConnectedToServerEvent
 | Owner             | Method                    | Location                                          | Priority | Source                           | RecieveCanceled |
 |-------------------|---------------------------|---------------------------------------------------|----------|----------------------------------|-----------------|
-| Just Enough Items | onClientConnectedToServer | mezz.jei.startup.ProxyCommonClient                | normal   | jei_1.12.2-4.15.0.281.jar        | false           |
 | RandomTweaks      | onConnectToServer         | com.therandomlabs.randomtweaks.client.DingHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar  | false           |
 | Inventory Tweaks  | onConnectionToServer      | invtweaks.forge.ClientProxy                       | normal   | InventoryTweaks-1.64+dev.146.jar | false           |
+| Just Enough Items | onClientConnectedToServer | mezz.jei.startup.ProxyCommonClient                | normal   | jei_1.12.2-4.15.0.281.jar        | false           |
 
 
 ## TickEvent$ClientTickEvent
 | Owner               | Method         | Location                                                                     | Priority | Source                                      | RecieveCanceled |
 |---------------------|----------------|------------------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
 | Inventory Tweaks    | onTick         | invtweaks.forge.ClientProxy                                                  | normal   | InventoryTweaks-1.64+dev.146.jar            | false           |
-| Custom Main Menu    | tick           | lumien.custommainmenu.handler.CMMEventHandler                                | normal   | CustomMainMenu-MC1.12.2-2.0.9.jar           | false           |
-| FoamFix             | onTick         | pl.asie.foamfix.coremod.VertexLighterOverrideHandler                         | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
-| RandomTweaks        | onClientTick   | com.therandomlabs.randomtweaks.client.TimeOfDayOverlay                       | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
-| FoamFix             | clientTick     | pl.asie.foamfix.common.WorldNuller$ClientNuller                              | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
-| Minecraft Forge     | checkSettings  | net.minecraftforge.common.ForgeInternalHandler                               | normal   | forge-1.12.2-14.23.5.2838-universal.jar     | false           |
-| Patchouli           | onClientTick   | vazkii.patchouli.client.handler.MultiblockVisualizationHandler               | normal   | Patchouli-1.0-19.jar                        | false           |
-| RandomTweaks        | onClientTick   | com.therandomlabs.randomtweaks.client.StepupHandler                          | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
-| Patchouli           | clientTickEnd  | vazkii.patchouli.client.base.ClientTicker                                    | normal   | Patchouli-1.0-19.jar                        | false           |
-| RandomTweaks        | onClientTick   | com.therandomlabs.randomtweaks.client.MiscClientEventHandler                 | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
-| Athenaeum           | onEvent        | com.codetaylor.mc.athenaeum.network.tile.client.TileDataServiceClientMonitor | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar     | false           |
-| Just Enough Items   | onClientTick   | mezz.jei.gui.GuiEventHandler                                                 | normal   | jei_1.12.2-4.15.0.281.jar                   | false           |
-| ModPack Basic Tools | MPGuiOpenEvent | com.gendeathrow.mpbasic.client.gui.GuiScreenOverlay                          | normal   | mpbasic-1.12.2-1.4.11.jar                   | false           |
-| Toast Control       | clientTick     | shadows.toaster.ToastControl                                                 | normal   | Toast Control-1.12.2-1.8.1.jar              | false           |
-| AppleSkin           | onClientTick   | squeek.appleskin.client.HUDOverlayHandler                                    | normal   | AppleSkin-mc1.12-1.0.9.jar                  | false           |
 | Bookshelf           | onClientTick   | net.darkhax.bookshelf.Bookshelf                                              | normal   | Bookshelf-1.12.2-2.3.584.jar                | false           |
-| Reborn Core         | onClientTick   | reborncore.common.multiblock.MultiblockClientTickHandler                     | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Toast Control       | clientTick     | shadows.toaster.ToastControl                                                 | normal   | Toast Control-1.12.2-1.8.1.jar              | false           |
+| RandomTweaks        | onClientTick   | com.therandomlabs.randomtweaks.client.MiscClientEventHandler                 | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
+| FoamFix             | clientTick     | pl.asie.foamfix.common.WorldNuller$ClientNuller                              | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
+| Patchouli           | clientTickEnd  | vazkii.patchouli.client.base.ClientTicker                                    | normal   | Patchouli-1.0-19.jar                        | false           |
 | Patchouli           | onTick         | vazkii.patchouli.client.base.ClientAdvancements                              | normal   | Patchouli-1.0-19.jar                        | false           |
+| FoamFix             | onTick         | pl.asie.foamfix.coremod.VertexLighterOverrideHandler                         | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
+| Minecraft Forge     | checkSettings  | net.minecraftforge.common.ForgeInternalHandler                               | normal   | forge-1.12.2-14.23.5.2838-universal.jar     | false           |
+| ModPack Basic Tools | MPGuiOpenEvent | com.gendeathrow.mpbasic.client.gui.GuiScreenOverlay                          | normal   | mpbasic-1.12.2-1.4.11.jar                   | false           |
+| Just Enough Items   | onClientTick   | mezz.jei.gui.GuiEventHandler                                                 | normal   | jei_1.12.2-4.15.0.281.jar                   | false           |
+| Patchouli           | onClientTick   | vazkii.patchouli.client.handler.MultiblockVisualizationHandler               | normal   | Patchouli-1.0-19.jar                        | false           |
+| Custom Main Menu    | tick           | lumien.custommainmenu.handler.CMMEventHandler                                | normal   | CustomMainMenu-MC1.12.2-2.0.9.jar           | false           |
+| AppleSkin           | onClientTick   | squeek.appleskin.client.HUDOverlayHandler                                    | normal   | AppleSkin-mc1.12-1.0.9.jar                  | false           |
+| RandomTweaks        | onClientTick   | com.therandomlabs.randomtweaks.client.StepupHandler                          | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
+| RandomTweaks        | onClientTick   | com.therandomlabs.randomtweaks.client.TimeOfDayOverlay                       | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
+| Reborn Core         | onClientTick   | reborncore.common.multiblock.MultiblockClientTickHandler                     | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Athenaeum           | onEvent        | com.codetaylor.mc.athenaeum.network.tile.client.TileDataServiceClientMonitor | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar     | false           |
 
 
 ## BlockEvent$FarmlandTrampleEvent
@@ -277,6 +279,7 @@ submitted to any online service.
 | Owner           | Method               | Location                                     | Priority | Source                                  | RecieveCanceled |
 |-----------------|----------------------|----------------------------------------------|----------|-----------------------------------------|-----------------|
 | Minecraft Forge | registerItemHandlers | net.minecraftforge.client.ForgeClientHandler | normal   | forge-1.12.2-14.23.5.2838-universal.jar | false           |
+| Hearth Well     | registerColors       | wolforce.registry.RegisterColors             | normal   | hwell-0.4.1.jar                         | false           |
 
 
 ## LivingExperienceDropEvent
@@ -301,68 +304,70 @@ submitted to any online service.
 ## LivingSpawnEvent$CheckSpawn
 | Owner         | Method             | Location                                               | Priority | Source                          | RecieveCanceled |
 |---------------|--------------------|--------------------------------------------------------|----------|---------------------------------|-----------------|
-| CraftTweaker2 | onCheckSpawnEvent  | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
 | RandomTweaks  | onCheckSpawn       | com.therandomlabs.randomtweaks.common.SquidHandler     | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| Mob Stages    | checkSpawn         | net.darkhax.mobstages.MobStages                        | normal   | MobStages-1.12.2-2.0.13.jar     | false           |
-| RandomTweaks  | onCheckSpawn       | com.therandomlabs.randomtweaks.common.MiscEventHandler | lowest   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 | InControl     | onEntitySpawnEvent | mcjty.incontrol.ForgeEventHandlers                     | lowest   | incontrol-1.12-3.9.10.jar       | false           |
+| CraftTweaker2 | onCheckSpawnEvent  | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
+| RandomTweaks  | onCheckSpawn       | com.therandomlabs.randomtweaks.common.MiscEventHandler | lowest   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+| Mob Stages    | checkSpawn         | net.darkhax.mobstages.MobStages                        | normal   | MobStages-1.12.2-2.0.13.jar     | false           |
 
 
 ## WorldEvent$Unload
 | Owner           | Method            | Location                                            | Priority | Source                                      | RecieveCanceled |
 |-----------------|-------------------|-----------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Minecraft Forge | onDimensionUnload | net.minecraftforge.common.ForgeInternalHandler      | highest  | forge-1.12.2-14.23.5.2838-universal.jar     | false           |
-| FoamFix         | queueWorldNull    | pl.asie.foamfix.common.WorldNuller$ClientNuller     | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
-| Reborn Core     | worldUnloaded     | reborncore.client.multiblock.MultiblockRenderEvent  | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
 | Scavenge        | onWorldUnload     | scavenge.core.handlers.WorldRegistry                | normal   | Scavenge V1.12-1.8.3.2.jar                  | false           |
+| Reborn Core     | worldUnloaded     | reborncore.client.multiblock.MultiblockRenderEvent  | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Minecraft Forge | onDimensionUnload | net.minecraftforge.common.ForgeInternalHandler      | highest  | forge-1.12.2-14.23.5.2838-universal.jar     | false           |
 | Reborn Core     | onWorldUnload     | reborncore.common.multiblock.MultiblockEventHandler | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
-
-
-## EntityTravelToDimensionEvent
-| Owner      | Method            | Location                                               | Priority | Source                      | RecieveCanceled |
-|------------|-------------------|--------------------------------------------------------|----------|-----------------------------|-----------------|
-| Topography | onDimensionChange | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar | false           |
+| FoamFix         | queueWorldNull    | pl.asie.foamfix.common.WorldNuller$ClientNuller     | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
 
 
 ## PlayerSleepInBedEvent
 | Owner         | Method             | Location                                           | Priority | Source                          | RecieveCanceled |
 |---------------|--------------------|----------------------------------------------------|----------|---------------------------------|-----------------|
-| RandomTweaks  | onSleep            | com.therandomlabs.randomtweaks.common.SleepHandler | lowest   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 | CraftTweaker2 | onPlayerSleepInBed | crafttweaker.mc1120.events.CommonEventHandler      | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
+| RandomTweaks  | onSleep            | com.therandomlabs.randomtweaks.common.SleepHandler | lowest   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+
+
+## EntityTravelToDimensionEvent
+| Owner       | Method            | Location                                               | Priority | Source                      | RecieveCanceled |
+|-------------|-------------------|--------------------------------------------------------|----------|-----------------------------|-----------------|
+| Topography  | onDimensionChange | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar | false           |
+| Hearth Well | travelToDim       | wolforce.HwellEvents                                   | normal   | hwell-0.4.1.jar             | false           |
 
 
 ## BlockEvent$BreakEvent
 | Owner              | Method            | Location                                                  | Priority | Source                                      | RecieveCanceled |
 |--------------------|-------------------|-----------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Corail Tombstone   | onBreak           | ovh.corail.tombstone.event.EventHandler                   | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
-| Scavenge           | canBreakEvent     | scavenge.core.handlers.ScavengeHandler                    | normal   | Scavenge V1.12-1.8.3.2.jar                  | false           |
-| Dropt              | onBlockBreakEvent | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler | lowest   | dropt-1.12.2-1.14.0.jar                     | false           |
-| Standard Expansion | onBlockBreak      | bq_standard.handlers.EventHandler                         | lowest   | StandardExpansion-3.4.158.jar               | false           |
 | CraftTweaker2      | onBlockBreakEvent | crafttweaker.mc1120.events.CommonEventHandler             | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
-| Ore Stages         | onBlockBreak      | net.darkhax.orestages.OreTiersEventHandler                | lowest   | OreStages-1.12.2-2.0.38.jar                 | false           |
-| Reborn Core        | breakBlock        | reborncore.client.multiblock.MultiblockRenderEvent        | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Dropt              | onBlockBreakEvent | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler | lowest   | dropt-1.12.2-1.14.0.jar                     | false           |
 | Scavenge           | onBlockBreak      | scavengePlugins.refraction.Refraction                     | normal   | Scavenge V1.12-1.8.3.2.jar                  | false           |
+| Standard Expansion | onBlockBreak      | bq_standard.handlers.EventHandler                         | lowest   | StandardExpansion-3.4.158.jar               | false           |
+| Scavenge           | canBreakEvent     | scavenge.core.handlers.ScavengeHandler                    | normal   | Scavenge V1.12-1.8.3.2.jar                  | false           |
+| Corail Tombstone   | onBreak           | ovh.corail.tombstone.event.EventHandler                   | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
+| Reborn Core        | breakBlock        | reborncore.client.multiblock.MultiblockRenderEvent        | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Ore Stages         | onBlockBreak      | net.darkhax.orestages.OreTiersEventHandler                | lowest   | OreStages-1.12.2-2.0.38.jar                 | false           |
 
 
 ## LivingEntityUseItemEvent$Finish
 | Owner         | Method                           | Location                                               | Priority | Source                        | RecieveCanceled |
 |---------------|----------------------------------|--------------------------------------------------------|----------|-------------------------------|-----------------|
-| CraftTweaker2 | onLivingEntityUseItemFinishEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 | Cannibalism   | onItemFinish                     | sorazodia.cannibalism.mechanic.events.InteractionEvent | normal   | Cannibalism-5.4.0-1.12.2.jar  | false           |
+| CraftTweaker2 | onLivingEntityUseItemFinishEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 
 
 ## ItemExpireEvent
 | Owner         | Method            | Location                                      | Priority | Source                        | RecieveCanceled |
 |---------------|-------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
+| Hearth Well   | onEvent           | wolforce.HwellEvents                          | normal   | hwell-0.4.1.jar               | false           |
 | CraftTweaker2 | onItemExpireEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 
 
 ## PlayerEvent$PlayerLoggedOutEvent
 | Owner         | Method            | Location                                         | Priority | Source                        | RecieveCanceled |
 |---------------|-------------------|--------------------------------------------------|----------|-------------------------------|-----------------|
-| Game Stages   | onPlayerLoggedOut | net.darkhax.gamestages.data.GameStageSaveHandler | normal   | GameStages-1.12.2-2.0.115.jar | false           |
 | CraftTweaker2 | onPlayerLoggedOut | crafttweaker.mc1120.events.CommonEventHandler    | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 | Baubles       | onPlayerLoggedOut | baubles.common.event.EventHandlerEntity          | normal   | Baubles-1.12-1.5.2.jar        | false           |
+| Game Stages   | onPlayerLoggedOut | net.darkhax.gamestages.data.GameStageSaveHandler | normal   | GameStages-1.12.2-2.0.115.jar | false           |
 
 
 ## PopulateChunkEvent$Pre
@@ -375,11 +380,11 @@ submitted to any online service.
 ## PlayerEvent$BreakSpeed
 | Owner            | Method                  | Location                                             | Priority | Source                                      | RecieveCanceled |
 |------------------|-------------------------|------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Reborn Core      | getDigSpeed             | reborncore.common.blocks.BlockWrenchEventHandler     | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
 | Item Stages      | onPlayerDig             | net.darkhax.itemstages.ItemStages                    | normal   | ItemStages-1.12.2-2.0.50.jar                | false           |
+| CraftTweaker2    | onPlayerBreakSpeedEvent | crafttweaker.mc1120.events.CommonEventHandler        | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
+| Reborn Core      | getDigSpeed             | reborncore.common.blocks.BlockWrenchEventHandler     | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
 | Tool Progression | onBreakSpeed            | tyra314.toolprogression.handlers.HarvestEventHandler | highest  | toolprogression-1.12.2-1.6.6.jar            | false           |
 | Ore Stages       | onBreakSpeed            | net.darkhax.orestages.OreTiersEventHandler           | highest  | OreStages-1.12.2-2.0.38.jar                 | false           |
-| CraftTweaker2    | onPlayerBreakSpeedEvent | crafttweaker.mc1120.events.CommonEventHandler        | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
 
 
 ## GuiScreenEvent$MouseInputEvent$Pre
@@ -390,23 +395,23 @@ submitted to any online service.
 | Primitive Crafting | onGuiClick      | tschipp.primitivecrafting.client.render.event.RenderEvents | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar | false           |
 
 
+## ItemTooltipEvent
+| Owner            | Method            | Location                                                  | Priority | Source                           | RecieveCanceled |
+|------------------|-------------------|-----------------------------------------------------------|----------|----------------------------------|-----------------|
+| Corail Tombstone | handleTooltip     | ovh.corail.tombstone.event.ClientEventHandler             | highest  | tombstone-3.5.3-1.12.jar         | false           |
+| Baubles          | tooltipEvent      | baubles.client.ClientEventHandler                         | normal   | Baubles-1.12-1.5.2.jar           | false           |
+| Cannibalism      | tooltipEvent      | sorazodia.cannibalism.mechanic.events.client.TooltipEvent | normal   | Cannibalism-5.4.0-1.12.2.jar     | false           |
+| Tool Progression | onGetToolTipEvent | tyra314.toolprogression.handlers.TooltipEventHandler      | normal   | toolprogression-1.12.2-1.6.6.jar | false           |
+| Item Stages      | onTooltip         | net.darkhax.itemstages.ItemStages                         | lowest   | ItemStages-1.12.2-2.0.50.jar     | false           |
+| CraftTweaker2    | onItemTooltip     | crafttweaker.mc1120.events.ClientEventHandler             | lowest   | CraftTweaker2-1.12-4.1.19.jar    | false           |
+| Inventory Tweaks | tTipEvent         | invtweaks.forge.ToolTipEvent                              | normal   | InventoryTweaks-1.64+dev.146.jar | false           |
+
+
 ## FillBucketEvent
 | Owner           | Method             | Location                                      | Priority | Source                                  | RecieveCanceled |
 |-----------------|--------------------|-----------------------------------------------|----------|-----------------------------------------|-----------------|
 | CraftTweaker2   | onPlayerFillBucket | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar           | false           |
 | Minecraft Forge | onFillBucket       | net.minecraftforge.fluids.UniversalBucket     | low      | forge-1.12.2-14.23.5.2838-universal.jar | false           |
-
-
-## ItemTooltipEvent
-| Owner            | Method            | Location                                                  | Priority | Source                           | RecieveCanceled |
-|------------------|-------------------|-----------------------------------------------------------|----------|----------------------------------|-----------------|
-| Corail Tombstone | handleTooltip     | ovh.corail.tombstone.event.ClientEventHandler             | highest  | tombstone-3.5.3-1.12.jar         | false           |
-| Item Stages      | onTooltip         | net.darkhax.itemstages.ItemStages                         | lowest   | ItemStages-1.12.2-2.0.50.jar     | false           |
-| Baubles          | tooltipEvent      | baubles.client.ClientEventHandler                         | normal   | Baubles-1.12-1.5.2.jar           | false           |
-| Cannibalism      | tooltipEvent      | sorazodia.cannibalism.mechanic.events.client.TooltipEvent | normal   | Cannibalism-5.4.0-1.12.2.jar     | false           |
-| CraftTweaker2    | onItemTooltip     | crafttweaker.mc1120.events.ClientEventHandler             | lowest   | CraftTweaker2-1.12-4.1.19.jar    | false           |
-| Tool Progression | onGetToolTipEvent | tyra314.toolprogression.handlers.TooltipEventHandler      | normal   | toolprogression-1.12.2-1.6.6.jar | false           |
-| Inventory Tweaks | tTipEvent         | invtweaks.forge.ToolTipEvent                              | normal   | InventoryTweaks-1.64+dev.146.jar | false           |
 
 
 ## RenderTooltipEvent$Color
@@ -418,18 +423,19 @@ submitted to any online service.
 ## WorldEvent$CreateSpawnPosition
 | Owner         | Method             | Location                                                   | Priority | Source                           | RecieveCanceled |
 |---------------|--------------------|------------------------------------------------------------|----------|----------------------------------|-----------------|
-| RandomConfigs | onCreateSpawn      | com.therandomlabs.randomconfigs.gamerules.DefaultGameRules | normal   | randomconfigs-1.12.2-1.3.2.3.jar | false           |
 | Topography    | onCreateWorldSpawn | com.bloodnbonesgaming.topography.event.EventSubscriber     | normal   | Topography-1.12.2-1.5.1.jar      | false           |
+| RandomConfigs | onCreateSpawn      | com.therandomlabs.randomconfigs.gamerules.DefaultGameRules | normal   | randomconfigs-1.12.2-1.3.2.3.jar | false           |
 
 
 ## TickEvent$WorldTickEvent
 | Owner           | Method      | Location                                                 | Priority | Source                                      | RecieveCanceled |
 |-----------------|-------------|----------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| InControl       | onWorldTick | mcjty.incontrol.ForgeEventHandlers                       | normal   | incontrol-1.12-3.9.10.jar                   | false           |
 | Topography      | onWorldTick | com.bloodnbonesgaming.topography.event.EventSubscriber   | normal   | Topography-1.12.2-1.5.1.jar                 | false           |
-| Reborn Core     | onWorldTick | reborncore.common.multiblock.MultiblockServerTickHandler | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| InControl       | onWorldTick | mcjty.incontrol.ForgeEventHandlers                       | normal   | incontrol-1.12-3.9.10.jar                   | false           |
 | RandomTweaks    | onWorldTick | com.therandomlabs.randomtweaks.client.DingHandler        | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
 | InWorldCrafting | doCraft     | xt9.inworldcrafting.common.event.WorldTick               | normal   | inworldcrafting-1.12.2-1.2.0-universal.jar  | false           |
+| Reborn Core     | onWorldTick | reborncore.common.multiblock.MultiblockServerTickHandler | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Hearth Well     | onEvent     | wolforce.HwellEvents                                     | normal   | hwell-0.4.1.jar                             | false           |
 
 
 ## DroptLoadRulesEvent
@@ -442,32 +448,32 @@ submitted to any online service.
 | Owner              | Method           | Location                                            | Priority | Source                                  | RecieveCanceled |
 |--------------------|------------------|-----------------------------------------------------|----------|-----------------------------------------|-----------------|
 | BashFireMakeRock   | onBlockPunch     | com.builtbroken.bashrockmakefire.logic.EventHandler | normal   | SBM-BashFireMakeRock-1.12.2-1.0.0b2.jar | false           |
-| Scavenge           | onBlockLeftClick | scavenge.core.handlers.ScavengeHandler              | normal   | Scavenge V1.12-1.8.3.2.jar              | false           |
 | Standard Expansion | onLeftClickBlock | bq_standard.handlers.EventHandler                   | lowest   | StandardExpansion-3.4.158.jar           | false           |
+| Scavenge           | onBlockLeftClick | scavenge.core.handlers.ScavengeHandler              | normal   | Scavenge V1.12-1.8.3.2.jar              | false           |
 
 
 ## GuiScreenEvent$InitGuiEvent$Post
 | Owner              | Method           | Location                                                   | Priority | Source                                | RecieveCanceled |
 |--------------------|------------------|------------------------------------------------------------|----------|---------------------------------------|-----------------|
 | Crafting Tweaks    | onInitGuiFirst   | net.blay09.mods.craftingtweaks.client.ClientProxy          | highest  | CraftingTweaks_1.12.2-8.1.9.jar       | false           |
+| Patchouli          | onGuiInitPost    | vazkii.patchouli.client.base.InventoryBookButtonHandler    | highest  | Patchouli-1.0-19.jar                  | false           |
+| ModPack Utilities  | guiIntEvent      | com.gendeathrow.mputils.client.gui.GuiEventHandler         | highest  | MPUtils-1.12.2-1.5.7.jar              | false           |
+| Custom Main Menu   | initGuiPostEarly | lumien.custommainmenu.handler.CMMEventHandler              | highest  | CustomMainMenu-MC1.12.2-2.0.9.jar     | false           |
 | Primitive Crafting | onGuiInit        | tschipp.primitivecrafting.client.render.event.RenderEvents | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar | false           |
 | Custom Main Menu   | initGuiPost      | lumien.custommainmenu.handler.CMMEventHandler              | lowest   | CustomMainMenu-MC1.12.2-2.0.9.jar     | false           |
-| Patchouli          | onGuiInitPost    | vazkii.patchouli.client.base.InventoryBookButtonHandler    | highest  | Patchouli-1.0-19.jar                  | false           |
 | Baubles            | guiPostInit      | baubles.client.gui.GuiEvents                               | normal   | Baubles-1.12-1.5.2.jar                | false           |
-| Custom Main Menu   | initGuiPostEarly | lumien.custommainmenu.handler.CMMEventHandler              | highest  | CustomMainMenu-MC1.12.2-2.0.9.jar     | false           |
-| ReAuth             | open             | technicianlp.reauth.GuiHandler                             | normal   | reauth-3.6.0.jar                      | false           |
-| Just Enough Items  | onGuiInit        | mezz.jei.gui.GuiEventHandler                               | normal   | jei_1.12.2-4.15.0.281.jar             | false           |
-| ModPack Utilities  | guiIntEvent      | com.gendeathrow.mputils.client.gui.GuiEventHandler         | highest  | MPUtils-1.12.2-1.5.7.jar              | false           |
-| Just Enough Items  | onGuiInit        | mezz.jei.input.MouseHelper                                 | normal   | jei_1.12.2-4.15.0.281.jar             | false           |
 | Crafting Tweaks    | onInitGui        | net.blay09.mods.craftingtweaks.client.ClientProxy          | normal   | CraftingTweaks_1.12.2-8.1.9.jar       | false           |
+| Just Enough Items  | onGuiInit        | mezz.jei.input.MouseHelper                                 | normal   | jei_1.12.2-4.15.0.281.jar             | false           |
+| Just Enough Items  | onGuiInit        | mezz.jei.gui.GuiEventHandler                               | normal   | jei_1.12.2-4.15.0.281.jar             | false           |
+| ReAuth             | open             | technicianlp.reauth.GuiHandler                             | normal   | reauth-3.6.0.jar                      | false           |
 
 
 ## RenderGameOverlayEvent$Pre
 | Owner         | Method                 | Location                                                     | Priority | Source                          | RecieveCanceled |
 |---------------|------------------------|--------------------------------------------------------------|----------|---------------------------------|-----------------|
-| AppleSkin     | onPreRender            | squeek.appleskin.client.HUDOverlayHandler                    | low      | AppleSkin-mc1.12-1.0.9.jar      | false           |
-| The One Probe | renderGameOverlayEvent | mcjty.theoneprobe.proxy.ClientProxy                          | highest  | theoneprobe-1.12-1.4.28.jar     | true            |
 | RandomTweaks  | onRenderGameOverlay    | com.therandomlabs.randomtweaks.client.MiscClientEventHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+| The One Probe | renderGameOverlayEvent | mcjty.theoneprobe.proxy.ClientProxy                          | highest  | theoneprobe-1.12-1.4.28.jar     | true            |
+| AppleSkin     | onPreRender            | squeek.appleskin.client.HUDOverlayHandler                    | low      | AppleSkin-mc1.12-1.0.9.jar      | false           |
 
 
 ## PlayerContainerEvent$Open
@@ -479,38 +485,39 @@ submitted to any online service.
 ## ConfigChangedEvent$OnConfigChangedEvent
 | Owner               | Method               | Location                                                                                   | Priority | Source                                      | RecieveCanceled |
 |---------------------|----------------------|--------------------------------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| FoamFix             | configChanged        | pl.asie.foamfix.FoamFix                                                                    | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
-| Primitive Crafting  | onConfigChanged      | tschipp.primitivecrafting.common.config.PrimitiveConfig$EventHandler                       | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar       | false           |
-| Cannibalism         | onConfigChanged      | sorazodia.cannibalism.mechanic.events.ConfigEvent                                          | normal   | Cannibalism-5.4.0-1.12.2.jar                | false           |
-| Reborn Core         | onChange             | reborncore.common.registration.impl.ConfigRegistryFactory                                  | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
-| Game Stages         | onConfigChangedEvent | net.darkhax.gamestages.config.Configuration                                                | normal   | GameStages-1.12.2-2.0.115.jar               | false           |
 | ModPack Basic Tools | onConfigChanged      | com.gendeathrow.mpbasic.BTEventHandler                                                     | normal   | mpbasic-1.12.2-1.4.11.jar                   | false           |
+| Hearth Well         | onConfigChanged      | wolforce.HwellConfig                                                                       | normal   | hwell-0.4.1.jar                             | false           |
+| Corail Tombstone    | onConfigChanged      | ovh.corail.tombstone.ConfigTombstone                                                       | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
+| ReAuth              | onConfigChanged      | technicianlp.reauth.Main                                                                   | normal   | reauth-3.6.0.jar                            | false           |
+| Better Questing     | onConfigChanged      | betterquesting.handlers.EventHandler                                                       | normal   | BetterQuesting-3.5.300.jar                  | false           |
+| Primitive Crafting  | onConfigChanged      | tschipp.primitivecrafting.common.config.PrimitiveConfig$EventHandler                       | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar       | false           |
+| The One Probe       | onConfigChanged      | mcjty.theoneprobe.ForgeEventHandlers                                                       | normal   | theoneprobe-1.12-1.4.28.jar                 | false           |
 | BashFireMakeRock    | onConfigChanged      | com.builtbroken.bashrockmakefire.ConfigMain                                                | normal   | SBM-BashFireMakeRock-1.12.2-1.0.0b2.jar     | false           |
-| Athenaeum           | onConfigChangedEvent | com.codetaylor.mc.athenaeum.ConfigChangedEventHandler                                      | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar     | false           |
+| Toast Control       | onConfigChanged      | shadows.toaster.ToastControl                                                               | normal   | Toast Control-1.12.2-1.8.1.jar              | false           |
+| AppleSkin           | onConfigChanged      | squeek.appleskin.ModConfig                                                                 | normal   | AppleSkin-mc1.12-1.0.9.jar                  | false           |
 | ModPack Utilities   | onConfigChanged      | com.gendeathrow.mputils.EventHandler                                                       | normal   | MPUtils-1.12.2-1.5.7.jar                    | false           |
-| Easy Pickings       | configChanged        | com.headfishindustries.easypickings.EasyConfiggings                                        | normal   | easypickings-1.7.1.jar                      | false           |
-| Unhealthy Dying     | onConfigChanged      | com.mrbysco.unhealthydying.config.DyingConfigGen$EventHandler                              | normal   | Unhealthy-Dying-1.2.2.1.jar                 | false           |
+| Minecraft Forge     | onConfigChanged      | forge                                                                                      | normal   | forge-1.12.2-14.23.5.2838-universal.jar     | false           |
+| RandomPatches       | onConfigChanged      | com.therandomlabs.randompatches.repackage.com.therandomlabs.randomlib.config.ConfigManager | normal   | randompatches-1.12.2-1.16.1.0.jar           | false           |
+| Game Stages         | onConfigChangedEvent | net.darkhax.gamestages.config.Configuration                                                | normal   | GameStages-1.12.2-2.0.115.jar               | false           |
+| RandomTweaks        | onConfigChanged      | com.therandomlabs.randomtweaks.repackage.com.therandomlabs.randomlib.config.ConfigManager  | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
+| FoamFix             | configChanged        | pl.asie.foamfix.FoamFix                                                                    | normal   | foamfix-0.10.5-1.12.2.jar                   | false           |
 | Patchouli           | onConfigChanged      | vazkii.patchouli.common.base.PatchouliConfig$ChangeListener                                | normal   | Patchouli-1.0-19.jar                        | false           |
 | Better Questing     | onConfigChanged      | betterquesting.handlers.EventHandler                                                       | normal   | BetterQuesting-3.5.300.jar                  | false           |
-| Minecraft Forge     | onConfigChanged      | forge                                                                                      | normal   | forge-1.12.2-14.23.5.2838-universal.jar     | false           |
-| Toast Control       | onConfigChanged      | shadows.toaster.ToastControl                                                               | normal   | Toast Control-1.12.2-1.8.1.jar              | false           |
-| Corail Tombstone    | onConfigChanged      | ovh.corail.tombstone.ConfigTombstone                                                       | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
-| The One Probe       | onConfigChanged      | mcjty.theoneprobe.ForgeEventHandlers                                                       | normal   | theoneprobe-1.12-1.4.28.jar                 | false           |
+| Reborn Core         | onChange             | reborncore.common.registration.impl.ConfigRegistryFactory                                  | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Unhealthy Dying     | onConfigChanged      | com.mrbysco.unhealthydying.config.DyingConfigGen$EventHandler                              | normal   | Unhealthy-Dying-1.2.2.1.jar                 | false           |
 | Just Enough Items   | onConfigChanged      | mezz.jei.startup.ProxyCommonClient                                                         | normal   | jei_1.12.2-4.15.0.281.jar                   | false           |
+| Athenaeum           | onConfigChangedEvent | com.codetaylor.mc.athenaeum.ConfigChangedEventHandler                                      | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar     | false           |
+| Easy Pickings       | configChanged        | com.headfishindustries.easypickings.EasyConfiggings                                        | normal   | easypickings-1.7.1.jar                      | false           |
 | Baubles             | onConfigChanged      | baubles.common.Config$ConfigChangeListener                                                 | normal   | Baubles-1.12-1.5.2.jar                      | false           |
-| RandomTweaks        | onConfigChanged      | com.therandomlabs.randomtweaks.repackage.com.therandomlabs.randomlib.config.ConfigManager  | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
-| RandomPatches       | onConfigChanged      | com.therandomlabs.randompatches.repackage.com.therandomlabs.randomlib.config.ConfigManager | normal   | randompatches-1.12.2-1.16.1.0.jar           | false           |
-| ReAuth              | onConfigChanged      | technicianlp.reauth.Main                                                                   | normal   | reauth-3.6.0.jar                            | false           |
-| AppleSkin           | onConfigChanged      | squeek.appleskin.ModConfig                                                                 | normal   | AppleSkin-mc1.12-1.0.9.jar                  | false           |
-| Better Questing     | onConfigChanged      | betterquesting.handlers.EventHandler                                                       | normal   | BetterQuesting-3.5.300.jar                  | false           |
+| Cannibalism         | onConfigChanged      | sorazodia.cannibalism.mechanic.events.ConfigEvent                                          | normal   | Cannibalism-5.4.0-1.12.2.jar                | false           |
 
 
 ## OreDictionary$OreRegisterEvent
 | Owner            | Method              | Location                                      | Priority | Source                                      | RecieveCanceled |
 |------------------|---------------------|-----------------------------------------------|----------|---------------------------------------------|-----------------|
 | Reborn Core      | oreRegistationEvent | reborncore.common.util.OreRegistationEvent    | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
-| Inventory Tweaks | oreRegistered       | invtweaks.InvTweaksItemTree                   | normal   | InventoryTweaks-1.64+dev.146.jar            | false           |
 | CraftTweaker2    | onOreDictEvent      | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
+| Inventory Tweaks | oreRegistered       | invtweaks.InvTweaksItemTree                   | normal   | InventoryTweaks-1.64+dev.146.jar            | false           |
 
 
 ## EntityItemPickupEvent
@@ -522,15 +529,15 @@ submitted to any online service.
 ## AttachCapabilitiesEvent
 | Owner               | Method                   | Location                                                                  | Priority | Source                      | RecieveCanceled |
 |---------------------|--------------------------|---------------------------------------------------------------------------|----------|-----------------------------|-----------------|
-| ModPack Basic Tools | onConstructing           | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler | normal   | mpbasic-1.12.2-1.4.11.jar   | false           |
-| Topography          | onAttachCapability       | com.bloodnbonesgaming.topography.event.EventSubscriber                    | normal   | Topography-1.12.2-1.5.1.jar | false           |
 | Baubles             | attachCapabilitiesPlayer | baubles.common.event.EventHandlerEntity                                   | normal   | Baubles-1.12-1.5.2.jar      | false           |
 | Better Questing     | onCapabilityPlayer       | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar  | false           |
 | Elemental Research  | onEntityConstructing     | al132.elementalresearch.event.EventHandler                                | normal   | elementalresearch-1.1.3.jar | false           |
+| Topography          | onAttachCapability       | com.bloodnbonesgaming.topography.event.EventSubscriber                    | normal   | Topography-1.12.2-1.5.1.jar | false           |
 | Corail Tombstone    | onAttachCapability       | ovh.corail.tombstone.ConfigTombstone                                      | normal   | tombstone-3.5.3-1.12.jar    | false           |
-| Better Questing     | onCapabilityPlayer       | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar  | false           |
-| The One Probe       | onEntityConstructing     | mcjty.theoneprobe.ForgeEventHandlers                                      | normal   | theoneprobe-1.12-1.4.28.jar | false           |
 | Baubles             | itemCapabilityAttach     | baubles.common.event.EventHandlerItem                                     | lowest   | Baubles-1.12-1.5.2.jar      | false           |
+| The One Probe       | onEntityConstructing     | mcjty.theoneprobe.ForgeEventHandlers                                      | normal   | theoneprobe-1.12-1.4.28.jar | false           |
+| ModPack Basic Tools | onConstructing           | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler | normal   | mpbasic-1.12.2-1.4.11.jar   | false           |
+| Better Questing     | onCapabilityPlayer       | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar  | false           |
 
 
 ## EnderTeleportEvent
@@ -555,18 +562,24 @@ submitted to any online service.
 | Owner            | Method          | Location                                 | Priority | Source                                      | RecieveCanceled |
 |------------------|-----------------|------------------------------------------|----------|---------------------------------------------|-----------------|
 | Placebo          | loadTables      | shadows.placebo.loot.PlaceboLootSystem   | normal   | Placebo-1.12.2-1.6.0.jar                    | false           |
-| Corail Tombstone | onLootTableLoad | ovh.corail.tombstone.event.EventHandler  | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
 | Ashenwheat       | LootLoad        | akkamaddi.ashenwheat.handler.LootHandler | normal   | ashenwheat-1.12.2-4.0.1.0.jar               | false           |
 | Reborn Core      | onLootTableLoad | reborncore.common.LootManager            | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Corail Tombstone | onLootTableLoad | ovh.corail.tombstone.event.EventHandler  | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
+
+
+## ColorHandlerEvent$Block
+| Owner       | Method         | Location                         | Priority | Source          | RecieveCanceled |
+|-------------|----------------|----------------------------------|----------|-----------------|-----------------|
+| Hearth Well | registerColors | wolforce.registry.RegisterColors | normal   | hwell-0.4.1.jar | false           |
 
 
 ## PlayerEvent$ItemCraftedEvent
 | Owner              | Method              | Location                                          | Priority | Source                                      | RecieveCanceled |
 |--------------------|---------------------|---------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Standard Expansion | onItemCrafted       | bq_standard.handlers.EventHandler                 | lowest   | StandardExpansion-3.4.158.jar               | false           |
 | Crafting Tweaks    | onItemCrafted       | net.blay09.mods.craftingtweaks.client.ClientProxy | normal   | CraftingTweaks_1.12.2-8.1.9.jar             | false           |
-| CraftTweaker2      | onPlayerItemCrafted | crafttweaker.mc1120.events.CommonEventHandler     | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
+| Standard Expansion | onItemCrafted       | bq_standard.handlers.EventHandler                 | lowest   | StandardExpansion-3.4.158.jar               | false           |
 | Reborn Core        | craft               | reborncore.shields.RebornCoreShields              | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| CraftTweaker2      | onPlayerItemCrafted | crafttweaker.mc1120.events.CommonEventHandler     | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
 
 
 ## RenderWorldLastEvent
@@ -599,26 +612,26 @@ submitted to any online service.
 ## WorldEvent$Load
 | Owner            | Method          | Location                                                   | Priority | Source                                  | RecieveCanceled |
 |------------------|-----------------|------------------------------------------------------------|----------|-----------------------------------------|-----------------|
-| Scavenge         | onWorldLoad     | scavenge.core.handlers.WorldRegistry                       | normal   | Scavenge V1.12-1.8.3.2.jar              | false           |
-| RandomConfigs    | onWorldLoad     | com.therandomlabs.randomconfigs.gamerules.DefaultGameRules | normal   | randomconfigs-1.12.2-1.3.2.3.jar        | false           |
 | Corail Tombstone | onWorldLoad     | ovh.corail.tombstone.event.EventHandler                    | lowest   | tombstone-3.5.3-1.12.jar                | false           |
 | Easy Pickings    | onWorldLoad     | com.headfishindustries.easypickings.EasyPickings           | normal   | easypickings-1.7.1.jar                  | false           |
-| RandomTweaks     | onWorldLoad     | com.therandomlabs.randomtweaks.common.world.WorldHandler   | normal   | randomtweaks-1.12.2-2.5.0.7.jar         | false           |
-| Minecraft Forge  | onDimensionLoad | net.minecraftforge.common.ForgeInternalHandler             | highest  | forge-1.12.2-14.23.5.2838-universal.jar | false           |
 | Corail Tombstone | onWorldLoad     | ovh.corail.tombstone.helper.WorldFunctionInjector          | normal   | tombstone-3.5.3-1.12.jar                | false           |
+| RandomConfigs    | onWorldLoad     | com.therandomlabs.randomconfigs.gamerules.DefaultGameRules | normal   | randomconfigs-1.12.2-1.3.2.3.jar        | false           |
 | Corail Tombstone | onWorldLoad     | ovh.corail.tombstone.ConfigTombstone                       | high     | tombstone-3.5.3-1.12.jar                | false           |
+| RandomTweaks     | onWorldLoad     | com.therandomlabs.randomtweaks.common.world.WorldHandler   | normal   | randomtweaks-1.12.2-2.5.0.7.jar         | false           |
 | Bookshelf        | onWorldLoaded   | net.darkhax.bookshelf.Bookshelf                            | normal   | Bookshelf-1.12.2-2.3.584.jar            | false           |
+| Minecraft Forge  | onDimensionLoad | net.minecraftforge.common.ForgeInternalHandler             | highest  | forge-1.12.2-14.23.5.2838-universal.jar | false           |
+| Scavenge         | onWorldLoad     | scavenge.core.handlers.WorldRegistry                       | normal   | Scavenge V1.12-1.8.3.2.jar              | false           |
 
 
 ## InputEvent$KeyInputEvent
 | Owner              | Method     | Location                                                | Priority | Source                          | RecieveCanceled |
 |--------------------|------------|---------------------------------------------------------|----------|---------------------------------|-----------------|
-| Better Questing    | onKey      | betterquesting.handlers.EventHandler                    | normal   | BetterQuesting-3.5.300.jar      | false           |
-| Toast Control      | keys       | shadows.toaster.ToastControl                            | normal   | Toast Control-1.12.2-1.8.1.jar  | false           |
-| RandomTweaks       | onKeyInput | com.therandomlabs.randomtweaks.client.KeyBindingHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 | The One Probe      | onKeyInput | mcjty.theoneprobe.keys.KeyInputHandler                  | normal   | theoneprobe-1.12-1.4.28.jar     | false           |
+| RandomTweaks       | onKeyInput | com.therandomlabs.randomtweaks.client.KeyBindingHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 | ModPack Utilities  | onKeyInput | com.gendeathrow.mputils.client.keybinds.KeyBinds        | normal   | MPUtils-1.12.2-1.5.7.jar        | false           |
+| Toast Control      | keys       | shadows.toaster.ToastControl                            | normal   | Toast Control-1.12.2-1.8.1.jar  | false           |
 | Elemental Research | onKeyInput | al132.elementalresearch.event.ClientEventHandler        | normal   | elementalresearch-1.1.3.jar     | false           |
+| Better Questing    | onKey      | betterquesting.handlers.EventHandler                    | normal   | BetterQuesting-3.5.300.jar      | false           |
 | Better Questing    | onKey      | betterquesting.handlers.EventHandler                    | normal   | BetterQuesting-3.5.300.jar      | false           |
 
 
@@ -632,21 +645,21 @@ submitted to any online service.
 | Owner              | Method                   | Location                                               | Priority | Source                          | RecieveCanceled |
 |--------------------|--------------------------|--------------------------------------------------------|----------|---------------------------------|-----------------|
 | Better Questing    | onLivingDeath            | betterquesting.handlers.EventHandler                   | normal   | BetterQuesting-3.5.300.jar      | false           |
-| Unhealthy Dying    | killedEntityEvent        | com.mrbysco.unhealthydying.handlers.EasterEgg          | normal   | Unhealthy-Dying-1.2.2.1.jar     | false           |
-| CraftTweaker2      | onEntityLivingDeathEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
-| Corail Tombstone   | onPlayerDeath            | ovh.corail.tombstone.event.EventHandler                | lowest   | tombstone-3.5.3-1.12.jar        | true            |
-| Corail Tombstone   | onPlayerPetDeath         | ovh.corail.tombstone.event.EventHandler                | lowest   | tombstone-3.5.3-1.12.jar        | false           |
 | RandomTweaks       | onLivingDeath            | com.therandomlabs.randomtweaks.common.MiscEventHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| Better Questing    | onLivingDeath            | betterquesting.handlers.EventHandler                   | normal   | BetterQuesting-3.5.300.jar      | false           |
-| Standard Expansion | onEntityKilled           | bq_standard.handlers.EventHandler                      | lowest   | StandardExpansion-3.4.158.jar   | false           |
+| Corail Tombstone   | onPlayerPetDeath         | ovh.corail.tombstone.event.EventHandler                | lowest   | tombstone-3.5.3-1.12.jar        | false           |
 | Cannibalism        | onDeath                  | sorazodia.cannibalism.mechanic.events.DeathEvent       | normal   | Cannibalism-5.4.0-1.12.2.jar    | true            |
+| Corail Tombstone   | onPlayerDeath            | ovh.corail.tombstone.event.EventHandler                | lowest   | tombstone-3.5.3-1.12.jar        | true            |
+| Unhealthy Dying    | killedEntityEvent        | com.mrbysco.unhealthydying.handlers.EasterEgg          | normal   | Unhealthy-Dying-1.2.2.1.jar     | false           |
+| Standard Expansion | onEntityKilled           | bq_standard.handlers.EventHandler                      | lowest   | StandardExpansion-3.4.158.jar   | false           |
+| CraftTweaker2      | onEntityLivingDeathEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
+| Better Questing    | onLivingDeath            | betterquesting.handlers.EventHandler                   | normal   | BetterQuesting-3.5.300.jar      | false           |
 
 
 ## ExplosionEvent$Detonate
 | Owner            | Method            | Location                                                  | Priority | Source                                     | RecieveCanceled |
 |------------------|-------------------|-----------------------------------------------------------|----------|--------------------------------------------|-----------------|
-| InWorldCrafting  | somethingWentBoom | xt9.inworldcrafting.common.event.ExplosionCraft           | normal   | inworldcrafting-1.12.2-1.2.0-universal.jar | false           |
 | Dropt            | onExplosionEvent  | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler | normal   | dropt-1.12.2-1.14.0.jar                    | false           |
+| InWorldCrafting  | somethingWentBoom | xt9.inworldcrafting.common.event.ExplosionCraft           | normal   | inworldcrafting-1.12.2-1.2.0-universal.jar | false           |
 | Corail Tombstone | onDetonate        | ovh.corail.tombstone.event.EventHandler                   | lowest   | tombstone-3.5.3-1.12.jar                   | false           |
 
 
@@ -654,6 +667,12 @@ submitted to any online service.
 | Owner         | Method                         | Location                                      | Priority | Source                        | RecieveCanceled |
 |---------------|--------------------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
 | CraftTweaker2 | onLivingEntityUseItemTickEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
+
+
+## LevelingEvent
+| Owner       | Method              | Location                                              | Priority | Source                       | RecieveCanceled |
+|-------------|---------------------|-------------------------------------------------------|----------|------------------------------|-----------------|
+| Cannibalism | playerLevelIncrease | sorazodia.cannibalism.mechanic.events.EntityNBTEvents | normal   | Cannibalism-5.4.0-1.12.2.jar | false           |
 
 
 ## AnvilRepairEvent
@@ -665,10 +684,14 @@ submitted to any online service.
 | CraftTweaker2      | onPlayerAnvilRepairEvent | crafttweaker.mc1120.events.CommonEventHandler      | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
 
 
-## LevelingEvent
-| Owner       | Method              | Location                                              | Priority | Source                       | RecieveCanceled |
-|-------------|---------------------|-------------------------------------------------------|----------|------------------------------|-----------------|
-| Cannibalism | playerLevelIncrease | sorazodia.cannibalism.mechanic.events.EntityNBTEvents | normal   | Cannibalism-5.4.0-1.12.2.jar | false           |
+## StagesSyncedEvent
+| Owner              | Method          | Location                                                    | Priority | Source                                | RecieveCanceled |
+|--------------------|-----------------|-------------------------------------------------------------|----------|---------------------------------------|-----------------|
+| Primitive Crafting | onGamestageSync | tschipp.primitivecrafting.compat.gamestages.GamestageEvents | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar | false           |
+| Item Stages        | onClientSync    | net.darkhax.itemstages.ItemStages                           | normal   | ItemStages-1.12.2-2.0.50.jar          | false           |
+| RecipeStages       | onGamestageSync | com.blamejared.recipestages.events.ClientEventHandler       | normal   | RecipeStages-1.1.1.jar                | false           |
+| Tiered Tooltips    | onStageSync     | stapleton.tieredtooltips.TieredTooltips                     | lowest   | TieredTooltips-2.0.0.jar              | false           |
+| Ore Stages         | onStageSync     | net.darkhax.orestages.OreTiersEventHandler                  | normal   | OreStages-1.12.2-2.0.38.jar           | false           |
 
 
 ## PlayerInteractEvent$LeftClickEmpty
@@ -677,22 +700,12 @@ submitted to any online service.
 | Standard Expansion | onLeftClickAir | bq_standard.handlers.EventHandler | lowest   | StandardExpansion-3.4.158.jar | false           |
 
 
-## StagesSyncedEvent
-| Owner              | Method          | Location                                                    | Priority | Source                                | RecieveCanceled |
-|--------------------|-----------------|-------------------------------------------------------------|----------|---------------------------------------|-----------------|
-| RecipeStages       | onGamestageSync | com.blamejared.recipestages.events.ClientEventHandler       | normal   | RecipeStages-1.1.1.jar                | false           |
-| Primitive Crafting | onGamestageSync | tschipp.primitivecrafting.compat.gamestages.GamestageEvents | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar | false           |
-| Tiered Tooltips    | onStageSync     | stapleton.tieredtooltips.TieredTooltips                     | lowest   | TieredTooltips-2.0.0.jar              | false           |
-| Item Stages        | onClientSync    | net.darkhax.itemstages.ItemStages                           | normal   | ItemStages-1.12.2-2.0.50.jar          | false           |
-| Ore Stages         | onStageSync     | net.darkhax.orestages.OreTiersEventHandler                  | normal   | OreStages-1.12.2-2.0.38.jar           | false           |
-
-
 ## PlayerInteractEvent$EntityInteract
 | Owner              | Method                 | Location                                                    | Priority | Source                          | RecieveCanceled |
 |--------------------|------------------------|-------------------------------------------------------------|----------|---------------------------------|-----------------|
-| RandomTweaks       | onEntityInteract       | com.therandomlabs.randomtweaks.common.EntityInteractHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| CraftTweaker2      | onPlayerInteractEntity | crafttweaker.mc1120.events.CommonEventHandler               | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
 | Standard Expansion | onEntityInteract       | bq_standard.handlers.EventHandler                           | lowest   | StandardExpansion-3.4.158.jar   | false           |
+| CraftTweaker2      | onPlayerInteractEntity | crafttweaker.mc1120.events.CommonEventHandler               | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
+| RandomTweaks       | onEntityInteract       | com.therandomlabs.randomtweaks.common.EntityInteractHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 
 
 ## ActionApplyEvent$Post
@@ -717,15 +730,15 @@ submitted to any online service.
 ## RenderGameOverlayEvent$Text
 | Owner      | Method            | Location                                   | Priority | Source                      | RecieveCanceled |
 |------------|-------------------|--------------------------------------------|----------|-----------------------------|-----------------|
-| Ore Stages | onOverlayRendered | net.darkhax.orestages.OreTiersEventHandler | normal   | OreStages-1.12.2-2.0.38.jar | false           |
 | AppleSkin  | onTextRender      | squeek.appleskin.client.DebugInfoHandler   | normal   | AppleSkin-mc1.12-1.0.9.jar  | false           |
+| Ore Stages | onOverlayRendered | net.darkhax.orestages.OreTiersEventHandler | normal   | OreStages-1.12.2-2.0.38.jar | false           |
 
 
 ## ChunkEvent$Load
 | Owner        | Method      | Location                                                 | Priority | Source                                      | RecieveCanceled |
 |--------------|-------------|----------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| RandomTweaks | onChunkLoad | com.therandomlabs.randomtweaks.common.world.WorldHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
 | Reborn Core  | onChunkLoad | reborncore.common.multiblock.MultiblockEventHandler      | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| RandomTweaks | onChunkLoad | com.therandomlabs.randomtweaks.common.world.WorldHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
 
 
 ## PlayerJoinedWorldEvent
@@ -745,47 +758,48 @@ submitted to any online service.
 ## TickEvent$RenderTickEvent
 | Owner            | Method       | Location                                                       | Priority | Source                          | RecieveCanceled |
 |------------------|--------------|----------------------------------------------------------------|----------|---------------------------------|-----------------|
-| RandomTweaks     | onRenderTick | com.therandomlabs.randomtweaks.client.TimeOfDayOverlay         | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+| Patchouli        | renderTick   | vazkii.patchouli.client.base.ClientTicker                      | normal   | Patchouli-1.0-19.jar            | false           |
 | Corail Tombstone | onRenderTick | ovh.corail.tombstone.event.ClientEventHandler                  | lowest   | tombstone-3.5.3-1.12.jar        | false           |
 | Mouse Tweaks     | onRenderTick | yalter.mousetweaks.forge.MouseTweaksForge                      | normal   | MouseTweaks-2.10-mc1.12.2.jar   | false           |
 | Loading Screens  | onRenderTick | com.bloodnbonesgaming.loadingscreens.client.ClientEventHandler | highest  | LoadingScreens-1.12.2-0.3.1.jar | false           |
-| Patchouli        | renderTick   | vazkii.patchouli.client.base.ClientTicker                      | normal   | Patchouli-1.0-19.jar            | false           |
+| RandomTweaks     | onRenderTick | com.therandomlabs.randomtweaks.client.TimeOfDayOverlay         | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 
 
 ## PlayerEvent$LoadFromFile
 | Owner        | Method       | Location                                                 | Priority | Source                          | RecieveCanceled |
 |--------------|--------------|----------------------------------------------------------|----------|---------------------------------|-----------------|
-| Game Stages  | onPlayerLoad | net.darkhax.gamestages.data.GameStageSaveHandler         | normal   | GameStages-1.12.2-2.0.115.jar   | false           |
 | RandomTweaks | onPlayerLoad | com.therandomlabs.randomtweaks.common.world.WorldHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+| Game Stages  | onPlayerLoad | net.darkhax.gamestages.data.GameStageSaveHandler         | normal   | GameStages-1.12.2-2.0.115.jar   | false           |
 
 
 ## AdvancementEvent
 | Owner              | Method                   | Location                                               | Priority | Source                        | RecieveCanceled |
 |--------------------|--------------------------|--------------------------------------------------------|----------|-------------------------------|-----------------|
-| Standard Expansion | onAdvancement            | bq_standard.handlers.EventHandler                      | normal   | StandardExpansion-3.4.158.jar | false           |
-| CraftTweaker2      | onPlayerAdvancementEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 | Patchouli          | onAdvancement            | vazkii.patchouli.common.handler.AdvancementSyncHandler | normal   | Patchouli-1.0-19.jar          | false           |
+| CraftTweaker2      | onPlayerAdvancementEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
+| Standard Expansion | onAdvancement            | bq_standard.handlers.EventHandler                      | normal   | StandardExpansion-3.4.158.jar | false           |
 
 
 ## PlayerEvent$PlayerLoggedInEvent
 | Owner                      | Method           | Location                                                    | Priority | Source                                  | RecieveCanceled |
 |----------------------------|------------------|-------------------------------------------------------------|----------|-----------------------------------------|-----------------|
-| Game Stages                | onPlayerLoggedIn | net.darkhax.gamestages.data.GameStageSaveHandler            | normal   | GameStages-1.12.2-2.0.115.jar           | false           |
+| Corail Tombstone           | onPlayerLogued   | ovh.corail.tombstone.ConfigTombstone                        | high     | tombstone-3.5.3-1.12.jar                | false           |
+| Better Questing            | onPlayerJoin     | betterquesting.handlers.EventHandler                        | normal   | BetterQuesting-3.5.300.jar              | false           |
+| Better Questing            | onPlayerJoin     | betterquesting.handlers.EventHandler                        | normal   | BetterQuesting-3.5.300.jar              | false           |
 | Unhealthy Dying            | firstJoin        | com.mrbysco.unhealthydying.handlers.HealthHandler           | normal   | Unhealthy-Dying-1.2.2.1.jar             | false           |
-| Minecraft Forge            | playerLogin      | forge                                                       | normal   | forge-1.12.2-14.23.5.2838-universal.jar | false           |
-| Better Questing Quest Book | onPlayerJoin     | INSTANCE                                                    | normal   | questbook-3.1.EXP_NET2-1.12.jar         | false           |
-| Better Questing            | onPlayerJoin     | betterquesting.handlers.EventHandler                        | normal   | BetterQuesting-3.5.300.jar              | false           |
-| The One Probe              | onPlayerLoggedIn | mcjty.theoneprobe.ForgeEventHandlers                        | normal   | theoneprobe-1.12-1.4.28.jar             | false           |
-| Better Questing            | onPlayerJoin     | betterquesting.handlers.EventHandler                        | normal   | BetterQuesting-3.5.300.jar              | false           |
+| Elemental Research         | onPlayerLoggedIn | al132.elementalresearch.event.EventHandler                  | normal   | elementalresearch-1.1.3.jar             | false           |
 | Patchouli                  | onLogin          | vazkii.patchouli.common.handler.AdvancementSyncHandler      | normal   | Patchouli-1.0-19.jar                    | false           |
+| Standard Expansion         | onPlayerJoin     | bq_standard.handlers.EventHandler                           | normal   | StandardExpansion-3.4.158.jar           | false           |
+| Inventory Tweaks           | onPlayerLoggedIn | invtweaks.forge.ClientProxy                                 | normal   | InventoryTweaks-1.64+dev.146.jar        | false           |
+| The One Probe              | onPlayerLoggedIn | mcjty.theoneprobe.ForgeEventHandlers                        | normal   | theoneprobe-1.12-1.4.28.jar             | false           |
+| Better Questing Quest Book | onPlayerJoin     | INSTANCE                                                    | normal   | questbook-3.1.EXP_NET2-1.12.jar         | false           |
 | Topography                 | playerLoginEvent | com.bloodnbonesgaming.topography.event.EventSubscriber      | normal   | Topography-1.12.2-1.5.1.jar             | false           |
 | AppleSkin                  | onPlayerLoggedIn | squeek.appleskin.network.SyncHandler                        | normal   | AppleSkin-mc1.12-1.0.9.jar              | false           |
-| Standard Expansion         | onPlayerJoin     | bq_standard.handlers.EventHandler                           | normal   | StandardExpansion-3.4.158.jar           | false           |
 | CraftTweaker2              | onPlayerLoggedIn | crafttweaker.mc1120.events.CommonEventHandler               | normal   | CraftTweaker2-1.12-4.1.19.jar           | false           |
-| Corail Tombstone           | onPlayerLogued   | ovh.corail.tombstone.ConfigTombstone                        | high     | tombstone-3.5.3-1.12.jar                | false           |
+| Hearth Well                | onEvent          | wolforce.HwellEvents                                        | normal   | hwell-0.4.1.jar                         | false           |
+| Game Stages                | onPlayerLoggedIn | net.darkhax.gamestages.data.GameStageSaveHandler            | normal   | GameStages-1.12.2-2.0.115.jar           | false           |
+| Minecraft Forge            | playerLogin      | forge                                                       | normal   | forge-1.12.2-14.23.5.2838-universal.jar | false           |
 | ModPack Basic Tools        | playerLoggedIn   | com.gendeathrow.mpbasic.common.infopanel.InfoPanelOnHandler | normal   | mpbasic-1.12.2-1.4.11.jar               | false           |
-| Elemental Research         | onPlayerLoggedIn | al132.elementalresearch.event.EventHandler                  | normal   | elementalresearch-1.1.3.jar             | false           |
-| Inventory Tweaks           | onPlayerLoggedIn | invtweaks.forge.ClientProxy                                 | normal   | InventoryTweaks-1.64+dev.146.jar        | false           |
 
 
 ## PlayerEvent$HarvestCheck
@@ -818,17 +832,17 @@ submitted to any online service.
 ## GuiOpenEvent
 | Owner             | Method         | Location                                                       | Priority | Source                            | RecieveCanceled |
 |-------------------|----------------|----------------------------------------------------------------|----------|-----------------------------------|-----------------|
-| Just Enough Items | onGuiOpen      | mezz.jei.gui.GuiEventHandler                                   | normal   | jei_1.12.2-4.15.0.281.jar         | false           |
-| The One Probe     | onGuiOpen      | mcjty.theoneprobe.proxy.ClientProxy                            | normal   | theoneprobe-1.12-1.4.28.jar       | false           |
 | Loading Screens   | onGuiOpen      | com.bloodnbonesgaming.loadingscreens.client.ClientEventHandler | highest  | LoadingScreens-1.12.2-0.3.1.jar   | false           |
-| Controlling       | guiInit        | us.getfluxed.controlsearch.events.ClientEventHandler           | normal   | Controlling-3.0.6.jar             | false           |
 | CraftTweaker2     | onGuiOpenEvent | crafttweaker.mc1120.events.ClientEventHandler                  | normal   | CraftTweaker2-1.12-4.1.19.jar     | false           |
-| Custom Main Menu  | openGui        | lumien.custommainmenu.handler.CMMEventHandler                  | lowest   | CustomMainMenu-MC1.12.2-2.0.9.jar | false           |
-| RandomTweaks      | onGuiOpen      | com.therandomlabs.randomtweaks.client.MiscClientEventHandler   | normal   | randomtweaks-1.12.2-2.5.0.7.jar   | false           |
-| Corail Tombstone  | onGuiOpened    | ovh.corail.tombstone.event.ClientEventHandler                  | lowest   | tombstone-3.5.3-1.12.jar          | false           |
-| Topography        | onOpenGui      | com.bloodnbonesgaming.topography.event.ClientEventSubscriber   | high     | Topography-1.12.2-1.5.1.jar       | false           |
 | Better Questing   | onGuiOpened    | betterquesting.api2.client.gui.events.PEventBroadcaster        | normal   | BetterQuesting-3.5.300.jar        | false           |
+| Controlling       | guiInit        | us.getfluxed.controlsearch.events.ClientEventHandler           | normal   | Controlling-3.0.6.jar             | false           |
+| Custom Main Menu  | openGui        | lumien.custommainmenu.handler.CMMEventHandler                  | lowest   | CustomMainMenu-MC1.12.2-2.0.9.jar | false           |
+| Corail Tombstone  | onGuiOpened    | ovh.corail.tombstone.event.ClientEventHandler                  | lowest   | tombstone-3.5.3-1.12.jar          | false           |
 | BNBGamingLib      | onGuiOpen      | com.bloodnbonesgaming.lib.events.ClientEventHandler            | normal   | BNBGamingLib-1.12.2-2.17.6.jar    | false           |
+| RandomTweaks      | onGuiOpen      | com.therandomlabs.randomtweaks.client.MiscClientEventHandler   | normal   | randomtweaks-1.12.2-2.5.0.7.jar   | false           |
+| Just Enough Items | onGuiOpen      | mezz.jei.gui.GuiEventHandler                                   | normal   | jei_1.12.2-4.15.0.281.jar         | false           |
+| Topography        | onOpenGui      | com.bloodnbonesgaming.topography.event.ClientEventSubscriber   | high     | Topography-1.12.2-1.5.1.jar       | false           |
+| The One Probe     | onGuiOpen      | mcjty.theoneprobe.proxy.ClientProxy                            | normal   | theoneprobe-1.12-1.4.28.jar       | false           |
 
 
 ## GuiScreenEvent$InitGuiEvent
@@ -837,16 +851,16 @@ submitted to any online service.
 | FastWorkbench | removeButton | shadows.fastbench.proxy.BenchClientProxy | normal   | FastWorkbench-1.12.2-1.7.2.jar | false           |
 
 
-## RenderTooltipEvent$PostText
-| Owner     | Method          | Location                                      | Priority | Source                     | RecieveCanceled |
-|-----------|-----------------|-----------------------------------------------|----------|----------------------------|-----------------|
-| AppleSkin | onRenderTooltip | squeek.appleskin.client.TooltipOverlayHandler | normal   | AppleSkin-mc1.12-1.0.9.jar | false           |
-
-
 ## LivingSpawnEvent$SpecialSpawn
 | Owner         | Method              | Location                                      | Priority | Source                        | RecieveCanceled |
 |---------------|---------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
 | CraftTweaker2 | onSpecialSpawnEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
+
+
+## RenderTooltipEvent$PostText
+| Owner     | Method          | Location                                      | Priority | Source                     | RecieveCanceled |
+|-----------|-----------------|-----------------------------------------------|----------|----------------------------|-----------------|
+| AppleSkin | onRenderTooltip | squeek.appleskin.client.TooltipOverlayHandler | normal   | AppleSkin-mc1.12-1.0.9.jar | false           |
 
 
 ## PlayerEvent$ItemPickupEvent
@@ -884,8 +898,8 @@ submitted to any online service.
 | Owner   | Method      | Location                                  | Priority | Source                    | RecieveCanceled |
 |---------|-------------|-------------------------------------------|----------|---------------------------|-----------------|
 | CTM     | onModelBake | INSTANCE                                  | lowest   | CTM-MC1.12.2-0.3.3.22.jar | false           |
-| FoamFix | onModelBake | pl.asie.foamfix.ProxyClient               | low      | foamfix-0.10.5-1.12.2.jar | false           |
 | FoamFix | onModelBake | pl.asie.foamfix.client.ModelLoaderCleanup | normal   | foamfix-0.10.5-1.12.2.jar | false           |
+| FoamFix | onModelBake | pl.asie.foamfix.ProxyClient               | low      | foamfix-0.10.5-1.12.2.jar | false           |
 
 
 ## CTGUIEvent
@@ -899,6 +913,12 @@ submitted to any online service.
 |------------|----------------------|----------------------------------|----------|----------------------------------------|-----------------|
 | CoFH World | handleChunkSaveEvent | cofh.cofhworld.init.WorldHandler | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar | false           |
 | CoFH World | handleChunkSaveEvent | cofh.cofhworld.init.WorldHandler | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar | false           |
+
+
+## ServerChatEvent
+| Owner       | Method           | Location             | Priority | Source          | RecieveCanceled |
+|-------------|------------------|----------------------|----------|-----------------|-----------------|
+| Hearth Well | checkChatForBook | wolforce.HwellEvents | normal   | hwell-0.4.1.jar | false           |
 
 
 ## LivingEntityUseItemEvent
@@ -923,15 +943,15 @@ submitted to any online service.
 ## BonemealEvent
 | Owner         | Method           | Location                                              | Priority | Source                          | RecieveCanceled |
 |---------------|------------------|-------------------------------------------------------|----------|---------------------------------|-----------------|
-| RandomTweaks  | onBoneMeal       | com.therandomlabs.randomtweaks.common.BoneMealHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 | CraftTweaker2 | onPlayerBonemeal | crafttweaker.mc1120.events.CommonEventHandler         | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
+| RandomTweaks  | onBoneMeal       | com.therandomlabs.randomtweaks.common.BoneMealHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 
 
 ## GuiScreenEvent$ActionPerformedEvent$Pre
 | Owner           | Method            | Location                                                | Priority | Source                          | RecieveCanceled |
 |-----------------|-------------------|---------------------------------------------------------|----------|---------------------------------|-----------------|
-| Crafting Tweaks | onActionPerformed | net.blay09.mods.craftingtweaks.client.ClientProxy       | normal   | CraftingTweaks_1.12.2-8.1.9.jar | false           |
 | ReAuth          | action            | technicianlp.reauth.GuiHandler                          | normal   | reauth-3.6.0.jar                | false           |
+| Crafting Tweaks | onActionPerformed | net.blay09.mods.craftingtweaks.client.ClientProxy       | normal   | CraftingTweaks_1.12.2-8.1.9.jar | false           |
 | Patchouli       | onActionPressed   | vazkii.patchouli.client.base.InventoryBookButtonHandler | normal   | Patchouli-1.0-19.jar            | false           |
 
 
@@ -990,11 +1010,11 @@ submitted to any online service.
 ## GuiScreenEvent$DrawScreenEvent$Post
 | Owner              | Method                | Location                                                   | Priority | Source                                | RecieveCanceled |
 |--------------------|-----------------------|------------------------------------------------------------|----------|---------------------------------------|-----------------|
+| Crafting Tweaks    | onDrawScreen          | net.blay09.mods.craftingtweaks.client.ClientProxy          | normal   | CraftingTweaks_1.12.2-8.1.9.jar       | false           |
+| Primitive Crafting | renderGui             | tschipp.primitivecrafting.client.render.event.RenderEvents | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar | false           |
 | Custom Main Menu   | renderScreenPost      | lumien.custommainmenu.handler.CMMEventHandler              | highest  | CustomMainMenu-MC1.12.2-2.0.9.jar     | false           |
 | ReAuth             | draw                  | technicianlp.reauth.GuiHandler                             | normal   | reauth-3.6.0.jar                      | false           |
 | Just Enough Items  | onDrawScreenEventPost | mezz.jei.gui.GuiEventHandler                               | normal   | jei_1.12.2-4.15.0.281.jar             | false           |
-| Crafting Tweaks    | onDrawScreen          | net.blay09.mods.craftingtweaks.client.ClientProxy          | normal   | CraftingTweaks_1.12.2-8.1.9.jar       | false           |
-| Primitive Crafting | renderGui             | tschipp.primitivecrafting.client.render.event.RenderEvents | normal   | PrimitiveCrafting+MC1.12.2+v1.3.2.jar | false           |
 
 
 ## LivingFallEvent
@@ -1008,23 +1028,24 @@ submitted to any online service.
 |---------------------|--------------------|-------------------------------------------------------------|----------|-------------------------------|-----------------|
 | ModPack Basic Tools | onBookCheck        | com.gendeathrow.mpbasic.common.infopanel.InfoPanelOnHandler | normal   | mpbasic-1.12.2-1.4.11.jar     | false           |
 | Cannibalism         | onPlayerRightClick | sorazodia.cannibalism.mechanic.events.InteractionEvent      | normal   | Cannibalism-5.4.0-1.12.2.jar  | false           |
+| Hearth Well         | requestBook        | wolforce.HwellEvents                                        | normal   | hwell-0.4.1.jar               | false           |
 | Standard Expansion  | onRightClickItem   | bq_standard.handlers.EventHandler                           | lowest   | StandardExpansion-3.4.158.jar | false           |
 
 
 ## PlayerEvent$Clone
 | Owner               | Method                 | Location                                                                  | Priority | Source                          | RecieveCanceled |
 |---------------------|------------------------|---------------------------------------------------------------------------|----------|---------------------------------|-----------------|
-| ModPack Basic Tools | onRespawn              | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler | normal   | mpbasic-1.12.2-1.4.11.jar       | false           |
-| Topography          | onPlayerClone          | com.bloodnbonesgaming.topography.event.EventSubscriber                    | normal   | Topography-1.12.2-1.5.1.jar     | false           |
-| Corail Tombstone    | give                   | ovh.corail.tombstone.event.EventHandler                                   | lowest   | tombstone-3.5.3-1.12.jar        | true            |
-| Baubles             | cloneCapabilitiesEvent | baubles.common.event.EventHandlerEntity                                   | normal   | Baubles-1.12-1.5.2.jar          | false           |
 | RandomTweaks        | onPlayerRespawn        | com.therandomlabs.randomtweaks.common.world.WorldHandler                  | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| Corail Tombstone    | onClone                | ovh.corail.tombstone.ConfigTombstone                                      | highest  | tombstone-3.5.3-1.12.jar        | true            |
+| Corail Tombstone    | give                   | ovh.corail.tombstone.event.EventHandler                                   | lowest   | tombstone-3.5.3-1.12.jar        | true            |
+| Topography          | onPlayerClone          | com.bloodnbonesgaming.topography.event.EventSubscriber                    | normal   | Topography-1.12.2-1.5.1.jar     | false           |
+| Baubles             | cloneCapabilitiesEvent | baubles.common.event.EventHandlerEntity                                   | normal   | Baubles-1.12-1.5.2.jar          | false           |
+| Better Questing     | onPlayerClone          | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar      | false           |
 | The One Probe       | onPlayerCloned         | mcjty.theoneprobe.ForgeEventHandlers                                      | normal   | theoneprobe-1.12-1.4.28.jar     | false           |
+| Corail Tombstone    | onClone                | ovh.corail.tombstone.ConfigTombstone                                      | highest  | tombstone-3.5.3-1.12.jar        | true            |
 | RandomTweaks        | onRespawn              | com.therandomlabs.randomtweaks.common.RespawnHandler                      | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-| Better Questing     | onPlayerClone          | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar      | false           |
-| Better Questing     | onPlayerClone          | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar      | false           |
+| ModPack Basic Tools | onRespawn              | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler | normal   | mpbasic-1.12.2-1.4.11.jar       | false           |
 | Elemental Research  | onPlayerCloned         | al132.elementalresearch.event.EventHandler                                | normal   | elementalresearch-1.1.3.jar     | false           |
+| Better Questing     | onPlayerClone          | betterquesting.handlers.EventHandler                                      | normal   | BetterQuesting-3.5.300.jar      | false           |
 
 
 ## GuiScreenEvent$BackgroundDrawnEvent
@@ -1069,10 +1090,10 @@ submitted to any online service.
 ## TextureStitchEvent$Pre
 | Owner             | Method             | Location                                               | Priority | Source                                      | RecieveCanceled |
 |-------------------|--------------------|--------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Reborn Core       | preTextureStitch   | reborncore.client.IconSupplier                         | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
-| Just Enough Items | handleTextureRemap | mezz.jei.startup.ProxyCommonClient                     | normal   | jei_1.12.2-4.15.0.281.jar                   | false           |
 | Better Questing   | onTextureStitch    | betterquesting.handlers.EventHandler                   | normal   | BetterQuesting-3.5.300.jar                  | false           |
+| Reborn Core       | preTextureStitch   | reborncore.client.IconSupplier                         | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
 | Corail Tombstone  | onTextureStitch    | ovh.corail.tombstone.particle.TombstoneParticleSprites | normal   | tombstone-3.5.3-1.12.jar                    | false           |
+| Just Enough Items | handleTextureRemap | mezz.jei.startup.ProxyCommonClient                     | normal   | jei_1.12.2-4.15.0.281.jar                   | false           |
 | Better Questing   | onTextureStitch    | betterquesting.handlers.EventHandler                   | normal   | BetterQuesting-3.5.300.jar                  | false           |
 
 
@@ -1085,10 +1106,10 @@ submitted to any online service.
 ## LivingDamageEvent
 | Owner              | Method                      | Location                                          | Priority | Source                       | RecieveCanceled |
 |--------------------|-----------------------------|---------------------------------------------------|----------|------------------------------|-----------------|
-| Elemental Research | x                           | al132.elementalresearch.event.EventHandler        | normal   | elementalresearch-1.1.3.jar  | false           |
 | Corail Tombstone   | onScaleBeyondTheGraveDamage | ovh.corail.tombstone.event.EventHandler           | highest  | tombstone-3.5.3-1.12.jar     | false           |
-| Cannibalism        | onPlayerAttacked            | sorazodia.cannibalism.mechanic.events.DamageEvent | normal   | Cannibalism-5.4.0-1.12.2.jar | false           |
 | Corail Tombstone   | onPreventDeath              | ovh.corail.tombstone.event.EventHandler           | low      | tombstone-3.5.3-1.12.jar     | false           |
+| Elemental Research | x                           | al132.elementalresearch.event.EventHandler        | normal   | elementalresearch-1.1.3.jar  | false           |
+| Cannibalism        | onPlayerAttacked            | sorazodia.cannibalism.mechanic.events.DamageEvent | normal   | Cannibalism-5.4.0-1.12.2.jar | false           |
 
 
 ## PlayerInteractEvent$RightClickEmpty
@@ -1100,15 +1121,9 @@ submitted to any online service.
 ## GuiScreenEvent$InitGuiEvent$Pre
 | Owner             | Method         | Location                                                | Priority | Source                   | RecieveCanceled |
 |-------------------|----------------|---------------------------------------------------------|----------|--------------------------|-----------------|
-| Main Menu Scale   | initGuiPre     | me.modmuss50.mms.MainMenuScale                          | normal   | MainMenuScale-1.3.2.jar  | false           |
 | Patchouli         | onGuiInitPre   | vazkii.patchouli.client.base.InventoryBookButtonHandler | highest  | Patchouli-1.0-19.jar     | false           |
 | ModPack Utilities | guiIntEventPre | com.gendeathrow.mputils.client.gui.GuiEventHandler      | highest  | MPUtils-1.12.2-1.5.7.jar | false           |
-
-
-## BlockEvent$PortalSpawnEvent
-| Owner        | Method        | Location                                                               | Priority | Source                          | RecieveCanceled |
-|--------------|---------------|------------------------------------------------------------------------|----------|---------------------------------|-----------------|
-| RandomTweaks | onPortalSpawn | com.therandomlabs.randomtweaks.common.NetherPortalSpawnHandler$Vanilla | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+| Main Menu Scale   | initGuiPre     | me.modmuss50.mms.MainMenuScale                          | normal   | MainMenuScale-1.3.2.jar  | false           |
 
 
 ## OreGenEvent$GenerateMinable
@@ -1118,12 +1133,18 @@ submitted to any online service.
 | CoFH World | handleOreGenEvent | cofh.cofhworld.init.WorldHandler | highest  | CoFHWorld-1.12.2-1.3.1.7-universal.jar | true            |
 
 
+## BlockEvent$PortalSpawnEvent
+| Owner        | Method        | Location                                                               | Priority | Source                          | RecieveCanceled |
+|--------------|---------------|------------------------------------------------------------------------|----------|---------------------------------|-----------------|
+| RandomTweaks | onPortalSpawn | com.therandomlabs.randomtweaks.common.NetherPortalSpawnHandler$Vanilla | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
+
+
 ## PlayerEvent$PlayerChangedDimensionEvent
 | Owner            | Method                   | Location                                          | Priority | Source                        | RecieveCanceled |
 |------------------|--------------------------|---------------------------------------------------|----------|-------------------------------|-----------------|
 | Unhealthy Dying  | DimensionChange          | com.mrbysco.unhealthydying.handlers.HealthHandler | normal   | Unhealthy-Dying-1.2.2.1.jar   | false           |
-| CraftTweaker2    | onPlayerChangedDimension | crafttweaker.mc1120.events.CommonEventHandler     | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 | Corail Tombstone | onSyncOnChangedDimension | ovh.corail.tombstone.ConfigTombstone              | low      | tombstone-3.5.3-1.12.jar      | false           |
+| CraftTweaker2    | onPlayerChangedDimension | crafttweaker.mc1120.events.CommonEventHandler     | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 
 
 ## LivingSetAttackTargetEvent
@@ -1142,60 +1163,61 @@ submitted to any online service.
 | Owner              | Method              | Location                                                  | Priority | Source                           | RecieveCanceled |
 |--------------------|---------------------|-----------------------------------------------------------|----------|----------------------------------|-----------------|
 | Better Questing    | onLivingUpdate      | betterquesting.handlers.EventHandler                      | normal   | BetterQuesting-3.5.300.jar       | false           |
-| RandomConfigs      | onLivingUpdate      | com.therandomlabs.randomconfigs.attackspeeds.AttackSpeeds | normal   | randomconfigs-1.12.2-1.3.2.3.jar | false           |
-| AppleSkin          | onLivingUpdateEvent | squeek.appleskin.network.SyncHandler                      | normal   | AppleSkin-mc1.12-1.0.9.jar       | false           |
-| RandomTweaks       | onSheepTick         | com.therandomlabs.randomtweaks.common.ColoredSheepHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar  | false           |
+| Topography         | onEntityTick        | com.bloodnbonesgaming.topography.event.EventSubscriber    | normal   | Topography-1.12.2-1.5.1.jar      | false           |
 | Corail Tombstone   | onUpdateShadowStep  | ovh.corail.tombstone.event.EventHandler                   | lowest   | tombstone-3.5.3-1.12.jar         | false           |
 | Item Stages        | onLivingUpdate      | net.darkhax.itemstages.ItemStages                         | normal   | ItemStages-1.12.2-2.0.50.jar     | false           |
+| AppleSkin          | onLivingUpdateEvent | squeek.appleskin.network.SyncHandler                      | normal   | AppleSkin-mc1.12-1.0.9.jar       | false           |
 | Better Questing    | onLivingUpdate      | betterquesting.handlers.EventHandler                      | normal   | BetterQuesting-3.5.300.jar       | false           |
-| Topography         | onEntityTick        | com.bloodnbonesgaming.topography.event.EventSubscriber    | normal   | Topography-1.12.2-1.5.1.jar      | false           |
+| RandomTweaks       | onSheepTick         | com.therandomlabs.randomtweaks.common.ColoredSheepHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar  | false           |
+| RandomConfigs      | onLivingUpdate      | com.therandomlabs.randomconfigs.attackspeeds.AttackSpeeds | normal   | randomconfigs-1.12.2-1.3.2.3.jar | false           |
 | Standard Expansion | onEntityLiving      | bq_standard.handlers.EventHandler                         | normal   | StandardExpansion-3.4.158.jar    | false           |
 
 
 ## LivingHurtEvent
 | Owner            | Method                  | Location                                               | Priority | Source                          | RecieveCanceled |
 |------------------|-------------------------|--------------------------------------------------------|----------|---------------------------------|-----------------|
+| RandomTweaks     | onLivingHurt            | com.therandomlabs.randomtweaks.common.MiscEventHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 | Corail Tombstone | onLivingHurt            | ovh.corail.tombstone.event.EventHandler                | highest  | tombstone-3.5.3-1.12.jar        | false           |
 | CraftTweaker2    | onEntityLivingHurtEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
-| RandomTweaks     | onLivingHurt            | com.therandomlabs.randomtweaks.common.MiscEventHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
 
 
 ## TickEvent$PlayerTickEvent
 | Owner               | Method                  | Location                                                            | Priority | Source                             | RecieveCanceled |
 |---------------------|-------------------------|---------------------------------------------------------------------|----------|------------------------------------|-----------------|
+| ModPack Basic Tools | checkUpdateNotification | com.gendeathrow.mpbasic.client.notification.BasicNotifcationManager | normal   | mpbasic-1.12.2-1.4.11.jar          | false           |
+| Placebo             | onPlayerTick            | shadows.placebo.patreon.PatreonManager                              | normal   | Placebo-1.12.2-1.6.0.jar           | false           |
+| Cannibalism         | playerUpdate            | sorazodia.cannibalism.mechanic.events.EntityNBTEvents               | normal   | Cannibalism-5.4.0-1.12.2.jar       | false           |
 | CraftTweaker2       | onPlayerTickEvent       | crafttweaker.mc1120.events.CommonEventHandler                       | normal   | CraftTweaker2-1.12-4.1.19.jar      | false           |
+| RandomTweaks        | onPlayerTick            | com.therandomlabs.randomtweaks.common.MiscEventHandler              | normal   | randomtweaks-1.12.2-2.5.0.7.jar    | false           |
+| Corail Tombstone    | onPlayerTickEvent       | ovh.corail.tombstone.event.ClientEventHandler                       | highest  | tombstone-3.5.3-1.12.jar           | true            |
+| Baubles             | playerTick              | baubles.client.ClientEventHandler                                   | normal   | Baubles-1.12-1.5.2.jar             | false           |
+| Hearth Well         | onEvent                 | wolforce.HwellEvents                                                | normal   | hwell-0.4.1.jar                    | false           |
 | Baubles             | playerTick              | baubles.common.event.EventHandlerEntity                             | normal   | Baubles-1.12-1.5.2.jar             | false           |
 | Forbidden & Arcanus | onFly                   | com.stal111.forbidden_arcanus.handler.PlayerTickEvent               | normal   | forbidden_arcanus-1.12.2-1.1.2.jar | false           |
-| RandomTweaks        | onPlayerTick            | com.therandomlabs.randomtweaks.common.MiscEventHandler              | normal   | randomtweaks-1.12.2-2.5.0.7.jar    | false           |
-| Cannibalism         | playerUpdate            | sorazodia.cannibalism.mechanic.events.EntityNBTEvents               | normal   | Cannibalism-5.4.0-1.12.2.jar       | false           |
-| Baubles             | playerTick              | baubles.client.ClientEventHandler                                   | normal   | Baubles-1.12-1.5.2.jar             | false           |
-| ModPack Basic Tools | checkUpdateNotification | com.gendeathrow.mpbasic.client.notification.BasicNotifcationManager | normal   | mpbasic-1.12.2-1.4.11.jar          | false           |
-| Corail Tombstone    | onPlayerTickEvent       | ovh.corail.tombstone.event.ClientEventHandler                       | highest  | tombstone-3.5.3-1.12.jar           | true            |
-| Placebo             | onPlayerTick            | shadows.placebo.patreon.PatreonManager                              | normal   | Placebo-1.12.2-1.6.0.jar           | false           |
 
 
 ## PlayerDropsEvent
 | Owner            | Method             | Location                                                    | Priority | Source                          | RecieveCanceled |
 |------------------|--------------------|-------------------------------------------------------------|----------|---------------------------------|-----------------|
-| Baubles          | playerDeath        | baubles.common.event.EventHandlerEntity                     | normal   | Baubles-1.12-1.5.2.jar          | false           |
-| CraftTweaker2    | onPlayerDeathDrops | crafttweaker.mc1120.events.CommonEventHandler               | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
 | Corail Tombstone | onPlayerDrops      | ovh.corail.tombstone.event.EventHandler                     | lowest   | tombstone-3.5.3-1.12.jar        | true            |
 | RandomTweaks     | onPlayerDrops      | com.therandomlabs.randomtweaks.common.PlayerHeadDropHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar | false           |
-
-
-## CommandEvent
-| Owner            | Method              | Location                                      | Priority | Source                        | RecieveCanceled |
-|------------------|---------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
-| CraftTweaker2    | onCommandEvent      | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
-| Better Questing  | onCommand           | betterquesting.handlers.EventHandler          | normal   | BetterQuesting-3.5.300.jar    | false           |
-| Better Questing  | onCommand           | betterquesting.handlers.EventHandler          | normal   | BetterQuesting-3.5.300.jar    | false           |
-| Corail Tombstone | forceOpenTBGuiEvent | ovh.corail.tombstone.event.ClientEventHandler | lowest   | tombstone-3.5.3-1.12.jar      | true            |
+| CraftTweaker2    | onPlayerDeathDrops | crafttweaker.mc1120.events.CommonEventHandler               | normal   | CraftTweaker2-1.12-4.1.19.jar   | false           |
+| Baubles          | playerDeath        | baubles.common.event.EventHandlerEntity                     | normal   | Baubles-1.12-1.5.2.jar          | false           |
 
 
 ## RegistryEvent$NewRegistry
 | Owner            | Method         | Location                                     | Priority | Source                   | RecieveCanceled |
 |------------------|----------------|----------------------------------------------|----------|--------------------------|-----------------|
 | Corail Tombstone | createRegistry | ovh.corail.tombstone.capability.PerkRegistry | highest  | tombstone-3.5.3-1.12.jar | false           |
+
+
+## CommandEvent
+| Owner            | Method              | Location                                      | Priority | Source                        | RecieveCanceled |
+|------------------|---------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
+| Better Questing  | onCommand           | betterquesting.handlers.EventHandler          | normal   | BetterQuesting-3.5.300.jar    | false           |
+| Corail Tombstone | forceOpenTBGuiEvent | ovh.corail.tombstone.event.ClientEventHandler | lowest   | tombstone-3.5.3-1.12.jar      | true            |
+| Better Questing  | onCommand           | betterquesting.handlers.EventHandler          | normal   | BetterQuesting-3.5.300.jar    | false           |
+| CraftTweaker2    | onCommandEvent      | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 
 
 ## LivingAttackEvent
@@ -1208,23 +1230,23 @@ submitted to any online service.
 ## GuiScreenEvent$DrawScreenEvent
 | Owner             | Method      | Location                                           | Priority | Source                   | RecieveCanceled |
 |-------------------|-------------|----------------------------------------------------|----------|--------------------------|-----------------|
-| ModPack Utilities | drawscreen  | com.gendeathrow.mputils.client.gui.GuiEventHandler | normal   | MPUtils-1.12.2-1.5.7.jar | false           |
 | Corail Tombstone  | onGuiRender | ovh.corail.tombstone.event.ClientEventHandler      | lowest   | tombstone-3.5.3-1.12.jar | false           |
+| ModPack Utilities | drawscreen  | com.gendeathrow.mputils.client.gui.GuiEventHandler | normal   | MPUtils-1.12.2-1.5.7.jar | false           |
 
 
 ## PlayerInteractEvent$RightClickBlock
 | Owner              | Method                       | Location                                                       | Priority | Source                                      | RecieveCanceled |
 |--------------------|------------------------------|----------------------------------------------------------------|----------|---------------------------------------------|-----------------|
 | Patchouli          | onRightClick                 | vazkii.patchouli.client.handler.BookRightClickHandler          | normal   | Patchouli-1.0-19.jar                        | false           |
-| RandomTweaks       | onRightClickBlock            | com.therandomlabs.randomtweaks.common.CobwebHandler            | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
-| CraftTweaker2      | onPlayerRightClickBlockEvent | crafttweaker.mc1120.events.CommonEventHandler                  | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
 | Standard Expansion | onRightClickBlock            | bq_standard.handlers.EventHandler                              | lowest   | StandardExpansion-3.4.158.jar               | false           |
-| Corail Tombstone   | onRightClickChest            | ovh.corail.tombstone.event.EventHandler                        | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
-| Patchouli          | onPlayerInteract             | vazkii.patchouli.client.handler.MultiblockVisualizationHandler | normal   | Patchouli-1.0-19.jar                        | false           |
-| Corail Tombstone   | uncancelGraveRightClick      | ovh.corail.tombstone.event.EventHandler                        | lowest   | tombstone-3.5.3-1.12.jar                    | true            |
+| CraftTweaker2      | onPlayerRightClickBlockEvent | crafttweaker.mc1120.events.CommonEventHandler                  | normal   | CraftTweaker2-1.12-4.1.19.jar               | false           |
 | Ore Stages         | onBlockRightClick            | net.darkhax.orestages.OreTiersEventHandler                     | highest  | OreStages-1.12.2-2.0.38.jar                 | false           |
-| Reborn Core        | rightClickBlockEvent         | reborncore.common.blocks.BlockWrenchEventHandler               | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| Corail Tombstone   | onRightClickChest            | ovh.corail.tombstone.event.EventHandler                        | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
+| Corail Tombstone   | uncancelGraveRightClick      | ovh.corail.tombstone.event.EventHandler                        | lowest   | tombstone-3.5.3-1.12.jar                    | true            |
 | Scavenge           | onBlockRightClick            | scavenge.core.handlers.ScavengeHandler                         | normal   | Scavenge V1.12-1.8.3.2.jar                  | false           |
+| RandomTweaks       | onRightClickBlock            | com.therandomlabs.randomtweaks.common.CobwebHandler            | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
+| Patchouli          | onPlayerInteract             | vazkii.patchouli.client.handler.MultiblockVisualizationHandler | normal   | Patchouli-1.0-19.jar                        | false           |
+| Reborn Core        | rightClickBlockEvent         | reborncore.common.blocks.BlockWrenchEventHandler               | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
 
 
 ## LivingEntityUseItemEvent$Stop
@@ -1268,50 +1290,44 @@ submitted to any online service.
 ## PlayerEvent$PlayerRespawnEvent
 | Owner              | Method             | Location                                          | Priority | Source                        | RecieveCanceled |
 |--------------------|--------------------|---------------------------------------------------|----------|-------------------------------|-----------------|
-| Elemental Research | playerRespawnEvent | al132.elementalresearch.event.EventHandler        | normal   | elementalresearch-1.1.3.jar   | false           |
 | CraftTweaker2      | onPlayerRespawn    | crafttweaker.mc1120.events.CommonEventHandler     | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
-| Corail Tombstone   | onPlayerRespawn    | ovh.corail.tombstone.event.EventHandler           | lowest   | tombstone-3.5.3-1.12.jar      | false           |
 | Corail Tombstone   | onSyncOnRespawn    | ovh.corail.tombstone.ConfigTombstone              | highest  | tombstone-3.5.3-1.12.jar      | true            |
+| Corail Tombstone   | onPlayerRespawn    | ovh.corail.tombstone.event.EventHandler           | lowest   | tombstone-3.5.3-1.12.jar      | false           |
+| Elemental Research | playerRespawnEvent | al132.elementalresearch.event.EventHandler        | normal   | elementalresearch-1.1.3.jar   | false           |
+| Better Questing    | onPlayerRespawn    | betterquesting.handlers.EventHandler              | normal   | BetterQuesting-3.5.300.jar    | false           |
+| Better Questing    | onPlayerRespawn    | betterquesting.handlers.EventHandler              | normal   | BetterQuesting-3.5.300.jar    | false           |
 | Unhealthy Dying    | setHealth          | com.mrbysco.unhealthydying.handlers.HealthHandler | normal   | Unhealthy-Dying-1.2.2.1.jar   | false           |
-| Better Questing    | onPlayerRespawn    | betterquesting.handlers.EventHandler              | normal   | BetterQuesting-3.5.300.jar    | false           |
-| Better Questing    | onPlayerRespawn    | betterquesting.handlers.EventHandler              | normal   | BetterQuesting-3.5.300.jar    | false           |
 
 
 ## RenderPlayerEvent$Pre
 | Owner            | Method            | Location                                          | Priority | Source                                      | RecieveCanceled |
 |------------------|-------------------|---------------------------------------------------|----------|---------------------------------------------|-----------------|
 | Corail Tombstone | onRenderPlayer    | ovh.corail.tombstone.event.ClientEventHandler     | lowest   | tombstone-3.5.3-1.12.jar                    | false           |
-| RandomTweaks     | onRenderPlayerPre | com.therandomlabs.randomtweaks.client.CapeHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
 | Reborn Core      | holidayRender     | reborncore.client.models.HolidayRenderEvent       | normal   | RebornCore-1.12.2-3.13.12.447-universal.jar | false           |
+| RandomTweaks     | onRenderPlayerPre | com.therandomlabs.randomtweaks.client.CapeHandler | normal   | randomtweaks-1.12.2-2.5.0.7.jar             | false           |
 
 
 ## RenderGameOverlayEvent$Post
 | Owner               | Method                       | Location                                                                       | Priority | Source                                  | RecieveCanceled |
 |---------------------|------------------------------|--------------------------------------------------------------------------------|----------|-----------------------------------------|-----------------|
-| Patchouli           | onRenderHUD                  | vazkii.patchouli.client.handler.MultiblockVisualizationHandler                 | normal   | Patchouli-1.0-19.jar                    | false           |
-| Athenaeum           | onRenderGameOverlayPostEvent | com.codetaylor.mc.athenaeum.network.tile.client.TileDataServiceOverlayRenderer | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar | false           |
-| Patchouli           | onRenderHUD                  | vazkii.patchouli.client.handler.BookRightClickHandler                          | normal   | Patchouli-1.0-19.jar                    | false           |
 | ModPack Basic Tools | drawNotification             | com.gendeathrow.mpbasic.client.notification.BasicNotifcationManager            | normal   | mpbasic-1.12.2-1.4.11.jar               | false           |
+| ModPack Utilities   | onDrawScreen                 | com.gendeathrow.mputils.client.gui.ScreenNotification                          | normal   | MPUtils-1.12.2-1.5.7.jar                | false           |
+| Athenaeum           | onRenderGameOverlayPostEvent | com.codetaylor.mc.athenaeum.network.tile.client.TileDataServiceOverlayRenderer | normal   | athenaeum-1.12.2-1.16.0-56-g7c4c589.jar | false           |
+| Patchouli           | onRenderHUD                  | vazkii.patchouli.client.handler.MultiblockVisualizationHandler                 | normal   | Patchouli-1.0-19.jar                    | false           |
+| Patchouli           | onRenderHUD                  | vazkii.patchouli.client.handler.BookRightClickHandler                          | normal   | Patchouli-1.0-19.jar                    | false           |
 | Better Questing     | onDrawScreen                 | betterquesting.client.QuestNotification                                        | normal   | BetterQuesting-3.5.300.jar              | false           |
 | AppleSkin           | onRender                     | squeek.appleskin.client.HUDOverlayHandler                                      | low      | AppleSkin-mc1.12-1.0.9.jar              | false           |
-| ModPack Utilities   | onDrawScreen                 | com.gendeathrow.mputils.client.gui.ScreenNotification                          | normal   | MPUtils-1.12.2-1.5.7.jar                | false           |
 
 
 ## BlockEvent$HarvestDropsEvent
 | Owner               | Method                   | Location                                                  | Priority | Source                             | RecieveCanceled |
 |---------------------|--------------------------|-----------------------------------------------------------|----------|------------------------------------|-----------------|
-| Dropt               | onHarvestDropsEvent      | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler | lowest   | dropt-1.12.2-1.14.0.jar            | false           |
-| CraftTweaker2       | onBlockHarvestDropsEvent | crafttweaker.mc1120.events.CommonEventHandler             | normal   | CraftTweaker2-1.12-4.1.19.jar      | false           |
 | Scavenge            | onBlockBroke             | scavenge.core.handlers.ScavengeHandler                    | normal   | Scavenge V1.12-1.8.3.2.jar         | false           |
 | Ore Stages          | onBlockDrops             | net.darkhax.orestages.OreTiersEventHandler                | lowest   | OreStages-1.12.2-2.0.38.jar        | false           |
-| Forbidden & Arcanus | onHarvest                | com.stal111.forbidden_arcanus.handler.HarvestDropsHandler | normal   | forbidden_arcanus-1.12.2-1.1.2.jar | false           |
+| CraftTweaker2       | onBlockHarvestDropsEvent | crafttweaker.mc1120.events.CommonEventHandler             | normal   | CraftTweaker2-1.12-4.1.19.jar      | false           |
+| Dropt               | onHarvestDropsEvent      | com.codetaylor.mc.dropt.modules.dropt.events.EventHandler | lowest   | dropt-1.12.2-1.14.0.jar            | false           |
 | Elemental Research  | ev                       | al132.elementalresearch.event.EventHandler                | normal   | elementalresearch-1.1.3.jar        | false           |
-
-
-## BaseRegistryEvent
-| Owner   | Method         | Location                                                               | Priority | Source                 | RecieveCanceled |
-|---------|----------------|------------------------------------------------------------------------|----------|------------------------|-----------------|
-| B.A.S.E | registerLoader | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.13.0.jar | false           |
+| Forbidden & Arcanus | onHarvest                | com.stal111.forbidden_arcanus.handler.HarvestDropsHandler | normal   | forbidden_arcanus-1.12.2-1.1.2.jar | false           |
 
 
 ## UseHoeEvent
@@ -1320,29 +1336,35 @@ submitted to any online service.
 | CraftTweaker2 | onUseHoe | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.19.jar | false           |
 
 
+## BaseRegistryEvent
+| Owner   | Method         | Location                                                               | Priority | Source                 | RecieveCanceled |
+|---------|----------------|------------------------------------------------------------------------|----------|------------------------|-----------------|
+| B.A.S.E | registerLoader | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.13.0.jar | false           |
+
+
 ## EntityJoinWorldEvent
 | Owner              | Method                | Location                                                  | Priority | Source                                     | RecieveCanceled |
 |--------------------|-----------------------|-----------------------------------------------------------|----------|--------------------------------------------|-----------------|
+| Baubles            | playerJoin            | baubles.common.event.EventHandlerEntity                   | normal   | Baubles-1.12-1.5.2.jar                     | false           |
+| RandomConfigs      | onEntityJoinWorld     | com.therandomlabs.randomconfigs.attackspeeds.AttackSpeeds | highest  | randomconfigs-1.12.2-1.3.2.3.jar           | false           |
 | RandomTweaks       | onEntityJoinWorld     | com.therandomlabs.randomtweaks.common.MiscEventHandler    | high     | randomtweaks-1.12.2-2.5.0.7.jar            | false           |
-| InControl          | onEntityJoinWorld     | mcjty.incontrol.ForgeEventHandlers                        | lowest   | incontrol-1.12-3.9.10.jar                  | false           |
 | InWorldCrafting    | itemSpawnInWorld      | xt9.inworldcrafting.common.event.EntityMatcher            | normal   | inworldcrafting-1.12.2-1.2.0-universal.jar | false           |
+| InControl          | onEntityJoinWorld     | mcjty.incontrol.ForgeEventHandlers                        | lowest   | incontrol-1.12-3.9.10.jar                  | false           |
+| FastWorkbench      | normalRemoval         | shadows.fastbench.FastBench                               | normal   | FastWorkbench-1.12.2-1.7.2.jar             | false           |
 | Minecraft Forge    | onEntityJoinWorld     | net.minecraftforge.common.ForgeInternalHandler            | highest  | forge-1.12.2-14.23.5.2838-universal.jar    | false           |
 | Standard Expansion | onEntityCreated       | bq_standard.handlers.EventHandler                         | normal   | StandardExpansion-3.4.158.jar              | false           |
-| Baubles            | playerJoin            | baubles.common.event.EventHandlerEntity                   | normal   | Baubles-1.12-1.5.2.jar                     | false           |
-| FastWorkbench      | normalRemoval         | shadows.fastbench.FastBench                               | normal   | FastWorkbench-1.12.2-1.7.2.jar             | false           |
 | InControl          | onEntityJoinWorldLast | mcjty.incontrol.ForgeEventHandlers                        | highest  | incontrol-1.12-3.9.10.jar                  | false           |
-| RandomConfigs      | onEntityJoinWorld     | com.therandomlabs.randomconfigs.attackspeeds.AttackSpeeds | highest  | randomconfigs-1.12.2-1.3.2.3.jar           | false           |
 
 
 ## WorldEvent$Save
 | Owner               | Method          | Location                                       | Priority | Source                                  | RecieveCanceled |
 |---------------------|-----------------|------------------------------------------------|----------|-----------------------------------------|-----------------|
 | Standard Expansion  | onWorldSave     | bq_standard.handlers.EventHandler              | normal   | StandardExpansion-3.4.158.jar           | false           |
-| Better Questing     | onWorldSave     | betterquesting.handlers.EventHandler           | normal   | BetterQuesting-3.5.300.jar              | false           |
-| Better Questing     | onWorldSave     | betterquesting.handlers.EventHandler           | normal   | BetterQuesting-3.5.300.jar              | false           |
 | Just Enough Items   | onWorldSave     | mezz.jei.startup.ProxyCommonClient             | normal   | jei_1.12.2-4.15.0.281.jar               | false           |
 | Minecraft Forge     | onDimensionSave | net.minecraftforge.common.ForgeInternalHandler | highest  | forge-1.12.2-14.23.5.2838-universal.jar | false           |
 | ModPack Basic Tools | onSave          | com.gendeathrow.mpbasic.world.WorldHandler     | normal   | mpbasic-1.12.2-1.4.11.jar               | false           |
+| Better Questing     | onWorldSave     | betterquesting.handlers.EventHandler           | normal   | BetterQuesting-3.5.300.jar              | false           |
+| Better Questing     | onWorldSave     | betterquesting.handlers.EventHandler           | normal   | BetterQuesting-3.5.300.jar              | false           |
 
 
 ## TextureStitchEvent$Post

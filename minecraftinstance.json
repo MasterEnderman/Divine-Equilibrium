@@ -5016,14 +5016,14 @@
       "addonID": 317075,
       "gameInstanceID": "fe9ba0aa-f545-4361-8943-339c5310d641",
       "installedFile": {
-        "id": 2724766,
-        "displayName": "SBM-BashFireMakeRock1.12.2-1.0.0b2 -UNSTABLE build 2 for 1.12.2",
-        "fileName": "SBM-BashFireMakeRock-1.12.2-1.0.0b2.jar",
-        "fileDate": "2019-06-15T01:44:12.393Z",
-        "fileLength": 12881,
-        "releaseType": 3,
+        "id": 2685631,
+        "displayName": "SBM-BashFireMakeRock-1.12.2-1.0.0b20190310153703.jar",
+        "fileName": "SBM-BashFireMakeRock-1.12.2-1.0.0b20190310153703.jar",
+        "fileDate": "2019-03-10T19:52:39.853Z",
+        "fileLength": 13332,
+        "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2724/766/SBM-BashFireMakeRock-1.12.2-1.0.0b2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2685/631/SBM-BashFireMakeRock-1.12.2-1.0.0b20190310153703.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -5031,12 +5031,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 977365196,
+            "fingerprint": 3149498788,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3210568636,
+            "fingerprint": 1848415715,
             "type": 0
           },
           {
@@ -5046,7 +5046,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1937985529,
+            "fingerprint": 631295985,
             "type": 0
           },
           {
@@ -5055,7 +5055,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 742895259,
+        "packageFingerprint": 1042257246,
         "gameVersion": [
           "1.12.2"
         ],
@@ -5066,11 +5066,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "SBM-BashFireMakeRock-1.12.2-1.0.0b2.jar"
+        "FileNameOnDisk": "SBM-BashFireMakeRock-1.12.2-1.0.0b20190310153703.jar"
       },
       "dateInstalled": "2019-06-16T17:58:41.3611216Z",
-      "dateUpdated": "2019-06-16T17:59:03.6004753Z",
-      "dateLastUpdateAttempted": "2019-06-16T17:59:03.6004753Z",
+      "dateUpdated": "2019-06-16T19:43:57.4620124Z",
+      "dateLastUpdateAttempted": "2019-06-16T19:43:57.4620124Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -5769,6 +5769,71 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 295780,
+      "gameInstanceID": "fe9ba0aa-f545-4361-8943-339c5310d641",
+      "installedFile": {
+        "id": 2666755,
+        "displayName": "RootsClassic-1.12.2-1.1.5.jar",
+        "fileName": "RootsClassic-1.12.2-1.1.5.jar",
+        "fileDate": "2019-01-30T06:58:40.373Z",
+        "fileLength": 475454,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2666/755/RootsClassic-1.12.2-1.1.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2839008399,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1591168193,
+            "type": 0
+          },
+          {
+            "foldername": "elucent",
+            "fingerprint": 1366317031,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 703358270,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 430610264,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "RootsClassic-1.12.2-1.1.5.jar"
+      },
+      "dateInstalled": "2019-06-16T19:35:54.6447375Z",
+      "dateUpdated": "2019-06-16T19:35:54.8306323Z",
+      "dateLastUpdateAttempted": "2019-06-16T19:35:54.8306323Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 243707,

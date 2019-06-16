@@ -1,13 +1,14 @@
 # block Registry Analysis
 
-This file contains information about how mods are using the block registry. 3728
-out of 4096 ids available. 91.016% of this registry is still available. This
+This file contains information about how mods are using the block registry. 3555
+out of 4096 ids available. 86.792% of this registry is still available. This
 data is anonymous, and is not automatically submitted to any online service.
 
 
 | Mod Name          | Entries | Utilization |
 |-------------------|---------|-------------|
 | minecraft         | 254     | 6.201%      |
+| hwell             | 173     | 4.224%      |
 | forbidden_arcanus | 80      | 1.953%      |
 | easypickings      | 12      | 0.293%      |
 | tombstone         | 9       | 0.220%      |
