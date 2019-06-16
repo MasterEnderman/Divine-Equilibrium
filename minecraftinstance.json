@@ -41,7 +41,7 @@
   "allocatedMemory": 4096,
   "guid": "fe9ba0aa-f545-4361-8943-339c5310d641",
   "gameTypeID": 432,
-  "installPath": "G:\\Games\\Minecraft\\Curse\\Instances\\Divine-Equilibrium\\",
+  "installPath": "C:\\Users\\user\\Documents\\Curse\\Minecraft\\Instances\\Divine EQUILIBRIUM\\",
   "name": "Divine-Equilibrium",
   "cachedScans": [
     {
@@ -5833,7 +5833,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243707,

@@ -1,9 +1,7 @@
 
 *.gz
 
-logs/debug\.log
-
-logs/latest\.log
+logs/
 
 screenshots/
 
@@ -34,5 +32,7 @@ mputils/settings\.dat
 usercache\.json
 
 usernamecache\.json
+
+minecraftinstance\.json
 
 patchouli_data\.json
