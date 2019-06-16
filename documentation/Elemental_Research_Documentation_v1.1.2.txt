@@ -1,0 +1,91 @@
+Commands:
+=====
+/elem resetshop <player, is optional,otherwise on self>
+
+Resets the stock for all items so it is as if you started a fresh world, however it will not affect any
+gamestages purchased, for that you will need to use the appropriate gamestage command
+
+/elem set <player> <element> <amount>
+EX: /elem set @p fire 5
+
+/elem add <player> <element> <amount>
+EX: /elem add @p water 3
+
+/elem subtract <player> <element> <amount>
+EX: /elem subtract @p air 1
+
+-------------------------------------------------------------------------
+
+CraftTweaker
+=====
+
+var entry = mods.elementalresearch.Util.createEntry(String entry_name);
+
+entry.fireCost = <int>
+entry.waterCost = <int>
+entry.airCost = <int>
+entry.earthCost= <int>
+entry.experienceGiven = <int> //levels, not experience points
+entry.experienceRequired = <int> //levels, not experience points
+entry.saleQuantity = <int> //# in stock for this player, default 1, -1 is infinite
+
+entry.setIcon(IItemStack);
+entry.addOutputs([IItemStack]);
+entry.addGivenStage(String stageName);
+entry.addRequiredStage(String stageName);
+
+//pretty self explanatory
+addRequiredStage(String stage);
+
+//Modifier is how much all element costs will be multiplied by if the player has this stage
+addRequiredStageWithModifier(String stage, double modifier);
+
+//For type, use "AND" or "OR" - AND means all of these stages must be met, OR means any of them can be
+addRequiredStages(String type, String[] stages);
+
+//See previous 2 entries above for significance of type and modifier
+addRequiredStagesWithModifier(String type, double modifier, String[] stages);
+
+entry.build() //registers the entry, call this last
+
+-------------------------------------------------------------------------
+
+Example:
+===
+import mods.elementalresearch.Util;
+
+var earlySupplies = Util.createEntry("Early Supplies");
+earlySupplies.setIcon(<minecraft:stone>);
+earlySupplies.fireCost = 1;
+earlySupplies.airCost = 1;
+earlySupplies.earthCost = 1;
+earlySupplies.addOutputs([<minecraft:stone_pickaxe>,<minecraft:stone_shovel>,<minecraft:stone_sword>,<minecraft:stone_axe>,<minecraft:bread>*2]);
+earlySupplies.addGivenStage("first");
+earlySupplies.build();
+
+var early2 = Util.createEntry("Early Supplies 2");
+early2.setIcon(<minecraft:clay>);
+early2.fireCost = 1;
+early2.airCost = 1;
+early2.earthCost = 1;
+early2.addOutputs([<minecraft:clay_ball>]);
+early2.addGivenStage("second");
+early2.build();
+
+var entry3 = Util.createEntry("Next Step OR");
+entry3.setIcon(<minecraft:wool>);
+entry3.fireCost = 5;
+entry3.waterCost = 10;
+entry3.addRequiredStagesWithModifier("OR",2.5,["first","second"]);
+entry3.addGivenStage("three");
+entry3.addOutputs([<minecraft:wool>,<minecraft:dye:15>]);
+entry3.build();
+
+var entry4 = Util.createEntry("Next Step AND");
+entry4.setIcon(<minecraft:stick>);
+entry4.fireCost = 5;
+entry4.waterCost = 10;
+entry4.addRequiredStagesWithModifier("AND",2.5,["first","second"]);
+entry4.addGivenStage("four");
+entry4.addOutputs([<minecraft:wool>,<minecraft:dye:15>]);
+entry4.build();

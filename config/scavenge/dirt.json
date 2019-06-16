@@ -1,0 +1,71 @@
+{
+    "block_pools": [
+        {
+            "name": "dirt",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "contenttweaker:flesh_block"
+                    }
+                ]
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "minecraft:dye",
+                    "meta": 15,
+                    "amount": 4
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 4
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_block",
+                    "name": "minecraft:bedrock",
+                    "require": "true",
+                    "sides": "down"
+                },
+                {
+                    "type": "require_Spawn",
+                    "inside": true,
+                    "radius": 8
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:dirt",
+                    "meta": 0
+                },
+                {
+                    "type": "require_dimension",
+                    "dimensions": [
+                        {
+                            "dim": 0,
+                            "required": true
+                        }
+                    ]
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_block",
+                    "message": "Needs to be placed on Bedrock"
+                },
+                {
+                    "id": "require_dimension",
+                    "message": "Only works in the Void"
+                }
+            ]
+        }
+    ]
+}

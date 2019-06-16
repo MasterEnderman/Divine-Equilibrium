@@ -1,0 +1,145 @@
+{
+    "images": {
+        "title": {
+            "image": "mainmenu:title.png",
+            "posX": 20,
+            "posY": 35,
+            "width": 320,
+            "height": 50,
+            "imageWidth": 1180,
+            "imageHeight": 187,
+            "mode": "center"
+        }
+    },
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "pressSound": "minecraft:block.portal.ambient",
+            "hoverTextColor": 11534512,
+            "posX": 30,
+            "posY": 100,
+            "width": 100,
+            "height": 35,
+            "imageWidth": 200,
+            "imageHeight": 50,
+            "alignment": "left",
+            "texture": "mainmenu:button.png",
+            "hoverText": "Forever alone.",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "pressSound": "minecraft:block.portal.ambient",
+            "hoverTextColor": 11534512,
+            "posX": 130,
+            "posY": 100,
+            "width": 100,
+            "height": 35,
+            "imageWidth": 200,
+            "imageHeight": 50,
+            "alignment": "left",
+            "texture": "mainmenu:button.png",
+            "hoverText": "Don't go alone!",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "Mods (#modsloaded#/#modsactive#)",
+            "pressSound": "minecraft:block.portal.ambient",
+            "hoverTextColor": 11534512,
+            "posX": 30,
+            "posY": 135,
+            "width": 100,
+            "height": 35,
+            "imageWidth": 200,
+            "imageHeight": 50,
+            "alignment": "left",
+            "texture": "mainmenu:button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "bugs": {
+            "text": "Bugtracker",
+            "pressSound": "minecraft:block.portal.ambient",
+            "hoverTextColor": 11534512,
+            "posX": 130,
+            "posY": 135,
+            "width": 100,
+            "height": 35,
+            "imageWidth": 200,
+            "imageHeight": 50,
+            "alignment": "left",
+            "texture": "mainmenu:button.png",
+            "hoverText": "Report a Bug!",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/MasterEnderman/Divine-Equilibrium/issues"
+            }
+        },
+        "options": {
+            "text": "menu.options",
+            "pressSound": "minecraft:block.portal.ambient",
+            "hoverTextColor": 11534512,
+            "posX": 230,
+            "posY": 100,
+            "width": 100,
+            "height": 35,
+            "imageWidth": 200,
+            "imageHeight": 50,
+            "alignment": "left",
+            "texture": "mainmenu:button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "pressSound": "minecraft:block.portal.ambient",
+            "hoverTextColor": 14483456,
+            "posX": 230,
+            "posY": 135,
+            "width": 100,
+            "height": 35,
+            "imageWidth": 200,
+            "imageHeight": 50,
+            "alignment": "left",
+            "texture": "mainmenu:button.png",
+            "hoverText": "Goodbye!",
+            "action": {
+                "type": "quit"
+            }
+        },
+        "refresh": {
+            "text": "",
+            "pressSound": "minecraft:block.portal.ambient",
+            "posX": -20,
+            "posY": 0,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "texture": "mainmenu:refresh.png",
+            "action": {
+                "type": "refresh"
+            }
+        }
+    },
+    "other": {
+        "background": {
+            "image": "mainmenu:background.png"
+        },
+        "splash-text": {
+            "posX": 345,
+            "posY": 70,
+            "color": 11534512,
+            "alignment": "top_left"
+        }
+    }
+}

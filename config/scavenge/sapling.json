@@ -1,0 +1,91 @@
+{
+    "block_pools": [
+        {
+            "name": "sapling",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "minecraft:dirt"
+                    }
+                ]
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "minecraft:dye",
+                    "meta": 15,
+                    "amount": 1
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_block",
+                    "name": "minecraft:bedrock",
+                    "require": "true",
+                    "sides": "down"
+                },
+                {
+                    "type": "require_Spawn",
+                    "inside": true,
+                    "radius": 8
+                },
+                {
+                    "type": "require_dimension",
+                    "dimensions": [
+                        {
+                            "dim": 0,
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "type": "require_stage",
+                    "name": "wood",
+                    "required": "true"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "forbidden_arcanus:mysterywood_sapling",
+                            "meta": 0,
+                            "positions": [
+                                {
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_block",
+                    "message": "Needs to be placed on Bedrock"
+                },
+                {
+                    "id": "require_dimension",
+                    "message": "Only works in the Void"
+                },
+                {
+                    "id": "require_stage",
+                    "message": "You need another Gamestage"
+                }
+            ]
+        }
+    ]
+}

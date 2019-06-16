@@ -1,0 +1,41 @@
+
+mods/
+
+*.gz
+
+logs/debug\.log
+
+logs/latest\.log
+
+screenshots/
+
+local/client/
+
+\.mixin\.out/
+
+# Add the following to your gitignore:
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+
+# Optional: Generic Modpack Ignores
+**/*.log
+/.mixin.out
+/saves
+/downloads
+/resourcepacks
+.curseclient
+options.txt
+
+crash-reports/
+
+mputils/settings\.dat
+
+usercache\.json
+
+usernamecache\.json
+
+patchouli_data\.json

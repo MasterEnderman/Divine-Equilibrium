@@ -1,0 +1,7 @@
+background = addStretchedTexture("top_left", "loadingscreen:textures/bg.png")
+background.setRelRender(1, 1)
+tips = addRandomText("top_left")
+tips.setAbsXOffset(10)
+tips.setAbsYOffset(10)
+tips.addTip("This is a Placeholder")
+tips.addTip("Later we'll add Tips here")

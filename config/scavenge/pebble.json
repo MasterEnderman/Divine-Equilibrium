@@ -1,0 +1,72 @@
+{
+    "block_pools": [
+        {
+            "name": "pebble",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "minecraft:bedrock"
+                    }
+                ]
+            },
+            "clicktype": "left",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_health",
+                    "value": 2
+                },
+                {
+                    "type": "change_health",
+                    "increase": false,
+                    "amount": 1
+                },
+                {
+                    "type": "drop_items",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_Spawn",
+                    "inside": true,
+                    "radius": 4
+                },
+                {
+                    "type": "require_dimension",
+                    "dimensions": [
+                        {
+                            "dim": 0,
+                            "required": true
+                        }
+                    ]
+                }
+            ],
+            "drops": [
+                {
+                    "name": "contenttweaker:pebble",
+                    "amount": 1,
+                    "chance": 60
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_dimension",
+                    "message": "Only works in the Void"
+                }
+            ]
+        }
+    ]
+}

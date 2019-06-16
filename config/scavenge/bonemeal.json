@@ -1,0 +1,63 @@
+{
+    "block_pools": [
+        {
+            "name": "bonemeal",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "minecraft:bedrock"
+                    }
+                ]
+            },
+            "clicktype": "left",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "sharpbone:sharp_bone",
+                    "amount": 1
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_Spawn",
+                    "inside": true,
+                    "radius": 8
+                },
+                {
+                    "type": "require_dimension",
+                    "dimensions": [
+                        {
+                            "dim": 0,
+                            "required": true
+                        }
+                    ]
+                }
+            ],
+            "drops": [
+                {
+                    "name": "minecraft:dye",
+                    "meta": 15,
+                    "amount": 1,
+                    "chance": 5
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_dimension",
+                    "message": "Only works in the Void"
+                }
+            ]
+        }
+    ]
+}
