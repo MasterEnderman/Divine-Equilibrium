@@ -14,6 +14,10 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <cannibalism:playerfleshcooked> : [<cannibalism:playerflesh>],
     <bonetorch:bonetorch> : [<minecraft:bone>],
     <minecraft:flint> : [<ore:gravel>],
+    <hwell:shard_p> : [<contenttweaker:solidified_fire_knowledge>],
+    <hwell:shard_o> : [<contenttweaker:solidified_water_knowledge>],
+    <hwell:shard_au> : [<contenttweaker:solidified_air_knowledge>],
+    <hwell:shard_fe> : [<contenttweaker:solidified_earth_knowledge>]
 };
 
 var burntime as int = 120;
