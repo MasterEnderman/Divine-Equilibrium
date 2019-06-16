@@ -10,6 +10,12 @@ items = {
     # __init__
     "null" : {
         "Pebble" : "pebble"
+    },
+    "solidified_knowledge" : {
+        "Solidified Fire Knowledge" : "solidified_fire_knowledge",
+        "Solidified Water Knowledge" : "solidified_water_knowledge",
+        "Solidified Air Knowledge" : "solidified_air_knowledge",
+        "Solidified Earth Knowledge" : "solidified_earth_knowledge"
     }
 }
 

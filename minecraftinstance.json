@@ -195,21 +195,6 @@
       "fileSize": 534420
     },
     {
-      "folderName": "TieredTooltips-2.0.0.jar",
-      "fingerprint": 1590238166,
-      "fileDateHash": 3020041278,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1590238166
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:58:39.2641926Z",
-      "lastWriteTimeUtc": "2019-06-13T18:40:08Z",
-      "queryTimestamp": "2019-06-16T17:58:40.0742222Z",
-      "fileCount": 1,
-      "fileSize": 9799
-    },
-    {
       "folderName": "AttributeFix-1.12.2-1.0.7.jar",
       "fingerprint": 1699997921,
       "fileDateHash": 4054672122,
@@ -223,6 +208,21 @@
       "queryTimestamp": "2019-06-16T17:58:40.0742222Z",
       "fileCount": 1,
       "fileSize": 6798
+    },
+    {
+      "folderName": "TieredTooltips-2.0.0.jar",
+      "fingerprint": 1590238166,
+      "fileDateHash": 3020041278,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1590238166
+      ],
+      "status": 1,
+      "timestamp": "2019-06-16T17:58:39.2641926Z",
+      "lastWriteTimeUtc": "2019-06-13T18:40:08Z",
+      "queryTimestamp": "2019-06-16T17:58:40.0742222Z",
+      "fileCount": 1,
+      "fileSize": 9799
     },
     {
       "folderName": "jei_1.12.2-4.15.0.280.jar",
@@ -673,21 +673,6 @@
       "fileSize": 23189
     },
     {
-      "folderName": "RecipeStages-1.1.1.jar",
-      "fingerprint": 1579334713,
-      "fileDateHash": 3526325937,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1579334713
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:58:39.1164058Z",
-      "lastWriteTimeUtc": "2019-06-13T18:40:06Z",
-      "queryTimestamp": "2019-06-16T17:58:40.0812167Z",
-      "fileCount": 1,
-      "fileSize": 42906
-    },
-    {
       "folderName": "LoadingTips-1.12.2-1.1.0.jar",
       "fingerprint": 1043909994,
       "fileDateHash": 3045614712,
@@ -701,6 +686,21 @@
       "queryTimestamp": "2019-06-16T17:58:40.0812167Z",
       "fileCount": 1,
       "fileSize": 15670
+    },
+    {
+      "folderName": "RecipeStages-1.1.1.jar",
+      "fingerprint": 1579334713,
+      "fileDateHash": 3526325937,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1579334713
+      ],
+      "status": 1,
+      "timestamp": "2019-06-16T17:58:39.1164058Z",
+      "lastWriteTimeUtc": "2019-06-13T18:40:06Z",
+      "queryTimestamp": "2019-06-16T17:58:40.0812167Z",
+      "fileCount": 1,
+      "fileSize": 42906
     },
     {
       "folderName": "RebornCore-1.12.2-3.4.8.138-universal.jar",
@@ -838,21 +838,6 @@
       "fileSize": 132644
     },
     {
-      "folderName": "SBM-BashFireMakeRock-1.12.2-1.0.0b20190310153703.jar",
-      "fingerprint": 1042257246,
-      "fileDateHash": 2336839402,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1042257246
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:58:39.1317335Z",
-      "lastWriteTimeUtc": "2019-06-13T20:14:25Z",
-      "queryTimestamp": "2019-06-16T17:58:40.0832141Z",
-      "fileCount": 1,
-      "fileSize": 13332
-    },
-    {
       "folderName": "OreStages-1.12.2-2.0.38.jar",
       "fingerprint": 2969373691,
       "fileDateHash": 2955868365,
@@ -866,6 +851,21 @@
       "queryTimestamp": "2019-06-16T17:58:40.0832141Z",
       "fileCount": 1,
       "fileSize": 35361
+    },
+    {
+      "folderName": "SBM-BashFireMakeRock-1.12.2-1.0.0b20190310153703.jar",
+      "fingerprint": 1042257246,
+      "fileDateHash": 2336839402,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1042257246
+      ],
+      "status": 1,
+      "timestamp": "2019-06-16T17:58:39.1317335Z",
+      "lastWriteTimeUtc": "2019-06-13T20:14:25Z",
+      "queryTimestamp": "2019-06-16T17:58:40.0832141Z",
+      "fileCount": 1,
+      "fileSize": 13332
     },
     {
       "folderName": "foamfix-0.10.5-1.12.2.jar",
@@ -943,21 +943,6 @@
       "fileSize": 1016629
     },
     {
-      "folderName": "modtweaker-4.0.17.jar",
-      "fingerprint": 2501908090,
-      "fileDateHash": 2955868365,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2501908090
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:58:38.8423231Z",
-      "lastWriteTimeUtc": "2019-06-13T18:40:03Z",
-      "queryTimestamp": "2019-06-16T17:58:40.0852141Z",
-      "fileCount": 1,
-      "fileSize": 447874
-    },
-    {
       "folderName": "MainMenuScale-1.3.2.jar",
       "fingerprint": 3885125123,
       "fileDateHash": 2081336577,
@@ -973,19 +958,19 @@
       "fileSize": 4174
     },
     {
-      "folderName": "elementalresearch-1.1.2.jar",
-      "fingerprint": 2767074796,
-      "fileDateHash": 657669745,
+      "folderName": "modtweaker-4.0.17.jar",
+      "fingerprint": 2501908090,
+      "fileDateHash": 2955868365,
       "sectionID": 8,
       "individualFingerprints": [
-        2767074796
+        2501908090
       ],
       "status": 1,
-      "timestamp": "2019-06-16T17:58:38.6632616Z",
-      "lastWriteTimeUtc": "2019-06-16T07:57:14Z",
+      "timestamp": "2019-06-16T17:58:38.8423231Z",
+      "lastWriteTimeUtc": "2019-06-13T18:40:03Z",
       "queryTimestamp": "2019-06-16T17:58:40.0852141Z",
       "fileCount": 1,
-      "fileSize": 72222
+      "fileSize": 447874
     },
     {
       "folderName": "GameStages-1.12.2-2.0.115.jar",
@@ -1001,6 +986,21 @@
       "queryTimestamp": "2019-06-16T17:58:40.0852141Z",
       "fileCount": 1,
       "fileSize": 56291
+    },
+    {
+      "folderName": "elementalresearch-1.1.2.jar",
+      "fingerprint": 2767074796,
+      "fileDateHash": 657669745,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2767074796
+      ],
+      "status": 1,
+      "timestamp": "2019-06-16T17:58:38.6632616Z",
+      "lastWriteTimeUtc": "2019-06-16T07:57:14Z",
+      "queryTimestamp": "2019-06-16T17:58:40.0852141Z",
+      "fileCount": 1,
+      "fileSize": 72222
     },
     {
       "folderName": "CustomBackgrounds-MC1.12-1.1.1.jar",
@@ -1303,7 +1303,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238222,
@@ -1373,7 +1373,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271740,
@@ -1463,7 +1463,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 307753,
@@ -1553,7 +1553,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 242106,
@@ -1643,7 +1643,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 267602,
@@ -1723,7 +1723,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 257356,
@@ -1820,7 +1820,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 287550,
@@ -1926,7 +1926,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 285612,
@@ -2007,7 +2007,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253211,
@@ -2087,7 +2087,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237701,
@@ -2174,7 +2174,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 311938,
@@ -2264,7 +2264,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248787,
@@ -2366,7 +2366,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 258205,
@@ -2438,7 +2438,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277609,
@@ -2540,7 +2540,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 302819,
@@ -2618,7 +2618,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245211,
@@ -2720,7 +2720,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244940,
@@ -2803,7 +2803,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 266824,
@@ -2888,7 +2888,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 266550,
@@ -2966,7 +2966,110 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 313368,
+      "gameInstanceID": "fe9ba0aa-f545-4361-8943-339c5310d641",
+      "installedFile": {
+        "id": 2716079,
+        "displayName": "Hearth Well 0.4.1",
+        "fileName": "hwell-0.4.1.jar",
+        "fileDate": "2019-05-26T16:30:18.263Z",
+        "fileLength": 5850894,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2716/79/hwell-0.4.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 306770,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4165846145,
+            "type": 0
+          },
+          {
+            "foldername": "hwell",
+            "fingerprint": 38882633,
+            "type": 0
+          },
+          {
+            "foldername": "integration",
+            "fingerprint": 1667042474,
+            "type": 0
+          },
+          {
+            "foldername": "wolforce",
+            "fingerprint": 1413725820,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2149247388,
+            "type": 0
+          },
+          {
+            "foldername": "everything.jpg",
+            "fingerprint": 1633781678,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3119859514,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3760370491,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3617786155,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2840156983,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "hwell-0.4.1.jar"
+      },
+      "dateInstalled": "2019-06-16T19:07:31.846483Z",
+      "dateUpdated": "2019-06-16T19:07:32.0631468Z",
+      "dateLastUpdateAttempted": "2019-06-16T19:07:32.0631468Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 238856,
@@ -3049,7 +3152,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238857,
@@ -3132,7 +3235,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226406,
@@ -3202,7 +3305,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 292613,
@@ -3319,7 +3422,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 299540,
@@ -3392,7 +3495,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 297878,
@@ -3496,7 +3599,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278494,
@@ -3584,7 +3687,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223094,
@@ -3682,7 +3785,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233071,
@@ -3760,7 +3863,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 306770,
@@ -3838,7 +3941,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 310375,
@@ -3913,7 +4016,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226447,
@@ -4000,7 +4103,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239197,
@@ -4088,7 +4191,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250290,
@@ -4176,7 +4279,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 319264,
@@ -4281,7 +4384,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282988,
@@ -4368,7 +4471,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 309858,
@@ -4456,7 +4559,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225928,
@@ -4543,7 +4646,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 281885,
@@ -4658,7 +4761,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 290201,
@@ -4749,7 +4852,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220954,
@@ -4834,7 +4937,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280510,
@@ -4907,7 +5010,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 317075,
@@ -4977,7 +5080,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246996,
@@ -5047,7 +5150,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245889,
@@ -5132,7 +5235,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 293817,
@@ -5257,7 +5360,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238695,
@@ -5344,7 +5447,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271384,
@@ -5422,7 +5525,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284973,
@@ -5507,7 +5610,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224588,
@@ -5572,7 +5675,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227083,
@@ -5665,7 +5768,72 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 243707,
+      "gameInstanceID": "fe9ba0aa-f545-4361-8943-339c5310d641",
+      "installedFile": {
+        "id": 2720954,
+        "displayName": "Corail Tombstone 3.5.3 for 1.12.2",
+        "fileName": "tombstone-3.5.3-1.12.jar",
+        "fileDate": "2019-06-06T17:55:30.283Z",
+        "fileLength": 800649,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2720/954/tombstone-3.5.3-1.12.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4194789558,
+            "type": 0
+          },
+          {
+            "foldername": "ovh",
+            "fingerprint": 2490444303,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1376225021,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4040308056,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3783688717,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "tombstone-3.5.3-1.12.jar"
+      },
+      "dateInstalled": "2019-06-16T18:15:58.5427186Z",
+      "dateUpdated": "2019-06-16T18:15:58.8952375Z",
+      "dateLastUpdateAttempted": "2019-06-16T18:15:58.8952375Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 312683,
@@ -5756,7 +5924,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280554,
@@ -5866,7 +6034,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237065,
@@ -5957,7 +6125,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229587,
@@ -6054,7 +6222,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 312688,
@@ -6122,7 +6290,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237903,
@@ -6209,7 +6377,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 289980,
@@ -6290,7 +6458,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268655,
@@ -6385,7 +6553,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229876,
@@ -6463,7 +6631,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278359,
@@ -6548,7 +6716,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 288885,
@@ -6621,7 +6789,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 60089,
@@ -6704,7 +6872,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 318255,
@@ -6797,7 +6965,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250398,
@@ -6889,7 +7057,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280316,
@@ -6985,7 +7153,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 283644,
@@ -7058,7 +7226,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228524,
@@ -7141,7 +7309,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,
