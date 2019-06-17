@@ -181,7 +181,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "WIP 4",
-          "desc:8": "Great, now I can break this big hunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier that just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
+          "desc:8": "Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier that just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
         }
       },
       "tasks:9": {
@@ -1002,7 +1002,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/background.png",
       "party_enable:1": 1,
