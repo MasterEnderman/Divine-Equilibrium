@@ -1,7 +1,7 @@
 {
     "block_pools": [
         {
-            "name": "flesh_block",
+            "name": "rock_core",
             "type": {
                 "type": "block_list",
                 "blocks": [
