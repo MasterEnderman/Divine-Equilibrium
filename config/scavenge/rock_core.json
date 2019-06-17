@@ -53,6 +53,11 @@
                             "required": true
                         }
                     ]
+                },
+                {
+                    "type": "require_stage",
+                    "name": "fire_1",
+                    "required": "true"
                 }
             ],
             "messages": [
@@ -63,6 +68,10 @@
                 {
                     "id": "require_dimension",
                     "message": "Only works in the Void"
+                },
+                {
+                    "id": "require_stage",
+                    "message": "You need another Gamestage"
                 }
             ]
         }
