@@ -44,17 +44,17 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <naturesaura:wood_stand> : {
+    <naturesaura:wood_stand>*4 : {
         "earth_1" : {
             1 : [
-                [<cannibalism:flintknife>.giveBack(), <ore:logWood>]
+                [<minecraft:flint>, <ore:logWood>*4]
             ]
         }
     },
     <minecraft:bowl> : {
         "earth_1" : {
             1 : [
-                [<cannibalism:flintknife>.giveBack(), <ore:plankWood>]
+                [<minecraft:flint>, <ore:plankWood>]
             ]
         }
     },
@@ -62,6 +62,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "fire_1" : {
             1 : [
                 [<minecraft:flint>, <hwell:heavy_ingot>]
+            ]
+        }
+    },
+    <claybucket:unfiredclaybucket> : {
+        "water_1" : {
+            1 : [
+                [<minecraft:bowl>, <minecraft:clay_ball>*3]
             ]
         }
     }

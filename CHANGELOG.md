@@ -1,5 +1,13 @@
 # Changelog #
 
+## 0.0.3 ##
+
+- added custom skybox (WIP)
+- added some more mods
+- more work towards the first dimension
+- started on the "earth path"
+- some preparations for the "water path"
+
 ## 0.0.2 ##
 
 - Added mods: Nature's Aura, FastLeafDecay
