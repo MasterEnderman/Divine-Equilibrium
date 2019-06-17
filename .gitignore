@@ -33,7 +33,12 @@ usercache\.json
 
 usernamecache\.json
 
-minecraftinstance\.json
-
 patchouli_data\.json
+
 minecraftinstance.json
+
+scripts/*.zsrc
+
+config/jei/**
+config/InvTweaks/**
+

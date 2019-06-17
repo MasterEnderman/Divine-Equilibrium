@@ -17,7 +17,8 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <hwell:shard_p> : [<contenttweaker:solidified_fire_knowledge>],
     <hwell:shard_o> : [<contenttweaker:solidified_water_knowledge>],
     <hwell:shard_au> : [<contenttweaker:solidified_air_knowledge>],
-    <hwell:shard_fe> : [<contenttweaker:solidified_earth_knowledge>]
+    <hwell:shard_n> : [<contenttweaker:solidified_earth_knowledge>],
+    <hwell:scorch_glass> : [<hwell:scorch_grit>]
 };
 
 var burntime as int = 120;

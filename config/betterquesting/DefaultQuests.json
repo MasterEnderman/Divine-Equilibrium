@@ -3,7 +3,9 @@
   "questDatabase:9": {
     "0:10": {
       "questID:3": 0,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        9
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11,7 +13,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:pebble",
@@ -25,8 +27,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "WIP 1",
-          "desc:8": "Shift+Leftclick the bedrock on the top of the room to get pebbles"
+          "name:8": "The Roof",
+          "desc:8": "I can only imagine all of the horrible things that may have happened to my potato, but I have bigger fish to fry. I need to get out of this place, whatever it is. \n\nWhen I look closely, I notice that there seems to be a small patch on what must be the ceiling that looks different than the rest of this dark room. Maybe it\u0027s a vent or something. I should try interacting with it to see if it does anything. (shift+left-click)"
         }
       },
       "tasks:9": {
@@ -40,7 +42,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:pebble",
-              "Count:3": 4,
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -62,7 +64,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:cobblestone",
@@ -76,8 +78,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "WIP 2",
-          "desc:8": "punch the spawnchamber blocks to create fire and burn pebbles into cobblestone."
+          "name:8": "The Floor",
+          "desc:8": "This whole place smells like it could go up in flames at any moment with the smallest spark. For lack of a better idea i\u0027m going to just (SLOWLY) punch the ground below me until something happens. If the entire place goes up in flames and this is how my life ends, well, we had a good run. \n\nJust maybe, though, it will be only enough to start a small fire that I can throw my little pebbles into to see if anything happens. Sounds rediculous doesn\u0027t it? It\u0027s not like I have any better ideas."
         }
       },
       "tasks:9": {
@@ -91,7 +93,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:cobblestone",
-              "Count:3": 1,
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -113,7 +115,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:skull",
@@ -127,8 +129,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "WIP 3",
-          "desc:8": "Kill yourself in the fire to obtain your head and burn it in the fire to turn it into a bone block"
+          "name:8": "I Quit",
+          "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms..."
         }
       },
       "tasks:9": {
@@ -145,12 +147,6 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 3
-            },
-            "1:10": {
-              "id:8": "minecraft:bone_block",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -161,7 +157,7 @@
     "3:10": {
       "questID:3": 3,
       "preRequisites:11": [
-        2
+        10
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -170,7 +166,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forbidden_arcanus:bone_pickaxe",
@@ -185,7 +181,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "WIP 4",
-          "desc:8": "break the bone block with yout bare hands and craft a bone pickaxe by shift leftclicking with 2 Bones on 3 Cobblestone in your open inventory. now you can break the spawn chamber to exit your prison."
+          "desc:8": "Great, now I can break this big hunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier that just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
         }
       },
       "tasks:9": {
@@ -246,7 +242,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:charred_cobblestone",
@@ -261,7 +257,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "WIP 5",
-          "desc:8": "Burn Bones to get bone torches. PLace a cobblestone on top of the bedrock and light it with the bone torch (leftclick). Now you have charred Cobblestone. If you break it you get gravel."
+          "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up in only to discover that i\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
         }
       },
       "tasks:9": {
@@ -316,7 +312,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:flint",
@@ -385,7 +381,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:dirt",
@@ -448,7 +444,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forbidden_arcanus:mysterywood_log",
@@ -483,7 +479,7 @@
             },
             "1:10": {
               "id:8": "forbidden_arcanus:mysterywood_log",
-              "Count:3": 5,
+              "Count:3": 16,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -492,6 +488,362 @@
         }
       },
       "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "betterquesting:placeholder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "What?",
+          "desc:8": "Where am I? I uh... this uh... this can\u0027t be good. This can\u0027t be good at all. Why is it so dark? I\u0027m not even quite sure which way is up."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [
+        8
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:potato",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Hmm",
+          "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00, I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. i\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bone_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "RIP",
+          "desc:8": "What? I\u0027m not dead? I see my old body just laying there, but i\u0027m standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of new found regeneration power of mine. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bone_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:solidified_earth_knowledge",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Solidified Earth Knowledge",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:solidified_air_knowledge",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Solidified Air Knowledge",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:solidified_fire_knowledge",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Solidified Fire Knowledge",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hwell:furnace_tube",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hwell:scorch_glass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Scorch Glass",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hwell:fullgrass_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Turf Block",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hwell:moonstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Moonstone",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -499,22 +851,22 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -84,
+          "x:3": -180,
+          "y:3": -48,
           "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": -144,
-          "y:3": -48,
+          "y:3": -84,
           "id:3": 1,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -84,
+          "x:3": -144,
+          "y:3": -48,
           "id:3": 2,
           "sizeY:3": 24
         },
@@ -552,6 +904,76 @@
           "y:3": -48,
           "id:3": 7,
           "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -216,
+          "y:3": -48,
+          "id:3": 8,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -84,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -84,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -48,
+          "id:3": 11,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -84,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -12,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -12,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -12,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -48,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -84,
+          "id:3": 17,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
@@ -580,7 +1002,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/background.png",
       "party_enable:1": 1,

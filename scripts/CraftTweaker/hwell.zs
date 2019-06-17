@@ -12,3 +12,6 @@ import scripts.CraftTweaker.Functions.transformString;
 //mods.hwell.removeCrushingBlockRecipe(IItemStack input);
 mods.hwell.removeCrushingBlockRecipe(<hwell:crystal>);
 mods.hwell.removeCrushingBlockRecipe(<hwell:crystal_nether>);
+
+//mods.hwell.addTubeRecipe(IItemStack input, FluidStack output)
+mods.hwell.addTubeRecipe(<forbidden_arcanus:mysterywood_leaves>,<liquid:water>*1000);

@@ -36,6 +36,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
                 [<sharpbone:sharp_bone>, <minecraft:flint>]
             ]
         }
+    },
+    <hwell:furnace_tube> : {
+        "null" : {
+            1 : [
+                [<hwell:scorch_glass>, <minecraft:gravel>]
+            ]
+        }
     }
 };
 
