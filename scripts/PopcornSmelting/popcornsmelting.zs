@@ -7,7 +7,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-import mods.inworldcrafting.FireCrafting;
+import mods.popcornsmelting.addRecipe as popcornAddRecipe;
 
 var FireCraftingMap as IIngredient[][IItemStack] = {
     <minecraft:bone_block> : [<minecraft:skull:3>],
@@ -20,13 +20,14 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <hwell:shard_o> : [<contenttweaker:solidified_water_knowledge>],
     <hwell:shard_au> : [<contenttweaker:solidified_air_knowledge>],
     <hwell:shard_n> : [<contenttweaker:solidified_earth_knowledge>],
-    <hwell:scorch_glass> : [<hwell:scorch_grit>]
+    <hwell:scorch_glass> : [<hwell:scorch_grit>],
+    <naturesaura:gold_powder>*2 : [<naturesaura:gold_leaf>]
 };
 
 var burntime as int = 120;
 
 for output, inputs in FireCraftingMap {
     for input in inputs {
-        FireCrafting.addRecipe(output, input, burntime);
+        popcornAddRecipe(output, input, burntime); 
     }
 }

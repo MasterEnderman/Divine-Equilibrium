@@ -38,9 +38,30 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <hwell:furnace_tube> : {
-        "null" : {
+        "fire_1" : {
             1 : [
-                [<hwell:scorch_glass>, <minecraft:gravel>]
+                [<hwell:scorch_glass>, <minecraft:flint>]
+            ]
+        }
+    },
+    <naturesaura:wood_stand> : {
+        "earth_1" : {
+            1 : [
+                [<cannibalism:flintknife>.giveBack(), <ore:logWood>]
+            ]
+        }
+    },
+    <minecraft:bowl> : {
+        "earth_1" : {
+            1 : [
+                [<cannibalism:flintknife>.giveBack(), <ore:plankWood>]
+            ]
+        }
+    },
+    <minecraft:flint_and_steel> : {
+        "fire_1" : {
+            1 : [
+                [<minecraft:flint>, <hwell:heavy_ingot>]
             ]
         }
     }
