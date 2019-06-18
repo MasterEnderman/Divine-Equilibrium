@@ -1,5 +1,14 @@
 # Changelog #
 
+## 0.0.4 ##
+
+- finished skybox in the void
+- player can obtain basic wooden materials
+- more preparation for the paths
+- added way to get hearts back
+- refactored scripts
+- tweaked the modlist
+
 ## 0.0.3 ##
 
 - added custom skybox (WIP)
