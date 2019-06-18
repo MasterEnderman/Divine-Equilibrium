@@ -9,7 +9,8 @@ for every entry in a list utilizing ContentTweaker functions.
 items = {
     # __init__
     "null" : {
-        "Pebble" : "pebble"
+        "Pebble" : "pebble",
+        "Fuel Pellet" : "pellet"
     },
     "solidified_knowledge" : {
         "Solidified Fire Knowledge" : "solidified_fire_knowledge",

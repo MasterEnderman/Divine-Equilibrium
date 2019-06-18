@@ -1,10 +1,19 @@
 #priority 900
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidDefinition;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+import scripts.CraftTweaker.Functions.transformString;
+
 import mods.dropt.Dropt;
 
 print("Loading dropt.zs");
 
-Dropt.list("blocks")
+Dropt.list("dropt")
     .priority(0)
     .add(Dropt.rule()
         .matchDrops([<minecraft:bone_block>])

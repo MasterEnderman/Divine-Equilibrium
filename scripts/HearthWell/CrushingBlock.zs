@@ -9,9 +9,16 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Functions.transformString;
 
-//mods.hwell.removeCrushingBlockRecipe(IItemStack input);
-mods.hwell.removeCrushingBlockRecipe(<hwell:crystal>);
-mods.hwell.removeCrushingBlockRecipe(<hwell:crystal_nether>);
+import mods.hwell.removeCrushingBlockRecipe;
+import mods.hwell.addCrushingBlockRecipe;
 
-//mods.hwell.addTubeRecipe(IItemStack input, FluidStack output)
-mods.hwell.addTubeRecipe(<forbidden_arcanus:mysterywood_leaves>,<liquid:water>*1000);
+//mods.hwell.removeCrushingBlockRecipe(IItemStack input);
+
+var crushingRemove as IItemStack[] = [
+    <hwell:crystal>,
+    <hwell:crystal_nether>
+];
+
+for item in crushingRemove {
+    removeCrushingBlockRecipe(item);
+}

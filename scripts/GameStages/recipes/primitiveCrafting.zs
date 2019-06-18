@@ -1,4 +1,4 @@
-#priority 110
+#priority 111
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -28,6 +28,32 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             1 : [
                 [<ore:bone>*2, <ore:cobblestone>*3]
             ]
+        },
+        "tools_1" : {
+            1 : [
+                [<ore:bone>*2, <toolbox:pickaxe_head:28>]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_axe> : {
+        "tools_1" : {
+            1 : [
+                [<ore:bone>*2, <toolbox:axe_head:28>]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_sword> : {
+        "tools_1" : {
+            1 : [
+                [<ore:bone>, <toolbox:sword_blade:28>]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_shovel> : {
+        "tools_1" : {
+            1 : [
+                [<ore:bone>*2, <toolbox:shovel_head:28>]
+            ]
         }
     },
     <cannibalism:flintknife> : {
@@ -44,10 +70,10 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <naturesaura:wood_stand>*4 : {
+    <naturesaura:wood_stand> : {
         "earth_1" : {
             1 : [
-                [<minecraft:flint>, <ore:logWood>*4]
+                [<naturesaura:gold_leaf>, <ore:logWood>]
             ]
         }
     },
@@ -69,6 +95,26 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "water_1" : {
             1 : [
                 [<minecraft:bowl>, <minecraft:clay_ball>*3]
+            ]
+        }
+    },
+    <minecraft:torch> : {
+        "fire_1" : {
+            1 : [
+                [<ore:stickWood>, <contenttweaker:pellet>]
+            ],
+            8 : [
+                [<ore:stickWood>*8, <minecraft:coal:*>]
+            ]
+        }
+    },
+    <bonetorch:bonetorch> : {
+        "fire_1" : {
+            1 : [
+                [<ore:bone>, <contenttweaker:pellet>]
+            ],
+            8 : [
+                [<ore:bone>*8, <minecraft:coal:*>]
             ]
         }
     }

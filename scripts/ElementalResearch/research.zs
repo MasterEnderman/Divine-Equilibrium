@@ -19,6 +19,17 @@ wood.experienceGiven = 3;
 wood.addGivenStage("wood");
 wood.build();
 
+var heart = Util.createEntry("Recover a Heart");
+heart.setIcon(<betterquesting:extra_life>);
+heart.airCost = 5;
+heart.earthCost = 5;
+heart.fireCost = 5;
+heart.saleQuantity = -1;
+heart.multiplierPerPurchase = 1.15;
+heart.addCommand("unhealthydying addhearts @p 2");
+heart.addCommand("unhealthydying setmaxhealth @p 20");
+heart.build();
+
 var fire_1 = Util.createEntry("Fire 1");
 fire_1.setIcon(<minecraft:flint_and_steel>);
 fire_1.fireCost = 50;
@@ -28,7 +39,7 @@ fire_1.addGivenStage("fire_1");
 fire_1.build();
 
 var earth_1 = Util.createEntry("Earth 1");
-earth_1.setIcon(<minecraft:dirt>);
+earth_1.setIcon(<minecraft:grass>);
 earth_1.earthCost = 50;
 earth_1.experienceGiven = 2;
 earth_1.addRequiredStage("wood");

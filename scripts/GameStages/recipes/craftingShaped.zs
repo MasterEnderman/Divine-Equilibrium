@@ -13,30 +13,6 @@ import mods.ItemStages;
 import mods.recipestages.Recipes;
 
 var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
-    <bonetorch:bonetorch> : {
-        "null" : {
-            2 : [
-                [
-                    [<minecraft:coal>],
-                    [<ore:bone>]
-                ],
-                [
-                    [<minecraft:coal:1>],
-                    [<ore:bone>]
-                ]
-            ]
-        }
-    },
-    <cannibalism:flintknife> : {
-        "null" : {
-            1 : [
-                [
-                    [null,<minecraft:flint>],
-                    [<ore:stickWood>,null]
-                ]
-            ]
-        }
-    },
     <contenttweaker:flesh_block> : {
         "null" : {
             1 : [

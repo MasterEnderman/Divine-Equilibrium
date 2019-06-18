@@ -13,6 +13,10 @@ var pebble as Item = VanillaFactory.createItem("pebble");
 pebble.setLocalizedNameSupplier(function(itemStack) {return "Pebble";});
 pebble.register();
 
+var pellet as Item = VanillaFactory.createItem("pellet");
+pellet.setLocalizedNameSupplier(function(itemStack) {return "Fuel Pellet";});
+pellet.register();
+
 //solidified_knowledge
 var solidified_fire_knowledge as Item = VanillaFactory.createItem("solidified_fire_knowledge");
 solidified_fire_knowledge.setLocalizedNameSupplier(function(itemStack) {return "Solidified Fire Knowledge";});
