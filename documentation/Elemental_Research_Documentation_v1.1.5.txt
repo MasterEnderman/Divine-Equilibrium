@@ -29,8 +29,12 @@ entry.experienceGiven = <int> //levels, not experience points
 entry.experienceRequired = <int> //levels, not experience points
 entry.saleQuantity = <int> //# in stock for this player, default 1, -1 is infinite
 
-entry.setIcon(IItemStack);
-entry.addOutputs([IItemStack]);
+//Exponentially increases the price by this amount per purchase (multiplier^purchase#),
+//This number is then multiplied by any multipliers from required stages(see below)
+entry.multiplierPerPurchase <double>
+
+entry.setIcon(IItemStack stack);
+entry.addOutputs(IItemStack[] stacks]);
 entry.addGivenStage(String stageName);
 entry.addRequiredStage(String stageName);
 
@@ -46,7 +50,7 @@ addRequiredStages(String type, String[] stages);
 //See previous 2 entries above for significance of type and modifier
 addRequiredStagesWithModifier(String type, double modifier, String[] stages);
 
-entry.build() //registers the entry, call this last
+entry.build(); //registers the entry, call this last
 
 -------------------------------------------------------------------------
 
