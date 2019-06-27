@@ -19,6 +19,11 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <forbidden_arcanus:mysterywood_sapling> : {
             "frankinsence" : [<hwell:shard_n>,<rootsclassic:growthsalve>,<soulus:bone_meal_nether>,<soulus:dust_stone>,<soulus:dust_wood>,<soulus:dust_wood>,<soulus:dust_wood>,<soulus:dust_wood>]
         }
+    },
+    <theoneprobe:probe_goggles> : {
+        <forbidden_arcanus:mysterywood_sapling> : {
+            "probe" : [<ore:gearBone>,<hwell:heavy_ingot>,<minecraft:glass>,<minecraft:glass>]
+        }
     }
 };
 

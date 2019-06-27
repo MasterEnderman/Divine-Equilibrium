@@ -25,6 +25,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
                 [<naturesaura:ancient_stick>]
             ]
         }
+    },
+    <hwell:dust_block> : {
+        <liquid:water> : {
+            "false" : [
+                [<hwell:dust>*4]
+            ]
+        }
     }
 };
 

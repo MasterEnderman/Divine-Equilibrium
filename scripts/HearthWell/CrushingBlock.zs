@@ -48,6 +48,15 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     },
     <minecraft:flint> : {
         <soulus:dust_stone> : 1.0
+    },
+    <contenttweaker:pebble> : {
+        <hwell:dust> : 1.0
+    },
+    <minecraft:cobblestone> : {
+        <contenttweaker:pebble> : 1.0
+    },
+    <hwell:dust_block> : {
+        <hwell:dust>*4 : 1.0
     }
 };
 

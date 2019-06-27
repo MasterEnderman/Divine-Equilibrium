@@ -695,13 +695,13 @@
 			]
 		},
 		{
-			"input": { "item": "minecraft:stone"},
+			"input": { "item": "minecraft:stone", "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "hwell:dust" , "count": 2 } }
 			]
 		},
 		{
-			"input": { "item": "minecraft:sandstone"},
+			"input": { "item": "minecraft:sandstone", "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "hwell:dust" , "count": 2 } }
 			]
@@ -796,19 +796,19 @@
 			]
 		},
 		{
-			"input": { "item": "hwell:locked_light" },
+			"input": { "item": "hwell:locked_light" , "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "minecraft:glowstone_dust", "count": 1}, "probability": 0.5 }
 			]
 		},
 		{
-			"input": { "item": "hwell:locked_light" },
+			"input": { "item": "hwell:locked_light" , "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "minecraft:glowstone_dust", "count": 1}, "probability": 0.5 }
 			]
 		},
 		{
-			"input": { "item": "hwell:meat_block" },
+			"input": { "item": "hwell:meat_block" , "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "hwell:hamburger"} }
 			]

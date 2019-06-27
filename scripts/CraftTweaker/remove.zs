@@ -11,7 +11,11 @@ var removeAll as IIngredient[] = [
     <soulus:dust_stone>,
     <corvus:candle>,
     <rootsclassic:growthsalve>,
-    <hwell:core_stone>
+    <hwell:core_stone>,
+    <soulus:bone_meal_nether>,
+    <hwell:crushing_block>,
+    <hwell:dust_block>,
+    <hwell:dust>
 ];
 
 for item in removeAll {
