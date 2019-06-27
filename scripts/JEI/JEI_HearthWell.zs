@@ -20,6 +20,18 @@ static JEI_HearthWell as IIngredient[] = [
     <hwell:rod_blaze_3>,
     <hwell:rod_blaze_2>,
     <hwell:rod_blaze_1>,
+    <hwell:loot_blaze>,
+    <hwell:loot_creeper>,
+    <hwell:loot_enderman>,
+    <hwell:loot_ghast>,
+    <hwell:loot_shulker>,
+    <hwell:loot_skeleton>,
+    <hwell:loot_slime>,
+    <hwell:loot_spider>,
+    <hwell:loot_witch>,
+    <hwell:loot_wither>,
+    <hwell:loot_zombie>,
+    <hwell:loot_guardian>,
 ];
 
 disableItems(JEI_HearthWell);
