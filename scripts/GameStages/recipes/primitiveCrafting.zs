@@ -157,6 +157,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
              ]
          }
     },
+    <hwell:crushing_block> : {
+        "fire_1" : {
+            1 : [
+                [<hwell:heavy_ingot>*4, <hwell:core_stone>]
+            ]
+        }
+    }
 };
 
 for output, data in recipePrimitiveCrafting {
@@ -178,10 +185,8 @@ for output, data in recipePrimitiveCrafting {
             }
         }
     }
-    /*
     if (stages[0] != "null") {
         ItemStages.removeItemStage(output);
         ItemStages.addItemStage(stages[0], output);
     }
-    */
 }

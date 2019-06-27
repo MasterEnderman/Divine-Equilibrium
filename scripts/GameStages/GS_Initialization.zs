@@ -22,7 +22,12 @@ static stageDisabled as string = "disabled";
 //Custom Functions
 function stageItems(stage as string, itemlist as IIngredient[]){
     for item in itemlist {
-        ItemStages.addItemStage(stage, item);
+        if (stage == "null") {
+            ItemStages.removeItemStage(item);
+        } else {
+            ItemStages.removeItemStage(item);
+            ItemStages.addItemStage(stage, item);
+        }
     }
 }
 
