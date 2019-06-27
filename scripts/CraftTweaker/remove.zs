@@ -15,7 +15,9 @@ var removeAll as IIngredient[] = [
     <soulus:bone_meal_nether>,
     <hwell:crushing_block>,
     <hwell:dust_block>,
-    <hwell:dust>
+    <hwell:dust>,
+    <integrateddynamics:squeezer>,
+    <integrateddynamics:drying_basin>
 ];
 
 for item in removeAll {

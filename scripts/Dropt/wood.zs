@@ -13,27 +13,27 @@ import mods.dropt.Dropt;
 
 print("Loading wood.zs");
 
-var woodMap as IItemStack[string] = {
-    "minecraft:log" : <minecraft:planks>,
-    "minecraft:log:1" : <minecraft:planks:1>,
-    "minecraft:log:2" : <minecraft:planks:2>,
-    "minecraft:log:3" : <minecraft:planks:3>,
-    "minecraft:log2" : <minecraft:planks:4>,
-    "minecraft:log2:1" : <minecraft:planks:5>,
-    "corvus:frankinsence_log" : <corvus:frankinsence_planks>,
-    "forbidden_arcanus:edelwood_log" : <forbidden_arcanus:edelwood_planks>,
-    "forbidden_arcanus:cherrywood_log" : <forbidden_arcanus:cherrywood_planks>,
-    "forbidden_arcanus:mysterywood_log" : <forbidden_arcanus:mysterywood_planks>,
-    "hwell:myst_log" : <hwell:myst_planks>,
-    "naturesaura:ancient_log" : <naturesaura:ancient_planks>
+var woodMap as string[][IItemStack] = {
+    <minecraft:planks> : ["minecraft:log","minecraft:log:4","minecraft:log:8"],
+    <minecraft:planks:1> : ["minecraft:log:1","minecraft:log:5","minecraft:log:9"],
+    <minecraft:planks:2> : ["minecraft:log:2","minecraft:log:6","minecraft:log:10"],
+    <minecraft:planks:3> : ["minecraft:log:3","minecraft:log:7","minecraft:log:11"],
+    <minecraft:planks:4> : ["minecraft:log2","minecraft:log2:4","minecraft:log2:8"],
+    <minecraft:planks:5> : ["minecraft:log2:1","minecraft:log2:5","minecraft:log2:9"],
+    <corvus:frankinsence_planks> : ["corvus:frankinsence_log","corvus:frankinsence_log:1","corvus:frankinsence_log:2"],
+    <forbidden_arcanus:edelwood_planks> : ["forbidden_arcanus:edelwood_log","forbidden_arcanus:edelwood_log:4","forbidden_arcanus:edelwood_log:8"],
+    <forbidden_arcanus:cherrywood_planks> : ["forbidden_arcanus:cherrywood_log","forbidden_arcanus:cherrywood_log:4","forbidden_arcanus:cherrywood_log:8"],
+    <forbidden_arcanus:mysterywood_planks> : ["forbidden_arcanus:mysterywood_log","forbidden_arcanus:mysterywood_log:4","forbidden_arcanus:mysterywood_log:8"],
+    <hwell:myst_planks> : ["hwell:myst_log","hwell:myst_log:4","hwell:myst_log:8"],
+    <naturesaura:ancient_planks> : ["naturesaura:ancient_log","naturesaura:ancient_log:1","naturesaura:ancient_log:2","naturesaura:ancient_bark","naturesaura:ancient_bark:1","naturesaura:ancient_bark:2"],
 };
 
 var index as int = 0;
 
-for log, plank in woodMap {
+for plank, log in woodMap {
     Dropt.list("wood"~index)
         .add(Dropt.rule()
-            .matchBlocks([log])
+            .matchBlocks(log)
             .matchHarvester(Dropt.harvester()
                 .type("PLAYER")
                 .gameStages("ANY", ["wood"])

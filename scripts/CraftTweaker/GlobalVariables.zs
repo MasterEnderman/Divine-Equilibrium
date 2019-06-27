@@ -8,3 +8,12 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 // TL;DR Global variables need to start with "global" to be global!
+
+global waterBottle as IItemStack = <minecraft:potion>.withTag({Potion: "minecraft:water"});
+
+global otherBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:other"});
+global netherBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"});
+global overworldBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"});
+global endBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"});
+
+global appleGaia as IItemStack = <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 128, z: 0, appleName: "Gaia"});

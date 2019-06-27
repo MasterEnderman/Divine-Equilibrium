@@ -7,4 +7,4 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Functions.transformString;
 
-<minecraft:bone>.addTooltip(format.green("Obtained by breaking Boneblock"));
+

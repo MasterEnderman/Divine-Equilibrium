@@ -1,3 +1,4 @@
+#modloaded elementalresearch
 #priority 20
 
 import crafttweaker.item.IItemStack;
@@ -21,12 +22,12 @@ wood.build();
 
 var heart = Util.createEntry("Recover a Heart");
 heart.setIcon(<betterquesting:extra_life>);
-heart.airCost = 5;
-heart.earthCost = 5;
-heart.fireCost = 5;
+heart.airCost = 20;
+heart.earthCost = 20;
+heart.fireCost = 20;
 heart.saleQuantity = -1;
 heart.multiplierPerPurchase = 1.15;
-heart.addCommand("unhealthydying addhearts @p 2");
+heart.addRequiredStage("wood");
 heart.addCommand("unhealthydying setmaxhealth @p 20");
 heart.build();
 
@@ -34,8 +35,7 @@ var fire_1 = Util.createEntry("Fire 1");
 fire_1.setIcon(<minecraft:flint_and_steel>);
 fire_1.fireCost = 50;
 fire_1.experienceGiven = 2;
-fire_1.addRequiredStage("wood");
-fire_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "water_1", "earth_1"]);
+fire_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "water_1", "earth_1", "wood"]);
 fire_1.addGivenStage("fire_1");
 fire_1.build();
 
@@ -43,8 +43,7 @@ var earth_1 = Util.createEntry("Earth 1");
 earth_1.setIcon(<minecraft:grass>);
 earth_1.earthCost = 50;
 earth_1.experienceGiven = 2;
-earth_1.addRequiredStage("wood");
-earth_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "fire_1", "water_1"]);
+earth_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "fire_1", "water_1", "wood"]);
 earth_1.addGivenStage("earth_1");
 earth_1.build();
 
@@ -52,8 +51,7 @@ var air_1 = Util.createEntry("Air 1");
 air_1.setIcon(<minecraft:feather>);
 air_1.airCost = 50;
 air_1.experienceGiven = 2;
-air_1.addRequiredStage("wood");
-air_1.addRequiredStagesWithModifier("OR", 1.2, ["water_1", "fire_1", "earth_1"]);
+air_1.addRequiredStagesWithModifier("OR", 1.2, ["water_1", "fire_1", "earth_1", "wood"]);
 air_1.addGivenStage("air_1");
 air_1.build();
 
@@ -61,8 +59,7 @@ var water_1 = Util.createEntry("Water 1");
 water_1.setIcon(<minecraft:water_bucket>);
 water_1.waterCost = 50;
 water_1.experienceGiven = 2;
-water_1.addRequiredStage("wood");
-water_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "fire_1", "earth_1"]);
+water_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "fire_1", "earth_1", "wood"]);
 water_1.addGivenStage("water_1");
 water_1.build();
 
@@ -107,5 +104,6 @@ crafting_1.waterCost = 50;
 crafting_1.experienceGiven = 10;
 crafting_1.addRequiredStages("AND", ["earth_1","air_1","fire_1","water_1"]);
 crafting_1.addGivenStage("crafting_1");
+crafting_1.addGivenStage("tools_1");
 crafting_1.addGivenStage("primitivcrafting");
 crafting_1.build();

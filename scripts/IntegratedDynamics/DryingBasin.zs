@@ -1,3 +1,4 @@
+#modloaded integrateddynamics
 #priority 20
 
 import crafttweaker.item.IItemStack;
@@ -16,24 +17,26 @@ import mods.integrateddynamics.DryingBasin;
 var duration as int = 400;
 
 var mapFluidToItem as ILiquidStack[][IItemStack] = {
+    <corvus:frankincense_tears> : [
+        <liquid:frankencense_essence>*500
+    ]
+};
+
+var mapItemToItem as IItemStack[][IItemStack] = {
 
 };
 
-var mapItemToItem as IIngredient[][IItemStack] = {
+var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
 
 };
 
-var mapItemAndFluidToItem as IIngredient[][ILiquidStack][IItemStack] = {
-
-};
-
-var mapItemAndFluidToFluid as IIngredient[][ILiquidStack][ILiquidStack] = {
+var mapItemAndFluidToFluid as IItemStack[][ILiquidStack][ILiquidStack] = {
 
 };
 
 for output, fluids in mapFluidToItem {
     for fluid in fluids {
-        DryingBasin.addRecipe(null, fluid, item, null, duration);
+        DryingBasin.addRecipe(null, fluid, output, null, duration);
     }
 }
 

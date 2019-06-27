@@ -1,3 +1,4 @@
+#modloaded inworldcrafting
 #priority 20
 
 import crafttweaker.item.IItemStack;
@@ -30,6 +31,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         <liquid:water> : {
             "false" : [
                 [<hwell:dust>*4]
+            ]
+        }
+    },
+    <hwell:mutation_paste>*2 : {
+        <liquid:water>  :{
+            "false" : [
+                [<minecraft:dye:9>,<minecraft:clay_ball>,<hwell:myst_dust>]
             ]
         }
     }

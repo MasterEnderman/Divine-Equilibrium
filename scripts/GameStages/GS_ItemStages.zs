@@ -21,7 +21,7 @@ var itemsToStage as IIngredient[][string] = {
         <minecraft:dirt>,
         <hwell:core_stone>
     ],
-    "water_1" : [
+    "fire_1" : [
         <corvus:candle>
     ]
 };

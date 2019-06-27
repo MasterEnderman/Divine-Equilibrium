@@ -1,3 +1,4 @@
+#modloaded primitivecrafting
 #priority 111
 
 import crafttweaker.item.IItemStack;
@@ -71,14 +72,14 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <naturesaura:wood_stand> : {
-        "earth_1" : {
+        "wood" : {
             1 : [
                 [<naturesaura:gold_leaf>, <ore:logWood>]
             ]
         }
     },
     <minecraft:bowl> : {
-        "earth_1" : {
+        "wood" : {
             1 : [
                 [<minecraft:flint>, <ore:plankWood>]
             ]
@@ -92,7 +93,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <claybucket:unfiredclaybucket> : {
-        "water_1" : {
+        "fire_1" : {
             1 : [
                 [<minecraft:bowl>, <minecraft:clay_ball>*3]
             ]
@@ -116,7 +117,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <hwell:heavy_mesh> : {
-        "water_1" : {
+        "fire_1" : {
             1 : [
                 [<minecraft:clay_ball>, <soulus:bone_meal_nether>]
             ]
@@ -161,6 +162,62 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "fire_1" : {
             1 : [
                 [<hwell:heavy_ingot>*4, <hwell:core_stone>]
+            ]
+        }
+    },
+    <minecraft:lever> : {
+        "fire_1" : {
+            1 : [
+                [<ore:stickWood>, <contenttweaker:pebble>]
+            ]
+        }
+    },
+    <integrateddynamics:squeezer> : {
+        "fire_1" : {
+            1 : [
+                [<hwell:heavy_ingot>*4, <ore:stickWood>*16]
+            ]
+        }
+    },
+    <integrateddynamics:drying_basin> : {
+        "fire_1" : {
+            1 : [
+                [<hwell:heavy_ingot>*2, <ore:logWood>*4]
+            ]
+        }
+    },
+    <corvus:candle_growth> : {
+        "fire_1" : {
+            1 : [
+                [<corvus:candle>, <corvus:oil_growth>]
+            ]
+        }
+    },
+    <corvus:candle_wind> : {
+        "fire_1" : {
+            1 : [
+                [<corvus:candle>, <corvus:oil_protective>]
+            ]
+        }
+    },
+    <corvus:candle_rage> : {
+        "fire_1" : {
+            1 : [
+                [<corvus:candle>, <corvus:oil_enraged>]
+            ]
+        }
+    },
+    <naturesaura:bottle_two_the_rebottling> : {
+        "fire_1" : {
+            1 : [
+                [<minecraft:glass_bottle>, <ore:plankWood>]
+            ]
+        }
+    },
+    <minecraft:chest> : {
+        "wood" : {
+            1 : [
+                [<minecraft:flint>, <ore:logWood>*4]
             ]
         }
     }

@@ -1,3 +1,4 @@
+#modloaded inworldcrafting
 #priority 20
 
 import crafttweaker.item.IItemStack;
@@ -28,7 +29,9 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <naturesaura:gold_powder>*2 : [<naturesaura:gold_leaf>],
     <claybucket:claybucket> : [<claybucket:unfiredclaybucket>],
     <soulus:bone_meal_nether> : [<minecraft:dye:15>],
-    <hwell:heavy_ingot> : [<hwell:heavy_mesh>]
+    <hwell:heavy_ingot> : [<hwell:heavy_mesh>],
+    <minecraft:glass> : [<hwell:dust_block>],
+    <hwell:smooth_azurite> : [<hwell:azurite>],
 };
 
 var burntime as int = 120;

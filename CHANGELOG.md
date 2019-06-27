@@ -1,5 +1,16 @@
 # Changelog #
 
+## 0.1.0 ##
+
+- finished progression towards first dimension
+- added more quests (Titles / Descriptions are still W.I.P.)
+- tweaked modlist
+- optimized loadtime
+- refactored scripts
+- added proper icons for elemental research
+- restructured reseach dependencies
+- fixed main menu splash texts
+
 ## 0.0.4 ##
 
 - finished skybox in the void

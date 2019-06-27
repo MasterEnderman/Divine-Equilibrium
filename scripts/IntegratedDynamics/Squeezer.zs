@@ -1,3 +1,4 @@
+#modloaded integrateddynamics
 #priority 20
 
 import crafttweaker.item.IItemStack;
@@ -13,21 +14,26 @@ import mods.integrateddynamics.Squeezer;
 
 //mods.integrateddynamics.Squeezer.addRecipe(inputStack, outputStack, outputFluid);
 
-var mapItemToFluid as IIngredient[][ILiquidStack] = {
+var mapItemToFluid as int[IItemStack][ILiquidStack] = {
+    <liquid:frankencense_essence> : {
+        <corvus:frankinsence_sapling> : 500,
+        <corvus:frankincense_tears> : 500,
+        <corvus:frankinsence_leaves> : 10,
+        <corvus:frankinsence_log> : 20
+    }
+};
+
+var mapItemToItem as IItemStack[][IItemStack] = {
 
 };
 
-var mapItemToItem as IIngredient[][IItemStack] = {
-
-};
-
-var mapItemToBoth as IIngredient[][ILiquidStack][IItemStack] = {
+var mapItemToBoth as IItemStack[][ILiquidStack][IItemStack] = {
 
 };
 
 for output, input in mapItemToFluid {
-    for item in input {
-        Squeezer.addRecipe(item, null, output);
+    for item, amount in input {
+        Squeezer.addRecipe(item, null, output*amount);
     }  
 }
 

@@ -14,7 +14,7 @@ import mods.recipestages.Recipes;
 
 var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
     <contenttweaker:flesh_block> : {
-        "null" : {
+        "crafting_1" : {
             1 : [
                 [
                     [<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>],
@@ -25,7 +25,7 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
         }
     },
     <minecraft:dirt> : {
-        "null" : {
+        "crafting_1" : {
             1 : [
                 [
                     [null,<minecraft:dye:15>,null],

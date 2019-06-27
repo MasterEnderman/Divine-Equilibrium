@@ -1,3 +1,4 @@
+#modloaded hwell
 #priority 20
 
 import crafttweaker.item.IItemStack;
@@ -44,7 +45,9 @@ for item in removeTube {
 
 var tubeMap as IItemStack[][ILiquidStack] = {
     <liquid:water>*1000 : [
-        <forbidden_arcanus:mysterywood_leaves>
+        <forbidden_arcanus:mysterywood_leaves>,
+        <corvus:frankinsence_leaves>,
+        <hwell:fullgrass_block>
     ]
 };
 
