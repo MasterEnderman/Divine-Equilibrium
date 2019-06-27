@@ -8,6 +8,12 @@ for every entry in a list utilizing ContentTweaker functions.
 
 foods = {
     # Name // healAmount // saturation [Default: 0.6]
+    "apple" : {
+        "mystical" : {
+            "hunger" : 4,
+            "saturation" : 0.9
+        }
+    }
 }
 
 head = """#priority 1000

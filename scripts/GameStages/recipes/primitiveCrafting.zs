@@ -31,28 +31,28 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         },
         "tools_1" : {
             1 : [
-                [<ore:bone>*2, <toolbox:pickaxe_head:28>]
+                [<ore:bone>*2, <contenttweaker:head_stone_pickaxe>]
             ]
         }
     },
     <forbidden_arcanus:bone_axe> : {
         "tools_1" : {
             1 : [
-                [<ore:bone>*2, <toolbox:axe_head:28>]
+                [<ore:bone>*2, <contenttweaker:head_stone_axe>]
             ]
         }
     },
     <forbidden_arcanus:bone_sword> : {
         "tools_1" : {
             1 : [
-                [<ore:bone>, <toolbox:sword_blade:28>]
+                [<ore:bone>, <contenttweaker:head_stone_sword>]
             ]
         }
     },
     <forbidden_arcanus:bone_shovel> : {
         "tools_1" : {
             1 : [
-                [<ore:bone>*2, <toolbox:shovel_head:28>]
+                [<ore:bone>*2, <contenttweaker:head_stone_shovel>]
             ]
         }
     },
@@ -108,16 +108,55 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <bonetorch:bonetorch> : {
+    <hwell:fuel_dust> : {
         "fire_1" : {
-            1 : [
-                [<ore:bone>, <contenttweaker:pellet>]
-            ],
-            8 : [
-                [<ore:bone>*8, <minecraft:coal:*>]
+            2 : [
+                [<soulus:dust_stone>, <hwell:heavy_mesh>]
             ]
         }
-    }
+    },
+    <hwell:heavy_mesh> : {
+        "water_1" : {
+            1 : [
+                [<minecraft:clay_ball>, <soulus:bone_meal_nether>]
+            ]
+        }
+    },
+    <corvus:candle> : {
+         "crafting_1" : {
+             1 : [
+                 [<minecraft:clay_ball>, <bonetorch:bonetorch>]
+             ]
+         }
+    },
+    <contenttweaker:charred_cobblestone> : {
+         "crafting_1" : {
+             1 : [
+                 [<bonetorch:bonetorch>, <minecraft:cobblestone>]
+             ]
+         }
+    },
+    <contenttweaker:flesh_block> : {
+         "crafting_1" : {
+             1 : [
+                 [<cannibalism:playerflesh>*8, <contenttweaker:charred_cobblestone>]
+             ]
+         }
+    },
+    <minecraft:dirt> : {
+         "crafting_1" : {
+             1 : [
+                 [<minecraft:dye:15>*4, <contenttweaker:flesh_block>]
+             ]
+         }
+    },
+    <hwell:core_stone> : {
+         "crafting_1" : {
+             1 : [
+                 [<minecraft:flint>, <minecraft:cobblestone>]
+             ]
+         }
+    },
 };
 
 for output, data in recipePrimitiveCrafting {
@@ -139,8 +178,10 @@ for output, data in recipePrimitiveCrafting {
             }
         }
     }
+    /*
     if (stages[0] != "null") {
         ItemStages.removeItemStage(output);
         ItemStages.addItemStage(stages[0], output);
     }
+    */
 }

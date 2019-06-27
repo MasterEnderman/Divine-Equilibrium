@@ -7,6 +7,11 @@ import crafttweaker.oredict.IOreDictEntry;
 
 var removeAll as IIngredient[] = [
     <minecraft:dye:15>,
+    <soulus:dust_wood>,
+    <soulus:dust_stone>,
+    <corvus:candle>,
+    <rootsclassic:growthsalve>,
+    <hwell:core_stone>
 ];
 
 for item in removeAll {

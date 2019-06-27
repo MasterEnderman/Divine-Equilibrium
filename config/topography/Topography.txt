@@ -8,7 +8,7 @@ setAsDefaultWorldType()
 
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 //basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.")
-//basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")
+//basicSkyIslands.registerDimension(4, "examples/Basic_Sky_Islands")
 
 //overworld = registerPreset("Overworld", "images/Overworld", "Basic overworld. Uses multithreaded noise to generate a bit faster than vanilla.")
 //overworld.registerDimension(0, "examples/Overworld")

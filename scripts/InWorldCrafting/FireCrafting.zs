@@ -25,7 +25,9 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <hwell:shard_n> : [<contenttweaker:solidified_earth_knowledge>],
     <hwell:scorch_glass> : [<hwell:scorch_grit>],
     <naturesaura:gold_powder>*2 : [<naturesaura:gold_leaf>],
-    <claybucket:claybucket> : [<claybucket:unfiredclaybucket>]
+    <claybucket:claybucket> : [<claybucket:unfiredclaybucket>],
+    <soulus:bone_meal_nether> : [<minecraft:dye:15>],
+    <hwell:heavy_ingot> : [<hwell:heavy_mesh>]
 };
 
 var burntime as int = 120;

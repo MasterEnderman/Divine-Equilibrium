@@ -34,7 +34,47 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 ]
             ]
         }
-    }
+    },
+    <contenttweaker:head_stone_pickaxe> : {
+        "tools_1" : {
+            1 : [
+                [
+                    [<ore:cobblestone>,<ore:cobblestone>],
+                    [null,<ore:cobblestone>]
+                ]
+            ]
+        }
+    },
+    <contenttweaker:head_stone_axe> : {
+        "tools_1" : {
+            1 : [
+                [
+                    [<ore:cobblestone>,<ore:cobblestone>],
+                    [<ore:cobblestone>,null]
+                ]
+            ]
+        }
+    },
+    <contenttweaker:head_stone_sword> : {
+        "tools_1" : {
+            1 : [
+                [
+                    [null,<ore:cobblestone>],
+                    [<ore:cobblestone>,null]
+                ]
+            ]
+        }
+    },
+    <contenttweaker:head_stone_shovel> : {
+        "tools_1" : {
+            1 : [
+                [
+                    [null,<contenttweaker:pebble>],
+                    [<ore:cobblestone>,null]
+                ]
+            ]
+        }
+    },
 };
 
 for item, data in recipeMapShaped {

@@ -18,6 +18,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
                 [<contenttweaker:pebble>]
             ]
         }
+    },
+    <hwell:myst_rod> : {
+        <liquid:liquid_souls> : {
+            "true" : [
+                [<naturesaura:ancient_stick>]
+            ]
+        }
     }
 };
 

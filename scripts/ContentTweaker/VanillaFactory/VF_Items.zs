@@ -17,6 +17,12 @@ var pellet as Item = VanillaFactory.createItem("pellet");
 pellet.setLocalizedNameSupplier(function(itemStack) {return "Fuel Pellet";});
 pellet.register();
 
+//icon
+var primcraft as Item = VanillaFactory.createItem("primcraft");
+primcraft.setLocalizedNameSupplier(function(itemStack) {return "Primitive Crafting Icon";});
+primcraft.textureLocation = ResourceLocation.create("contenttweaker:items/icon/primcraft");
+primcraft.register();
+
 //solidified_knowledge
 var solidified_fire_knowledge as Item = VanillaFactory.createItem("solidified_fire_knowledge");
 solidified_fire_knowledge.setLocalizedNameSupplier(function(itemStack) {return "Solidified Fire Knowledge";});
@@ -37,4 +43,30 @@ var solidified_earth_knowledge as Item = VanillaFactory.createItem("solidified_e
 solidified_earth_knowledge.setLocalizedNameSupplier(function(itemStack) {return "Solidified Earth Knowledge";});
 solidified_earth_knowledge.textureLocation = ResourceLocation.create("contenttweaker:items/solidified_knowledge/solidified_earth_knowledge");
 solidified_earth_knowledge.register();
+
+//tools
+var hwaxun as Item = VanillaFactory.createItem("hwaxun");
+hwaxun.setLocalizedNameSupplier(function(itemStack) {return "The Hwaxun";});
+hwaxun.textureLocation = ResourceLocation.create("contenttweaker:items/tools/hwaxun");
+hwaxun.register();
+
+var head_stone_pickaxe as Item = VanillaFactory.createItem("head_stone_pickaxe");
+head_stone_pickaxe.setLocalizedNameSupplier(function(itemStack) {return "Stone Pickaxe Head";});
+head_stone_pickaxe.textureLocation = ResourceLocation.create("contenttweaker:items/tools/head_stone_pickaxe");
+head_stone_pickaxe.register();
+
+var head_stone_axe as Item = VanillaFactory.createItem("head_stone_axe");
+head_stone_axe.setLocalizedNameSupplier(function(itemStack) {return "Stone Axe Head";});
+head_stone_axe.textureLocation = ResourceLocation.create("contenttweaker:items/tools/head_stone_axe");
+head_stone_axe.register();
+
+var head_stone_shovel as Item = VanillaFactory.createItem("head_stone_shovel");
+head_stone_shovel.setLocalizedNameSupplier(function(itemStack) {return "Stone Shovel Head";});
+head_stone_shovel.textureLocation = ResourceLocation.create("contenttweaker:items/tools/head_stone_shovel");
+head_stone_shovel.register();
+
+var head_stone_sword as Item = VanillaFactory.createItem("head_stone_sword");
+head_stone_sword.setLocalizedNameSupplier(function(itemStack) {return "Stone Sword Blade";});
+head_stone_sword.textureLocation = ResourceLocation.create("contenttweaker:items/tools/head_stone_sword");
+head_stone_sword.register();
 

@@ -12,11 +12,21 @@ items = {
         "Pebble" : "pebble",
         "Fuel Pellet" : "pellet"
     },
+    "icon" : {
+        "Primitive Crafting Icon" : "primcraft"
+    },
     "solidified_knowledge" : {
         "Solidified Fire Knowledge" : "solidified_fire_knowledge",
         "Solidified Water Knowledge" : "solidified_water_knowledge",
         "Solidified Air Knowledge" : "solidified_air_knowledge",
         "Solidified Earth Knowledge" : "solidified_earth_knowledge"
+    },
+    "tools" : {
+        "The Hwaxun" : "hwaxun",
+        "Stone Pickaxe Head" : "head_stone_pickaxe",
+        "Stone Axe Head" : "head_stone_axe",
+        "Stone Shovel Head" : "head_stone_shovel",
+        "Stone Sword Blade" : "head_stone_sword"
     }
 }
 

@@ -18,7 +18,7 @@
                 },
                 {
                     "type": "require_item",
-                    "name": "minecraft:gravel",
+                    "name": "minecraft:flint",
                     "amount": 1
                 },
                 {

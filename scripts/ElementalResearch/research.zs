@@ -93,3 +93,11 @@ solidified_earth.saleQuantity = -1;
 solidified_earth.addOutputs([<contenttweaker:solidified_earth_knowledge>]);
 solidified_earth.addRequiredStage("earth_1");
 solidified_earth.build();
+
+var crafting_1 = Util.createEntry("More Efficient Recipes I");
+crafting_1.setIcon(<contenttweaker:primcraft>);
+crafting_1.airCost = 50;
+crafting_1.experienceGiven = 2;
+crafting_1.addRequiredStages("AND", ["earth_1","air_1","fire_1","water_1"]);
+crafting_1.addGivenStage("crafting_1");
+crafting_1.build();
