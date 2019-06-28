@@ -1,6 +1,3 @@
-
-*.gz
-
 logs/
 
 screenshots/
@@ -9,21 +6,15 @@ local/client/
 
 \.mixin\.out/
 
-# Add the following to your gitignore:
-
-# Instance Sync
-
-!InstanceSync*.jar
-**/*.jar.meta
-
-# Optional: Generic Modpack Ignores
-**/*.log
-/.mixin.out
 /saves
+
 /downloads
+
 /resourcepacks
-.curseclient
-options.txt
+
+\.curseclient
+
+options\.txt
 
 crash-reports/
 
@@ -35,12 +26,14 @@ usernamecache\.json
 
 patchouli_data\.json
 
-minecraftinstance.json
+minecraftinstance\.json
 
 scripts/*.zsrc
 
 config/jei/**
+
 config/InvTweaks/**
 
-
 mods/
+
+*.log
