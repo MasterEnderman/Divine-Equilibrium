@@ -20,11 +20,11 @@ wood.experienceGiven = 3;
 wood.addGivenStage("wood");
 wood.build();
 
-var heart = Util.createEntry("Recover a Heart");
+var heart = Util.createEntry("Recover Hearts");
 heart.setIcon(<betterquesting:extra_life>);
-heart.airCost = 20;
-heart.earthCost = 20;
-heart.fireCost = 20;
+heart.airCost = 10;
+heart.earthCost = 10;
+heart.fireCost = 10;
 heart.saleQuantity = -1;
 heart.multiplierPerPurchase = 1.15;
 heart.addRequiredStage("wood");
@@ -33,7 +33,7 @@ heart.build();
 
 var fire_1 = Util.createEntry("Fire 1");
 fire_1.setIcon(<minecraft:flint_and_steel>);
-fire_1.fireCost = 50;
+fire_1.fireCost = 25;
 fire_1.experienceGiven = 2;
 fire_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "water_1", "earth_1", "wood"]);
 fire_1.addGivenStage("fire_1");
@@ -41,7 +41,7 @@ fire_1.build();
 
 var earth_1 = Util.createEntry("Earth 1");
 earth_1.setIcon(<minecraft:grass>);
-earth_1.earthCost = 50;
+earth_1.earthCost = 25;
 earth_1.experienceGiven = 2;
 earth_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "fire_1", "water_1", "wood"]);
 earth_1.addGivenStage("earth_1");
@@ -49,7 +49,7 @@ earth_1.build();
 
 var air_1 = Util.createEntry("Air 1");
 air_1.setIcon(<minecraft:feather>);
-air_1.airCost = 50;
+air_1.airCost = 25;
 air_1.experienceGiven = 2;
 air_1.addRequiredStagesWithModifier("OR", 1.2, ["water_1", "fire_1", "earth_1", "wood"]);
 air_1.addGivenStage("air_1");
@@ -57,7 +57,7 @@ air_1.build();
 
 var water_1 = Util.createEntry("Water 1");
 water_1.setIcon(<minecraft:water_bucket>);
-water_1.waterCost = 50;
+water_1.waterCost = 25;
 water_1.experienceGiven = 2;
 water_1.addRequiredStagesWithModifier("OR", 1.2, ["air_1", "fire_1", "earth_1", "wood"]);
 water_1.addGivenStage("water_1");
