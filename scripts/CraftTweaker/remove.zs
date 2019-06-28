@@ -16,6 +16,10 @@ var removeAll as IIngredient[] = [
     <hwell:crushing_block>,
     <hwell:dust_block>,
     <hwell:dust>,
+    <hwell:scorch_grit>,
+    <hwell:fullgrass_block>,
+    <hwell:azurite>,
+    <hwell:moonstone>,
     <integrateddynamics:squeezer>,
     <integrateddynamics:drying_basin>
 ];

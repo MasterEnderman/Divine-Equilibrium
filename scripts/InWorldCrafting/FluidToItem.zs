@@ -35,9 +35,59 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         }
     },
     <hwell:mutation_paste>*2 : {
-        <liquid:water>  :{
+        <liquid:water> : {
             "false" : [
                 [<minecraft:dye:9>,<minecraft:clay_ball>,<hwell:myst_dust>]
+            ]
+        }
+    },
+    <soulus:gear_bone> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<minecraft:bone>*4],
+                [<soulus:bone_normal>*4]
+            ]
+        }
+    },
+    <soulus:gear_bone_dry> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<soulus:bone_dry>*4]
+            ]
+        }
+    },
+    <soulus:gear_bone> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<soulus:bone_normal>*4]
+            ]
+        }
+    },
+    <soulus:gear_bone_fungal> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<soulus:bone_fungal>*4]
+            ]
+        }
+    },
+    <soulus:gear_bone_frozen> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<soulus:bone_frozen>*4]
+            ]
+        }
+    },
+    <soulus:gear_bone_ender> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<soulus:bone_ender>*4]
+            ]
+        }
+    },
+    <soulus:gear_bone_nether> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<soulus:bone_nether>*4]
             ]
         }
     }

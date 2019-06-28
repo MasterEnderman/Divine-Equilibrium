@@ -34,7 +34,8 @@ var removeTube as IItemStack[] = [
     <minecraft:stone:6>,
     <minecraft:sandstone>,
     <minecraft:sandstone:1>,
-    <minecraft:cobblestone>
+    <minecraft:cobblestone>,
+    <hwell:myst_leaves>
 ];
 
 for item in removeTube {

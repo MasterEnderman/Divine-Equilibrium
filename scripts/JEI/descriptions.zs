@@ -23,3 +23,7 @@ JEI.addDescription(<minecraft:stick>, ["Obtained by breaking Planks with a Flint
 JEI.addDescription(<contenttweaker:charred_cobblestone>, ["Obtained by placing a Cobblestone on top of Bedrock in the Void Dimension and rightclicking it with a Bone Torch"]);
 JEI.addDescription(<contenttweaker:flesh_block>, ["Obtained by placing a Charred Cobblestone on top of Bedrock in the Void Dimension and rightclicking it with 8 Raw Player Flesh"]);
 JEI.addDescription(<minecraft:dirt>, ["Obtained by placing a Flesh Block on top of Bedrock in the Void Dimension and rightclicking it with 4 Bone Meal"]);
+
+JEI.addDescription(<rootsclassic:blackcurrant>, ["This Item drops from Frankincense Leaves"]);
+JEI.addDescription(<corvus:frankincense_tears>, ["This Item drops from Frankincense Leaves"]);
+JEI.addDescription(<rootsclassic:nightshade>, ["This Item drops from Mysterious Leaves"]);

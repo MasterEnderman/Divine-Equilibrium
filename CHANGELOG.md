@@ -1,5 +1,25 @@
 # Changelog #
 
+## 0.1.1 ##
+
+- extended Quest Description
+- added more basic Quests
+- added a few optional quests
+- added bone axe to early game
+- fixed Quest Descriptions
+- updated README.md
+- removed Clay Buckets
+- added Client Tweaks
+- cleaned up JEI
+- slightly increased bone meal drop rate from sharp bones
+- disabled auto-jump
+- tweaked topography template
+- added a discord button to the main menu
+- added Rich Discord Presence
+- added Pack Icon
+- updated Elemental Research to fix a lot of bugs
+- reduced amount of health a player looses by dying
+
 ## 0.1.0 ##
 
 - finished progression towards first dimension

@@ -27,7 +27,6 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <hwell:scorch_glass> : [<hwell:scorch_grit>],
     <hwell:shard_ca> : [<hwell:moonstone>],
     <naturesaura:gold_powder>*2 : [<naturesaura:gold_leaf>],
-    <claybucket:claybucket> : [<claybucket:unfiredclaybucket>],
     <soulus:bone_meal_nether> : [<minecraft:dye:15>],
     <hwell:heavy_ingot> : [<hwell:heavy_mesh>],
     <minecraft:glass> : [<hwell:dust_block>],

@@ -2,7 +2,7 @@
 
 An interdimensional Journey
 
-A Modpack made by `al132`, `_MasterEnderman_` and `daan7008`.
+A Modpack made by `al132` and `_MasterEnderman_`.
 
 ## Story ##
 
@@ -30,4 +30,13 @@ A Modpack made by `al132`, `_MasterEnderman_` and `daan7008`.
 - Twitter: <https://twitter.com/_bitfabrik_>
 - Youtube: <https://www.youtube.com/user/xxmasterendermanxx>
 
-`daan7008`
+## Tester ##
+
+- `4oz`
+- `Baal`
+- `daan7008`
+- `Hurja`
+- `Next`
+- `Osama bin Craftin`
+- `Silver_hunt_X`
+- `taint19711`

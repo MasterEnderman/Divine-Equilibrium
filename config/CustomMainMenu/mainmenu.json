@@ -117,6 +117,22 @@
                 "type": "quit"
             }
         },
+        "discord": {
+            "text": "",
+            "pressSound": "minecraft:block.portal.ambient",
+            "posX": -55,
+            "posY": -55,
+            "width": 35,
+            "height": 35,
+            "imageWidth": 356,
+            "imageHeight": 355,
+            "alignment": "bottom_right",
+            "texture": "mainmenu:discord.png",
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/4swu3fy"
+            }
+        },
         "refresh": {
             "text": "",
             "pressSound": "minecraft:block.portal.ambient",

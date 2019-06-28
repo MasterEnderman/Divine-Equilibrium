@@ -37,9 +37,9 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <forbidden_arcanus:bone_axe> : {
-        "null" : {
+        "air_1" : {
             1 : [
-                [<ore:bone>*2, <contenttweaker:pebble>*3]
+                [<contenttweaker:solidified_air_knowledge>, <forbidden_arcanus:bone_pickaxe>]
             ]
         },
         "tools_1" : {
@@ -97,10 +97,10 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <claybucket:unfiredclaybucket> : {
+    <minecraft:bucket> : {
         "fire_1" : {
             1 : [
-                [<minecraft:bowl>, <minecraft:clay_ball>*3]
+                [<minecraft:bowl>, <hwell:heavy_ingot>*3]
             ]
         }
     },
@@ -171,7 +171,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <minecraft:lever> : {
-        "fire_1" : {
+        "wood" : {
             1 : [
                 [<ore:stickWood>, <contenttweaker:pebble>]
             ]

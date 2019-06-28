@@ -24,7 +24,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <theoneprobe:probe_goggles> : {
         <forbidden_arcanus:mysterywood_sapling> : {
-            "probe" : [<ore:gearBone>,<hwell:heavy_ingot>,<minecraft:glass>,<minecraft:glass>]
+            "probe" : [<soulus:gear_bone>,<hwell:heavy_ingot>,<minecraft:glass>,<minecraft:glass>]
         }
     },
     <corvus:oil_growth> : {
@@ -45,6 +45,11 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 128, z: 0, appleName: "Gaia"}) : {
         <corvus:frankinsence_sapling> : {
             "gaia_apple" : [<contenttweaker:solidified_fire_knowledge>,<contenttweaker:solidified_earth_knowledge>,<contenttweaker:solidified_water_knowledge>,<contenttweaker:solidified_air_knowledge>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>]
+        }
+    },
+    <baubles:ring> : {
+        <corvus:frankinsence_sapling> : {
+            "haste_ring" : [<forbidden_arcanus:soul>,<hwell:shard_ca>,<forbidden_arcanus:bone_axe>,<forbidden_arcanus:bone_pickaxe>,<hwell:heavy_ingot>,<hwell:heavy_ingot>,<hwell:heavy_ingot>,<hwell:heavy_ingot>]
         }
     }
 };

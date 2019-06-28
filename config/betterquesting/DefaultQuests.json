@@ -28,7 +28,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The Roof",
-          "desc:8": "I can only imagine all of the horrible things that may have happened to my potato, but I have bigger fish to fry. I need to get out of this place, whatever it is. \n\nWhen I look closely, I notice that there seems to be a small patch on what must be the ceiling that looks different than the rest of this dark room. Maybe it\u0027s a vent or something. I should try interacting with it to see if it does anything. (shift+left-click)"
+          "desc:8": "I can only imagine all of the horrible things that may have happened to my potato, but I have bigger fish to fry. I need to get out of this place, whatever it is. \n\nWhen I look closely, I notice that there seems to be a small patch on what must be the ceiling that looks different than the rest of this dark room. Maybe it\u0027s a vent or something. I should try interacting with it to see if it does anything. (shift+left-click with an empty hand)"
         }
       },
       "tasks:9": {
@@ -130,7 +130,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "I Quit",
-          "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms..."
+          "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms... (stay in a fire for to long)"
         }
       },
       "tasks:9": {
@@ -181,7 +181,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "You\u0027re boned",
-          "desc:8": "Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier that just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
+          "desc:8": "Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier. That just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
         }
       },
       "tasks:9": {
@@ -257,7 +257,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Burned field",
-          "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up in only to discover that i\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
+          "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up in only to discover that i\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock (the top site of the bedrock) and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
         }
       },
       "tasks:9": {
@@ -472,7 +472,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Let it grow",
-          "desc:8": "Unlock the \"wood\" stage by purchasing the research in the research menu (use the book to open the GUI) after that you can rightclick a dirt block which is placed on bedrock to spawn a sapling."
+          "desc:8": "Unlock the \"wood\" stage by purchasing the research in the research menu (use the book to open the GUI) after that you can rightclick a dirt block with a piece of bine meal which is placed on bedrock to spawn a sapling."
         }
       },
       "tasks:9": {
@@ -565,7 +565,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Hmm",
-          "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00, I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. i\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
+          "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00 a.m., I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. i\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
         }
       },
       "tasks:9": {
@@ -654,7 +654,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Solidified Earth Knowledge",
-          "desc:8": "No Description"
+          "desc:8": "Collect Earth Research Points by Breaking Nature Blocks. For 10 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -705,7 +705,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Solidified Air Knowledge",
-          "desc:8": "No Description"
+          "desc:8": "Collect Air Research Points by Jumping. For 10 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -756,7 +756,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Solidified Fire Knowledge",
-          "desc:8": "No Description"
+          "desc:8": "Collect Fire Research Points by Burning yourself. For 10 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -874,7 +874,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Scorch Glass",
-          "desc:8": "No Description"
+          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
       },
       "tasks:9": {
@@ -931,7 +931,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Turf Block",
-          "desc:8": "No Description"
+          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
       },
       "tasks:9": {
@@ -982,7 +982,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Moonstone",
-          "desc:8": "No Description"
+          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
       },
       "tasks:9": {
@@ -1085,7 +1085,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Solidified Water Knowledge",
-          "desc:8": "No Description"
+          "desc:8": "Collect Water Research Points by drowning damage. For 10 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -1135,11 +1135,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Actually pretty light",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hwell:heavy_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "21:10": {
@@ -1345,7 +1363,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Eternal Flame",
-          "desc:8": "No Description"
+          "desc:8": "Light it with a Flint and Steel"
         }
       },
       "tasks:9": {
@@ -1367,7 +1385,23 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "patchouli:guide_book",
+              "Count:3": 1,
+              "tag:10": {
+                "patchouli:book:8": "corvus:book"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "25:10": {
       "questID:3": 25,
@@ -1557,7 +1591,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Growth Candle",
-          "desc:8": "No Description"
+          "desc:8": "Boost Plantgrowth"
         }
       },
       "tasks:9": {
@@ -1727,7 +1761,8 @@
       "questID:3": 31,
       "preRequisites:11": [
         18,
-        14
+        14,
+        20
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1739,9 +1774,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "claybucket:claybucket",
+            "id:8": "minecraft:water_bucket",
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -1764,22 +1799,22 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "claybucket:unfiredclaybucket",
+              "id:8": "minecraft:bowl",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             },
             "1:10": {
-              "id:8": "claybucket:claybucket",
+              "id:8": "minecraft:bucket",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "claybucket:claybucket",
+              "id:8": "minecraft:water_bucket",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:3": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1814,7 +1849,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "I\u0027m blue...",
-          "desc:8": "No Description"
+          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
       },
       "tasks:9": {
@@ -1879,13 +1914,13 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:bone_block",
-              "Count:3": 4,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             },
             "1:10": {
               "id:8": "hwell:shard_ca",
-              "Count:3": 4,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2102,6 +2137,162 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:flint_and_steel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hwell:heavy_shears",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Now cut other things",
+          "desc:8": "That way making water becomes much easier"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hwell:heavy_shears",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [
+        12,
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forbidden_arcanus:bone_axe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Destroy those Trees",
+          "desc:8": "Cutting down giant Trees is a waste of time. Make an Axe to cut down a whole Tree by breaking the bottom most block"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forbidden_arcanus:bone_axe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        39,
+        3,
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "baubles:ring",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Miner\u0027s hate that trick",
+          "desc:8": "Haste is the way to go"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "baubles:ring",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -2380,6 +2571,27 @@
           "x:3": 72,
           "y:3": 96,
           "id:3": 37,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 132,
+          "id:3": 38,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -12,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -12,
+          "id:3": 40,
           "sizeY:3": 24
         }
       },
