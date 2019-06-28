@@ -37,3 +37,5 @@ config/InvTweaks/**
 mods/
 
 *.log
+
+\.ReAuth\.cfg
