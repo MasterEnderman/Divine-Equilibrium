@@ -39,3 +39,5 @@ mods/
 *.log
 
 \.ReAuth\.cfg
+
+discordsuite/
