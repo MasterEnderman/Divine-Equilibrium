@@ -37,6 +37,11 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <forbidden_arcanus:bone_axe> : {
+        "null" : {
+            1 : [
+                [<ore:bone>*2, <contenttweaker:pebble>*3]
+            ]
+        },
         "tools_1" : {
             1 : [
                 [<ore:bone>*2, <contenttweaker:head_stone_axe>]
