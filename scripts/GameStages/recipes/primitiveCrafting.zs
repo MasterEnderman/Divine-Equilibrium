@@ -215,7 +215,14 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
     <naturesaura:bottle_two_the_rebottling> : {
         "fire_1" : {
             1 : [
-                [<minecraft:glass_bottle>, <ore:plankWood>]
+                [<minecraft:glass_bottle>, <corvus:frankinsence_planks>]
+            ]
+        }
+    },
+    <minecraft:glass_bottle> : {
+        "fire_1" : {
+            1 : [
+                [<minecraft:glass>, <minecraft:flint>]
             ]
         }
     },
@@ -223,6 +230,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "wood" : {
             1 : [
                 [<minecraft:flint>, <ore:logWood>*4]
+            ]
+        }
+    },
+    <hwell:heavy_shears> : {
+        "fire_1" : {
+            1 : [
+                [<hwell:heavy_ingot>*2, <sharpbone:sharp_bone>]
             ]
         }
     }

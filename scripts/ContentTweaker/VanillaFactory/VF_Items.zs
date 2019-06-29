@@ -17,6 +17,10 @@ var pellet as Item = VanillaFactory.createItem("pellet");
 pellet.setLocalizedNameSupplier(function(itemStack) {return "Fuel Pellet";});
 pellet.register();
 
+var heavy_ring as Item = VanillaFactory.createItem("heavy_ring");
+heavy_ring.setLocalizedNameSupplier(function(itemStack) {return "Heavy Ring";});
+heavy_ring.register();
+
 //icon
 var primcraft as Item = VanillaFactory.createItem("primcraft");
 primcraft.setLocalizedNameSupplier(function(itemStack) {return "Primitive Crafting Icon";});

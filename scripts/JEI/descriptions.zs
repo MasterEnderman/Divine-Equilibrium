@@ -12,6 +12,7 @@ import scripts.CraftTweaker.Functions.transformString;
 import mods.jei.JEI;
 
 JEI.addDescription(<hwell:core_stone>, ["Obtained by placing a Cobblestone on top of Bedrock in the Void Dimension and rightclicking it with a piece of Flint."]);
+JEI.addDescription(<corvus:candle>, ["Obtained by rightclicking a Clay Ball onto a Bone Torch, which is placed on the Ground."]);
 
 JEI.addDescription(<minecraft:bone>, ["Obtained by breaking Boneblock"]);
 JEI.addDescription(<minecraft:gravel>, ["Obtained by breaking Charred Cobblestone"]);

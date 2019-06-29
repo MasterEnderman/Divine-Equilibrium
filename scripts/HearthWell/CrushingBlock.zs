@@ -58,7 +58,46 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     },
     <hwell:dust_block> : {
         <hwell:dust>*4 : 1.0
-    }
+    },
+    <forbidden_arcanus:mysterywood_planks> : {
+        <forbidden_arcanus:mysterywood_button> : 1.0
+    },
+    <forbidden_arcanus:edelwood_planks> : {
+        <forbidden_arcanus:edelwood_button> : 1.0
+    },
+    <forbidden_arcanus:cherrywood_planks> : {
+        <forbidden_arcanus:cherrywood_button> : 1.0
+    },
+    <minecraft:planks> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <minecraft:planks:1> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <minecraft:planks:2> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <minecraft:planks:3> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <minecraft:planks:4> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <minecraft:planks:5> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <corvus:frankinsence_planks> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <hwell:myst_planks> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <integrateddynamics:menril_planks> : {
+        <minecraft:wooden_button> : 1.0
+    },
+    <naturesaura:ancient_planks> : {
+        <minecraft:wooden_button> : 1.0
+    },
 };
 
 for input, outputs in crushingAdd {

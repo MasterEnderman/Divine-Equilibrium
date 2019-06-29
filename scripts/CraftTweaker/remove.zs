@@ -21,7 +21,8 @@ var removeAll as IIngredient[] = [
     <hwell:azurite>,
     <hwell:moonstone>,
     <integrateddynamics:squeezer>,
-    <integrateddynamics:drying_basin>
+    <integrateddynamics:drying_basin>,
+    <potionfingers:ring>
 ];
 
 for item in removeAll {
