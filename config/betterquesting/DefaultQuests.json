@@ -79,7 +79,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The Floor",
-          "desc:8": "This whole place smells like it could go up in flames at any moment with the smallest spark. For lack of a better idea i\u0027m going to just (SLOWLY) punch the ground below me until something happens. If the entire place goes up in flames and this is how my life ends, well, we had a good run. \n\nJust maybe, though, it will be only enough to start a small fire that I can throw my little pebbles into to see if anything happens. Sounds rediculous doesn\u0027t it? It\u0027s not like I have any better ideas."
+          "desc:8": "This whole place smells like it could go up in flames at any moment with the smallest spark. For lack of a better idea I\u0027m going to just (SLOWLY) punch the ground below me until something happens. If the entire place goes up in flames and this is how my life ends, well, we had a good run. \n\nJust maybe, though, it will be only enough to start a small fire that I can throw my little pebbles into to see if anything happens. Sounds rediculous doesn\u0027t it? It\u0027s not like I have any better ideas."
         }
       },
       "tasks:9": {
@@ -130,7 +130,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "I Quit",
-          "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms... (stay in a fire for to long)"
+          "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms... (stay in a fire for too long)"
         }
       },
       "tasks:9": {
@@ -196,7 +196,7 @@
             "0:10": {
               "id:8": "minecraft:bone",
               "Count:3": 2,
-              "OreDict:8": "",
+              "OreDict:8": "bone",
               "Damage:3": 0
             },
             "1:10": {
@@ -257,7 +257,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Burned field",
-          "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up in only to discover that i\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock (the top site of the bedrock) and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
+          "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up in only to discover that I\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock (the top site of the bedrock) and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
         }
       },
       "tasks:9": {
@@ -327,7 +327,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Cut yourself",
-          "desc:8": "if you burn gravel in fire you get flint, craft it with a sharped bone to create a flint knife, which can be used to cut yourself and get more food out of yourself. use 8 raw player meat on a charred cobblestone, which is placed on bedrock to obtain a flesh block, which you can transform into dirt later."
+          "desc:8": "If you burn gravel in fire you get flint, craft it with a sharped bone to create a flint knife, which can be used to cut yourself and get more food out of yourself. Use 8 raw player meat on a charred cobblestone, which is placed on bedrock to obtain a flesh block, which you can transform into dirt later."
         }
       },
       "tasks:9": {
@@ -396,7 +396,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Dirty Harry",
-          "desc:8": "apply 4 bone meal to a flesh block that is placed on bedrock to transform it into dirt."
+          "desc:8": "Apply 4 bone meal to a flesh block that is placed on bedrock to transform it into dirt."
         }
       },
       "tasks:9": {
@@ -466,7 +466,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Let it grow",
-          "desc:8": "Unlock the \"wood\" stage by purchasing the research in the research menu (use the book to open the GUI) after that you can rightclick a dirt block with a piece of bine meal which is placed on bedrock to spawn a sapling."
+          "desc:8": "Unlock the \"wood\" stage by purchasing the research in the research menu (use the book to open the GUI). After that you can rightclick a dirt block with a piece of bone meal which is placed on bedrock to spawn a sapling."
         }
       },
       "tasks:9": {
@@ -559,7 +559,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Hmm",
-          "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00 a.m., I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. i\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
+          "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00 a.m., I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. I\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
         }
       },
       "tasks:9": {
@@ -597,7 +597,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "RIP",
-          "desc:8": "What? I\u0027m not dead? I see my old body just laying there, but i\u0027m standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of new found regeneration power of mine. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire."
+          "desc:8": "What? I\u0027m not dead? I see my old body just laying there, but I\u0027m standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of my new found regeneration power. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire."
         }
       },
       "tasks:9": {
@@ -1539,7 +1539,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Squeezing and Drying",
-          "desc:8": "place them next to each other to transfer the fluid from the squeezer to the basin"
+          "desc:8": "Place them next to each other to transfer the fluid from the squeezer to the basin"
         }
       },
       "tasks:9": {
@@ -1612,7 +1612,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Growth Candle",
-          "desc:8": "Boost Plantgrowth"
+          "desc:8": "Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health."
         }
       },
       "tasks:9": {
@@ -1659,15 +1659,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "dimensionaledibles:custom_apple",
+            "id:8": "contenttweaker:apple_gaia",
             "Count:3": 1,
-            "tag:10": {
-              "dimID:3": 939,
-              "x:3": 0,
-              "y:3": 128,
-              "z:3": 0,
-              "appleName:8": "Gaia"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1691,15 +1684,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "dimensionaledibles:custom_apple",
+              "id:8": "contenttweaker:apple_gaia",
               "Count:3": 1,
-              "tag:10": {
-                "dimID:3": 939,
-                "x:3": 0,
-                "y:3": 140,
-                "z:3": 0,
-                "appleName:8": "Gaia"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2068,7 +2054,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Where did all my Items go?",
-          "desc:8": "My Baubles are still there. But where it the rest?"
+          "desc:8": "My Baubles are still there. But where is the rest?"
         }
       },
       "tasks:9": {
@@ -2113,7 +2099,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Need to breath",
-          "desc:8": "Maybe I enter a pleace where there isn\u0027t enough air for me to breath. This should help me."
+          "desc:8": "Maybe I enter a place where there isn\u0027t enough air for me to breath. This should help me."
         }
       },
       "tasks:9": {
