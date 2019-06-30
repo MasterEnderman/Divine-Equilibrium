@@ -13,6 +13,10 @@ import mods.jei.JEI;
 import scripts.CraftTweaker.Functions.disableItems;
 
 static JEI_ArcaneWorld as IIngredient[] = [
+    <arcaneworld:ore_amethyst>,
+    <arcaneworld:ore_amethyst_nether>,
+    <arcaneworld:block_amethyst>,
+    <arcaneworld:amethyst>,
     // Biome Crystal
     <arcaneworld:biome_crystal>,
     <arcaneworld:biome_crystal>.withTag({biome: "minecraft:ocean"}),

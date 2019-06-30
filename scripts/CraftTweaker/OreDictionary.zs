@@ -8,9 +8,18 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 var oredictManager as IItemStack[][string][IOreDictEntry] = {
-    <ore:boneNormal> : {
-        "add" : [<minecraft:bone>,<soulus:bone_normal>]
-    }
+    <ore:oreAmethyst> : {
+        "remove" : [<arcaneworld:ore_amethyst>]
+    },
+    <ore:oreAmethyst> : {
+        "remove" : [<arcaneworld:ore_amethyst_nether>]
+    },
+    <ore:blockAmethyst> : {
+        "remove" : [<arcaneworld:block_amethyst>]
+    },
+    <ore:gemAmethyst> : {
+        "remove" : [<arcaneworld:amethyst>]
+    },
 };
 
 for dict, data in oredictManager {

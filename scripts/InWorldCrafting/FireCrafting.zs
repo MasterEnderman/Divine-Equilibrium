@@ -18,7 +18,7 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <forbidden_arcanus:bone_shovel>.withTag({ench: [{lvl: 1 as short, id: 34 as short}], display: {Name: "Scorched Bone Shovel"}}) : [<forbidden_arcanus:bone_shovel>],
     <forbidden_arcanus:bone_axe>.withTag({ench: [{lvl: 1 as short, id: 34 as short}], display: {Name: "Scorched Bone Axe"}}) : [<forbidden_arcanus:bone_axe>],
     <cannibalism:playerfleshcooked> : [<cannibalism:playerflesh>],
-    <bonetorch:bonetorch> : [<minecraft:bone>],
+    <bonetorch:bonetorch> : [<soulus:bone_normal>],
     <minecraft:flint> : [<ore:gravel>],
     <hwell:shard_p> : [<contenttweaker:solidified_fire_knowledge>],
     <hwell:shard_o> : [<contenttweaker:solidified_water_knowledge>],

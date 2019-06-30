@@ -14,7 +14,7 @@ import mods.integrateddynamics.DryingBasin;
 
 //mods.integrateddynamics.DryingBasin.addRecipe(inputStack, inputFluid, outputStack, outputFluid, duration);
 
-var duration as int = 400;
+var duration as int = 20*10;
 
 var mapFluidToItem as ILiquidStack[][IItemStack] = {
     <corvus:frankincense_tears> : [

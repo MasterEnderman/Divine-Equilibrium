@@ -1,5 +1,13 @@
 # Changelog #
 
+## 0.1.3 ##
+
+- removed dimensionaledibles
+- added custom teleportation food to travel between Dimensions
+- added Roots 3
+- removed duplicate content from RootsClassic
+- bug fixes (bone gear, sapling ritual)
+
 ## 0.1.2 ##
 
 - fixed typo in the quest

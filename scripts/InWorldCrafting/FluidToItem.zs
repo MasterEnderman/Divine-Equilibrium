@@ -44,7 +44,7 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
     <soulus:gear_bone> : {
         <liquid:frankencense_essence> : {
             "true" : [
-                [<ore:boneNormal>*4]
+                [<soulus:bone_normal>*4]
             ]
         }
     },
@@ -87,6 +87,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         <liquid:frankencense_essence> : {
             "true" : [
                 [<soulus:bone_nether>*4]
+            ]
+        }
+    },
+    <minecraft:rotten_flesh> : {
+        <liquid:water> : {
+            "false" : [
+                [<cannibalism:playerflesh>]
             ]
         }
     }

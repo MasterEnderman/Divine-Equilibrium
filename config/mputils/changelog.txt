@@ -1,5 +1,28 @@
 # Changelog #
 
+## 0.1.3 ##
+
+- removed dimensionaledibles
+- added custom teleportation food to travel between Dimensions
+- added Roots 3
+- removed duplicate content from RootsClassic
+- bug fixes (bone gear, sapling ritual)
+
+## 0.1.2 ##
+
+- fixed typo in the quest
+- replaced some quests
+- fixed a flaw in the progression line
+- some proper work on the first dimension
+- added forgiving void
+- replaced TreeChopper with Ore Excavation
+- fixed bone torch consuming when creating charred cobblestone
+- added some missing recipes
+- added oredict manager script
+- added advanced mortars and clockworks phase
+- added alternative food for the early game
+- tweaked gaia apple height in the gaia dimension
+
 ## 0.1.1 ##
 
 - extended Quest Description

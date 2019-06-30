@@ -17,7 +17,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
             "eye" : [<hwell:shard_o>,<hwell:heavy_ingot>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>]
         }
     },
-    <forbidden_arcanus:mysterywood_sapling> : {
+    <corvus:frankinsence_sapling> : {
         <forbidden_arcanus:mysterywood_sapling> : {
             "frankinsence" : [<hwell:shard_n>,<rootsclassic:growthsalve>,<soulus:bone_meal_nether>,<soulus:dust_stone>,<soulus:dust_wood>,<soulus:dust_wood>,<soulus:dust_wood>,<soulus:dust_wood>]
         }
@@ -42,7 +42,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
             "tulip" : [<corvus:oil_protective>,<contenttweaker:heavy_ring>,otherBottle,otherBottle,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>]
         }
     },
-    <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 140, z: 0, appleName: "Gaia"}) : {
+    <contenttweaker:apple_gaia> : {
         <forbidden_arcanus:mysterywood_sapling> : {
             "gaia_apple" : [<contenttweaker:solidified_fire_knowledge>,<contenttweaker:solidified_earth_knowledge>,<contenttweaker:solidified_water_knowledge>,<contenttweaker:solidified_air_knowledge>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>]
         }
