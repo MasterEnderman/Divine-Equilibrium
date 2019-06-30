@@ -42,7 +42,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
             "tulip" : [<corvus:oil_protective>,<contenttweaker:heavy_ring>,otherBottle,otherBottle,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>]
         }
     },
-    <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 128, z: 0, appleName: "Gaia"}) : {
+    <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 140, z: 0, appleName: "Gaia"}) : {
         <forbidden_arcanus:mysterywood_sapling> : {
             "gaia_apple" : [<contenttweaker:solidified_fire_knowledge>,<contenttweaker:solidified_earth_knowledge>,<contenttweaker:solidified_water_knowledge>,<contenttweaker:solidified_air_knowledge>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>,<rootsclassic:blackcurrant>]
         }

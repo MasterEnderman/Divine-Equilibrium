@@ -30,6 +30,10 @@
                     "disableJEI": true
                 },
                 {
+                    "type": "drop_items",
+                    "disableJEI": true
+                },
+                {
                     "type": "require_Spawn",
                     "inside": true,
                     "radius": 8

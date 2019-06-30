@@ -56,7 +56,7 @@
                 },
                 {
                     "type": "require_stage",
-                    "name": "fire_1",
+                    "name": "wood",
                     "required": "true"
                 }
             ],

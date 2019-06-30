@@ -1,0 +1,41 @@
+{
+    "block_pools": [
+        {
+            "name": "candle",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "bonetorch:bonetorch",
+                        "meta": 5
+                    }
+                ]
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "minecraft:clay_ball",
+                    "amount": 1
+                },
+                {
+                    "type": "consume_item",
+                    "amount" : 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "corvus:candle",
+                    "meta": 0
+                }
+            ]
+        }
+    ]
+}

@@ -22,10 +22,6 @@
                     "amount": 1
                 },
                 {
-                    "type": "consume_item",
-                    "amount": 1
-                },
-                {
                     "type": "swing_hand",
                     "disableJEI": true
                 },

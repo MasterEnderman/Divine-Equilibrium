@@ -27,7 +27,8 @@ var crushingRemove as IItemStack[] = [
     <minecraft:sandstone>,
     <minecraft:stone>,
     <minecraft:cobblestone>,
-    <hwell:locked_light>
+    <hwell:locked_light>,
+    <minecraft:gravel>
 ];
 
 for item in crushingRemove {
@@ -55,6 +56,9 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     },
     <minecraft:cobblestone> : {
         <contenttweaker:pebble> : 1.0
+    },
+    <minecraft:gravel> : {
+        <minecraft:flint>*2 : 1.0
     },
     <hwell:dust_block> : {
         <hwell:dust>*4 : 1.0

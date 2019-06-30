@@ -16,7 +16,7 @@ global netherBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_ty
 global overworldBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"});
 global endBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"});
 
-global appleGaia as IItemStack = <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 128, z: 0, appleName: "Gaia"});
+global appleGaia as IItemStack = <dimensionaledibles:custom_apple>.withTag({dimID: 939, x: 0, y: 140, z: 0, appleName: "Gaia"});
 
 global ringGaia as IItemStack = <potionfingers:ring>.withTag({effect: "corvus:breath_of_gaia", display: {Name: "§3Ring of Gaia"}});
 global ringHaste as IItemStack = <potionfingers:ring>.withTag({effect: "minecraft:haste", display: {Name: "§6Ring of Haste"}});

@@ -90,6 +90,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
+    <contenttweaker:salad_leaf> : {
+        "fire_1" : {
+            1 : [
+                [<minecraft:bowl>,<forbidden_arcanus:mysterywood_leaves:*>*8]
+            ]
+        }
+    },
     <minecraft:flint_and_steel> : {
         "fire_1" : {
             1 : [
