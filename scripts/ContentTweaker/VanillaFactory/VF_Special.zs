@@ -22,6 +22,15 @@ salad_leaf.onItemFoodEaten = function(item, world, player) {
 };
 salad_leaf.register();
 
+var salad_frankinsence = VanillaFactory.createItemFood("salad_frankinsence",9);
+salad_frankinsence.setSaturation(0.9);
+salad_frankinsence.textureLocation = ResourceLocation.create("contenttweaker:items/food/salad_frankinsence");
+salad_frankinsence.onItemFoodEaten = function(item, world, player) {
+    Commands.call("give @p minecraft:bowl", player, world, false, true);
+    Commands.call("effect @p minecraft:regeneration 20 1", player, world, false, true);
+};
+salad_frankinsence.register();
+
 //apple
 var apple_gaia as Item = VanillaFactory.createItem("apple_gaia");
 apple_gaia.setLocalizedNameSupplier(function(itemStack) {return "Gaia Fruit";});
