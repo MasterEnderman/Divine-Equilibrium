@@ -26,12 +26,13 @@ var woodMap as string[][IItemStack] = {
     <forbidden_arcanus:mysterywood_planks> : ["forbidden_arcanus:mysterywood_log","forbidden_arcanus:mysterywood_log:4","forbidden_arcanus:mysterywood_log:8"],
     <hwell:myst_planks> : ["hwell:myst_log","hwell:myst_log:4","hwell:myst_log:8"],
     <naturesaura:ancient_planks> : ["naturesaura:ancient_log","naturesaura:ancient_log:1","naturesaura:ancient_log:2","naturesaura:ancient_bark","naturesaura:ancient_bark:1","naturesaura:ancient_bark:2"],
+    <roots:wildwood_planks> : ["roots:wildwood_log", "roots:wildwood_log:4", "roots:wildwood_log:8"]
 };
 
-var index as int = 0;
+var indexWood as int = 0;
 
 for plank, log in woodMap {
-    Dropt.list("wood"~index)
+    Dropt.list("wood"~indexWood)
         .add(Dropt.rule()
             .matchBlocks(log)
             .matchHarvester(Dropt.harvester()
@@ -42,17 +43,40 @@ for plank, log in woodMap {
             .addDrop(Dropt.drop()
                 .items([plank],Dropt.range(2,4))
             )
-        )
-        .add(Dropt.rule()
-            .matchDrops([plank])
-            .matchHarvester(Dropt.harvester()
-                .type("PLAYER")
-                .gameStages("ANY", ["wood"])
-                .mainHand("WHITELIST", [<cannibalism:flintknife>])
-            )
-            .addDrop(Dropt.drop()
-                .items([<minecraft:stick>],Dropt.range(1,2))
-            )
         );
-    index += 1;
+    indexWood += 1;
+}
+
+var stickMap as IItemStack[IItemStack] = {
+    <minecraft:planks> : <minecraft:stick>,
+    <minecraft:planks:1> : <minecraft:stick>,
+    <minecraft:planks:2> : <minecraft:stick>,
+    <minecraft:planks:3> : <minecraft:stick>,
+    <minecraft:planks:4> : <minecraft:stick>,
+    <minecraft:planks:5> : <minecraft:stick>,
+    <corvus:frankinsence_planks> : <minecraft:stick>,
+    <forbidden_arcanus:edelwood_planks> : <forbidden_arcanus:edelwood_stick>,
+    <forbidden_arcanus:cherrywood_planks> : <minecraft:stick>,
+    <forbidden_arcanus:mysterywood_planks> : <minecraft:stick>,
+    <hwell:myst_planks> : <minecraft:stick>,
+    <naturesaura:ancient_planks> : <naturesaura:ancient_stick>,
+    <roots:wildwood_planks> : <minecraft:stick>,
+};
+
+var indexStick as int = 0;
+
+for plank, stick in stickMap {
+    Dropt.list("stick"~indexStick)
+        .add(Dropt.rule()
+        .matchDrops([plank])
+        .matchHarvester(Dropt.harvester()
+            .type("PLAYER")
+            .gameStages("ANY", ["wood"])
+            .mainHand("WHITELIST", [<cannibalism:flintknife>])
+        )
+        .addDrop(Dropt.drop()
+            .items([stick],Dropt.range(1,2))
+        )
+    );
+    indexStick += 1;
 }

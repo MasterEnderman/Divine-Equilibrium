@@ -14,6 +14,11 @@ function disableItems(itemlist as IIngredient[]){
     for item in itemlist {
         furnace.remove(item);
         JEI.removeAndHide(item);
+        for entry in item.items {
+            for ore in entry.ores {
+                ore.remove(entry);
+            }
+        }
     }
 }
 

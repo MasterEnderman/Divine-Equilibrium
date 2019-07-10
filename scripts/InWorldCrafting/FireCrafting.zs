@@ -13,10 +13,9 @@ import mods.inworldcrafting.FireCrafting;
 var FireCraftingMap as IIngredient[][IItemStack] = {
     <minecraft:bone_block> : [<minecraft:skull:3>],
     <minecraft:cobblestone> : [<contenttweaker:pebble>],
-    <forbidden_arcanus:bone_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 34 as short}], display: {Name: "Scorched Bone Pickaxe"}}) : [<forbidden_arcanus:bone_pickaxe>],
-    <forbidden_arcanus:bone_sword>.withTag({ench: [{lvl: 1 as short, id: 34 as short}], display: {Name: "Scorched Bone Sword"}}) : [<forbidden_arcanus:bone_sword>],
-    <forbidden_arcanus:bone_shovel>.withTag({ench: [{lvl: 1 as short, id: 34 as short}], display: {Name: "Scorched Bone Shovel"}}) : [<forbidden_arcanus:bone_shovel>],
-    <forbidden_arcanus:bone_axe>.withTag({ench: [{lvl: 1 as short, id: 34 as short}], display: {Name: "Scorched Bone Axe"}}) : [<forbidden_arcanus:bone_axe>],
+    <primitivetools:primitive_pick_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Pickaxe"}}) : [<primitivetools:primitive_pick_cbf>],
+    <primitivetools:primitive_spade_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Shovel"}}) : [<primitivetools:primitive_spade_cbf>],
+    <primitivetools:primitive_hatchet_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Axe"}}) : [<primitivetools:primitive_hatchet_cbf>],
     <cannibalism:playerfleshcooked> : [<cannibalism:playerflesh>],
     <bonetorch:bonetorch> : [<soulus:bone_normal>],
     <minecraft:flint> : [<ore:gravel>],
@@ -31,6 +30,8 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <hwell:heavy_ingot> : [<hwell:heavy_mesh>],
     <minecraft:glass> : [<hwell:dust_block>],
     <hwell:smooth_azurite> : [<hwell:azurite>],
+    <mysticalworld:cooked_venison> : [<mysticalworld:venison>],
+    <hwell:citrinic_sand> : [<hwell:citrinic_stone>]
 };
 
 var burntime as int = 120;

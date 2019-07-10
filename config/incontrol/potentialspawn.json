@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "dimension": 939,
+        "mobs": [
+            {
+                "mob": "mysticalworld:entity_beetle",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            },
+            {
+                "mob": "mysticalworld:entity_deer",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            },
+            {
+                "mob": "mysticalworld:entity_fox",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            },
+            {
+                "mob": "mysticalworld:entity_frog",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            },
+            {
+                "mob": "mysticalworld:entity_sprout",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    }
+]

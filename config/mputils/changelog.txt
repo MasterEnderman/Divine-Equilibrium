@@ -1,5 +1,21 @@
 # Changelog #
 
+## 0.2.0 ##
+
+- added oregen to the gaia dimension
+- added mobspawns to the gaia dimension
+- replaced old skybox
+- replaced starter bone tools
+- fixed most NPEs in elemental research
+- cleaned up JEI
+- added research descriptions
+- added trophies
+- tweaked the mainmenu
+- added leaves to oreexcavation whitelist
+- improved item descriptions
+- fixed weird numbers in crafting recipes
+- fixed some typos in the loading screen messages
+
 ## 0.1.3 ##
 
 - removed dimensionaledibles

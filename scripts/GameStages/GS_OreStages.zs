@@ -12,10 +12,9 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.orestages.OreStages;
 
 var oreStages as IIngredient[][IItemStack][string] = {
-    "primal_materials" : {
+    "diamond" : {
         <minecraft:stone> : [
-            <minecraft:dirt>,
-            <ore:logWood>
+            <minecraft:diamond_ore>
         ]
     }
 };

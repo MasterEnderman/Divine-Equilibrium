@@ -8,18 +8,12 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 var oredictManager as IItemStack[][string][IOreDictEntry] = {
-    <ore:oreAmethyst> : {
-        "remove" : [<arcaneworld:ore_amethyst>]
+    <ore:stickWood> : {
+        "remove" : [<naturesaura:ancient_stick>]
     },
-    <ore:oreAmethyst> : {
-        "remove" : [<arcaneworld:ore_amethyst_nether>]
-    },
-    <ore:blockAmethyst> : {
-        "remove" : [<arcaneworld:block_amethyst>]
-    },
-    <ore:gemAmethyst> : {
-        "remove" : [<arcaneworld:amethyst>]
-    },
+    <ore:allFlowers> : {
+        "add" : [<corvus:lily_toxic>,<corvus:blazing_tulip>,<corvus:blood_rose>,<corvus:stunning_dahlia>,<corvus:bloom_of_death>]
+    }
 };
 
 for dict, data in oredictManager {

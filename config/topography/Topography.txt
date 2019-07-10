@@ -29,5 +29,5 @@ setAsDefaultWorldType()
 //skyboxExample.registerDimension(0, "examples/Transitioning_Skybox")
 
 
-structureExample = registerPreset("Void Thing", "images/void", "Map Preset for Divine Equilibrium")
+structureExample = registerPreset("Normal Difficulty", "images/void", "A Map Preset for Divine Equilibrium")
 structureExample.registerDimension(0, "Spooky_Void")

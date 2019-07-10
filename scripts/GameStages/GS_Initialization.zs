@@ -13,11 +13,8 @@ import mods.recipestages.Recipes;
 
 print("Creating static Gamestages in GS_Initialization.zs");
 
-//Chapter -1
-
 //disabled - disables unused stuff
 static stageDisabled as string = "disabled";
-
 
 //Custom Functions
 function stageItems(stage as string, itemlist as IIngredient[]){
@@ -41,6 +38,12 @@ function stageDisableItems(itemlist as IIngredient[]){
 function stageDisableItem(item as IItemStack){
     ItemStages.removeItemStage(item);
     ItemStages.addItemStage("disabled", item);
+}
+
+function fixAutocrafter(containerList as string[], stage as string[]){
+    for container in containerList {
+        Recipes.setContainerStage(container, stage);
+    }
 }
 
 //Debug

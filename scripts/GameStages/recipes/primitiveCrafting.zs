@@ -24,7 +24,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <forbidden_arcanus:bone_pickaxe> : {
+    <primitivetools:primitive_pick_cbf> : {
         "null" : {
             1 : [
                 [<ore:bone>*2, <ore:cobblestone>*3]
@@ -36,10 +36,10 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <forbidden_arcanus:bone_axe> : {
+    <primitivetools:primitive_hatchet_cbf> : {
         "air_1" : {
             1 : [
-                [<contenttweaker:solidified_air_knowledge>, <forbidden_arcanus:bone_pickaxe>]
+                [<contenttweaker:solidified_air_knowledge>, <primitivetools:primitive_pick_cbf>]
             ]
         },
         "tools_1" : {
@@ -48,17 +48,24 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <forbidden_arcanus:bone_sword> : {
+    <primitivetools:primitive_knife_cbf> : {
         "tools_1" : {
             1 : [
                 [<ore:bone>, <contenttweaker:head_stone_sword>]
             ]
         }
     },
-    <forbidden_arcanus:bone_shovel> : {
+    <primitivetools:primitive_spade_cbf> : {
         "tools_1" : {
             1 : [
                 [<ore:bone>*2, <contenttweaker:head_stone_shovel>]
+            ]
+        }
+    },
+    <roots:stone_knife> : {
+        "gaia" : {
+            1 : [
+                [<ore:stickWood>, <contenttweaker:head_stone_sword>]
             ]
         }
     },
@@ -88,6 +95,11 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             1 : [
                 [<minecraft:flint>, <ore:plankWood>]
             ]
+        },
+        "gaia" : {
+            1 : [
+                [<minecraft:flint>, <ore:rootsBark>*3]
+            ]
         }
     },
     <contenttweaker:salad_leaf> : {
@@ -100,7 +112,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
     <contenttweaker:salad_frankinsence> : {
         "fire_1" : {
             1 : [
-                [<minecraft:bowl>,<corvus:frankinsence_leaves:*>*4]
+                [<contenttweaker:salad_leaf>,<corvus:frankinsence_leaves:*>*4]
             ]
         }
     },
@@ -108,6 +120,11 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "fire_1" : {
             1 : [
                 [<minecraft:flint>, <hwell:heavy_ingot>]
+            ]
+        },
+        "gaia" : {
+            1 : [
+                [<minecraft:flint>, <mysticalworld:carapace>]
             ]
         }
     },
@@ -170,17 +187,15 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
              ]
          }
     },
-    <hwell:core_stone> : {
-         "crafting_1" : {
-             1 : [
-                 [<minecraft:flint>, <minecraft:cobblestone>]
-             ]
-         }
-    },
     <hwell:crushing_block> : {
         "fire_1" : {
             1 : [
                 [<hwell:heavy_ingot>*4, <hwell:core_stone>]
+            ]
+        },
+        "gaia" : {
+            1 : [
+                [<hwell:heavy_ingot>*4, <roots:runestone>]
             ]
         }
     },
@@ -251,6 +266,41 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "fire_1" : {
             1 : [
                 [<hwell:heavy_ingot>*2, <sharpbone:sharp_bone>]
+            ]
+        }
+    },
+    <naturesaura:gold_fiber> : {
+        "gaia" : {
+            8 : [
+                [<corvus:wiser_gem>, <roots:wildroot>]
+            ]
+        }
+    },
+    <itank:blocktank> : {
+        "water_1" : {
+            1 : [
+                [<hwell:smooth_azurite>, <minecraft:glass>]
+            ]
+        }
+    },
+    <roots:mortar> : {
+        "gaia" : {
+            1 : [
+                [<minecraft:bowl>, <ore:cobblestone>]
+            ]
+        }
+    },
+    <roots:pestle> : {
+        "gaia" : {
+            1 : [
+                [<primitivetools:flint_flake>, <minecraft:cobblestone>]
+            ]
+        }
+    },
+    <elementalresearch:research_book> : {
+        "gaia" : {
+            1 : [
+                [<ore:rootsBark>*2, <roots:terra_moss>]
             ]
         }
     }

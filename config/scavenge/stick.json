@@ -1,0 +1,66 @@
+{
+    "block_pools": [
+        {
+            "name": "stick",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "minecraft:leaves"
+                    },
+                    {
+                        "name": "minecraft:leaves2"
+                    },
+                    {
+                        "name": "corvus:frankinsence_leaves"
+                    },
+                    {
+                        "name": "forbidden_arcanus:cherrywood_leaves"
+                    },
+                    {
+                        "name": "forbidden_arcanus:mysterywood_leaves"
+                    },
+                    {
+                        "name": "hwell:myst_leaves"
+                    },
+                    {
+                        "name": "integrateddynamics:menril_leaves"
+                    },
+                    {
+                        "name": "naturesaura:decayed_leaves"
+                    },
+                    {
+                        "name": "naturesaura:golden_leaves"
+                    },
+                    {
+                        "name": "roots:wildwood_leaves"
+                    }
+                ]
+            },
+            "clicktype": "break",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:flint"
+                },
+                {
+                    "type": "drop_items",
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.grass.break",
+                    "volume": 0.2,
+                    "pitch": 2.0
+                }
+            ],
+            "drops": [
+                {
+                    "name": "minecraft:stick",
+                    "meta": 0,
+                    "chance": 20
+                }
+            ]
+        }
+    ]
+}

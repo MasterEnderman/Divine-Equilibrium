@@ -27,7 +27,7 @@ salad_frankinsence.setSaturation(0.9);
 salad_frankinsence.textureLocation = ResourceLocation.create("contenttweaker:items/food/salad_frankinsence");
 salad_frankinsence.onItemFoodEaten = function(item, world, player) {
     Commands.call("give @p minecraft:bowl", player, world, false, true);
-    Commands.call("effect @p minecraft:regeneration 20 1", player, world, false, true);
+    Commands.call("effect @p minecraft:regeneration 3 1", player, world, false, true);
 };
 salad_frankinsence.register();
 

@@ -28,6 +28,7 @@ entry.earthCost= <int>
 entry.experienceGiven = <int> //levels, not experience points
 entry.experienceRequired = <int> //levels, not experience points
 entry.saleQuantity = <int> //# in stock for this player, default 1, -1 is infinite
+entry.description="..."; //allows to set s short description for an entry
 
 //Exponentially increases the price by this amount per purchase (multiplier^purchase#),
 //This number is then multiplied by any multipliers from required stages(see below)

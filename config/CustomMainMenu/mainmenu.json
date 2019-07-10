@@ -42,7 +42,7 @@
             "imageHeight": 50,
             "alignment": "left",
             "texture": "mainmenu:button.png",
-            "hoverText": "Don't go alone!",
+            "hoverText": "Find a friend!",
             "action": {
                 "type": "openGui",
                 "gui": "multiplayer"
@@ -65,8 +65,8 @@
                 "gui": "mods"
             }
         },
-        "bugs": {
-            "text": "Bugtracker",
+        "server": {
+            "text": "Rent a Server",
             "pressSound": "minecraft:block.portal.ambient",
             "hoverTextColor": 11534512,
             "posX": 130,
@@ -77,10 +77,10 @@
             "imageHeight": 50,
             "alignment": "left",
             "texture": "mainmenu:button.png",
-            "hoverText": "Report a Bug!",
+            "hoverText": "Don't play alone!",
             "action": {
                 "type": "openLink",
-                "link": "https://github.com/MasterEnderman/Divine-Equilibrium/issues"
+                "link": "https://www.akliz.net/al132"
             }
         },
         "options": {
@@ -131,6 +131,22 @@
             "action": {
                 "type": "openLink",
                 "link": "https://discord.gg/4swu3fy"
+            }
+        },
+        "github": {
+            "text": "",
+            "pressSound": "minecraft:block.portal.ambient",
+            "posX": -100,
+            "posY": -55,
+            "width": 35,
+            "height": 35,
+            "imageWidth": 356,
+            "imageHeight": 355,
+            "alignment": "bottom_right",
+            "texture": "mainmenu:github.png",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/MasterEnderman/Divine-Equilibrium/issues"
             }
         },
         "refresh": {

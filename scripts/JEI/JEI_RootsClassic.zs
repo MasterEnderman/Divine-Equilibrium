@@ -42,6 +42,8 @@ static JEI_RootsClassic as IIngredient[] = [
     <rootsclassic:altar>,
     <rootsclassic:brazier>,
     <rootsclassic:imbuer>,
+    <rootsclassic:rootystew>,
+    <rootsclassic:fruitsalad>,
 ];
 
 disableItems(JEI_RootsClassic);

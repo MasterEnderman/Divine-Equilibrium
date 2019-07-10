@@ -24,7 +24,7 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
 };
 
 var mapItemToItem as IItemStack[][IItemStack] = {
-
+    <roots:runic_dust>*2 : [<roots:runestone>,<roots:runestone_brick>,<roots:runestone_brick_alt>,<roots:chiseled_runestone>]
 };
 
 var mapItemToBoth as IItemStack[][ILiquidStack][IItemStack] = {

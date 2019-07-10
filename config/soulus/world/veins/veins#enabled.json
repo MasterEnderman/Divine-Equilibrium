@@ -12,7 +12,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [],
 			"biome_types_blacklist": [
 				"NETHER",
@@ -33,7 +33,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"WET",
 				"DENSE"
@@ -52,7 +52,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"COLD"
 			],
@@ -70,7 +70,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [],
 			"biome_types_blacklist": [
 				"NETHER",
@@ -91,7 +91,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"OCEAN"
 			],
@@ -109,7 +109,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"HOT",
 				"DRY"
@@ -130,7 +130,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"WATER",
 				"HOT"
@@ -151,7 +151,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"HOT",
 				"DRY"
@@ -172,7 +172,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"HOT",
 				"DRY"
@@ -193,7 +193,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"HOT",
 				"DRY"
@@ -214,7 +214,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"HOT",
 				"DRY"
@@ -235,7 +235,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"NETHER"
 			],
@@ -253,7 +253,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"NETHER"
 			],
@@ -271,7 +271,7 @@
 				"min": 0.0,
 				"max": 255.0
 			},
-			"dimension": null,
+			"dimension": 0,
 			"biome_types_whitelist": [
 				"END"
 			],

@@ -2,7 +2,6 @@
 	"priority": 1000000000000,
 	"populate": {
 		"dirt": {
-
 			"distribution": "uniform",
 			"generator": {
 				"block": "dirt",
@@ -10,7 +9,7 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
-			"min-height": 0,
+			"min-height": 50,
 			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
@@ -18,11 +17,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"gravel": {
 			"distribution": "uniform",
 			"generator": {
@@ -31,7 +31,7 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 8,
-			"min-height": 0,
+			"min-height": 30,
 			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
@@ -39,11 +39,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"diorite": {
 			"distribution": "uniform",
 			"generator": {
@@ -65,11 +66,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"granite": {
 			"distribution": "uniform",
 			"generator": {
@@ -91,11 +93,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"andesite": {
 			"distribution": "uniform",
 			"generator": {
@@ -117,11 +120,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"coal": {
 			"distribution": "uniform",
 			"generator": {
@@ -138,11 +142,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"iron": {
 			"distribution": "uniform",
 			"generator": {
@@ -159,11 +164,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"gold": {
 			"distribution": "uniform",
 			"generator": {
@@ -180,11 +186,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"redstone": {
 			"distribution": "uniform",
 			"generator": {
@@ -201,11 +208,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"diamond": {
 			"distribution": "uniform",
 			"generator": {
@@ -222,11 +230,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"lapis": {
 			"distribution": "gaussian",
 			"generator": {
@@ -243,11 +252,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"mesa_gold": {
 			"enabled": true,
 			"distribution": "uniform",
@@ -282,11 +292,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"emerald": {
 			"distribution": "uniform",
 			"generator": {
@@ -322,11 +333,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"silverfish": {
 			"distribution": "uniform",
 			"generator": {
@@ -362,11 +374,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					0,
+					1,
+					939
 				]
 			}
 		},
-
 		"quartz": {
 			"distribution": "uniform",
 			"generator": {
@@ -379,7 +392,7 @@
 			"max-height": 118,
 			"retrogen": false,
 			"biome": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
 					{
 						"type": "dictionary",

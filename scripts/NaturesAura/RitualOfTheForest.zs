@@ -39,7 +39,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <potionfingers:ring>.withTag({effect: "corvus:breath_of_gaia", display: {Name: "§3Ring of Gaia"}}) : {
         <forbidden_arcanus:mysterywood_sapling> : {
-            "tulip" : [<corvus:oil_protective>,<contenttweaker:heavy_ring>,otherBottle,otherBottle,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>]
+            "gaia_ring" : [<corvus:oil_protective>,<contenttweaker:heavy_ring>,endBottle,endBottle,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>,<hwell:smooth_azurite>]
         }
     },
     <contenttweaker:apple_gaia> : {
@@ -54,7 +54,42 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <potionfingers:ring>.withTag({effect: "minecraft:haste", display: {Name: "§6Ring of Haste"}}) : {
         <forbidden_arcanus:mysterywood_sapling> : {
-            "haste_ring" : [<forbidden_arcanus:soul>,<contenttweaker:heavy_ring>,<forbidden_arcanus:bone_axe>,<forbidden_arcanus:bone_pickaxe>,<hwell:shard_ca>,<hwell:shard_ca>,<hwell:shard_ca>,<hwell:shard_ca>]
+            "haste_ring" : [<forbidden_arcanus:soul>,<contenttweaker:heavy_ring>,<primitivetools:primitive_hatchet_cbf>,<primitivetools:primitive_pick_cbf>,<hwell:shard_ca>,<hwell:shard_ca>,<hwell:shard_ca>,<hwell:shard_ca>]
+        }
+    },
+    <roots:imbuer> : {
+        <minecraft:sapling:3> : {
+            "imbuer" : [<roots:terra_moss>,<hwell:citrinic_stone>,<hwell:shard_p>,<hwell:shard_p>,<roots:bark_oak>,<roots:bark_jungle>,<roots:bark_oak>,<roots:bark_jungle>]
+        }
+    },
+    <roots:component_pouch> : {
+        <minecraft:sapling:3> : {
+            "pouch_basic" : [<corvus:wiser_gem>,<mysticalworld:pelt>,<mysticalworld:pelt>,<mysticalworld:pelt>,<hwell:shard_au>,<hwell:shard_n>,<hwell:shard_p>,<hwell:shard_o>]
+        }
+    },
+    <roots:fey_crafter> : {
+        <minecraft:sapling> : {
+            "fey_crafter" : [<corvus:wiser_gem>,<naturesaura:wood_stand>,<arcaneworld:sapphire>,<mysticalworld:amethyst_gem>,<forbidden_arcanus:arcane_crystal_dust>,<forbidden_arcanus:arcane_crystal_dust>,<forbidden_arcanus:arcane_crystal_dust>,<forbidden_arcanus:arcane_crystal_dust>]
+        }
+    },
+    <roots:grove_stone> : {
+        <minecraft:sapling> : {
+            "grove_stone" : [<hwell:citrinic_sand>,<roots:wildroot>,<roots:terra_moss>,<roots:terra_moss>,<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>]
+        }
+    },
+    <forbidden_arcanus:cherrywood_sapling> : {
+        <minecraft:sapling:3> : {
+            "cherry_sapling" : [<minecraft:apple>,<mysticalworld:amethyst_gem>,<rootsclassic:verdantsprig>,<rootsclassic:verdantsprig>,<roots:runic_dust>,<roots:runic_dust>,<roots:runic_dust>,<roots:runic_dust>]
+        }
+    },
+    <naturesaura:token_joy> : {
+        <forbidden_arcanus:cherrywood_sapling> : {
+            "token_joy" : [overworldBottle,<corvus:crystal_quartz>,<rootsclassic:verdantsprig>,<roots:wildroot>,<soulus:bone_normal>,<soulus:bone_dry>,<soulus:bone_fungal>,<soulus:bone_frozen>]
+        }
+    },
+    <arcaneworld:ritual_table> : {
+        <forbidden_arcanus:cherrywood_sapling> : {
+            "ritual_table" : [<mysticalworld:amethyst_gem>,<naturesaura:infused_iron>,<arcaneworld:sapphire>,<arcaneworld:sapphire>,<corvus:wiser_gem>,<corvus:wiser_gem>,<corvus:wiser_gem>,<corvus:wiser_gem>]
         }
     }
 };

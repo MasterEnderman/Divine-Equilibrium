@@ -1,3 +1,12 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "brass_molten": 0,
+    "thaumium_nugget": 7,
+    "thaumium_plate": 9,
+    "brass_plate": 3,
+    "brass_ingot": 2,
+    "brass_nugget": 1,
+    "thaumium_molten": 6,
+    "thaumium_ingot": 8
+  }
 }

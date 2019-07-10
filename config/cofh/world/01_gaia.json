@@ -1,0 +1,185 @@
+{
+    "priority": 100,
+    "populate": {
+        "amethyst_ore": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "mysticalworld:amethyst_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "cluster-count": 16,
+            "min-height": 0,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "ore_sapphire": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "arcaneworld:ore_sapphire",
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "cluster-count": 16,
+            "min-height": 0,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "crystal_quartz_ore": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "corvus:crystal_quartz_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "cluster-count": 16,
+            "min-height": 35,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "wiser_gem_ore": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "corvus:wiser_gem_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "cluster-count": 16,
+            "min-height": 35,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "arcane_crystal_ore": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "forbidden_arcanus:arcane_crystal_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "cluster-count": 16,
+            "min-height": 0,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "fossil_dirt": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "soulus:fossil_dirt",
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 16,
+            "min-height": 60,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "fossil_dirt_frozen": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "soulus:fossil_dirt_frozen",
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 16,
+            "min-height": 60,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "fossil_dirt_fungal": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "soulus:fossil_dirt_fungal",
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 16,
+            "min-height": 60,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
+        "lake": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "lake",
+                "block": "minecraft:water",
+                "material": "minecraft:stone",
+                "use-material": true,
+                "outline-block": [
+                    "hwell:citrinic_stone",
+                    "minecraft:mossy_cobblestone"
+                ]
+            },
+            "cluster-count": 4,
+            "min-height": 10,
+            "max-height": 100,
+            "follow-terrain": true,
+            "biome": "all",
+            "retrogen": false,
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        }
+    }
+}
+
+
+

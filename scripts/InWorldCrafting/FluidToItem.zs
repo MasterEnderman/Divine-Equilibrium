@@ -16,7 +16,10 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
     <minecraft:clay_ball> : {
         <liquid:water> : {
             "true" : [
-                [<contenttweaker:pebble>]
+                [<contenttweaker:pebble>],
+                [<primitivetools:flint_point>],
+                [<primitivetools:flint_shard>],
+                [<primitivetools:flint_flake>]
             ]
         }
     },
@@ -94,6 +97,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         <liquid:water> : {
             "false" : [
                 [<cannibalism:playerflesh>]
+            ]
+        }
+    },
+    <minecraft:flint> : {
+        <liquid:water> : {
+            "false" : [
+                [<minecraft:gravel>]
             ]
         }
     }

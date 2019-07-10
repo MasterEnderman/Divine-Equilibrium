@@ -75,6 +75,46 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
             ]
         }
     },
+    <primitivetools:primitive_hatchet_cwf> : {
+        "gaia" : {
+            1 : [
+                [
+                    [<primitivetools:flint_flake>,<roots:wildroot>],
+                    [<ore:stickWood>,<primitivetools:flint_shard>]
+                ]
+            ]
+        }
+    },
+    <primitivetools:primitive_pick_cwf> : {
+        "gaia" : {
+            1 : [
+                [
+                    [<primitivetools:flint_point>,<roots:wildroot>],
+                    [<ore:stickWood>,<primitivetools:flint_shard>]
+                ]
+            ]
+        }
+    },
+    <primitivetools:primitive_spade_cwf> : {
+        "gaia" : {
+            1 : [
+                [
+                    [null,<primitivetools:flint_flake>],
+                    [<ore:stickWood>,<roots:wildroot>]
+                ]
+            ]
+        }
+    },
+    <minecraft:stonebrick:3> : {
+        "null" : {
+            4 : [
+                [
+                    [<minecraft:stonebrick>,<minecraft:stonebrick>],
+                    [<minecraft:stonebrick>,<minecraft:stonebrick>]
+                ]
+            ]
+        }
+    }
 };
 
 for item, data in recipeMapShaped {

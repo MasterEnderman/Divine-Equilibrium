@@ -7,4 +7,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Functions.transformString;
 
-
+<cannibalism:flintknife>.addTooltip(format.green("Used for basic wood processing."));
+<cannibalism:flintknife>.addTooltip(format.green("Open the JEI [i] tab for more"));
+<cannibalism:flintknife>.addTooltip(format.green("informations."));

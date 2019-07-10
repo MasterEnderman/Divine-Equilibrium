@@ -1,6 +1,18 @@
 [
     {
         "dimension": 939,
+        "mob": [
+            "mysticalworld:entity_beetle",
+            "mysticalworld:entity_deer",
+            "mysticalworld:entity_fox",
+            "mysticalworld:entity_frog",
+            "mysticalworld:entity_sprout"
+        ],
+        "maxcount": 50,
+        "result": "allow"
+    },
+    {
+        "dimension": 939,
         "result": "deny"
     }
 ]

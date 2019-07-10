@@ -20,6 +20,7 @@ JEI.addDescription(<corvus:frankinsence_sapling>, ["Only grows with a lit Candle
 
 JEI.addDescription(<ore:plankWood>, ["Obtained by breaking Logs with a Flint Knife"]);
 JEI.addDescription(<minecraft:stick>, ["Obtained by breaking Planks with a Flint Knife"]);
+JEI.addDescription(<cannibalism:flintknife>, ["Can break Logs into Planks and Planks into Sticks"]);
 
 JEI.addDescription(<contenttweaker:charred_cobblestone>, ["Obtained by placing a Cobblestone on top of Bedrock in the Void Dimension and rightclicking it with a Bone Torch"]);
 JEI.addDescription(<contenttweaker:flesh_block>, ["Obtained by placing a Charred Cobblestone on top of Bedrock in the Void Dimension and rightclicking it with 8 Raw Player Flesh"]);

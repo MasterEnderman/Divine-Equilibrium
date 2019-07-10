@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "mob": "mysticalworld:entity_frog",
+        "remove": "minecraft:slime_ball"
+    },
+    {
+        "mob": "harvestersnight:harvester",
+        "remove": "minecraft:leather"
+    }
+]

@@ -1,4 +1,4 @@
 {
-  "enable_illegal_thread_access_warnings": true,
+  "enable_illegal_thread_access_warnings": false,
   "enable_phosphor": true
 }

@@ -1,5 +1,5 @@
 {
-	"version": "0.4"
+	"version": "0.4.2"
 	
 	,
 	
@@ -408,22 +408,22 @@
 		{
 			"input": { "item": "minecraft:leather_helmet" },
 			"wheels": [ "iron", "diamond" ],
-			"output": { "item": "minecraft:leather", "count": 5 }
+			"output": { "item": "mysticalworld:pelt", "count": 5 }
 		},
 		{
 			"input": { "item": "minecraft:leather_chestplate" },
 			"wheels": [ "iron", "diamond" ],
-			"output": { "item": "minecraft:leather", "count": 8 }
+			"output": { "item": "mysticalworld:pelt", "count": 8 }
 		},
 		{
 			"input": { "item": "minecraft:leather_leggings" },
 			"wheels": [ "iron", "diamond" ],
-			"output": { "item": "minecraft:leather", "count": 7 }
+			"output": { "item": "mysticalworld:pelt", "count": 7 }
 		},
 		{
 			"input": { "item": "minecraft:leather_boots" },
 			"wheels": [ "iron", "diamond" ],
-			"output": { "item": "minecraft:leather", "count": 4 }
+			"output": { "item": "mysticalworld:pelt", "count": 4 }
 		},
 		{
 			"input": { "item": "hwell:glowstone_ore" },

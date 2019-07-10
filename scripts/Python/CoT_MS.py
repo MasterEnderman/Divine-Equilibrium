@@ -8,53 +8,39 @@ files utilizing ContentTweaker's MaterialSystem.
 
 parts = [ #Custom Parts you want to add have to be specified here
     #Part name // Ore Dict name // TAG:type
-    ["dust_small","dustSmall","CRAFTING"],
-    ["dust_tiny","dustTiny","CRAFTING"],
-    ["screw","screw","CRAFTING"],
-    ["foil","foil","CRAFTING"],
-    ["ring","ring","CRAFTING"],
-    ["ingot_double","ingotDouble","CRAFTING"],
-    ["plate_curved","plateCurved","CRAFTING"],
-    ["nut","nut","CRAFTING"],
-    ["gem","gem","GEM"],
-    ["gem_chipped","gemChipped","GEM"],
-    ["gem_exquisite","gemExquisite","GEM"],
-    ["gem_flawed", "gemFlawed", "GEM"],
-    ["gem_flawless", "gemFlawless", "GEM"],
-    ["gem_dust","gemDust","GEM"],
-    ["gem_dust_small","gemDustSmall","GEM"],
-    ["gem_dust_tiny","gemDustTiny","GEM"]
+    #["dust_tiny", "dustTiny", "crafting"]
 ]
 
 materials = [ #Custom Materials you want to add have to be specified here
     #Material name // Localized Name // Color (hex) // Gem? // [Crafting(Ingot,Plate),Processing(Dust,Ore),Fluid]
-    
+    ["brass", "Brass", "#FFEE33", False, [True, False, True]],
+    ["thaumium", "Thaumium", "#330066", False, [True, False, True]]
 ]
 
 crafting = [ #Default ContentTweaker values, disable a part by commenting it out
     #Part name // Ore Dict name
-    ["block","block"],
+    #["block","block"],
 	["nugget","nugget"],
 	["ingot","ingot"],
 	["plate","plate"],
-    ["dense_plate","plateDense"],
-	["gear","gear"],
-    ["beam","beam"],
-    ["bolt","bolt"],
-    ["casing","casing"],
-    ["rod","rod"],
-	["dust","dust"]
+    #["dense_plate","plateDense"],
+	#["gear","gear"],
+    #["beam","beam"],
+    #["bolt","bolt"],
+    #["casing","casing"],
+    #["rod","rod"],
+	#["dust","dust"]
 ]
 
 processing = [ #Default ContentTweaker values, disable a part by commenting it out
     #Part name // Ore Dict name
-    ["cluster","cluster"],
-   	["clump","clump"],
-   	["crushed_ore","oreCrushed"],
-   	["dirty_dust","dustDirty"],
-    ["crystal","crystal"],
-    ["shard","shard"],
-    ["ore","ore"]
+    #["cluster","cluster"],
+   	#["clump","clump"],
+   	#["crushed_ore","oreCrushed"],
+   	#["dirty_dust","dustDirty"],
+    #["crystal","crystal"],
+    #["shard","shard"],
+    #["ore","ore"]
 ]
 
 gem = [  #Default ContentTweaker values, disable a part by commenting it out
@@ -207,41 +193,11 @@ with open(os.getcwd()+r"\.minecraft\scripts\Crafttweaker\metalObjects.zs", "r+")
                     else:
                         f.write(space*2+'"'+processing[n][0]+'" : <ore:' +
                                 processing[n][1]+materials[i][1].replace(" ", "")+">,\n")
-            if materials[i+1][3]:
-                f.write(space+"}\n")
-            else:
-                f.write(space+"},\n")
-    f.write("};")
-
-gemObjects = """#priority 10000
-
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import crafttweaker.liquid.ILiquidDefinition;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDict;
-import crafttweaker.oredict.IOreDictEntry;
-
-print("Loading gemObjects");
-
-global gemObjects as IOreDictEntry[string][string] = {
-"""
-
-with open(os.getcwd()+r"\.minecraft\scripts\Crafttweaker\gemObjects.zs", "r+") as f:
-    f.truncate(0)
-    f.write(gemObjects)
-    for i in range(len(materials)):
-    	if materials[i][3]:
-            f.write(space+'"'+materials[i][0]+'" : {\n')
-            for n in range(len(gem)):
-                if n == len(gem)-1:
-                    f.write(space*2+'"'+gem[n][0]+'" : <ore:' +
-                        gem[n][1]+materials[i][1].replace(" ","")+">\n")
+            if i < len(materials)-1:
+                if materials[i+1][3]:
+                    f.write(space+"}\n")
                 else:
-                    f.write(space*2+'"'+gem[n][0]+'" : <ore:' +
-                            gem[n][1]+materials[i][1].replace(" ", "")+">,\n")
-            if i == len(materials)-1:
-	            f.write(space+"}\n")
+                    f.write(space+"},\n")
             else:
-	            f.write(space+"},\n")
+                f.write(space+"}\n")
     f.write("};")
