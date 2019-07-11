@@ -13,28 +13,6 @@ import mods.ItemStages;
 import mods.recipestages.Recipes;
 
 var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
-    <contenttweaker:flesh_block> : {
-        "crafting_1" : {
-            1 : [
-                [
-                    [<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>],
-                    [<cannibalism:playerflesh>,<contenttweaker:charred_cobblestone>,<cannibalism:playerflesh>],
-                    [<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>]
-                ]
-            ]
-        }
-    },
-    <minecraft:dirt> : {
-        "crafting_1" : {
-            1 : [
-                [
-                    [null,<minecraft:dye:15>,null],
-                    [<minecraft:dye:15>,<contenttweaker:flesh_block>,<minecraft:dye:15>],
-                    [null,<minecraft:dye:15>,null]
-                ]
-            ]
-        }
-    },
     <contenttweaker:head_stone_pickaxe> : {
         "tools_1" : {
             1 : [
@@ -119,10 +97,8 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
 
 for item, data in recipeMapShaped {
     var name = transformString(item);
-    var stages as string[] = [];
     recipes.remove(item);
     for stage, recipedata in data {
-        stages += stage;
         for amount, recipelist in recipedata {
             var index as int = 0;
             for recipe in recipelist {
@@ -138,8 +114,10 @@ for item, data in recipeMapShaped {
             }
         }
     }
-    if (stages[0] != "null") {
+    if (data.keySet[data.keySet.length - 1] != "null") {
         ItemStages.removeItemStage(item);
-        ItemStages.addItemStage(stages[0], item);
+        ItemStages.addItemStage(data.keySet[data.keySet.length - 1], item);
+    } else {
+        ItemStages.removeItemStage(item);
     }
 }

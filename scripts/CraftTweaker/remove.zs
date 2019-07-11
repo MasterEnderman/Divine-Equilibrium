@@ -1,9 +1,15 @@
+#modloaded crafttweaker
+#priority 900
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidDefinition;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+
+import scripts.CraftTweaker.Functions.transformString;
+import scripts.CraftTweaker.Functions.removeAllRecipesFromMod;
 
 var removeAll as IIngredient[] = [
     <minecraft:dye:15>,
@@ -24,6 +30,7 @@ var removeAll as IIngredient[] = [
     <integrateddynamics:drying_basin>,
     <potionfingers:ring>,
     <ore:plankWood>,
+    <ore:stickWood>,
     <soulus:bone_chunk_normal>,
     <soulus:bone_chunk_dry>,
     <soulus:bone_chunk_fungal>,
@@ -41,6 +48,18 @@ var removeAll as IIngredient[] = [
     <naturesaura:infused_iron_chest>,
     <naturesaura:infused_iron_pants>,
     <naturesaura:infused_iron_shoes>,
+    <minecraft:crafting_table>,
+    <forbidden_arcanus:mundabitur_dust>,
+    <naturesaura:infused_iron_sword>,
+    <naturesaura:infused_iron_axe>,
+    <naturesaura:infused_iron_pickaxe>,
+    <naturesaura:infused_iron_shovel>,
+    <minecraft:leather>,
+    <minecraft:furnace>,
+    <soulus:gear_bone>,
+    <soulus:gear_bone_dry>,
+    <soulus:gear_bone_fungal>,
+    <soulus:gear_bone_frozen>,
 ];
 
 for item in removeAll {
@@ -61,4 +80,12 @@ var removeShapeless as IIngredient[] = [
 
 for item in removeShapeless {
     recipes.removeShapeless(item);
+}
+
+var removeModList as string[] = [
+    "arcanearchives"
+];
+
+for mod in removeModList {
+    removeAllRecipesFromMod(mod);
 }

@@ -18,6 +18,7 @@ var feyRemove as IItemStack[] = [
     <roots:sylvan_chestplate>,
     <roots:sylvan_leggings>,
     <roots:sylvan_boots>,
+    <roots:runic_shears>,
 ];
 
 for item in feyRemove {
@@ -59,17 +60,32 @@ var feyRecipes as IIngredient[][string][IItemStack] = {
         "infused_iron_shoes" : [<minecraft:leather_boots>,<mysticalworld:carapace>,<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:infused_iron>]
     },
     <roots:sylvan_helmet> : {
-        "sylvan_helmet" : [<naturesaura:infused_iron_helmet>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<rootsclassic:growthsalve>]
+        "sylvan_helmet" : [<naturesaura:infused_iron_helmet>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<corvus:stunning_dahlia>]
     },
     <roots:sylvan_chestplate> : {
-        "sylvan_chestplate" : [<naturesaura:infused_iron_chest>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<rootsclassic:growthsalve>]
+        "sylvan_chestplate" : [<naturesaura:infused_iron_chest>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<corvus:stunning_dahlia>]
     },
     <roots:sylvan_leggings> : {
-        "sylvan_leggings" : [<naturesaura:infused_iron_pants>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<rootsclassic:growthsalve>]
+        "sylvan_leggings" : [<naturesaura:infused_iron_pants>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<corvus:stunning_dahlia>]
     },
     <roots:sylvan_boots> : {
-        "sylvan_boots" : [<naturesaura:infused_iron_shoes>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<rootsclassic:growthsalve>]
+        "sylvan_boots" : [<naturesaura:infused_iron_shoes>,<roots:fey_leather>,<naturesaura:infused_stone>,<rootsclassic:verdantsprig>,<corvus:stunning_dahlia>]
     },
+    <naturesaura:infused_iron_sword> : {
+        "infused_iron_sword" : [<primitivetools:primitive_knife_cbf>,<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:token_joy>,<mysticalworld:antlers>]
+    },
+    <naturesaura:infused_iron_axe> : {
+        "infused_iron_axe" : [<primitivetools:primitive_hatchet_cbf>,<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:token_joy>,<mysticalworld:antlers>]
+    },
+    <naturesaura:infused_iron_pickaxe> : {
+        "infused_iron_pickaxe" : [<primitivetools:primitive_pick_cbf>,<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:token_joy>,<mysticalworld:antlers>]
+    },
+    <naturesaura:infused_iron_shovel> : {
+        "infused_iron_shovel" : [<primitivetools:primitive_spade_cbf>,<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:token_joy>,<mysticalworld:antlers>]
+    },
+    <roots:runic_shears> : {
+        "runic_shears" : [<hwell:heavy_shears>,<rootsclassic:runicfocus:1>,<mysticalworld:amethyst_gem>,<mysticalworld:amethyst_gem>,<corvus:bloom_of_death>]
+    }
 };
 
 for output, recipes in feyRecipes {

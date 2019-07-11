@@ -13,6 +13,9 @@ var oredictManager as IItemStack[][string][IOreDictEntry] = {
     },
     <ore:allFlowers> : {
         "add" : [<corvus:lily_toxic>,<corvus:blazing_tulip>,<corvus:blood_rose>,<corvus:stunning_dahlia>,<corvus:bloom_of_death>]
+    },
+    <ore:rootsBark> : {
+        "remove" : [<roots:bark_wildwood>]
     }
 };
 

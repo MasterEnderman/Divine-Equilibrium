@@ -26,3 +26,9 @@ function transformString(item as IIngredient){
     var x as string = item.commandString.replace(":","_").replace("/","_").replace("<","").replace(">","");
     return x;
 }
+
+function removeAllRecipesFromMod(modname as string){
+    for item in loadedMods[modname].items {
+        recipes.remove(item);
+    }
+}

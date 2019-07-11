@@ -30,6 +30,11 @@ var mapMortar as IIngredient[][][int][IItemStack] = {
         1 : [
             [<forbidden_arcanus:arcane_crystal>]
         ]
+    },
+    <forbidden_arcanus:mundabitur_dust> : {
+        3 : [
+            [<forbidden_arcanus:arcane_crystal_dust>,<soulus:dust_stone>,<roots:runic_dust>,<arcaneworld:sapphire>,<corvus:crystal_quartz>]
+        ]
     }
 };
 

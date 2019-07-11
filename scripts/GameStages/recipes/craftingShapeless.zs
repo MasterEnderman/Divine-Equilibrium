@@ -1,4 +1,3 @@
-#norun
 #priority 110
 
 import crafttweaker.item.IItemStack;
@@ -14,12 +13,29 @@ import mods.ItemStages;
 import mods.recipestages.Recipes;
 
 var recipeMapShapeless as IIngredient[][][int][string][IItemStack] = {
-    <contenttweaker:cordage_fiber> : {
-        "primal_materials" : {
+    <corvus:wormwood_seeds> : {
+        "gaia" : {
             1 : [
                 [
-                    <pyrotech:material:12>,<pyrotech:material:12>,
-                    <pyrotech:material:12>,<pyrotech:material:12>
+                    <corvus:wormwood>
+                ]
+            ]
+        }
+    },
+    <minecraft:beetroot_seeds> : {
+        "gaia" : {
+            1 : [
+                [
+                    <minecraft:beetroot>
+                ]
+            ]
+        }
+    },
+    <minecraft:wheat_seeds> : {
+        "gaia" : {
+            1 : [
+                [
+                    <minecraft:wheat>
                 ]
             ]
         }
@@ -28,10 +44,8 @@ var recipeMapShapeless as IIngredient[][][int][string][IItemStack] = {
 
 for item, data in recipeMapShapeless {
     var name = transformString(item);
-    var stages as string[] = [];
     recipes.remove(item);
     for stage, recipedata in data {
-        stages += stage;
         for amount, recipelist in recipedata {
             var index as int = 0;
             for recipe in recipelist {
@@ -47,9 +61,11 @@ for item, data in recipeMapShapeless {
             }
         }
     }
-    if (stages[0] != "null") {
+    if (data.keySet[data.keySet.length - 1] != "null") {
         ItemStages.removeItemStage(item);
-        ItemStages.addItemStage(stages[0], item);
+        ItemStages.addItemStage(data.keySet[data.keySet.length - 1], item);
+    } else {
+        ItemStages.removeItemStage(item);
     }
 }
 

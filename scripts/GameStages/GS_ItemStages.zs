@@ -22,7 +22,11 @@ var itemsToStage as IIngredient[][string] = {
         <contenttweaker:flesh_block>,
         <minecraft:dirt>,
         <hwell:core_stone>,
-        <elementalresearch:research_book>
+        <elementalresearch:research_book>,
+        <primitivetools:primitive_pick_cbf>
+    ],
+    "wood" : [
+        <minecraft:bowl>
     ],
     "fire_1" : [
         <corvus:candle>,
@@ -30,7 +34,12 @@ var itemsToStage as IIngredient[][string] = {
         <hwell:scorch_grit>,
         <hwell:scorch_glass>,
         <hwell:heavy_ingot>,
+        <minecraft:flint_and_steel>,
+        <hwell:crushing_block>
 
+    ],
+    "air_1" : [
+        <primitivetools:primitive_hatchet_cbf>
     ],
     "gaia" : [
         <mysticalworld:carapace>,
@@ -74,6 +83,32 @@ var itemsToStage as IIngredient[][string] = {
         <minecraft:diamond>,
         <corvus:wiser_gem>,
         <mysticalworld:amethyst_gem>,
+    ],
+    "tools_2" : [
+        <naturesaura:infused_iron_pickaxe>,
+        <naturesaura:infused_iron_axe>,
+        <naturesaura:infused_iron_shovel>,
+        <naturesaura:infused_iron_sword>,
+    ],
+    "earth_2" : [
+        <roots:bark_wildwood>,
+        <roots:wildwood_leaves>,
+        <roots:wildwood_log>,
+        <roots:wildwood_planks>,
+        <roots:wildwood_sapling>,
+        <roots:wildwood_stairs>,
+        <roots:wildwood_rune>,
+        <roots:wildwood_trapdoor>,
+        <roots:wildwood_fence>,
+        <roots:wildwood_ladder>,
+        <roots:wildwood_slab>,
+        <roots:wildwood_wall>,
+        <roots:wildwood_button>,
+        <roots:wildwood_pressure_plate>,
+        <roots:living_pickaxe>,
+        <roots:living_axe>,
+        <roots:living_shovel>,
+        <roots:living_sword>,
     ]
 };
 

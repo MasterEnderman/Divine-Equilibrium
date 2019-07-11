@@ -18,6 +18,9 @@ var altarMap as IIngredient[string][IItemStack][IIngredient] = {
         },
         <naturesaura:infused_stone> : {
             "infused_stone" : <hwell:moonstone>
+        },
+        <rootsclassic:runicfocus:1> : {
+            "runicfocus" : <rootsclassic:runicfocus>
         }
     }
 };

@@ -13,4 +13,4 @@ import scripts.CraftTweaker.Functions.transformString;
 import mods.roots.AnimalHarvest;
 
 AnimalHarvest.removeEntity(<entity:minecraft:cow>);
-AnimalHarvest.addEntity(<entity:mysticalworld:entity_frog>);
+AnimalHarvest.removeEntity(game.getEntity("cow"));

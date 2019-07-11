@@ -54,6 +54,13 @@
                             "required": true
                         }
                     ]
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.ground.break",
+                    "volume": 0.2,
+                    "pitch": 2.0,
+                    "disableJEI": true
                 }
             ],
             "messages": [

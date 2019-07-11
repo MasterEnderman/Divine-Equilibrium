@@ -15,6 +15,9 @@
 - improved item descriptions
 - fixed weird numbers in crafting recipes
 - fixed some typos in the loading screen messages
+- added more quests
+- finished gaia progression
+- added sounds to scavenge scripts
 
 ## 0.1.3 ##
 

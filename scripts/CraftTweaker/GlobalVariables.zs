@@ -9,6 +9,22 @@ import crafttweaker.oredict.IOreDictEntry;
 
 // TL;DR Global variables need to start with "global" to be global!
 
+global gamestagesList as string[] = [
+    "wood",
+    "earth_1",
+    "water_1",
+    "fire_1",
+    "air_1",
+    "tools_1",
+    "gaia",
+    "crafting_1",
+    "tools_2",
+    "earth_2",
+    "water_2",
+    "fire_2",
+    "air_2",
+];
+
 global waterBottle as IItemStack = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 
 global otherBottle as IItemStack = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:other"});
@@ -21,4 +37,5 @@ global ringHaste as IItemStack = <potionfingers:ring>.withTag({effect: "minecraf
 global ringFlight as IItemStack = <potionfingers:ring>.withTag({effect: "forbidden_arcanus:fly", display: {Name: "§dRing of Flight"}});
 
 global trophyGaia as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 49, TrophyVariant: "classic", TrophyItem: {id: "contenttweaker:apple_gaia", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 146, TrophyName: "Fruit of Gaia", TrophyColorRed: 37});
-global trophyFirstBoss as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 49, TrophyVariant: "classic", TrophyItem: {ForgeCaps: {"theeightfabledblades:fabledcapabilities": {inscrutableDamage: 0.0, hitCount: 0, isDelayingUseSkill: 0 as byte, isUpdated: 0 as byte, consecutiveStrikes: 0, swordMode: 0, endEnergy: 0.0, timer: 0, swordSign: 0, isUsingSign: 0 as byte, awakeningCounter: 0, currentEnergy: 0.0, lunarDamage: 0.0, isAwakened: 0 as byte, healthPercentage: 0.0, isUsingSkill: 0 as byte}}, id: "theeightfabledblades:heart_piercer", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 44, TrophyName: "Equilibrium for Gaia", TrophyColorRed: 179});
+global trophyGaiaBoss as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 81, TrophyVariant: "classic", TrophyItem: {ForgeCaps: {"theeightfabledblades:fabledcapabilities": {inscrutableDamage: 0.0, hitCount: 1, isDelayingUseSkill: 0 as byte, isUpdated: 0 as byte, consecutiveStrikes: 0, swordMode: 0, endEnergy: 0.0, timer: 0, swordSign: 0, isUsingSign: 0 as byte, awakeningCounter: 0, currentEnergy: 0.0, lunarDamage: 0.0, isAwakened: 0 as byte, healthPercentage: 0.0, isUsingSkill: 0 as byte}}, id: "theeightfabledblades:disenchanting_saber", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 26, TrophyName: "Equilibrium for Gaia", TrophyColorRed: 59});
+global trophyNetherBoss as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 49, TrophyVariant: "classic", TrophyItem: {ForgeCaps: {"theeightfabledblades:fabledcapabilities": {inscrutableDamage: 0.0, hitCount: 0, isDelayingUseSkill: 0 as byte, isUpdated: 0 as byte, consecutiveStrikes: 0, swordMode: 0, endEnergy: 0.0, timer: 0, swordSign: 0, isUsingSign: 0 as byte, awakeningCounter: 0, currentEnergy: 0.0, lunarDamage: 0.0, isAwakened: 0 as byte, healthPercentage: 0.0, isUsingSkill: 0 as byte}}, id: "theeightfabledblades:heart_piercer", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 44, TrophyName: "Equilibrium for Hell", TrophyColorRed: 179});

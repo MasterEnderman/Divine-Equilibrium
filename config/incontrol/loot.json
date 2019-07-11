@@ -6,5 +6,9 @@
     {
         "mob": "harvestersnight:harvester",
         "remove": "minecraft:leather"
+    },
+    {
+        "mob": "mysticalworld:entity_deer",
+        "remove": "minecraft:leather"
     }
 ]

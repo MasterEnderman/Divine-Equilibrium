@@ -6,7 +6,9 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 var removeMap as IIngredient[] = [
-    <forbidden_arcanus:arcane_crystal_dust>
+    <forbidden_arcanus:arcane_crystal_dust>,
+    <minecraft:gold_nugget>,
+    <minecraft:iron_nugget>
 ];
 
 for item in removeMap {

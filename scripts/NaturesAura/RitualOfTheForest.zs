@@ -91,6 +91,26 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <forbidden_arcanus:cherrywood_sapling> : {
             "ritual_table" : [<mysticalworld:amethyst_gem>,<naturesaura:infused_iron>,<arcaneworld:sapphire>,<arcaneworld:sapphire>,<corvus:wiser_gem>,<corvus:wiser_gem>,<corvus:wiser_gem>,<corvus:wiser_gem>]
         }
+    },
+    <naturesaura:token_sorrow> : {
+        <forbidden_arcanus:cherrywood_sapling> : {
+            "token_sorrow" : [overworldBottle,<roots:bark_wildwood>,<roots:bark_wildwood>,<roots:bark_wildwood>,<soulus:bone_normal>,<soulus:bone_dry>,<soulus:bone_fungal>,<soulus:bone_frozen>]
+        }
+    },
+    <naturesaura:ancient_sapling> : {
+        <forbidden_arcanus:cherrywood_sapling> : {
+            "ancient_sapling" : [<rootsclassic:verdantsprig>,<roots:cloud_berry>,<naturesaura:token_sorrow>,<naturesaura:token_sorrow>,<roots:wildewheet>,<mysticalworld:aubergine>,<roots:moonglow_leaf>,<roots:spirit_herb>]
+        }
+    },
+    <rootsclassic:runicfocus> : {
+        <forbidden_arcanus:cherrywood_sapling> : {
+            "runicfocus" : [<rootsclassic:verdantsprig>,<minecraft:diamond>,<naturesaura:infused_iron>,<naturesaura:infused_iron>,<roots:runestone>,<roots:runestone>,<roots:runestone>,<roots:runestone>]
+        }
+    },
+    <naturesaura:auto_crafter> : {
+        <naturesaura:ancient_sapling> : {
+            "auto_crafter" : [<soulus:gear_bone>,<soulus:gear_bone_dry>,<soulus:gear_bone_fungal>,<soulus:gear_bone_frozen>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>]
+        }
     }
 };
 

@@ -286,7 +286,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
     <roots:mortar> : {
         "gaia" : {
             1 : [
-                [<minecraft:bowl>, <ore:cobblestone>]
+                [<minecraft:bowl>, <ore:cobblestone>*3]
             ]
         }
     },
@@ -303,15 +303,20 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
                 [<ore:rootsBark>*2, <roots:terra_moss>]
             ]
         }
+    },
+    <roots:bark_dark_oak> : {
+        "gaia" : {
+            1 : [
+                [<roots:bark_oak>, <soulus:bone_meal_nether>]
+            ]
+        }
     }
 };
 
 for output, data in recipePrimitiveCrafting {
     var name = transformString(output);
-    var stages as string[] = [];
     recipes.remove(output);
     for stage, data2 in data {
-        stages += stage;
         for amount, recipes in data2 {
             var index as int = 0;
             for recipe in recipes {
@@ -325,8 +330,12 @@ for output, data in recipePrimitiveCrafting {
             }
         }
     }
-    if (stages[0] != "null") {
+    if (data.keySet.length == 1) {
+        if (data.keySet[0] != "null") {
         ItemStages.removeItemStage(output);
-        ItemStages.addItemStage(stages[0], output);
+        ItemStages.addItemStage(data.keySet[0], output);
+        } else {
+            ItemStages.removeItemStage(output);
+        }
     }
 }

@@ -115,6 +115,26 @@ crafting_1.waterCost = 40;
 crafting_1.experienceGiven = 10;
 crafting_1.addRequiredStages("AND", ["earth_1","air_1","fire_1","water_1"]);
 crafting_1.addGivenStage("crafting_1");
-crafting_1.addGivenStage("tools_1");
-crafting_1.addGivenStage("inventorycrafting");
 crafting_1.build();
+
+var tools_1 = Util.createEntry("Tools 1");
+tools_1.setIcon(<primitivetools:primitive_knife_cbf>);
+tools_1.description = "Unlocks Recipes for more Basic Tools.";
+tools_1.airCost = 20;
+tools_1.fireCost = 20;
+tools_1.earthCost = 100;
+tools_1.waterCost = 20;
+tools_1.addRequiredStages("AND", ["earth_1","air_1","fire_1","water_1"]);
+tools_1.addGivenStage("tools_1");
+tools_1.build();
+
+var tools_2 = Util.createEntry("Tools 2");
+tools_2.setIcon(<naturesaura:infused_iron_pickaxe>);
+tools_2.description = "Unlocks Recipes for Advanced Tools.";
+tools_2.airCost = 20;
+tools_2.fireCost = 20;
+tools_2.earthCost = 500;
+tools_2.waterCost = 20;
+tools_2.addRequiredStages("AND", ["tools_1","gaia"]);
+tools_2.addGivenStage("tools_2");
+tools_2.build();

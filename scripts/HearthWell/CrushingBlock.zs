@@ -68,6 +68,9 @@ var crushingAdd as double[IItemStack][IItemStack] = {
         <minecraft:dye:15>*2 : 0.3,
         <minecraft:dye:15>*3 : 0.1
     },
+    <roots:wildwood_planks> : {
+        <roots:wildwood_button> : 1.0
+    },
     <forbidden_arcanus:mysterywood_planks> : {
         <forbidden_arcanus:mysterywood_button> : 1.0
     },
