@@ -18,6 +18,10 @@
 - added more quests
 - finished gaia progression
 - added sounds to scavenge scripts
+- fixed world corrupting crash with elemental research
+- tweaked the research costs again (still not final, but al needs to fix some things first)
+- increased gravel drops from charred cobblestone
+- decreased some quest requirements
 
 ## 0.1.3 ##
 

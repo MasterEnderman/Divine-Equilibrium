@@ -35,10 +35,12 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 ## Tester ##
 
 - `4oz`
-- `Baal`
-- `daan7008`
+- `br1c`
+- `Dasky`
+- `Ellpeck`
 - `Hurja`
-- `Next`
-- `Osama bin Craftin`
+- `JJ`
+- `next_victim`
+- `PeachizXD`
 - `Silver_hunt_X`
 - `taint19711`

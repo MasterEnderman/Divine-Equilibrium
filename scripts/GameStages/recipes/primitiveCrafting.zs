@@ -39,7 +39,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
     <primitivetools:primitive_hatchet_cbf> : {
         "air_1" : {
             1 : [
-                [<contenttweaker:solidified_air_knowledge>, <primitivetools:primitive_pick_cbf>]
+                [<contenttweaker:solidified_air_knowledge>, <primitivetools:primitive_pick_cbf>.noReturn()]
             ]
         },
         "tools_1" : {

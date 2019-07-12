@@ -31,4 +31,4 @@ JEI.addDescription(<corvus:frankincense_tears>, ["This Item drops from Frankince
 JEI.addDescription(<rootsclassic:nightshade>, ["This Item drops from Mysterious Leaves"]);
 
 JEI.addDescription(<corvus:stunning_dahlia>, ["Harvested by rightclicking it with a diamond"]);
-JEI.addDescription(<mysticalworld:antlers>, ["Drop from male Deers"]);
+JEI.addDescription(<mysticalworld:antlers>, ["This Item drops from male Deers"]);

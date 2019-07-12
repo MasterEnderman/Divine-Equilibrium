@@ -486,7 +486,7 @@
             },
             "1:10": {
               "id:8": "forbidden_arcanus:mysterywood_log",
-              "Count:3": 16,
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -939,7 +939,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "hwell:fullgrass_block",
-              "Count:3": 8,
+              "Count:3": 2,
               "OreDict:8": "",
               "Damage:3": 0
             }
