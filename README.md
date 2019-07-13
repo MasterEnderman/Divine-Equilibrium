@@ -34,13 +34,13 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 
 ## Tester ##
 
-- `4oz`
 - `br1c`
 - `Dasky`
-- `Ellpeck`
 - `Hurja`
 - `JJ`
 - `next_victim`
+- `NoFall`
 - `PeachizXD`
+- `Shabby Tavern`
 - `Silver_hunt_X`
 - `taint19711`
