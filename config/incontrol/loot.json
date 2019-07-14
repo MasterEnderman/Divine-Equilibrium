@@ -4,11 +4,20 @@
         "remove": "minecraft:slime_ball"
     },
     {
+        "mob": "mysticalworld:entity_beetle",
+        "remove": "minecraft:slime_ball"
+    },
+    {
         "mob": "harvestersnight:harvester",
         "remove": "minecraft:leather"
     },
     {
         "mob": "mysticalworld:entity_deer",
         "remove": "minecraft:leather"
+    },
+    {
+        "mob": "mysticalworld:entity_sprout",
+        "item": "roots:wildroot",
+        "itemcount": "0-1/1/1-2/1-3"
     }
 ]

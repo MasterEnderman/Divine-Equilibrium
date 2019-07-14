@@ -43,6 +43,126 @@
                     "disableJEI": true
                 }
             ]
+        },
+        {
+            "name": "candle_growth",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "corvus:candle",
+                        "meta": 1
+                    }
+                ]
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "corvus:oil_growth",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "corvus:candle_growth",
+                    "meta": 0
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.bottle.fill",
+                    "volume": 0.2,
+                    "pitch": 2.0,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "candle_wind",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "corvus:candle",
+                        "meta": 1
+                    }
+                ]
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "corvus:oil_protective",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "corvus:candle_wind",
+                    "meta": 0
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.bottle.fill",
+                    "volume": 0.2,
+                    "pitch": 2.0,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "candle_rage",
+            "type": {
+                "type": "block_list",
+                "blocks": [
+                    {
+                        "name": "corvus:candle",
+                        "meta": 1
+                    }
+                ]
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type": "require_player",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_item",
+                    "name": "corvus:oil_enraged",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "corvus:candle_rage",
+                    "meta": 0
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.bottle.fill",
+                    "volume": 0.2,
+                    "pitch": 2.0,
+                    "disableJEI": true
+                }
+            ]
         }
     ]
 }

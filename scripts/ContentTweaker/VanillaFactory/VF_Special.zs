@@ -43,3 +43,23 @@ apple_gaia.itemRightClick = function(item, world, player, hand) {
     return "Pass";
 };
 apple_gaia.register();
+
+//heart token
+var heart_token as Item = VanillaFactory.createItem("heart_token");
+heart_token.setLocalizedNameSupplier(function(itemStack) {return "§cHeart Container";});
+heart_token.textureLocation = ResourceLocation.create("contenttweaker:items/food/heart_token");
+heart_token.itemRightClick = function(item, world, player, hand) {
+    if (player.maxHealth > 18.0) {
+        if (player.maxHealth < 20.0) {
+            Commands.call("unhealthydying setmaxhealth @p 20", player, world, false, true);
+            item.shrink(1);
+        }
+    } else {
+        var hearts = (player.maxHealth + 2.0);
+        var healthcommand = "unhealthydying setmaxhealth @p " + hearts as int;
+        Commands.call(healthcommand, player, world, false, true);
+        item.shrink(1);
+    }
+    return "Pass";
+};
+heart_token.register();

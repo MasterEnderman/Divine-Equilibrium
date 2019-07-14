@@ -55,7 +55,7 @@ var crushingAdd as double[IItemStack][IItemStack] = {
         <hwell:dust> : 1.0
     },
     <minecraft:cobblestone> : {
-        <contenttweaker:pebble> : 1.0
+        <minecraft:gravel> : 1.0
     },
     <minecraft:gravel> : {
         <minecraft:flint>*2 : 1.0
@@ -67,6 +67,18 @@ var crushingAdd as double[IItemStack][IItemStack] = {
         <minecraft:dye:15> : 0.6,
         <minecraft:dye:15>*2 : 0.3,
         <minecraft:dye:15>*3 : 0.1
+    },
+    <hwell:smooth_azurite> : {
+        <contenttweaker:azurite>*2 : 0.2, 
+        <contenttweaker:azurite>*3 : 0.5, 
+        <contenttweaker:azurite>*4 : 0.3
+    },
+    <contenttweaker:heart_token> : {
+        <scalinghealth:heartdust>*2 : 0.1,
+        <scalinghealth:heartdust>*4 : 0.3,
+        <scalinghealth:heartdust>*6 : 0.2,
+        <scalinghealth:heartdust>*8 : 0.3,
+        <scalinghealth:heartdust>*10 : 0.1
     },
     <roots:wildwood_planks> : {
         <roots:wildwood_button> : 1.0

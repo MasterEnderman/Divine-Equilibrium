@@ -19,6 +19,7 @@ import scripts.JEI.JEI_PrimitiveTools.JEI_PrimitiveTools as PrimitiveTools;
 import scripts.JEI.JEI_RootsClassic.JEI_RootsClassic as RootsClassic;
 import scripts.JEI.JEI_TheOneProbe.JEI_TheOneProbe as TheOneProbe;
 import scripts.JEI.JEI_Soulus.JEI_Soulus as Soulus;
+import scripts.JEI.JEI_ScalingHealth.JEI_ScalingHealth as ScalingHealth;
 import scripts.JEI.JEI_Cannibalism.JEI_Cannibalism as Cannibalism;
 import scripts.JEI.JEI_ClockworkPhase.JEI_ClockworkPhase as ClockworkPhase;
 import scripts.JEI.JEI_MysticalWorld.JEI_MysticalWorld as MysticalWorld;
@@ -38,6 +39,7 @@ var ItemsToDisable as IIngredient[][] = [
     MysticalWorld,
     ClockworkPhase,
     Cannibalism,
+    ScalingHealth,
     Soulus,
     TheOneProbe
 ];

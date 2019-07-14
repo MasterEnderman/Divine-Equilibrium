@@ -32,3 +32,6 @@ JEI.addDescription(<rootsclassic:nightshade>, ["This Item drops from Mysterious 
 
 JEI.addDescription(<corvus:stunning_dahlia>, ["Harvested by rightclicking it with a diamond"]);
 JEI.addDescription(<mysticalworld:antlers>, ["This Item drops from male Deers"]);
+
+JEI.addDescription(<hwell:citrinic_stone>, ["Generates around Underground Lakes in the Gaia Dimension"]);
+JEI.addDescription(<minecraft:mossy_cobblestone>, ["Generates around Underground Lakes in the Gaia Dimension"]);

@@ -22,3 +22,4 @@ JEI.addItem(<simple_trophies:trophy>.withTag({TrophyColorGreen: 49, TrophyVarian
 JEI.addItem(<simple_trophies:trophy>.withTag({TrophyColorGreen: 81, TrophyVariant: "classic", TrophyItem: {ForgeCaps: {"theeightfabledblades:fabledcapabilities": {inscrutableDamage: 0.0, hitCount: 1, isDelayingUseSkill: 0 as byte, isUpdated: 0 as byte, consecutiveStrikes: 0, swordMode: 0, endEnergy: 0.0, timer: 0, swordSign: 0, isUsingSign: 0 as byte, awakeningCounter: 0, currentEnergy: 0.0, lunarDamage: 0.0, isAwakened: 0 as byte, healthPercentage: 0.0, isUsingSkill: 0 as byte}}, id: "theeightfabledblades:disenchanting_saber", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 26, TrophyName: "Equilibrium for Gaia", TrophyColorRed: 59}));
 
 JEI.addItem(<rootsclassic:runicfocus:1>);
+JEI.addItem(<minecraft:skull:3>);

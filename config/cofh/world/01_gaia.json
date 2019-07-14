@@ -8,7 +8,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 12
             },
-            "cluster-count": 16,
+            "cluster-count": 18,
             "min-height": 0,
             "max-height": 255,
             "retrogen": false,
@@ -27,7 +27,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 12
             },
-            "cluster-count": 16,
+            "cluster-count": 18,
             "min-height": 0,
             "max-height": 255,
             "retrogen": false,
@@ -46,7 +46,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 12
             },
-            "cluster-count": 16,
+            "cluster-count": 18,
             "min-height": 35,
             "max-height": 255,
             "retrogen": false,
@@ -65,7 +65,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 12
             },
-            "cluster-count": 16,
+            "cluster-count": 18,
             "min-height": 35,
             "max-height": 255,
             "retrogen": false,
@@ -84,7 +84,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 12
             },
-            "cluster-count": 16,
+            "cluster-count": 18,
             "min-height": 0,
             "max-height": 255,
             "retrogen": false,
@@ -103,7 +103,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 8
             },
-            "cluster-count": 16,
+            "cluster-count": 18,
             "min-height": 60,
             "max-height": 255,
             "retrogen": false,
@@ -153,6 +153,25 @@
                 ]
             }
         },
+        "charred_cobblestone": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "contenttweaker:charred_cobblestone",
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 16,
+            "min-height": 60,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
         "lake": {
             "distribution": "uniform",
             "generator": {
@@ -165,9 +184,9 @@
                     "minecraft:mossy_cobblestone"
                 ]
             },
-            "cluster-count": 4,
+            "cluster-count": 6,
             "min-height": 10,
-            "max-height": 100,
+            "max-height": 150,
             "follow-terrain": true,
             "biome": "all",
             "retrogen": false,

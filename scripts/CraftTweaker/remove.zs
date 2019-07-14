@@ -60,6 +60,17 @@ var removeAll as IIngredient[] = [
     <soulus:gear_bone_dry>,
     <soulus:gear_bone_fungal>,
     <soulus:gear_bone_frozen>,
+    <naturesaura:gold_powder>,
+    <scalinghealth:heartdust>,
+    <corvus:candle_rage>,
+    <corvus:candle_growth>,
+    <corvus:candle_wind>,
+    <tombstone:decorative_grave_simple>,
+    <tombstone:decorative_grave_normal>,
+    <tombstone:decorative_grave_cross>,
+    <tombstone:decorative_tombstone>,
+    <roots:staff>,
+    <naturesaura:ancient_stick>
 ];
 
 for item in removeAll {

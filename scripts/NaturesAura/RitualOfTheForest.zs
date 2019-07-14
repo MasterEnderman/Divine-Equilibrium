@@ -111,6 +111,26 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <naturesaura:ancient_sapling> : {
             "auto_crafter" : [<soulus:gear_bone>,<soulus:gear_bone_dry>,<soulus:gear_bone_fungal>,<soulus:gear_bone_frozen>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>]
         }
+    },
+    <contenttweaker:heart_token> : {
+        <forbidden_arcanus:mysterywood_sapling> : {
+            "heart_void" : [<cannibalism:playerflesh>,<hwell:shard_n>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>]
+        }
+    },
+    <minecraft:skull:3> : {
+        <forbidden_arcanus:mysterywood_sapling> : {
+            "player_skull" : [<soulus:bone_normal>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>]
+        }
+    },
+    <roots:staff> : {
+        <minecraft:sapling:3> : {
+            "roots_staff" : [<roots:wildroot>,<roots:wildroot>,<roots:wildroot>,<roots:wildroot>,<roots:terra_moss>,<roots:terra_moss>,<roots:terra_moss>,<roots:terra_moss>]
+        }
+    },
+    <naturesaura:nature_altar> : {
+        <forbidden_arcanus:cherrywood_sapling> : {
+            "nature_altar" : [<rootsclassic:verdantsprig>,<naturesaura:gold_brick>,<hwell:shard_n>,<hwell:shard_n>,<roots:runestone>,<roots:runestone>,<roots:runestone>,<roots:runestone>]
+        }
     }
 };
 

@@ -13,6 +13,10 @@ var pebble as Item = VanillaFactory.createItem("pebble");
 pebble.setLocalizedNameSupplier(function(itemStack) {return "Pebble";});
 pebble.register();
 
+var azurite as Item = VanillaFactory.createItem("azurite");
+azurite.setLocalizedNameSupplier(function(itemStack) {return "Azurite Pebble";});
+azurite.register();
+
 var pellet as Item = VanillaFactory.createItem("pellet");
 pellet.setLocalizedNameSupplier(function(itemStack) {return "Fuel Pellet";});
 pellet.register();

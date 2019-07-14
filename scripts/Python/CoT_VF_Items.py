@@ -10,6 +10,7 @@ items = {
     # __init__
     "null" : {
         "Pebble" : "pebble",
+        "Azurite Pebble" : "azurite",
         "Fuel Pellet" : "pellet",
         "Heavy Ring" : "heavy_ring"
     },

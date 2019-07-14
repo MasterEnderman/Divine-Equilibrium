@@ -23,11 +23,34 @@ var mapFluidToItem as ILiquidStack[][IItemStack] = {
 };
 
 var mapItemToItem as IItemStack[][IItemStack] = {
-
+    <naturesaura:gold_leaf> : [
+        <forbidden_arcanus:mysterywood_leaves:*>
+    ],
+    <minecraft:dirt> : [
+        <minecraft:sapling>*8,
+        <minecraft:sapling:1>*8,
+        <minecraft:sapling:2>*8,
+        <minecraft:sapling:3>*8,
+        <minecraft:sapling:4>*8,
+        <minecraft:sapling:5>*8,
+        <corvus:frankinsence_sapling>*8,
+        <forbidden_arcanus:cherrywood_sapling>*8,
+        <forbidden_arcanus:mysterywood_sapling>*8,
+        <integrateddynamics:menril_sapling>*8,
+        <naturesaura:ancient_sapling>*8,
+        <treetweaker:mystwillow>*8
+    ]
 };
 
 var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
-
+    <minecraft:clay_ball> : {
+        <liquid:water>*500 : [
+            <contenttweaker:pebble>,
+            <primitivetools:flint_shard>,
+            <primitivetools:flint_flake>,
+            <primitivetools:flint_point>
+        ]
+    }
 };
 
 var mapItemAndFluidToFluid as IItemStack[][ILiquidStack][ILiquidStack] = {

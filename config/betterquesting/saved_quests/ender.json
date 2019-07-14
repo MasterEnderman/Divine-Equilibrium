@@ -801,7 +801,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Magnifying Glass",
-          "desc:8": "Place down the Block you want to melt and stack 2-8 Amplifying Tubes on top."
+          "desc:8": "Place down the Block you want to melt and stack 2-8 Amplifying Tubes on top. The more you stack the faster the Block melts."
         }
       },
       "tasks:9": {
@@ -1027,7 +1027,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Make it balanced",
-          "desc:8": "No Description"
+          "desc:8": "\"It\u0027s balanced, because it takes effort\""
         }
       },
       "tasks:9": {
@@ -1612,7 +1612,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Growth Candle",
-          "desc:8": "Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health.\n\n§c!ATTENTION! If you break a Growth Candle it\u0027ll convert back to a normal Candle. It\u0027ll will convert to a normal Candle eventually."
+          "desc:8": "Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health.\n\nYou apply the oil by rightclicking it onto a lit candle. (The oil won\u0027t be used in this process)\n\n§c!ATTENTION! If you break a Growth Candle it\u0027ll convert back to a normal Candle. It\u0027ll will convert to a normal Candle eventually."
         }
       },
       "tasks:9": {
@@ -1626,12 +1626,6 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "corvus:oil_growth",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "1:10": {
-              "id:8": "corvus:candle_growth",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -2684,7 +2678,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Storing Liquids",
-          "desc:8": "If you don\u0027t have an other place to put it."
+          "desc:8": "If you don\u0027t have an other place to put it.\n\nThe iTank stores it\u0027s content when broken and auto-outputs to the bottom side."
         }
       },
       "tasks:9": {
@@ -2861,7 +2855,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Herbs",
-          "desc:8": "You\u0027ll find some Lakes underground with some mossy cobblestone. Try to carve some of the moss."
+          "desc:8": "You\u0027ll find some Lakes underground with some mossy cobblestone. Try to carve some of the moss with your knife. (right click with it on mossy cobblestone)"
         }
       },
       "tasks:9": {
@@ -3828,7 +3822,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The Stick of Truth",
-          "desc:8": "Infuse your stick with some magic powder"
+          "desc:8": "Infuse your stick with some magic powder.\nPlace down the Imbuer and insert your powder and stuff to start the imbuing process.\nIt\u0027ll later be used to awaken your Grove Stone."
         }
       },
       "tasks:9": {
@@ -3867,6 +3861,12 @@
               },
               "OreDict:8": "",
               "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "roots:imbuer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3903,7 +3903,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The Spirit of the Forest",
-          "desc:8": "Channel the natural energy through your hands.\n\nEmpower the Grove Stone by casting your newly made Spell on it."
+          "desc:8": "Channel the natural energy through your hands.\n\nEmpower the Grove Stone by casting your newly made Spell on it.\n\nUse your Knife on the Fay Crafter to start the Crafting Ritual."
         }
       },
       "tasks:9": {
@@ -4064,7 +4064,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Bonfire",
-          "desc:8": "Burn it down"
+          "desc:8": "Burn it down.\n\nUse a Flint and Steel to start the Ritual."
         }
       },
       "tasks:9": {
@@ -4167,7 +4167,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Use the Aura for something",
-          "desc:8": "You remember the magical energy around you? It\u0027s time to utilize it."
+          "desc:8": "You remember the magical energy around you? It\u0027s time to utilize it.\n\nThe Altar requires a Multiblock placed around it to function. Take a look at the Natures Aura Manual to see the setup."
         }
       },
       "tasks:9": {
@@ -4182,6 +4182,30 @@
             "0:10": {
               "id:8": "naturesaura:nature_altar",
               "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:stonebrick",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 3
+            },
+            "2:10": {
+              "id:8": "naturesaura:gold_brick",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "minecraft:stonebrick",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "4:10": {
+              "id:8": "minecraft:planks",
+              "Count:3": 20,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -4324,7 +4348,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Boss #1",
-          "desc:8": "Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming."
+          "desc:8": "Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier."
         }
       },
       "tasks:9": {
@@ -4484,36 +4508,17 @@
               "id:8": "simple_trophies:trophy",
               "Count:3": 1,
               "tag:10": {
-                "TrophyColorGreen:3": 49,
+                "TrophyColorGreen:3": 81,
                 "TrophyVariant:8": "classic",
                 "TrophyItem:10": {
-                  "ForgeCaps:10": {
-                    "theeightfabledblades:fabledcapabilities:10": {
-                      "inscrutableDamage:6": 0.0,
-                      "hitCount:3": 0,
-                      "isDelayingUseSkill:1": 0,
-                      "isUpdated:1": 0,
-                      "consecutiveStrikes:3": 0,
-                      "swordMode:3": 0,
-                      "endEnergy:6": 0.0,
-                      "timer:3": 0,
-                      "swordSign:3": 0,
-                      "isUsingSign:1": 0,
-                      "awakeningCounter:3": 0,
-                      "currentEnergy:6": 0.0,
-                      "lunarDamage:6": 0.0,
-                      "isAwakened:1": 0,
-                      "healthPercentage:6": 0.0,
-                      "isUsingSkill:1": 0
-                    }
-                  },
-                  "id:8": "theeightfabledblades:heart_piercer",
-                  "Count:1": 1,
-                  "Damage:2": 0
+                  "id:8": "theeightfabledblades:disenchanting_saber",
+                  "Count:3": 1,
+                  "OreDict:8": "",
+                  "Damage:3": 0
                 },
-                "TrophyColorBlue:3": 44,
+                "TrophyColorBlue:3": 26,
                 "TrophyName:8": "Equilibrium for Gaia",
-                "TrophyColorRed:3": 179
+                "TrophyColorRed:3": 59
               },
               "OreDict:8": "",
               "Damage:3": 0
@@ -4811,7 +4816,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Awake the Forest",
-          "desc:8": "Grow the old Trees that nobody seen before"
+          "desc:8": "Grow the old Trees that nobody seen before. To Accomplish this task setup the \"Wildwood Growth\" ritual near a fully grown wild root crop."
         }
       },
       "tasks:9": {
@@ -5525,6 +5530,57 @@
         }
       },
       "rewards:9": {}
+    },
+    "86:10": {
+      "questID:3": 86,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "scalinghealth:heartcontainer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Getting my Health back",
+          "desc:8": "There is an Item you can craft to get some of ypur health back"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:heart_token",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -5546,7 +5602,7 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -108,
+          "x:3": -144,
           "y:3": -120,
           "id:3": 2,
           "sizeY:3": 24
@@ -5560,14 +5616,14 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": -72,
           "y:3": -120,
           "id:3": 4,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": -36,
           "y:3": -120,
           "id:3": 5,
           "sizeY:3": 24
@@ -5602,7 +5658,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -72,
+          "x:3": -108,
           "y:3": -120,
           "id:3": 10,
           "sizeY:3": 24
@@ -5843,6 +5899,13 @@
           "x:3": -72,
           "y:3": 60,
           "id:3": 46,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -120,
+          "id:3": 86,
           "sizeY:3": 24
         }
       },
@@ -6106,7 +6169,7 @@
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 108,
           "id:3": 78,
           "sizeY:3": 24
@@ -6134,7 +6197,7 @@
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 108,
           "y:3": 108,
           "id:3": 82,
           "sizeY:3": 24

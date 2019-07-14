@@ -20,11 +20,15 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
         <corvus:frankincense_tears> : 500,
         <corvus:frankinsence_leaves> : 10,
         <corvus:frankinsence_log> : 20
+    },
+    <liquid:water> : {
+        <contenttweaker:azurite> : 1000
     }
 };
 
 var mapItemToItem as IItemStack[][IItemStack] = {
-    <roots:runic_dust>*2 : [<roots:runestone>,<roots:runestone_brick>,<roots:runestone_brick_alt>,<roots:chiseled_runestone>]
+    <roots:runic_dust>*2 : [<roots:runestone>,<roots:runestone_brick>,<roots:runestone_brick_alt>,<roots:chiseled_runestone>],
+    <naturesaura:gold_powder>*3 : [<naturesaura:gold_leaf>]
 };
 
 var mapItemToBoth as IItemStack[][ILiquidStack][IItemStack] = {

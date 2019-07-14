@@ -29,7 +29,7 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <naturesaura:gold_powder>*2 : [<naturesaura:gold_leaf>],
     <soulus:bone_meal_nether> : [<minecraft:dye:15>],
     <hwell:heavy_ingot> : [<hwell:heavy_mesh>],
-    <minecraft:glass> : [<hwell:dust_block>],
+    <minecraft:glass> : [<hwell:dust_block>,<minecraft:sand>,<minecraft:sand:1>],
     <hwell:smooth_azurite> : [<hwell:azurite>],
     <mysticalworld:cooked_venison> : [<mysticalworld:venison>],
     <hwell:citrinic_sand> : [<hwell:citrinic_stone>]

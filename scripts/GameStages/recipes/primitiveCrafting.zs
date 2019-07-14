@@ -166,13 +166,6 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
              ]
          }
     },
-    <contenttweaker:charred_cobblestone> : {
-         "crafting_1" : {
-             1 : [
-                 [<bonetorch:bonetorch>, <minecraft:cobblestone>]
-             ]
-         }
-    },
     <contenttweaker:flesh_block> : {
          "crafting_1" : {
              1 : [
@@ -220,31 +213,15 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <corvus:candle_growth> : {
-        "fire_1" : {
-            1 : [
-                [<corvus:candle>, <corvus:oil_growth>]
-            ]
-        }
-    },
-    <corvus:candle_wind> : {
-        "fire_1" : {
-            1 : [
-                [<corvus:candle>, <corvus:oil_protective>]
-            ]
-        }
-    },
-    <corvus:candle_rage> : {
-        "fire_1" : {
-            1 : [
-                [<corvus:candle>, <corvus:oil_enraged>]
-            ]
-        }
-    },
     <naturesaura:bottle_two_the_rebottling> : {
         "fire_1" : {
             1 : [
                 [<minecraft:glass_bottle>, <corvus:frankinsence_planks>]
+            ]
+        },
+        "gaia" : {
+            1 : [
+                [<minecraft:glass_bottle>, <forbidden_arcanus:cherrywood_planks>]
             ]
         }
     },
@@ -310,7 +287,29 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
                 [<roots:bark_oak>, <soulus:bone_meal_nether>]
             ]
         }
+    },
+    <minecraft:mossy_cobblestone> : {
+        "gaia" : {
+            1 : [
+                [<minecraft:cobblestone>, <roots:terra_moss>]
+            ]
+        }
+    },
+    <minecraft:stonebrick:1> : {
+        "gaia" : {
+            1 : [
+                [<minecraft:stonebrick>, <roots:terra_moss>]
+            ]
+        }
+    },
+    <naturesaura:gold_brick> : {
+        "gaia" : {
+            1 : [
+                [<minecraft:stonebrick:1>, <naturesaura:gold_leaf>]
+            ]
+        }
     }
+
 };
 
 for output, data in recipePrimitiveCrafting {
