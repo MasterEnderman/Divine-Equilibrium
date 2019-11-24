@@ -3,6 +3,7 @@
 		{
 			"essence": "minecraft:bat",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -21,6 +22,7 @@
 		{
 			"essence": "minecraft:chicken",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -39,6 +41,7 @@
 		{
 			"essence": "minecraft:cow",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -57,6 +60,7 @@
 		{
 			"essence": "minecraft:pig",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -75,6 +79,7 @@
 		{
 			"essence": "minecraft:rabbit",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -93,6 +98,7 @@
 		{
 			"essence": "minecraft:sheep",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -111,6 +117,7 @@
 		{
 			"essence": "minecraft:skeleton",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -129,6 +136,7 @@
 		{
 			"essence": "minecraft:spider",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -141,6 +149,7 @@
 		{
 			"essence": "minecraft:villager",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -159,6 +168,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NORMAL",
@@ -171,6 +181,7 @@
 		{
 			"essence": "minecraft:cave_spider",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "DRY",
@@ -183,6 +194,7 @@
 		{
 			"essence": "minecraft:horse",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "DRY",
@@ -201,6 +213,7 @@
 		{
 			"essence": "minecraft:husk",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "DRY",
@@ -219,6 +232,7 @@
 		{
 			"essence": "minecraft:llama",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "DRY",
@@ -237,6 +251,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "DRY",
@@ -249,6 +264,7 @@
 		{
 			"essence": "minecraft:mooshroom",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -267,6 +283,7 @@
 		{
 			"essence": "minecraft:ocelot",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -285,6 +302,7 @@
 		{
 			"essence": "minecraft:parrot",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -303,6 +321,7 @@
 		{
 			"essence": "minecraft:vindication_illager",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -329,6 +348,7 @@
 		{
 			"essence": "minecraft:witch",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -347,6 +367,7 @@
 		{
 			"essence": "minecraft:zombie",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -379,6 +400,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FUNGAL",
@@ -391,6 +413,7 @@
 		{
 			"essence": "minecraft:snowman",
 			"name": null,
+			"spawn_names": null,
 			"colors": {
 				"primary": 16777215,
 				"secondary": 14913565
@@ -406,6 +429,7 @@
 		{
 			"essence": "minecraft:stray",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FROZEN",
@@ -424,6 +448,7 @@
 		{
 			"essence": "minecraft:wolf",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FROZEN",
@@ -442,6 +467,7 @@
 		{
 			"essence": "minecraft:polar_bear",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FROZEN",
@@ -460,6 +486,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "FROZEN",
@@ -472,6 +499,7 @@
 		{
 			"essence": "minecraft:silverfish",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "SCALE",
@@ -490,6 +518,7 @@
 		{
 			"essence": "minecraft:squid",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "SCALE",
@@ -508,6 +537,7 @@
 		{
 			"essence": "minecraft:guardian",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "SCALE",
@@ -526,6 +556,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "SCALE",
@@ -538,6 +569,7 @@
 		{
 			"essence": "minecraft:zombie_pigman",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NETHER",
@@ -556,6 +588,7 @@
 		{
 			"essence": "minecraft:blaze",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NETHER",
@@ -574,6 +607,7 @@
 		{
 			"essence": "minecraft:wither_skeleton",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NETHER",
@@ -592,6 +626,7 @@
 		{
 			"essence": "minecraft:ghast",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NETHER",
@@ -610,6 +645,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "NETHER",
@@ -622,6 +658,7 @@
 		{
 			"essence": "minecraft:shulker",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "ENDER",
@@ -634,6 +671,7 @@
 		{
 			"essence": "minecraft:endermite",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "ENDER",
@@ -652,6 +690,7 @@
 		{
 			"essence": "minecraft:creeper",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "ENDER",
@@ -670,6 +709,7 @@
 		{
 			"essence": "minecraft:enderman",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "ENDER",
@@ -688,6 +728,7 @@
 		{
 			"essence": "NONE",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": {
 				"type": "ENDER",
@@ -700,6 +741,7 @@
 		{
 			"essence": "minecraft:slime",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": null,
 			"soulbook_quantity": 16,
@@ -709,6 +751,7 @@
 		{
 			"essence": "minecraft:villager_golem",
 			"name": null,
+			"spawn_names": null,
 			"colors": {
 				"primary": 13749192,
 				"secondary": 6984011
@@ -721,6 +764,7 @@
 		{
 			"essence": "minecraft:magma_cube",
 			"name": null,
+			"spawn_names": null,
 			"colors": null,
 			"bones": null,
 			"soulbook_quantity": 16,

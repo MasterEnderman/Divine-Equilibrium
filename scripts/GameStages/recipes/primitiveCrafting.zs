@@ -281,13 +281,6 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     },
-    <roots:bark_dark_oak> : {
-        "gaia" : {
-            1 : [
-                [<roots:bark_oak>, <soulus:bone_meal_nether>]
-            ]
-        }
-    },
     <minecraft:mossy_cobblestone> : {
         "gaia" : {
             1 : [
@@ -306,6 +299,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         "gaia" : {
             1 : [
                 [<minecraft:stonebrick:1>, <naturesaura:gold_leaf>]
+            ]
+        }
+    },
+    <minecraft:ladder>*3 : {
+        "gaia" : {
+            3 : [
+                [<ore:stickWood>*6, <minecraft:vine>]
             ]
         }
     }

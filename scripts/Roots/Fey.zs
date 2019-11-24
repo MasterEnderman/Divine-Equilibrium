@@ -85,7 +85,19 @@ var feyRecipes as IIngredient[][string][IItemStack] = {
     },
     <roots:runic_shears> : {
         "runic_shears" : [<hwell:heavy_shears>,<rootsclassic:runicfocus:1>,<mysticalworld:amethyst_gem>,<mysticalworld:amethyst_gem>,<corvus:bloom_of_death>]
-    }
+    },
+    <roots:living_pickaxe> : {
+        "living_pickaxe" : [<naturesaura:infused_iron_pickaxe>,<contenttweaker:terra_ingot>,<naturesaura:token_sorrow>,<rootsclassic:runicfocus:1>,<roots:bark_oak>]
+    },
+    <roots:living_axe> : {
+        "living_axe" : [<naturesaura:infused_iron_axe>,<contenttweaker:terra_ingot>,<naturesaura:token_sorrow>,<rootsclassic:runicfocus:1>,<roots:bark_oak>]
+    },
+    <roots:living_shovel> : {
+        "living_shovel" : [<naturesaura:infused_iron_shovel>,<contenttweaker:terra_ingot>,<naturesaura:token_sorrow>,<rootsclassic:runicfocus:1>,<roots:bark_oak>]
+    },
+    <roots:living_sword> : {
+        "living_sword" : [<naturesaura:infused_iron_sword>,<contenttweaker:terra_ingot>,<naturesaura:token_sorrow>,<rootsclassic:runicfocus:1>,<roots:bark_oak>]
+    },
 };
 
 for output, recipes in feyRecipes {

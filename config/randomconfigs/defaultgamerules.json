@@ -1,1 +1,11 @@
-{ }
+{ 
+	"MODE_OR_WORLD_TYPE_SPECIFIC": { 
+		"survival": { 
+			"DIFFICULTY": { 
+				"value": "hard",
+				"forced": true
+			},
+			"WORLD_BORDER_SIZE": 100000
+		}
+	}
+}

@@ -118,7 +118,7 @@
             }
         },
         "discord": {
-            "text": "",
+            "text": " ",
             "pressSound": "minecraft:block.portal.ambient",
             "posX": -55,
             "posY": -55,
@@ -134,7 +134,7 @@
             }
         },
         "github": {
-            "text": "",
+            "text": " ",
             "pressSound": "minecraft:block.portal.ambient",
             "posX": -100,
             "posY": -55,
@@ -150,7 +150,7 @@
             }
         },
         "refresh": {
-            "text": "",
+            "text": " ",
             "pressSound": "minecraft:block.portal.ambient",
             "posX": -20,
             "posY": 0,

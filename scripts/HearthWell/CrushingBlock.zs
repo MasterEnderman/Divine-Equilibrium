@@ -52,7 +52,10 @@ var crushingAdd as double[IItemStack][IItemStack] = {
         <soulus:dust_stone> : 1.0
     },
     <contenttweaker:pebble> : {
-        <hwell:dust> : 1.0
+        <hwell:dust>*1 : 0.2,
+        <hwell:dust>*2 : 0.5,
+        <hwell:dust>*3 : 0.2,
+        <hwell:dust>*4 : 0.1
     },
     <minecraft:cobblestone> : {
         <minecraft:gravel> : 1.0

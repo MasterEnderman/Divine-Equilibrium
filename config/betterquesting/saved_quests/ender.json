@@ -27,6 +27,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The Roof",
           "desc:8": "I can only imagine all of the horrible things that may have happened to my potato, but I have bigger fish to fry. I need to get out of this place, whatever it is. \n\nWhen I look closely, I notice that there seems to be a small patch on what must be the ceiling that looks different than the rest of this dark room. Maybe it\u0027s a vent or something. I should try interacting with it to see if it does anything. (shift+left-click with an empty hand)"
         }
@@ -43,8 +44,8 @@
             "0:10": {
               "id:8": "contenttweaker:pebble",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -78,6 +79,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The Floor",
           "desc:8": "This whole place smells like it could go up in flames at any moment with the smallest spark. For lack of a better idea I\u0027m going to just (SLOWLY) punch the ground below me until something happens. If the entire place goes up in flames and this is how my life ends, well, we had a good run. \n\nJust maybe, though, it will be only enough to start a small fire that I can throw my little pebbles into to see if anything happens. Sounds ridiculous doesn\u0027t it? It\u0027s not like I have any better ideas."
         }
@@ -94,8 +96,8 @@
             "0:10": {
               "id:8": "minecraft:cobblestone",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -129,6 +131,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "I Quit",
           "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms... (stay in a fire for too long)"
         }
@@ -145,8 +148,8 @@
             "0:10": {
               "id:8": "minecraft:skull",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -180,6 +183,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "You\u0027re boned",
           "desc:8": "Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier. That just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
         }
@@ -196,20 +200,20 @@
             "0:10": {
               "id:8": "minecraft:bone",
               "Count:3": 2,
-              "OreDict:8": "bone",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "bone"
             },
             "1:10": {
               "id:8": "minecraft:cobblestone",
               "Count:3": 3,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "primitivetools:primitive_pick_cbf",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -256,6 +260,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Burned field",
           "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up in only to discover that I\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock (the top site of the bedrock) and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
         }
@@ -285,14 +290,14 @@
             "0:10": {
               "id:8": "minecraft:gravel",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "bonetorch:bonetorch",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -326,6 +331,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Cut yourself",
           "desc:8": "If you burn gravel in fire you get flint, craft it with a sharped bone to create a flint knife, which can be used to cut yourself and get more food out of yourself. Use 8 raw player meat on a charred cobblestone, which is placed on bedrock to obtain a flesh block, which you can transform into dirt later."
         }
@@ -342,26 +348,26 @@
             "0:10": {
               "id:8": "sharpbone:sharp_bone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:flint",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "cannibalism:flintknife",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "cannibalism:playerflesh",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -395,6 +401,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Dirty Harry",
           "desc:8": "Apply 4 bone meal to a flesh block that is placed on bedrock to transform it into dirt."
         }
@@ -411,14 +418,14 @@
             "0:10": {
               "id:8": "minecraft:dye",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 15
+              "Damage:2": 15,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:dirt",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -432,8 +439,8 @@
             "0:10": {
               "id:8": "elementalresearch:research_book",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -465,6 +472,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Let it grow",
           "desc:8": "Unlock the \"wood\" stage by purchasing the research in the research menu (use the book to open the GUI). After that you can rightclick a dirt block with a piece of bone meal which is placed on bedrock to spawn a sapling."
         }
@@ -481,14 +489,14 @@
             "0:10": {
               "id:8": "forbidden_arcanus:mysterywood_sapling",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "forbidden_arcanus:mysterywood_log",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -520,6 +528,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "What?",
           "desc:8": "Where am I? I uh... this uh... this can\u0027t be good. This can\u0027t be good at all. Why is it so dark? I\u0027m not even quite sure which way is up."
         }
@@ -558,6 +567,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Hmm",
           "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00 a.m., I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. I\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
         }
@@ -596,6 +606,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "RIP",
           "desc:8": "What? I\u0027m not dead? I see my old body just laying there, but I\u0027m standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of my new found regeneration power. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire."
         }
@@ -612,8 +623,8 @@
             "0:10": {
               "id:8": "minecraft:bone_block",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -647,6 +658,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Solidified Earth Knowledge",
           "desc:8": "Collect Earth Research Points by Breaking Nature Blocks. For 10 Research Points you can obtain a solidified Version."
         }
@@ -663,8 +675,8 @@
             "0:10": {
               "id:8": "contenttweaker:solidified_earth_knowledge",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -698,6 +710,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Solidified Air Knowledge",
           "desc:8": "Collect Air Research Points by Jumping. For 10 Research Points you can obtain a solidified Version."
         }
@@ -714,8 +727,8 @@
             "0:10": {
               "id:8": "contenttweaker:solidified_air_knowledge",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -749,6 +762,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Solidified Fire Knowledge",
           "desc:8": "Collect Fire Research Points by Burning yourself. For 10 Research Points you can obtain a solidified Version."
         }
@@ -765,8 +779,8 @@
             "0:10": {
               "id:8": "contenttweaker:solidified_fire_knowledge",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -800,6 +814,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Magnifying Glass",
           "desc:8": "Place down the Block you want to melt and stack 2-8 Amplifying Tubes on top. The more you stack the faster the Block melts."
         }
@@ -816,8 +831,8 @@
             "0:10": {
               "id:8": "hwell:furnace_tube",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -834,8 +849,8 @@
               "tag:10": {
                 "patchouli:book:8": "hwell:book_of_the_well"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -867,6 +882,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Scorch Glass",
           "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
@@ -883,14 +899,14 @@
             "0:10": {
               "id:8": "hwell:scorch_glass",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "hwell:scorch_grit",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -924,6 +940,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Turf Block",
           "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
@@ -940,8 +957,8 @@
             "0:10": {
               "id:8": "hwell:fullgrass_block",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -975,6 +992,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Moonstone",
           "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
@@ -991,8 +1009,8 @@
             "0:10": {
               "id:8": "hwell:moonstone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1026,6 +1044,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Make it balanced",
           "desc:8": "\"It\u0027s balanced, because it takes effort\""
         }
@@ -1042,8 +1061,8 @@
             "0:10": {
               "id:8": "minecraft:clay_ball",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1078,6 +1097,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Solidified Water Knowledge",
           "desc:8": "Collect Water Research Points by drowning damage. For 10 Research Points you can obtain a solidified Version."
         }
@@ -1094,8 +1114,8 @@
             "0:10": {
               "id:8": "contenttweaker:solidified_water_knowledge",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1129,6 +1149,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Actually pretty light",
           "desc:8": "No Description"
         }
@@ -1145,8 +1166,8 @@
             "0:10": {
               "id:8": "hwell:heavy_ingot",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1180,6 +1201,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Golden Leaves \u0026 Magic",
           "desc:8": "No Description"
         }
@@ -1196,14 +1218,14 @@
             "0:10": {
               "id:8": "naturesaura:gold_leaf",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "naturesaura:wood_stand",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1220,8 +1242,8 @@
               "tag:10": {
                 "patchouli:book:8": "naturesaura:book"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -1253,6 +1275,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "See the Aura",
           "desc:8": "No Description"
         }
@@ -1269,8 +1292,8 @@
             "0:10": {
               "id:8": "naturesaura:eye",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1305,6 +1328,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "More Trees",
           "desc:8": "Squeeze one, keep one."
         }
@@ -1321,8 +1345,8 @@
             "0:10": {
               "id:8": "corvus:frankinsence_sapling",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1356,6 +1380,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Eternal Flame",
           "desc:8": "Light it with a Flint and Steel"
         }
@@ -1372,8 +1397,8 @@
             "0:10": {
               "id:8": "corvus:candle",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1390,8 +1415,8 @@
               "tag:10": {
                 "patchouli:book:8": "corvus:book"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -1423,6 +1448,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The One Probe",
           "desc:8": "Seeing more is always better."
         }
@@ -1439,8 +1465,8 @@
             "0:10": {
               "id:8": "theoneprobe:probe_goggles",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1454,8 +1480,8 @@
             "0:10": {
               "id:8": "theoneprobe:probenote",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -1487,8 +1513,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Crushing",
-          "desc:8": "No Description"
+          "desc:8": "Drop your Items on the ground. Place the Crushing block a few blocks higher and let it fall. Thats how you use this block.\n\n§a!TIP! This pack uses Carry on. You can pick up the Crushing Block with shift-rightclick so you don\u0027t have to break it every time you wan\u0027t to use it."
         }
       },
       "tasks:9": {
@@ -1503,8 +1530,8 @@
             "0:10": {
               "id:8": "hwell:crushing_block",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1538,6 +1565,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Squeezing and Drying",
           "desc:8": "Place them next to each other to transfer the fluid from the squeezer to the basin"
         }
@@ -1554,14 +1582,14 @@
             "0:10": {
               "id:8": "integrateddynamics:squeezer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "integrateddynamics:drying_basin",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1575,8 +1603,8 @@
             "0:10": {
               "id:8": "integrateddynamics:on_the_dynamics_of_integration",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -1611,8 +1639,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Growth Candle",
-          "desc:8": "Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health.\n\nYou apply the oil by rightclicking it onto a lit candle. (The oil won\u0027t be used in this process)\n\n§c!ATTENTION! If you break a Growth Candle it\u0027ll convert back to a normal Candle. It\u0027ll will convert to a normal Candle eventually."
+          "desc:8": "Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health.\n\nYou apply the oil by rightclicking it onto a lit candle. A candle can be lit by rightclicking it with a flint and steel. (The oil won\u0027t be used in this process)\n\n§c!ATTENTION! If you break a Growth Candle it\u0027ll convert back to a normal Candle. It\u0027ll will convert to a normal Candle eventually."
         }
       },
       "tasks:9": {
@@ -1627,8 +1656,8 @@
             "0:10": {
               "id:8": "corvus:oil_growth",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1664,6 +1693,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Where do I go now?",
           "desc:8": "A strange Fruit and I\u0027m still hungry. Maybe I should eat it?"
         }
@@ -1680,15 +1710,15 @@
             "0:10": {
               "id:8": "contenttweaker:apple_gaia",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
           "visible:1": 0,
-          "invertDistance:1": 0,
+          "invert:1": 0,
           "range:3": 10000,
           "index:3": 1,
           "structure:8": "",
@@ -1707,6 +1737,7 @@
         "0:10": {
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
           "description:8": "Unlocks the 2x2 Crafting Grid",
           "viaPlayer:1": 0,
           "index:3": 0,
@@ -1732,14 +1763,15 @@
                 "TrophyName:8": "Fruit of Gaia",
                 "TrophyColorRed:3": 37
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         },
         "2:10": {
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
           "description:8": "Unlocks another Gamestage",
           "viaPlayer:1": 0,
           "index:3": 2,
@@ -1774,6 +1806,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Time to make Glass",
           "desc:8": "A fancy, transparent Block."
         }
@@ -1790,26 +1823,26 @@
             "0:10": {
               "id:8": "hwell:dust",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "hwell:dust_block",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "minecraft:glass",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "minecraft:glass_bottle",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1845,6 +1878,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Water Transport",
           "desc:8": "Get your water from one Point to another"
         }
@@ -1861,20 +1895,20 @@
             "0:10": {
               "id:8": "minecraft:bowl",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:bucket",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "minecraft:water_bucket",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1908,6 +1942,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "I\u0027m blue...",
           "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
         }
@@ -1924,8 +1959,8 @@
             "0:10": {
               "id:8": "hwell:smooth_azurite",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1959,6 +1994,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "More Bones",
           "desc:8": "Use Moonstone to increase your Bone reservoir"
         }
@@ -1975,14 +2011,14 @@
             "0:10": {
               "id:8": "minecraft:bone_block",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "hwell:shard_ca",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2020,6 +2056,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Take some Air with you",
           "desc:8": "Rightclick with a Bottle and Cork in the Air to collect your Surroundings."
         }
@@ -2036,8 +2073,8 @@
             "0:10": {
               "id:8": "naturesaura:bottle_two_the_rebottling",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "naturesaura:aura_bottle",
@@ -2045,8 +2082,8 @@
               "tag:10": {
                 "stored_type:8": "naturesaura:end"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2080,6 +2117,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Where did all my Items go?",
           "desc:8": "My Baubles are still there. But where is the rest?"
         }
@@ -2094,6 +2132,7 @@
         "0:10": {
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
           "description:8": "",
           "viaPlayer:1": 0,
           "index:3": 0,
@@ -2135,6 +2174,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Need to breath",
           "desc:8": "Maybe I enter a place where there isn\u0027t enough air for me to breath. This should help me."
         }
@@ -2157,8 +2197,8 @@
                   "Name:8": "§3Ring of Gaia"
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2192,6 +2232,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Ignition",
           "desc:8": "Start a Fire whereever you want."
         }
@@ -2208,8 +2249,8 @@
             "0:10": {
               "id:8": "minecraft:flint_and_steel",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2243,6 +2284,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Now cut other things",
           "desc:8": "That way making water becomes much easier"
         }
@@ -2259,8 +2301,8 @@
             "0:10": {
               "id:8": "hwell:heavy_shears",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2295,6 +2337,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Destroy those Trees",
           "desc:8": "You can use OreExcavation to chop down trees easier, but you need to have an axe. just check the controls to set the keybind."
         }
@@ -2311,8 +2354,8 @@
             "0:10": {
               "id:8": "primitivetools:primitive_hatchet_cbf",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2354,6 +2397,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Miner\u0027s hate that trick",
           "desc:8": "Haste is the way to go"
         }
@@ -2376,8 +2420,8 @@
                   "Name:8": "§6Ring of Haste"
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2411,6 +2455,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Getting back on Track",
           "desc:8": "Finally I\u0027m able to craft some basic Tools now. Let\u0027s go mining.\n\nBreaking Leaves while holding a piece of Flint sometimes yields some Sticks."
         }
@@ -2427,20 +2472,20 @@
             "0:10": {
               "id:8": "primitivetools:primitive_pick_cwf",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "primitivetools:primitive_hatchet_cwf",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "primitivetools:primitive_spade_cwf",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2474,6 +2519,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Alternative Food Source",
           "desc:8": "Stop eating yourself"
         }
@@ -2490,8 +2536,8 @@
             "0:10": {
               "id:8": "contenttweaker:salad_leaf",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2525,6 +2571,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Lost your Questbook?",
           "desc:8": "Get a new One."
         }
@@ -2543,8 +2590,8 @@
             "0:10": {
               "id:8": "questbook:itemquestbook",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -2576,6 +2623,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Questbook doesn\u0027t work?",
           "desc:8": "Try to reload it with this Quest."
         }
@@ -2590,6 +2638,7 @@
         "0:10": {
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
           "description:8": "You won\u0027t loose any Progress by doing this.",
           "viaPlayer:1": 0,
           "index:3": 0,
@@ -2625,6 +2674,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Even better Food",
           "desc:8": "Gives a Regeneration Buff when eaten."
         }
@@ -2641,8 +2691,8 @@
             "0:10": {
               "id:8": "contenttweaker:salad_frankinsence",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2677,6 +2727,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Storing Liquids",
           "desc:8": "If you don\u0027t have an other place to put it.\n\nThe iTank stores it\u0027s content when broken and auto-outputs to the bottom side."
         }
@@ -2693,8 +2744,8 @@
             "0:10": {
               "id:8": "itank:blocktank",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2728,6 +2779,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Resource Collection",
           "desc:8": "Well, whereever my items went, now it\u0027s not the time to sit here and wait until something happens. Maybe I should try to create some basic tools again to further explore this place.\n\nCollect some Gravel with your bare hands and throw it into a nearby puddle to obtain some flint. Smash the flint against some stone to break it into small pieces."
         }
@@ -2742,34 +2794,28 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:gravel",
-              "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "1:10": {
               "id:8": "minecraft:flint",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
-            "2:10": {
+            "1:10": {
               "id:8": "primitivetools:flint_shard",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "primitivetools:flint_flake",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
-            "4:10": {
+            "3:10": {
               "id:8": "primitivetools:flint_point",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2803,6 +2849,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Time to hunt",
           "desc:8": "By making a knife you get access to more resources which might be needed later."
         }
@@ -2819,8 +2866,8 @@
             "0:10": {
               "id:8": "roots:stone_knife",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2854,6 +2901,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Herbs",
           "desc:8": "You\u0027ll find some Lakes underground with some mossy cobblestone. Try to carve some of the moss with your knife. (right click with it on mossy cobblestone)"
         }
@@ -2870,8 +2918,8 @@
             "0:10": {
               "id:8": "roots:terra_moss",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2905,6 +2953,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "This is not a bug.",
           "desc:8": "This is a bug."
         }
@@ -3040,8 +3089,8 @@
             "0:10": {
               "id:8": "mysticalworld:carapace",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3075,6 +3124,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "A Furry",
           "desc:8": "uwu"
         }
@@ -3218,8 +3268,8 @@
             "0:10": {
               "id:8": "mysticalworld:pelt",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3253,6 +3303,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Alternative Food Source",
           "desc:8": "Get youself some meat"
         }
@@ -3392,8 +3443,8 @@
             "0:10": {
               "id:8": "mysticalworld:venison",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3427,6 +3478,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Wood Stripping",
           "desc:8": "Obtain some Bark from the surrounding Trees"
         }
@@ -3443,14 +3495,14 @@
             "0:10": {
               "id:8": "roots:bark_jungle",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:bark_oak",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3484,6 +3536,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Shiny Gems",
           "desc:8": "Almost a Rainbow"
         }
@@ -3500,32 +3553,32 @@
             "0:10": {
               "id:8": "corvus:wiser_gem",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "mysticalworld:amethyst_gem",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "arcaneworld:sapphire",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "corvus:crystal_quartz",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "forbidden_arcanus:arcane_crystal",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3559,6 +3612,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Awake the Forest",
           "desc:8": "Use the Fiber on Leaves to slowly convert them into Golden Leaves"
         }
@@ -3575,26 +3629,26 @@
             "0:10": {
               "id:8": "naturesaura:gold_fiber",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "naturesaura:gold_leaf",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "naturesaura:wood_stand",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "naturesaura:gold_powder",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3611,8 +3665,8 @@
               "tag:10": {
                 "patchouli:book:8": "naturesaura:book"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -3644,6 +3698,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Not so heavy",
           "desc:8": "Do you remember how to make them?"
         }
@@ -3660,8 +3715,8 @@
             "0:10": {
               "id:8": "hwell:heavy_ingot",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3696,6 +3751,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Wood to Planks and Planks to Sticks",
           "desc:8": "Get a Flint Knife again to process Logs."
         }
@@ -3712,8 +3768,8 @@
             "0:10": {
               "id:8": "cannibalism:flintknife",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3747,6 +3803,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Mortar \u0026 Pestle",
           "desc:8": "What kind of Druid are you?"
         }
@@ -3763,14 +3820,14 @@
             "0:10": {
               "id:8": "roots:mortar",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:pestle",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3787,8 +3844,8 @@
               "tag:10": {
                 "patchouli:book:8": "roots:roots_guide"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -3821,6 +3878,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The Stick of Truth",
           "desc:8": "Infuse your stick with some magic powder.\nPlace down the Imbuer and insert your powder and stuff to start the imbuing process.\nIt\u0027ll later be used to awaken your Grove Stone."
         }
@@ -3845,8 +3903,8 @@
                   "cooldown:3": 0
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:staff",
@@ -3859,14 +3917,14 @@
                   "cooldown:3": 0
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "roots:imbuer",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3902,6 +3960,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The Spirit of the Forest",
           "desc:8": "Channel the natural energy through your hands.\n\nEmpower the Grove Stone by casting your newly made Spell on it.\n\nUse your Knife on the Fay Crafter to start the Crafting Ritual."
         }
@@ -3918,14 +3977,14 @@
             "0:10": {
               "id:8": "roots:fey_crafter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:grove_stone",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3961,6 +4020,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Storing Herbs",
           "desc:8": "In order to cast Spells you need to put the required Herbs inside this Pouch.\n\nFurthermore it allows you to store some Items in it."
         }
@@ -3977,8 +4037,8 @@
             "0:10": {
               "id:8": "roots:component_pouch",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4012,6 +4072,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "A great Stick",
           "desc:8": "Bigger than the normal one"
         }
@@ -4028,8 +4089,8 @@
             "0:10": {
               "id:8": "roots:staff",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4063,6 +4124,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Bonfire",
           "desc:8": "Burn it down.\n\nUse a Flint and Steel to start the Ritual."
         }
@@ -4079,8 +4141,8 @@
             "0:10": {
               "id:8": "roots:bonfire",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4115,6 +4177,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "This shouldn\u0027t exist",
           "desc:8": "Why is it still here?"
         }
@@ -4131,8 +4194,8 @@
             "0:10": {
               "id:8": "forbidden_arcanus:cherrywood_sapling",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4166,6 +4229,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Use the Aura for something",
           "desc:8": "You remember the magical energy around you? It\u0027s time to utilize it.\n\nThe Altar requires a Multiblock placed around it to function. Take a look at the Natures Aura Manual to see the setup."
         }
@@ -4182,32 +4246,32 @@
             "0:10": {
               "id:8": "naturesaura:nature_altar",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:stonebrick",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "naturesaura:gold_brick",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "minecraft:stonebrick",
               "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "minecraft:planks",
               "Count:3": 20,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4242,6 +4306,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Natural Metalurgy",
           "desc:8": "Infuse a Heavy Ingot with the Power of Nature"
         }
@@ -4258,8 +4323,8 @@
             "0:10": {
               "id:8": "naturesaura:infused_iron",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4293,6 +4358,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Advanced Magic",
           "desc:8": "Used for all kinds of Rituals"
         }
@@ -4309,8 +4375,8 @@
             "0:10": {
               "id:8": "arcaneworld:ritual_table",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4347,6 +4413,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Boss #1",
           "desc:8": "Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier."
         }
@@ -4483,8 +4550,8 @@
             "0:10": {
               "id:8": "harvestersnight:harvester_scythe",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4494,6 +4561,7 @@
         "0:10": {
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
           "description:8": "Unlocks a new Gamestage",
           "viaPlayer:1": 0,
           "index:3": 0,
@@ -4520,8 +4588,8 @@
                 "TrophyName:8": "Equilibrium for Gaia",
                 "TrophyColorRed:3": 59
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -4555,6 +4623,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Protect yourself",
           "desc:8": "Better safe then sorry"
         }
@@ -4571,26 +4640,26 @@
             "0:10": {
               "id:8": "roots:sylvan_helmet",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:sylvan_chestplate",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "roots:sylvan_leggings",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "roots:sylvan_boots",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4624,6 +4693,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Verdant Sprig",
           "desc:8": "Concentrated Nature"
         }
@@ -4640,8 +4710,8 @@
             "0:10": {
               "id:8": "rootsclassic:verdantsprig",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4675,6 +4745,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Basic Armor",
           "desc:8": "Only for the cold days."
         }
@@ -4691,26 +4762,26 @@
             "0:10": {
               "id:8": "minecraft:leather_helmet",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "minecraft:leather_chestplate",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "minecraft:leather_leggings",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "minecraft:leather_boots",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4744,6 +4815,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "That\u0027s what i call an Upgrade!",
           "desc:8": "It\u0027s time for the green Thumb"
         }
@@ -4760,26 +4832,26 @@
             "0:10": {
               "id:8": "naturesaura:infused_iron_helmet",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "naturesaura:infused_iron_chest",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "naturesaura:infused_iron_pants",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "naturesaura:infused_iron_shoes",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4815,6 +4887,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Awake the Forest",
           "desc:8": "Grow the old Trees that nobody seen before. To Accomplish this task setup the \"Wildwood Growth\" ritual near a fully grown wild root crop."
         }
@@ -4831,8 +4904,8 @@
             "0:10": {
               "id:8": "roots:wildwood_log",
               "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4866,6 +4939,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Token of Joy",
           "desc:8": "Don\u0027t worry, be happy"
         }
@@ -4882,8 +4956,8 @@
             "0:10": {
               "id:8": "naturesaura:token_joy",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4917,6 +4991,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Botanist\u0027s Tools",
           "desc:8": "Fancy green."
         }
@@ -4933,26 +5008,26 @@
             "0:10": {
               "id:8": "naturesaura:infused_iron_pickaxe",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "naturesaura:infused_iron_axe",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "naturesaura:infused_iron_shovel",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "naturesaura:infused_iron_sword",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4986,6 +5061,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Diamonds!",
           "desc:8": "Fancy Gem."
         }
@@ -5002,8 +5078,8 @@
             "0:10": {
               "id:8": "minecraft:diamond",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5037,6 +5113,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Stunning Dahlia",
           "desc:8": "Collected by using a Diamond on it."
         }
@@ -5053,8 +5130,8 @@
             "0:10": {
               "id:8": "corvus:stunning_dahlia",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5088,6 +5165,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Runic Shears",
           "desc:8": "The magic cut."
         }
@@ -5104,8 +5182,8 @@
             "0:10": {
               "id:8": "roots:runic_shears",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5139,6 +5217,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The oldest Tree",
           "desc:8": "No one have seen this before."
         }
@@ -5155,8 +5234,8 @@
             "0:10": {
               "id:8": "naturesaura:ancient_sapling",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5190,6 +5269,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Harvest Mania",
           "desc:8": "Collect all the seeds and set up a little Farm. You\u0027ll need them."
         }
@@ -5206,38 +5286,38 @@
             "0:10": {
               "id:8": "roots:moonglow_seed",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:pereskia_bulb",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "roots:spirit_herb_seed",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "roots:wildewheet_seed",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "mysticalworld:aubergine_seed",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "5:10": {
               "id:8": "corvus:wormwood_seeds",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5271,6 +5351,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Token of Sorrow",
           "desc:8": "After sunshine comes rain"
         }
@@ -5287,8 +5368,8 @@
             "0:10": {
               "id:8": "naturesaura:token_sorrow",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5322,6 +5403,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Magic Fabric",
           "desc:8": "Using Runic Shears on Deers sometimes yields a magical leather."
         }
@@ -5338,8 +5420,8 @@
             "0:10": {
               "id:8": "roots:fey_leather",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5373,6 +5455,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Runic Focus",
           "desc:8": "Storing the Nature in Stone"
         }
@@ -5389,8 +5472,8 @@
             "0:10": {
               "id:8": "rootsclassic:runicfocus",
               "Count:3": 4,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5426,6 +5509,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The Journey continues",
           "desc:8": "It\u0027s time to continue"
         }
@@ -5442,26 +5526,26 @@
             "0:10": {
               "id:8": "roots:living_pickaxe",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "roots:living_axe",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "roots:living_shovel",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "roots:living_sword",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5471,6 +5555,7 @@
         "0:10": {
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
           "description:8": "Unlocks the next Chapter",
           "viaPlayer:1": 0,
           "index:3": 0,
@@ -5506,8 +5591,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "3x3 Crafting?",
-          "desc:8": "Kind of but it\u0027s still not the same"
+          "desc:8": "Kind of cool, but it\u0027s still not the same."
         }
       },
       "tasks:9": {
@@ -5522,8 +5608,8 @@
             "0:10": {
               "id:8": "naturesaura:auto_crafter",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5557,6 +5643,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Getting my Health back",
           "desc:8": "There is an Item you can craft to get some of ypur health back"
         }
@@ -5573,8 +5660,60 @@
             "0:10": {
               "id:8": "contenttweaker:heart_token",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "87:10": {
+      "questID:3": 87,
+      "preRequisites:11": [
+        31,
+        32
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:azurite",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "More water",
+          "desc:8": "You can process azurite to obtain more water."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:azurite",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5812,7 +5951,7 @@
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": -108,
+          "x:3": -72,
           "y:3": 60,
           "id:3": 32,
           "sizeY:3": 24
@@ -5896,7 +6035,7 @@
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": -72,
+          "x:3": -108,
           "y:3": 60,
           "id:3": 46,
           "sizeY:3": 24
@@ -5906,6 +6045,13 @@
           "x:3": 0,
           "y:3": -120,
           "id:3": 86,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 96,
+          "id:3": 87,
           "sizeY:3": 24
         }
       },

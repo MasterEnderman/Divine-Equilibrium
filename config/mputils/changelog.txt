@@ -2,26 +2,31 @@
 
 ## 0.2.0 ##
 
-- added oregen to the gaia dimension
+- added defiled dimension
+- added hearth containers
+- added leaves to oreexcavation whitelist
 - added mobspawns to the gaia dimension
+- added more quests
+- added oregen to the gaia dimension
+- added research descriptions
+- added sounds to scavenge scripts
+- added trophies
+- cleaned up JEI
+- decreased some quest requirements
+- finished gaia progression
+- fixed amethyst ore mining level
+- fixed most NPEs in elemental research
+- fixed some typos in the loading screen messages
+- fixed weird numbers in crafting recipes
+- fixed world corrupting crash with elemental research
+- improved item descriptions
+- increased gravel drops from charred cobblestone
+- locked default difficulty to hard
+- overhauled health system
 - replaced old skybox
 - replaced starter bone tools
-- fixed most NPEs in elemental research
-- cleaned up JEI
-- added research descriptions
-- added trophies
 - tweaked the mainmenu
-- added leaves to oreexcavation whitelist
-- improved item descriptions
-- fixed weird numbers in crafting recipes
-- fixed some typos in the loading screen messages
-- added more quests
-- finished gaia progression
-- added sounds to scavenge scripts
-- fixed world corrupting crash with elemental research
-- tweaked the research costs again (still not final, but al needs to fix some things first)
-- increased gravel drops from charred cobblestone
-- decreased some quest requirements
+- tweaked the research costs again
 
 ## 0.1.3 ##
 

@@ -31,6 +31,12 @@ primcraft.setLocalizedNameSupplier(function(itemStack) {return "Primitive Crafti
 primcraft.textureLocation = ResourceLocation.create("contenttweaker:items/icon/primcraft");
 primcraft.register();
 
+//materials
+var terra_ingot as Item = VanillaFactory.createItem("terra_ingot");
+terra_ingot.setLocalizedNameSupplier(function(itemStack) {return "Terra Ingot";});
+terra_ingot.textureLocation = ResourceLocation.create("contenttweaker:items/materials/terra_ingot");
+terra_ingot.register();
+
 //solidified_knowledge
 var solidified_fire_knowledge as Item = VanillaFactory.createItem("solidified_fire_knowledge");
 solidified_fire_knowledge.setLocalizedNameSupplier(function(itemStack) {return "Solidified Fire Knowledge";});

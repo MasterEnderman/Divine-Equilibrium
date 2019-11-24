@@ -1,6 +1,7 @@
 {
 	"particle_count_spawn": 50,
 	"particle_count_activated": 3.0,
+	"particle_count_midnight_jewel": 5.0,
 	"perfect_essence_boost": 0.015,
 	"perfect_essence_boost_decay": 0.7,
 	"non_upgraded_spawning_radius": 4,
@@ -53,74 +54,6 @@
 		"soulus:dust_stone": "spooky"
 	},
 	"style_potion_effects": {
-		"blazing": [
-			{
-				"effect": "fire_resistance",
-				"duration": 2147483647,
-				"chance": 0.5
-			},
-			{
-				"effect": "regeneration",
-				"duration": 2147483647,
-				"chance": 0.2
-			},
-			{
-				"effect": "weakness",
-				"duration": 2147483647,
-				"chance": 0.1
-			}
-		],
-		"spooky": [
-			{
-				"effect": "glowing",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "invisibility",
-				"duration": 2147483647,
-				"chance": 0.5
-			},
-			{
-				"effect": "wither",
-				"duration": 2147483647,
-				"chance": 0.1
-			}
-		],
-		"madness": [
-			{
-				"effect": "weakness",
-				"duration": 2147483647,
-				"chance": 0.1
-			},
-			{
-				"effect": "wither",
-				"duration": 2147483647,
-				"chance": 0.5
-			},
-			{
-				"effect": "poison",
-				"duration": 2147483647,
-				"chance": 0.2
-			}
-		],
-		"sorrow": [
-			{
-				"effect": "slowness",
-				"duration": 2147483647,
-				"chance": 0.2
-			},
-			{
-				"effect": "weakness",
-				"duration": 2147483647,
-				"chance": 0.5
-			},
-			{
-				"effect": "resistance",
-				"duration": 2147483647,
-				"chance": 0.1
-			}
-		],
 		"normal": [
 			{
 				"effect": "water_breathing",
@@ -163,6 +96,40 @@
 				"chance": 0.1
 			}
 		],
+		"blazing": [
+			{
+				"effect": "fire_resistance",
+				"duration": 2147483647,
+				"chance": 0.5
+			},
+			{
+				"effect": "regeneration",
+				"duration": 2147483647,
+				"chance": 0.2
+			},
+			{
+				"effect": "weakness",
+				"duration": 2147483647,
+				"chance": 0.1
+			}
+		],
+		"spooky": [
+			{
+				"effect": "glowing",
+				"duration": 2147483647,
+				"chance": 0.1
+			},
+			{
+				"effect": "invisibility",
+				"duration": 2147483647,
+				"chance": 0.5
+			},
+			{
+				"effect": "wither",
+				"duration": 2147483647,
+				"chance": 0.1
+			}
+		],
 		"ender": [
 			{
 				"effect": "speed",
@@ -176,6 +143,40 @@
 			},
 			{
 				"effect": "strength",
+				"duration": 2147483647,
+				"chance": 0.2
+			}
+		],
+		"sorrow": [
+			{
+				"effect": "slowness",
+				"duration": 2147483647,
+				"chance": 0.2
+			},
+			{
+				"effect": "weakness",
+				"duration": 2147483647,
+				"chance": 0.5
+			},
+			{
+				"effect": "resistance",
+				"duration": 2147483647,
+				"chance": 0.1
+			}
+		],
+		"madness": [
+			{
+				"effect": "weakness",
+				"duration": 2147483647,
+				"chance": 0.1
+			},
+			{
+				"effect": "wither",
+				"duration": 2147483647,
+				"chance": 0.5
+			},
+			{
+				"effect": "poison",
 				"duration": 2147483647,
 				"chance": 0.2
 			}

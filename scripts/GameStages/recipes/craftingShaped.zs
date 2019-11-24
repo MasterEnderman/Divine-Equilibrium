@@ -49,6 +49,10 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 [
                     [null,<contenttweaker:pebble>],
                     [<ore:cobblestone>,null]
+                ],
+                [
+                    [null,<ore:flakeFlint>],
+                    [<ore:cobblestone>,null]
                 ]
             ]
         }

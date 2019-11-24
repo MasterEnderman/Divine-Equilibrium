@@ -16,7 +16,9 @@ for item in removeMap {
 }
 
 var furnaceMap as IIngredient[][IItemStack] = {
-
+    <minecraft:leather> : [
+        <forbidden_arcanus:rotten_leather>
+    ],
 };
 
 for output, inputs in furnaceMap {

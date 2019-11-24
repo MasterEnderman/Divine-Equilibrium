@@ -38,11 +38,9 @@ var pyreMap as IIngredient[][string][IItemStack] = {
     <roots:pereskia> : {
         "pereskia" : [<forbidden_arcanus:mundabitur_dust>,<corvus:stunning_dahlia>,<minecraft:melon>,<mysticalworld:amethyst_gem>,<corvus:crystal_quartz>]
     },
-    /*
-    <roots:ritual_wild_growth> : {
-        "ritual_wild_growth" : [<roots:wildroot>,<roots:spirit_herb>,<roots:bark_oak>,<roots:bark_jungle>,<rootsclassic:verdantsprig>]
+    <contenttweaker:terra_ingot> : {
+        "terra_ingot" : [<naturesaura:infused_iron>,<roots:spirit_herb>,<rootsclassic:growthsalve>,<corvus:wormwood>,<forbidden_arcanus:mundabitur_dust>]
     }
-    */
 };
 
 for output, recipes in pyreMap {

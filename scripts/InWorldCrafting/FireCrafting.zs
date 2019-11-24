@@ -18,7 +18,7 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <primitivetools:primitive_hatchet_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Axe"}}) : [<primitivetools:primitive_hatchet_cbf>],
     <primitivetools:primitive_knife_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Knife"}}) : [<primitivetools:primitive_knife_cbf>],
     <cannibalism:playerfleshcooked> : [<cannibalism:playerflesh>],
-    <bonetorch:bonetorch> : [<soulus:bone_normal>],
+    <bonetorch:bonetorch> : [<soulus:bone_normal>,<soulus:bone_dry>,<soulus:bone_fungal>,<soulus:bone_frozen>],
     <minecraft:flint> : [<ore:gravel>],
     <hwell:shard_p> : [<contenttweaker:solidified_fire_knowledge>],
     <hwell:shard_o> : [<contenttweaker:solidified_water_knowledge>],

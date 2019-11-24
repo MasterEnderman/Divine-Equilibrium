@@ -21,6 +21,7 @@
 - fixed world corrupting crash with elemental research
 - improved item descriptions
 - increased gravel drops from charred cobblestone
+- locked default difficulty to hard
 - overhauled health system
 - replaced old skybox
 - replaced starter bone tools

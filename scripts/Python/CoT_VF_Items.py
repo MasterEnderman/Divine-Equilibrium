@@ -17,6 +17,9 @@ items = {
     "icon" : {
         "Primitive Crafting Icon" : "primcraft"
     },
+    "materials" : {
+        "Terra Ingot" : "terra_ingot"
+    },
     "solidified_knowledge" : {
         "Solidified Fire Knowledge" : "solidified_fire_knowledge",
         "Solidified Water Knowledge" : "solidified_water_knowledge",
