@@ -136,7 +136,7 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <minecraft:torch> : {
-        "fire_1" : {
+        "fire_2" : {
             1 : [
                 [<ore:stickWood>, <contenttweaker:pellet>]
             ],
@@ -309,7 +309,6 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
             ]
         }
     }
-
 };
 
 for output, data in recipePrimitiveCrafting {

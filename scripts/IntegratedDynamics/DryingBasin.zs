@@ -14,7 +14,7 @@ import mods.integrateddynamics.DryingBasin;
 
 //mods.integrateddynamics.DryingBasin.addRecipe(inputStack, inputFluid, outputStack, outputFluid, duration);
 
-var duration as int = 20*10;
+var duration as int = 10; //value in sec
 
 var mapFluidToItem as ILiquidStack[][IItemStack] = {
     <corvus:frankincense_tears> : [
@@ -28,6 +28,9 @@ var mapItemToItem as IItemStack[][IItemStack] = {
     ],
     <minecraft:dirt> : [
         <hwell:fullgrass_block>
+    ],
+    <mysticalworld:silk_thread> : [
+        <mysticalworld:silk_cocoon>
     ]
 };
 
@@ -38,6 +41,11 @@ var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
             <primitivetools:flint_shard>,
             <primitivetools:flint_flake>,
             <primitivetools:flint_point>
+        ]
+    },
+    <minecraft:dirt> : {
+        <liquid:water>*500 : [
+            <hwell:dust_block>
         ]
     }
 };

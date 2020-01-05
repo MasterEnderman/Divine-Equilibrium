@@ -125,6 +125,9 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     <naturesaura:ancient_planks> : {
         <minecraft:wooden_button> : 1.0
     },
+    <mysticalworld:charred_planks> : {
+        <mysticalworld:charred_button> : 1.0
+    }
 };
 
 for input, outputs in crushingAdd {

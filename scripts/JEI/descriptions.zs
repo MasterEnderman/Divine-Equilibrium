@@ -19,6 +19,7 @@ JEI.addDescription(<minecraft:gravel>, ["Obtained by breaking Charred Cobbleston
 JEI.addDescription(<corvus:frankinsence_sapling>, ["Only grows with a lit Candle of Growth nearby"]);
 
 JEI.addDescription(<ore:plankWood>, ["Obtained by breaking Logs with a Flint Knife"]);
+JEI.addDescription(<forbidden_arcanus:mysterywood_planks>, ["Obtained by breaking Logs with a Flint Knife"]);
 JEI.addDescription(<minecraft:stick>, ["Obtained by breaking Planks with a Flint Knife"]);
 JEI.addDescription(<cannibalism:flintknife>, ["Can break Logs into Planks and Planks into Sticks"]);
 

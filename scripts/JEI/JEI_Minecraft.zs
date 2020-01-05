@@ -83,6 +83,7 @@ static JEI_Minecraft as IIngredient[] = [
     <minecraft:golden_chestplate>,
     <minecraft:golden_leggings>,
     <minecraft:golden_boots>,
+    <minecraft:bed:*>,
     <minecraft:potion>.withTag({Potion: "minecraft:mundane"}),
     <minecraft:potion>.withTag({Potion: "minecraft:thick"}),
     <minecraft:potion>.withTag({Potion: "minecraft:awkward"}),

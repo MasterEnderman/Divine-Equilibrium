@@ -1,5 +1,12 @@
 # Changelog #
 
+## 0.2.1 ##
+
+- tweaked research costs
+- improved quest descriptions
+- fixed bone processing
+- tweaked README.md
+
 ## 0.2.0 ##
 
 - added defiled dimension

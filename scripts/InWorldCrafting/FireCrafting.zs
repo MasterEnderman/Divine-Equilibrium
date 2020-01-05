@@ -11,7 +11,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.inworldcrafting.FireCrafting;
 
 var FireCraftingMap as IIngredient[][IItemStack] = {
-    <minecraft:bone_block> : [<minecraft:skull:3>],
+    <minecraft:bone_block> : [<minecraft:skull:3>, <minecraft:skull>],
     <minecraft:cobblestone> : [<contenttweaker:pebble>],
     <primitivetools:primitive_pick_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Pickaxe"}}) : [<primitivetools:primitive_pick_cbf>],
     <primitivetools:primitive_spade_cbf>.withTag({ench: [{lvl: 1 as short, id: 34 as short},{lvl: 1 as short, id: 20 as short}], display: {Name: "§3Scorched Primitive Shovel"}}) : [<primitivetools:primitive_spade_cbf>],

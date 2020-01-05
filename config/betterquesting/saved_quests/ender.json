@@ -660,7 +660,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Solidified Earth Knowledge",
-          "desc:8": "Collect Earth Research Points by Breaking Nature Blocks. For 10 Research Points you can obtain a solidified Version."
+          "desc:8": "Collect Earth Research Points by Breaking Nature Blocks. For 20 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -712,7 +712,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Solidified Air Knowledge",
-          "desc:8": "Collect Air Research Points by Jumping. For 10 Research Points you can obtain a solidified Version."
+          "desc:8": "Collect Air Research Points by Jumping. For 20 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -764,7 +764,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Solidified Fire Knowledge",
-          "desc:8": "Collect Fire Research Points by Burning yourself. For 10 Research Points you can obtain a solidified Version."
+          "desc:8": "Collect Fire Research Points by Burning yourself. For 5 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -1099,7 +1099,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Solidified Water Knowledge",
-          "desc:8": "Collect Water Research Points by drowning damage. For 10 Research Points you can obtain a solidified Version."
+          "desc:8": "Collect Water Research Points by drowning damage. For 5 Research Points you can obtain a solidified Version."
         }
       },
       "tasks:9": {
@@ -1151,7 +1151,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Actually pretty light",
-          "desc:8": "No Description"
+          "desc:8": "Some kind of metal created from the basic resources you can access."
         }
       },
       "tasks:9": {
@@ -2903,7 +2903,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Herbs",
-          "desc:8": "You\u0027ll find some Lakes underground with some mossy cobblestone. Try to carve some of the moss with your knife. (right click with it on mossy cobblestone)"
+          "desc:8": "While wondering around I found some Lakes underground with some mossy cobblestone. Try to carve some of the moss with your knife.\n\n§o(rightclick the mossy cobblestone with the knife)"
         }
       },
       "tasks:9": {
@@ -3640,7 +3640,7 @@
             },
             "2:10": {
               "id:8": "naturesaura:wood_stand",
-              "Count:3": 1,
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -3675,7 +3675,8 @@
     "56:10": {
       "questID:3": 56,
       "preRequisites:11": [
-        47
+        47,
+        58
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5632,7 +5633,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "scalinghealth:heartcontainer",
+            "id:8": "contenttweaker:heart_token",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5711,6 +5712,69 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:azurite",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "88:10": {
+      "questID:3": 88,
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "primitivetools:primitive_pick_cbf",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Don\u0027t get boned again.",
+          "desc:8": "After collecting some Rocks I should be able to replace the primitive tools with something better."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primitivetools:primitive_pick_cbf",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "primitivetools:primitive_hatchet_cbf",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "primitivetools:primitive_spade_cbf",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -6120,7 +6184,7 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -72,
+          "y:3": -108,
           "id:3": 50,
           "sizeY:3": 24
         },
@@ -6141,7 +6205,7 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -36,
+          "y:3": -72,
           "id:3": 53,
           "sizeY:3": 24
         },
@@ -6367,6 +6431,13 @@
           "x:3": 288,
           "y:3": -72,
           "id:3": 85,
+          "sizeY:3": 24
+        },
+        "42:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -36,
+          "id:3": 88,
           "sizeY:3": 24
         }
       },

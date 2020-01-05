@@ -26,7 +26,8 @@ var woodMap as string[][IItemStack] = {
     <forbidden_arcanus:mysterywood_planks> : ["forbidden_arcanus:mysterywood_log","forbidden_arcanus:mysterywood_log:4","forbidden_arcanus:mysterywood_log:8"],
     <hwell:myst_planks> : ["hwell:myst_log","hwell:myst_log:4","hwell:myst_log:8"],
     <naturesaura:ancient_planks> : ["naturesaura:ancient_log","naturesaura:ancient_log:1","naturesaura:ancient_log:2","naturesaura:ancient_bark","naturesaura:ancient_bark:1","naturesaura:ancient_bark:2"],
-    <roots:wildwood_planks> : ["roots:wildwood_log", "roots:wildwood_log:4", "roots:wildwood_log:8"]
+    <roots:wildwood_planks> : ["roots:wildwood_log", "roots:wildwood_log:4", "roots:wildwood_log:8"],
+    <mysticalworld:charred_planks> : ["mysticalworld:charred_log", "mysticalworld:charred_log:4", "mysticalworld:charred_log:8"],
 };
 
 var indexWood as int = 0;

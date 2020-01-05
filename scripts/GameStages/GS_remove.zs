@@ -24,6 +24,7 @@ import scripts.JEI.JEI_Cannibalism.JEI_Cannibalism as Cannibalism;
 import scripts.JEI.JEI_ClockworkPhase.JEI_ClockworkPhase as ClockworkPhase;
 import scripts.JEI.JEI_MysticalWorld.JEI_MysticalWorld as MysticalWorld;
 import scripts.JEI.JEI_MysticalMechanics.JEI_MysticalMechanics as MysticalMechanics;
+import scripts.JEI.JEI_ForbiddenArcanus.JEI_ForbiddenArcanus as ForbiddenArcanus;
 
 print("Disabling Items.");
 
@@ -41,7 +42,8 @@ var ItemsToDisable as IIngredient[][] = [
     Cannibalism,
     ScalingHealth,
     Soulus,
-    TheOneProbe
+    TheOneProbe,
+    ForbiddenArcanus
 ];
 
 for list in ItemsToDisable {

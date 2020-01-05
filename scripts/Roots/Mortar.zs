@@ -12,6 +12,21 @@ import scripts.CraftTweaker.Functions.transformString;
 
 import mods.roots.Mortar;
 
+var mortarRemove as IItemStack[] = [
+    <minecraft:dye:12>,
+    <roots:flour>,
+    <minecraft:dye:15>,
+    <minecraft:sugar>,
+    <mysticalworld:iron_dust>,
+    <mysticalworld:gold_dust>,
+    <mysticalworld:copper_dust>,
+    <mysticalworld:silver_dust>,
+];
+
+for item in mortarRemove {
+    Mortar.removeRecipe(item);
+}
+
 var spellChange as IIngredient[][string] = {
     "spell_supplication" : [<roots:petals>,<naturesaura:gold_leaf>,<forbidden_arcanus:arcane_crystal_dust>,<corvus:blazing_tulip>,<mysticalworld:carapace>]
 };
@@ -35,6 +50,11 @@ var mapMortar as IIngredient[][][int][IItemStack] = {
         3 : [
             [<forbidden_arcanus:arcane_crystal_dust>,<soulus:dust_stone>,<roots:runic_dust>,<arcaneworld:sapphire>,<corvus:crystal_quartz>]
         ]
+    },
+    <naturesaura:gold_powder> : {
+        2 : [
+            [<naturesaura:gold_leaf>]
+        ]
     }
 };
 
@@ -44,19 +64,4 @@ for output, data in mapMortar {
             Mortar.addRecipe(output*amount, recipe);
         }
     }
-}
-
-var mortarRemove as IItemStack[] = [
-    <minecraft:dye:12>,
-    <roots:flour>,
-    <minecraft:dye:15>,
-    <minecraft:sugar>,
-    <mysticalworld:iron_dust>,
-    <mysticalworld:gold_dust>,
-    <mysticalworld:copper_dust>,
-    <mysticalworld:silver_dust>,
-];
-
-for item in mortarRemove {
-    Mortar.removeRecipe(item);
 }

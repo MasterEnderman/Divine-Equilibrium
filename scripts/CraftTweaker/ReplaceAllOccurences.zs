@@ -10,6 +10,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 var replaceAllOccurences as IIngredient[IIngredient] = {
     <scalinghealth:heartcontainer> : <contenttweaker:heart_token>,
+    <minecraft:bone> : <ore:bone>
 };
 
 for old, new in replaceAllOccurences {

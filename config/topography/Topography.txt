@@ -31,6 +31,3 @@ setAsDefaultWorldType()
 
 structureExample = registerPreset("Normal Difficulty", "images/void", "The Map Preset for a normal Playthrough")
 structureExample.registerDimension(0, "Spooky_Void")
-
-structureExample2 = registerPreset("Deathless", "images/void", "The Map Preset for a Deathless / Hardcore Playthrough")
-structureExample2.registerDimension(0, "Deathless")
