@@ -5,6 +5,7 @@
 - tweaked research costs
 - improved quest descriptions
 - fixed bone processing
+- fixed drying basin
 - tweaked README.md
 
 ## 0.2.0 ##

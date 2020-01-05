@@ -14,7 +14,7 @@ import mods.integrateddynamics.DryingBasin;
 
 //mods.integrateddynamics.DryingBasin.addRecipe(inputStack, inputFluid, outputStack, outputFluid, duration);
 
-var duration as int = 10; //value in sec
+var duration as int = 20*5;
 
 var mapFluidToItem as ILiquidStack[][IItemStack] = {
     <corvus:frankincense_tears> : [
@@ -24,7 +24,8 @@ var mapFluidToItem as ILiquidStack[][IItemStack] = {
 
 var mapItemToItem as IItemStack[][IItemStack] = {
     <naturesaura:gold_leaf> : [
-        <forbidden_arcanus:mysterywood_leaves:*>
+        <forbidden_arcanus:mysterywood_leaves>,
+        <naturesaura:golden_leaves>
     ],
     <minecraft:dirt> : [
         <hwell:fullgrass_block>
