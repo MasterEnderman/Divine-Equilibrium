@@ -2,7 +2,7 @@
 
 An interdimensional Journey
 
-A Modpack made by `al132` and `_MasterEnderman_`.
+A Modpack made by `_MasterEnderman_`.
 
 ## Story ##
 
@@ -10,17 +10,7 @@ Where am I? I uh... this uh... this can't be good. This can't be good at all. Wh
 
 Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eating it, and it doesn't seem to be in my pockets. Where is my potato? =(
 
-## Social ##
-
-`al132`
-
-- Akliz Server Referral: <https://www.akliz.net/al132>
-- CurseForge: <https://minecraft.curseforge.com/members/al132mc/projects>
-- Discord: <https://discord.gg/4swu3fy>
-- Github: <https://github.com/al132mc>
-- Patreon: <https://www.patreon.com/al132>
-- Twitter:<https://twitter.com/al132mc>
-- Youtube: <https://www.youtube.com/channel/UCbvuz7eq55a6snmvRI6gXLA>
+## Developer ##
 
 `_MasterEnderman_`
 
@@ -32,6 +22,18 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 - Twitter: <https://twitter.com/_bitfabrik_>
 - Youtube: <https://www.youtube.com/user/xxmasterendermanxx>
 
+## Contributor ##
+
+`al132`
+
+- Akliz Server Referral: <https://www.akliz.net/al132>
+- CurseForge: <https://minecraft.curseforge.com/members/al132mc/projects>
+- Discord: <https://discord.gg/4swu3fy>
+- Github: <https://github.com/al132mc>
+- Patreon: <https://www.patreon.com/al132>
+- Twitter:<https://twitter.com/al132mc>
+- Youtube: <https://www.youtube.com/channel/UCbvuz7eq55a6snmvRI6gXLA>
+
 ## Tester ##
 
 - `4oz`
@@ -39,8 +41,11 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 - `Dasky`
 - `Hurja`
 - `JJ`
+- `Kr0nos`
 - `next_victim`
 - `NoFall`
 - `PeachizXD`
+- `SahraSingt`
 - `Silver_hunt_X`
 - `taint19711`
+- `Vertex101`
