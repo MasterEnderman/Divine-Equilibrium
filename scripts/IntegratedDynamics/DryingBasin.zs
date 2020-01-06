@@ -19,6 +19,9 @@ var duration as int = 20*5;
 var mapFluidToItem as ILiquidStack[][IItemStack] = {
     <corvus:frankincense_tears> : [
         <liquid:frankencense_essence>*500
+    ],
+    <evilcraft:hardened_blood> : [
+        <liquid:evilcraftblood>*1000
     ]
 };
 
@@ -47,6 +50,11 @@ var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
     <minecraft:dirt> : {
         <liquid:water>*500 : [
             <hwell:dust_block>
+        ]
+    },
+    <minecraft:mossy_cobblestone> : {
+        <liquid:water>*1000 : [
+            <minecraft:cobblestone>
         ]
     }
 };

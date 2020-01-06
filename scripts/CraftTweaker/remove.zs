@@ -71,7 +71,8 @@ var removeAll as IIngredient[] = [
     <tombstone:decorative_tombstone>,
     <roots:staff>,
     <naturesaura:ancient_stick>,
-    <mysticalworld:silk_thread>
+    <mysticalworld:silk_thread>,
+    <questbook:itemquestbook>
 ];
 
 for item in removeAll {

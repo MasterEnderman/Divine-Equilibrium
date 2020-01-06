@@ -19,6 +19,9 @@ var oredictManager as IItemStack[][string][IOreDictEntry] = {
     },
     <ore:string> : {
         "remove" : [<mysticalworld:silk_thread>]
+    },
+    <ore:stickWood> : {
+        "remove" : [<evilcraft:dark_stick>]
     }
 };
 

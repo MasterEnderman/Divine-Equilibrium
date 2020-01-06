@@ -23,6 +23,14 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
     },
     <liquid:water> : {
         <contenttweaker:azurite> : 1000
+    },
+    <liquid:evilcraftblood> : {
+        <minecraft:rotten_flesh> : 50,
+        <cannibalism:playerflesh> : 100,
+        <cannibalism:villagerflesh> : 100,
+        <evilcraft:condensed_blood> : 500,
+        <evilcraft:undead_leaves> : 100,
+        <evilcraft:undead_sapling> : 200
     }
 };
 

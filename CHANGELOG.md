@@ -4,8 +4,13 @@
 
 - tweaked research costs
 - improved quest descriptions
+- removed hardcore map preset
+- cleaned up evil craft
+- added blood processing recipes
+- added an easter egg to play the pack deathless
 - fixed bone processing
 - fixed drying basin
+- fixed anchient tree ritual
 - tweaked README.md
 
 ## 0.2.0 ##

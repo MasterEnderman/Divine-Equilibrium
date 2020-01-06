@@ -14,6 +14,10 @@ items = {
         "Fuel Pellet" : "pellet",
         "Heavy Ring" : "heavy_ring"
     },
+    "bark" : {
+        "Mysterywood Bark" : "bark_mysterywood",
+        "Cherrywood Bark" : "bark_cherrywood"
+    },
     "icon" : {
         "Primitive Crafting Icon" : "primcraft"
     },

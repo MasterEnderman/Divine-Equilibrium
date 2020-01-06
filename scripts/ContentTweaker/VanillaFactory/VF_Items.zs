@@ -25,6 +25,17 @@ var heavy_ring as Item = VanillaFactory.createItem("heavy_ring");
 heavy_ring.setLocalizedNameSupplier(function(itemStack) {return "Heavy Ring";});
 heavy_ring.register();
 
+//bark
+var bark_mysterywood as Item = VanillaFactory.createItem("bark_mysterywood");
+bark_mysterywood.setLocalizedNameSupplier(function(itemStack) {return "Mysterywood Bark";});
+bark_mysterywood.textureLocation = ResourceLocation.create("contenttweaker:items/bark/bark_mysterywood");
+bark_mysterywood.register();
+
+var bark_cherrywood as Item = VanillaFactory.createItem("bark_cherrywood");
+bark_cherrywood.setLocalizedNameSupplier(function(itemStack) {return "Cherrywood Bark";});
+bark_cherrywood.textureLocation = ResourceLocation.create("contenttweaker:items/bark/bark_cherrywood");
+bark_cherrywood.register();
+
 //icon
 var primcraft as Item = VanillaFactory.createItem("primcraft");
 primcraft.setLocalizedNameSupplier(function(itemStack) {return "Primitive Crafting Icon";});

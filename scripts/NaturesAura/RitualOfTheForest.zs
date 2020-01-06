@@ -97,7 +97,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
             "token_sorrow" : [overworldBottle,<roots:bark_wildwood>,<roots:bark_wildwood>,<roots:bark_wildwood>,<soulus:bone_normal>,<soulus:bone_dry>,<soulus:bone_fungal>,<soulus:bone_frozen>]
         }
     },
-    <naturesaura:ancient_sapling> : {
+    <treetweaker:ritualtree> : {
         <forbidden_arcanus:cherrywood_sapling> : {
             "ancient_sapling" : [<rootsclassic:verdantsprig>,<roots:cloud_berry>,<naturesaura:token_sorrow>,<naturesaura:token_sorrow>,<roots:wildewheet>,<mysticalworld:aubergine>,<roots:moonglow_leaf>,<roots:spirit_herb>]
         }
@@ -108,7 +108,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         }
     },
     <naturesaura:auto_crafter> : {
-        <naturesaura:ancient_sapling> : {
+        <treetweaker:ritualtree> : {
             "auto_crafter" : [<soulus:gear_bone>,<soulus:gear_bone_dry>,<soulus:gear_bone_fungal>,<soulus:gear_bone_frozen>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>]
         }
     },

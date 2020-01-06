@@ -1,4 +1,4 @@
-#modloaded soulus
+#modloaded evilcraft
 #priority 200
 
 import crafttweaker.item.IItemStack;
@@ -12,13 +12,11 @@ import mods.jei.JEI;
 
 import scripts.CraftTweaker.Functions.disableItems;
 
-static JEI_Soulus as IIngredient[] = [
-    <soulus:dust_iron>,
-    <soulus:dust_gold>,
-    <soulus:bark>,
-    <soulus:barket>,
-    <soulus:barket>.withTag({Fluid: {FluidName: "water", Amount: 1000}})
+static JEI_EvilCraft as IIngredient[] = [
+    <evilcraft:nether_monster_block>,
+    <evilcraft:nether_monster_block:1>,
+    <evilcraft:nether_monster_block:2>,
 ];
 
-disableItems(JEI_Soulus);
+disableItems(JEI_EvilCraft);
 
