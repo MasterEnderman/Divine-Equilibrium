@@ -56,6 +56,11 @@ var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
         <liquid:water>*1000 : [
             <minecraft:cobblestone>
         ]
+    },
+    <hwell:crystal_block> : {
+        <liquid:menrilresin>*1000 : [
+            <hwell:leaf_mesh>
+        ]
     }
 };
 

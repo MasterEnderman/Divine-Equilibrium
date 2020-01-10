@@ -48,6 +48,36 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     <minecraft:stick> : {
         <soulus:dust_wood> : 1.0
     },
+    <contenttweaker:bark_cherrywood> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <contenttweaker:bark_mysterywood> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <contenttweaker:bark_ancient> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_oak> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_spruce> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_birch> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_jungle> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_dark_oak> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_acacia> : {
+        <soulus:dust_wood> : 1.0
+    },
+    <roots:bark_wildwood> : {
+        <soulus:dust_wood> : 1.0
+    },
     <minecraft:flint> : {
         <soulus:dust_stone> : 1.0
     },
@@ -127,6 +157,12 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     },
     <mysticalworld:charred_planks> : {
         <mysticalworld:charred_button> : 1.0
+    },
+    <hwell:crystal_block> : {
+        <hwell:crystal>*6 : 0.2,
+        <hwell:crystal>*7 : 0.3,
+        <hwell:crystal>*8 : 0.4,
+        <hwell:crystal>*9 : 0.1
     }
 };
 

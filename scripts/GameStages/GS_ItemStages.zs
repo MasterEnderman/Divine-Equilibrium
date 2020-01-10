@@ -102,6 +102,11 @@ var itemsToStage as IIngredient[][string] = {
         <roots:runestone_brick_alt_wall>,
         <roots:runestone_brick_alt_button>,
         <roots:runestone_brick_alt_pressure_plate>,
+        <contenttweaker:bark_ancient>
+    ],
+    "gaia_finish" : [
+        <contenttweaker:bark_cherrywood>,
+        <contenttweaker:bark_mysterywood>
     ],
     "tools_2" : [
         <naturesaura:infused_iron_pickaxe>,

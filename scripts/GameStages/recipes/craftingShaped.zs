@@ -34,7 +34,7 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
         }
     },
     <contenttweaker:head_stone_sword> : {
-        "tools_1" : {
+        "gaia" : {
             1 : [
                 [
                     [null,<ore:cobblestone>],
@@ -93,6 +93,16 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 [
                     [<minecraft:stonebrick>,<minecraft:stonebrick>],
                     [<minecraft:stonebrick>,<minecraft:stonebrick>]
+                ]
+            ]
+        }
+    },
+    <naturesaura:ancient_bark> : {
+        "null" : {
+            3 : [
+                [
+                    [<naturesaura:ancient_log>,<naturesaura:ancient_log>],
+                    [<naturesaura:ancient_log>,<naturesaura:ancient_log>]
                 ]
             ]
         }

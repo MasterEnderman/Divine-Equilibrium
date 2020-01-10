@@ -20,6 +20,10 @@ var mapBark as IItemStack[][int][IItemStack] = {
     <contenttweaker:bark_cherrywood> : {
         4 : [<forbidden_arcanus:cherrywood_log>],
         5 : [<forbidden_arcanus:cherrywood>]
+    },
+    <contenttweaker:bark_ancient> : {
+        4 : [<naturesaura:ancient_log>],
+        5 : [<naturesaura:ancient_bark>]
     }
 };
 

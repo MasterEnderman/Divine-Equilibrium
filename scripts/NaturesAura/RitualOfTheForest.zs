@@ -99,7 +99,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <treetweaker:ritualtree> : {
         <forbidden_arcanus:cherrywood_sapling> : {
-            "ancient_sapling" : [<rootsclassic:verdantsprig>,<roots:cloud_berry>,<naturesaura:token_sorrow>,<naturesaura:token_sorrow>,<roots:wildewheet>,<mysticalworld:aubergine>,<roots:moonglow_leaf>,<roots:spirit_herb>]
+            "small_ancient_sapling" : [<rootsclassic:verdantsprig>,<roots:cloud_berry>,<naturesaura:token_sorrow>,<naturesaura:token_sorrow>,<roots:wildewheet>,<mysticalworld:aubergine>,<roots:moonglow_leaf>,<roots:spirit_herb>]
         }
     },
     <rootsclassic:runicfocus> : {
@@ -130,6 +130,11 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     <naturesaura:nature_altar> : {
         <forbidden_arcanus:cherrywood_sapling> : {
             "nature_altar" : [<rootsclassic:verdantsprig>,<naturesaura:gold_brick>,<hwell:shard_n>,<hwell:shard_n>,<roots:runestone>,<roots:runestone>,<roots:runestone>,<roots:runestone>]
+        }
+    },
+    <naturesaura:ancient_sapling> : {
+        <treetweaker:ritualtree> : {
+            "ancient_sapling" : [<evilcraft:dark_gem_crushed>,<evilcraft:dark_gem_crushed>,<hwell:mutation_paste>,<hwell:mutation_paste>,<naturesaura:gold_powder>,<naturesaura:gold_powder>,<naturesaura:gold_powder>,<naturesaura:gold_powder>]
         }
     }
 };

@@ -36,7 +36,8 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
 
 var mapItemToItem as IItemStack[][IItemStack] = {
     <roots:runic_dust>*2 : [<roots:runestone>,<roots:runestone_brick>,<roots:runestone_brick_alt>,<roots:chiseled_runestone>],
-    <naturesaura:gold_powder>*3 : [<naturesaura:gold_leaf>]
+    <naturesaura:gold_powder>*3 : [<naturesaura:gold_leaf>],
+    <hwell:crystal>*9 : [<hwell:crystal_block>]
 };
 
 var mapItemToBoth as IItemStack[][ILiquidStack][IItemStack] = {

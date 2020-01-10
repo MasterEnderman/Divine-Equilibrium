@@ -16,7 +16,8 @@ items = {
     },
     "bark" : {
         "Mysterywood Bark" : "bark_mysterywood",
-        "Cherrywood Bark" : "bark_cherrywood"
+        "Cherrywood Bark" : "bark_cherrywood",
+        "Ancient Bark" : "bark_ancient"
     },
     "icon" : {
         "Primitive Crafting Icon" : "primcraft"

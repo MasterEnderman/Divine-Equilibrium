@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "owncrops:blocks/dark_crop_0"
+    }
+}

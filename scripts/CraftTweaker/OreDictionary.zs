@@ -15,13 +15,17 @@ var oredictManager as IItemStack[][string][IOreDictEntry] = {
         "add" : [<corvus:lily_toxic>,<corvus:blazing_tulip>,<corvus:blood_rose>,<corvus:stunning_dahlia>,<corvus:bloom_of_death>]
     },
     <ore:rootsBark> : {
-        "remove" : [<roots:bark_wildwood>]
+        "remove" : [<roots:bark_wildwood>],
+        "add" : [<contenttweaker:bark_mysterywood>,<contenttweaker:bark_cherrywood>,<contenttweaker:bark_ancient>]
     },
     <ore:string> : {
         "remove" : [<mysticalworld:silk_thread>]
     },
     <ore:stickWood> : {
         "remove" : [<evilcraft:dark_stick>]
+    },
+    <ore:dyeRed> : {
+        "remove" : [<evilcraft:hardened_blood_shard>]
     }
 };
 

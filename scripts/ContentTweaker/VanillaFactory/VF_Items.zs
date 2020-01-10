@@ -36,6 +36,11 @@ bark_cherrywood.setLocalizedNameSupplier(function(itemStack) {return "Cherrywood
 bark_cherrywood.textureLocation = ResourceLocation.create("contenttweaker:items/bark/bark_cherrywood");
 bark_cherrywood.register();
 
+var bark_ancient as Item = VanillaFactory.createItem("bark_ancient");
+bark_ancient.setLocalizedNameSupplier(function(itemStack) {return "Ancient Bark";});
+bark_ancient.textureLocation = ResourceLocation.create("contenttweaker:items/bark/bark_ancient");
+bark_ancient.register();
+
 //icon
 var primcraft as Item = VanillaFactory.createItem("primcraft");
 primcraft.setLocalizedNameSupplier(function(itemStack) {return "Primitive Crafting Icon";});

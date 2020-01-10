@@ -23,6 +23,7 @@ global gamestagesList as string[] = [
     "water_2",
     "fire_2",
     "air_2",
+    "gaia_finish"
 ];
 
 global waterBottle as IItemStack = <minecraft:potion>.withTag({Potion: "minecraft:water"});

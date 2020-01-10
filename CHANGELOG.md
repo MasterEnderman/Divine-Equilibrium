@@ -8,6 +8,7 @@
 - cleaned up evil craft
 - added blood processing recipes
 - added an easter egg to play the pack deathless
+- added custom crops
 - fixed bone processing
 - fixed drying basin
 - fixed anchient tree ritual

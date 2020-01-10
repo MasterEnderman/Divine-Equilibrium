@@ -40,7 +40,7 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
     <hwell:mutation_paste>*2 : {
         <liquid:water> : {
             "false" : [
-                [<minecraft:dye:9>,<minecraft:clay_ball>,<hwell:myst_dust>]
+                [<minecraft:dye:9>,<minecraft:clay_ball>,<forbidden_arcanus:corrupti_dust>]
             ]
         }
     },

@@ -16,6 +16,7 @@ static JEI_EvilCraft as IIngredient[] = [
     <evilcraft:nether_monster_block>,
     <evilcraft:nether_monster_block:1>,
     <evilcraft:nether_monster_block:2>,
+    <evilcraft:environmental_accumulator>
 ];
 
 disableItems(JEI_EvilCraft);

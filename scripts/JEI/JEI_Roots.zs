@@ -13,7 +13,8 @@ import mods.jei.JEI;
 import scripts.CraftTweaker.Functions.disableItems;
 
 static JEI_Roots as IIngredient[] = [
-    <roots:wood_knife>
+    <roots:wood_knife>,
+    <roots:terra_spores>
 ];
 
 disableItems(JEI_Roots);
