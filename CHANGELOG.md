@@ -11,7 +11,7 @@
 - added custom crops
 - fixed bone processing
 - fixed drying basin
-- fixed anchient tree ritual
+- fixed ancient tree ritual
 - tweaked README.md
 
 ## 0.2.0 ##

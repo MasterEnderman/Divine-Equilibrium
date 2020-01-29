@@ -28,6 +28,8 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
         <minecraft:rotten_flesh> : 50,
         <cannibalism:playerflesh> : 100,
         <cannibalism:villagerflesh> : 100,
+        <cannibalism:witchflesh> : 100,
+        <cannibalism:wendigoheart> : 1000,
         <evilcraft:condensed_blood> : 500,
         <evilcraft:undead_leaves> : 100,
         <evilcraft:undead_sapling> : 200
@@ -37,7 +39,8 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
 var mapItemToItem as IItemStack[][IItemStack] = {
     <roots:runic_dust>*2 : [<roots:runestone>,<roots:runestone_brick>,<roots:runestone_brick_alt>,<roots:chiseled_runestone>],
     <naturesaura:gold_powder>*3 : [<naturesaura:gold_leaf>],
-    <hwell:crystal>*9 : [<hwell:crystal_block>]
+    <hwell:crystal>*9 : [<hwell:crystal_block>],
+    <evilcraft:dark_gem_crushed>*2 : [<evilcraft:dark_gem>]
 };
 
 var mapItemToBoth as IItemStack[][ILiquidStack][IItemStack] = {

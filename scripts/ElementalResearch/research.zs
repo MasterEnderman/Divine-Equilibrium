@@ -139,3 +139,15 @@ tools_2.waterCost = 20;
 tools_2.addRequiredStages("AND", ["tools_1","gaia"]);
 tools_2.addGivenStage("tools_2");
 tools_2.build();
+
+var pyre = Util.createEntry("Pyre");
+pyre.setIcon(<roots:bonfire>);
+pyre.description = "It's not just a Campfire.";
+pyre.airCost = 50;
+pyre.fireCost = 25;
+pyre.earthCost = 200;
+pyre.addRequiredStages("AND", ["fire_2","gaia_finish"]);
+pyre.saleQuantity = -1;
+pyre.addOutputs([<roots:bonfire>]);
+pyre.addInputs([<forbidden_arcanus:mysterywood_log>*16,<contenttweaker:bark_mysterywood>*64,<minecraft:cobblestone>*16], true);
+pyre.build();

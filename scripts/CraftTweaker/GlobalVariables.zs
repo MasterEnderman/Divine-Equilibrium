@@ -40,3 +40,11 @@ global ringFlight as IItemStack = <potionfingers:ring>.withTag({effect: "forbidd
 global trophyGaia as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 49, TrophyVariant: "classic", TrophyItem: {id: "contenttweaker:apple_gaia", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 146, TrophyName: "Fruit of Gaia", TrophyColorRed: 37});
 global trophyGaiaBoss as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 81, TrophyVariant: "classic", TrophyItem: {ForgeCaps: {"theeightfabledblades:fabledcapabilities": {inscrutableDamage: 0.0, hitCount: 1, isDelayingUseSkill: 0 as byte, isUpdated: 0 as byte, consecutiveStrikes: 0, swordMode: 0, endEnergy: 0.0, timer: 0, swordSign: 0, isUsingSign: 0 as byte, awakeningCounter: 0, currentEnergy: 0.0, lunarDamage: 0.0, isAwakened: 0 as byte, healthPercentage: 0.0, isUsingSkill: 0 as byte}}, id: "theeightfabledblades:disenchanting_saber", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 26, TrophyName: "Equilibrium for Gaia", TrophyColorRed: 59});
 global trophyNetherBoss as IItemStack = <simple_trophies:trophy>.withTag({TrophyColorGreen: 49, TrophyVariant: "classic", TrophyItem: {ForgeCaps: {"theeightfabledblades:fabledcapabilities": {inscrutableDamage: 0.0, hitCount: 0, isDelayingUseSkill: 0 as byte, isUpdated: 0 as byte, consecutiveStrikes: 0, swordMode: 0, endEnergy: 0.0, timer: 0, swordSign: 0, isUsingSign: 0 as byte, awakeningCounter: 0, currentEnergy: 0.0, lunarDamage: 0.0, isAwakened: 0 as byte, healthPercentage: 0.0, isUsingSkill: 0 as byte}}, id: "theeightfabledblades:heart_piercer", Count: 1 as byte, Damage: 0 as short}, TrophyColorBlue: 44, TrophyName: "Equilibrium for Hell", TrophyColorRed: 179});
+
+global blood_crystal_empty as IItemStack = <soulus:crystal_blood>.withTag({contained_blood: 0});
+global blood_crystal_full as IItemStack = <soulus:crystal_blood>.withTag({contained_blood: 1000});
+
+global bloodCrystal as IItemStack[string] = {
+    "empty" : blood_crystal_empty,
+    "full" : blood_crystal_full
+};

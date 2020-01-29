@@ -106,7 +106,85 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 ]
             ]
         }
+    },
+    <hwell:burst_seed_dirt> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>],
+                    [<minecraft:dirt>,<hwell:shard_n>,<minecraft:dirt>],
+                    [<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>]
+                ]
+            ]
+        }
+    },
+    <hwell:burst_seed_cobblestone> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
+                    [<ore:cobblestone>,<hwell:shard_n>,<ore:cobblestone>],
+                    [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>]
+                ]
+            ]
+        }
+    },
+    <evilcraft:golden_string> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<naturesaura:gold_powder>,<mysticalworld:silk_thread>,<naturesaura:gold_powder>],
+                    [<mysticalworld:silk_thread>,<mysticalworld:silk_thread>,<mysticalworld:silk_thread>],
+                    [<naturesaura:gold_powder>,<mysticalworld:silk_thread>,<naturesaura:gold_powder>]
+                ]
+            ]
+        }
+    },
+    <arcaneworld:ritual_table> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<defiledlands:stone_defiled>,<defiledlands:stone_defiled>,<defiledlands:stone_defiled>],
+                    [<evilcraft:golden_string>,<evilcraft:blood_infusion_core>,<evilcraft:golden_string>],
+                    [<hwell:asul_block>,<hwell:asul_block>,<hwell:asul_block>]
+                ]
+            ]
+        }
+    },
+    <evilcraft:blood_infuser> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<evilcraft:bloody_cobblestone>,<evilcraft:bloody_cobblestone>,<evilcraft:bloody_cobblestone>],
+                    [<evilcraft:bloody_cobblestone>,bloodCrystal["full"],<evilcraft:bloody_cobblestone>],
+                    [<evilcraft:bloody_cobblestone>,<evilcraft:bloody_cobblestone>,<evilcraft:bloody_cobblestone>]
+                ]
+            ]
+        }
+    },
+    <minecraft:furnace> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<mysticalworld:mud_brick>,<mysticalworld:mud_brick>,<mysticalworld:mud_brick>],
+                    [<mysticalworld:mud_brick>,null,<mysticalworld:mud_brick>],
+                    [<minecraft:stonebrick>,<roots:bonfire>,<minecraft:stonebrick>]
+                ]
+            ]
+        }
+    },
+    <mysticalworld:wet_mud_block> : {
+        "gaia" : {
+            8 : [
+                [
+                    [<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>],
+                    [<minecraft:dirt>,<minecraft:water_bucket>,<minecraft:dirt>],
+                    [<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>]
+                ]
+            ]
+        }
     }
+
 };
 
 for item, data in recipeMapShaped {

@@ -32,6 +32,15 @@ static JEI_HearthWell as IIngredient[] = [
     <hwell:loot_wither>,
     <hwell:loot_zombie>,
     <hwell:loot_guardian>,
+    <hwell:burst_seed_crystal>,
+    <hwell:burst_seed_sand>,
+    <hwell:burst_seed_endstone>,
+    <hwell:burst_seed_snow>,
+    <hwell:burst_seed_netherrack>,
+    <hwell:burst_seed_quartz>,
+    <hwell:burst_seed_prismarine>,
+    <hwell:burst_seed_stone>,
+    <hwell:burst_seed_gravel>,
 ];
 
 disableItems(JEI_HearthWell);

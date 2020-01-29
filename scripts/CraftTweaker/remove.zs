@@ -73,7 +73,10 @@ var removeAll as IIngredient[] = [
     <naturesaura:ancient_stick>,
     <mysticalworld:silk_thread>,
     <questbook:itemquestbook>,
-    <hwell:crystal>
+    <hwell:crystal>,
+    <soulus:emerald_coated>,
+    <hwell:asul_block>,
+    <hwell:raw_asul_block>
 ];
 
 for item in removeAll {
@@ -89,7 +92,7 @@ for item in removeShaped {
 }
 
 var removeShapeless as IIngredient[] = [
-
+    <hwell:asul_ingot>
 ];
 
 for item in removeShapeless {

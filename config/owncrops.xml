@@ -1,6 +1,6 @@
 <!--You need a resource loader mod-->
 <OwnCrops>
     <item id="dark_seed">
-        <plantable id="dark_crop" drop-item="owncrop:dark_seed" drop-meta="0"/>
+        <plantable id="dark_crop" drop-item="owncrops:dark_seed" drop-meta="0"/>
     </item>
 </OwnCrops>

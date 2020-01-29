@@ -36,6 +36,7 @@ entry.multiplierPerPurchase <double>
 
 entry.setIcon(IItemStack stack);
 entry.addOutputs(IItemStack[] stacks]);
+entry.addInputs(IItemstack[] requiredInputs, boolean consume);
 entry.addGivenStage(String stageName);
 entry.addRequiredStage(String stageName);
 

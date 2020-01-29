@@ -163,6 +163,16 @@ var crushingAdd as double[IItemStack][IItemStack] = {
         <hwell:crystal>*7 : 0.3,
         <hwell:crystal>*8 : 0.4,
         <hwell:crystal>*9 : 0.1
+    },
+    <evilcraft:dark_gem> : {
+        <evilcraft:dark_gem_crushed> : 0.7,
+        <evilcraft:dark_gem_crushed>*2 : 0.3
+    },
+    bloodCrystal["full"] : {
+        <evilcraft:condensed_blood>*8 : 0.3,
+        <evilcraft:condensed_blood>*10 : 0.3,
+        <evilcraft:condensed_blood>*12 : 0.3,
+        <evilcraft:condensed_blood>*14 : 0.1
     }
 };
 

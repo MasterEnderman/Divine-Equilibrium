@@ -40,6 +40,9 @@ var pyreMap as IIngredient[][string][IItemStack] = {
     },
     <contenttweaker:terra_ingot> : {
         "terra_ingot" : [<naturesaura:infused_iron>,<roots:spirit_herb>,<rootsclassic:growthsalve>,<corvus:wormwood>,<forbidden_arcanus:mundabitur_dust>]
+    },
+    <owncrops:dark_seed> : {
+        "dark_seed" : [<roots:terra_moss>,<roots:wildroot>,<contenttweaker:bark_mysterywood>,<soulus:bone_meal_nether>,<rootsclassic:blackcurrant>]
     }
 };
 

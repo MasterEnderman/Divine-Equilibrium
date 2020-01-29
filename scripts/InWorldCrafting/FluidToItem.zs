@@ -93,6 +93,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
             ]
         }
     },
+    <evilcraft:dark_gem> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<embers:dust_ash>*4]
+            ]
+        }
+    },
     <minecraft:rotten_flesh> : {
         <liquid:water> : {
             "false" : [
@@ -104,6 +111,27 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         <liquid:water> : {
             "false" : [
                 [<minecraft:gravel>]
+            ]
+        }
+    },
+    <hwell:raw_asul_block> : {
+        <liquid:water> : {
+            "true" : [
+                [<defiledlands:dirt_defiled>,<minecraft:clay>,<hwell:smooth_azurite>]
+            ]
+        }
+    },
+    bloodCrystal["empty"] : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<evilcraft:dark_power_gem>,<soulus:bone_meal_nether>,<defiledlands:defilement_powder>,<naturesaura:gold_powder>]
+            ]
+        }
+    },
+    <evilcraft:bloody_cobblestone> : {
+        <liquid:evilcraftblood> : {
+            "true" : [
+                [<minecraft:cobblestone>]
             ]
         }
     }

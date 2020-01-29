@@ -8,7 +8,8 @@ for every entry in a list utilizing ContentTweaker funtions.
 
 fluids = [
     # Liquid Name // Color (hex) // Density (Walkspeed) [Default:1000] // Luminosity (Lightlevel) (int) [Default: 0] // Temperature (int) [Default: 300]
-    ["frankencense_essence", "#C26D23", 1000, 1, 290]
+    ["frankencense_essence", "#C26D23", 1000, 1, 290],
+    ["liquid_darkness", "#111111", 300, 0, 10]
 ]
 
 head = """#priority 1000

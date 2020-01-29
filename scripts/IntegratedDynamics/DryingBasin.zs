@@ -19,9 +19,6 @@ var duration as int = 20*5;
 var mapFluidToItem as ILiquidStack[][IItemStack] = {
     <corvus:frankincense_tears> : [
         <liquid:frankencense_essence>*500
-    ],
-    <evilcraft:hardened_blood> : [
-        <liquid:evilcraftblood>*1000
     ]
 };
 
@@ -60,6 +57,16 @@ var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
     <hwell:crystal_block> : {
         <liquid:menrilresin>*1000 : [
             <hwell:leaf_mesh>
+        ]
+    },
+    <evilcraft:hardened_blood> : {
+        <liquid:evilcraftblood>*1000 : [
+            <contenttweaker:flesh_block>
+        ]
+    },
+    <soulus:emerald_coated> : {
+        <liquid:evilcraftblood>*1000 : [
+            <soulus:emerald_burnt>
         ]
     }
 };
