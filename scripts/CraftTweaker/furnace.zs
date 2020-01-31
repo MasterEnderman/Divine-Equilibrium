@@ -11,7 +11,10 @@ var removeMap as IIngredient[] = [
     <minecraft:iron_nugget>,
     <defiledlands:umbrium_nugget>,
     <hwell:crystal_block>,
-    <soulus:emerald_burnt>
+    <soulus:emerald_burnt>,
+    <evilcraft:burning_gem_stone>,
+    <forbidden_arcanus:dark_matter>,
+    <forbidden_arcanus:dark_rune>
 ];
 
 for item in removeMap {

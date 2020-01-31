@@ -103,7 +103,8 @@ var itemsToStage as IIngredient[][string] = {
         <roots:runestone_brick_alt_button>,
         <roots:runestone_brick_alt_pressure_plate>,
         <contenttweaker:bark_ancient>,
-        <arcaneworld:ritual_table>
+        <arcaneworld:ritual_table>,
+        <naturesaura:auto_crafter>
     ],
     "gaia_finish" : [
         <contenttweaker:bark_cherrywood>,

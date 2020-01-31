@@ -76,7 +76,16 @@ var removeAll as IIngredient[] = [
     <hwell:crystal>,
     <soulus:emerald_coated>,
     <hwell:asul_block>,
-    <hwell:raw_asul_block>
+    <hwell:raw_asul_block>,
+    <evilcraft:blood_infusion_core>,
+    <minecraft:bone_block>,
+    <forbidden_arcanus:edelwood_log>,
+    <forbidden_arcanus:dark_rune>,
+    <forbidden_arcanus:rune>,
+    <forbidden_arcanus:corrupti_dust>,
+    <forbidden_arcanus:cloth>,
+    <evilcraft:promise>,
+    <evilcraft:effortless_ring>
 ];
 
 for item in removeAll {

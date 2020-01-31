@@ -10,8 +10,8 @@ print("Loading MS_Definition");
 
 
 static materials as Material[string] = {
-    "brass": MaterialSystem.getMaterialBuilder().setName("Brass").setColor(16772659).build(),
-    "thaumium": MaterialSystem.getMaterialBuilder().setName("Thaumium").setColor(3342438).build()
+    "brass": MaterialSystem.getMaterialBuilder().setName("Brass").setColor(13801530).build(),
+    "thaumium": MaterialSystem.getMaterialBuilder().setName("Thaumium").setColor(4865393).build()
 };
 
 function addDefaultMoltenData(moltenData as MaterialPartData) {

@@ -2,6 +2,8 @@
 
 ## 0.2.1 ##
 
+- worked on chapter 3
+- finished progression towards the defiled dimension
 - tweaked research costs
 - improved quest descriptions
 - removed hardcore map preset

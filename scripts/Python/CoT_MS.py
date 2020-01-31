@@ -13,8 +13,8 @@ parts = [ #Custom Parts you want to add have to be specified here
 
 materials = [ #Custom Materials you want to add have to be specified here
     #Material name // Localized Name // Color (hex) // Gem? // [Crafting(Ingot,Plate),Processing(Dust,Ore),Fluid]
-    ["brass", "Brass", "#FFEE33", False, [True, False, True]],
-    ["thaumium", "Thaumium", "#330066", False, [True, False, True]]
+    ["brass", "Brass", "#D2983A", False, [False, False, True]],
+    ["thaumium", "Thaumium", "#4A3D71", False, [False, False, True]]
 ]
 
 crafting = [ #Default ContentTweaker values, disable a part by commenting it out

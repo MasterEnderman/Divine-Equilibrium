@@ -37,10 +37,10 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
             ]
         }
     },
-    <hwell:mutation_paste>*2 : {
+    <hwell:mutation_paste> : {
         <liquid:water> : {
-            "false" : [
-                [<minecraft:dye:9>,<minecraft:clay_ball>,<forbidden_arcanus:corrupti_dust>]
+            "true" : [
+                [<naturesaura:ancient_leaves>,<minecraft:clay_ball>,<forbidden_arcanus:corrupti_dust>]
             ]
         }
     },
@@ -132,6 +132,34 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         <liquid:evilcraftblood> : {
             "true" : [
                 [<minecraft:cobblestone>]
+            ]
+        }
+    },
+    <soulus:crystal_dark> : {
+        <liquid:liquid_darkness> : {
+            "true" : [
+                [<soulus:crystal_blood_broken>,<forbidden_arcanus:dark_soul>]
+            ]
+        }
+    },
+    <forbidden_arcanus:dark_matter> : {
+        <liquid:liquid_darkness> : {
+            "true" : [
+                [<evilcraft:burning_gem_stone>]
+            ]
+        }
+    },
+    <forbidden_arcanus:cloth> : {
+        <liquid:liquid_darkness> : {
+            "false" : [
+                [<mysticalworld:silk_cocoon>,<minecraft:leather>,<evilcraft:golden_string>,<forbidden_arcanus:corrupti_dust>]
+            ]
+        }
+    },
+    <naturesaura:ancient_log> : {
+        <liquid:frankencense_essence> : {
+            "true" : [
+                [<forbidden_arcanus:edelwood_log>,<roots:terra_moss>,<evilcraft:blood_potash>]
             ]
         }
     }

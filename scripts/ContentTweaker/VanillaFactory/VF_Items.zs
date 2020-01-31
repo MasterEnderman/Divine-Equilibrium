@@ -25,6 +25,10 @@ var heavy_ring as Item = VanillaFactory.createItem("heavy_ring");
 heavy_ring.setLocalizedNameSupplier(function(itemStack) {return "Heavy Ring";});
 heavy_ring.register();
 
+var golem_corpse as Item = VanillaFactory.createItem("golem_corpse");
+golem_corpse.setLocalizedNameSupplier(function(itemStack) {return "Golem Corpse";});
+golem_corpse.register();
+
 //bark
 var bark_mysterywood as Item = VanillaFactory.createItem("bark_mysterywood");
 bark_mysterywood.setLocalizedNameSupplier(function(itemStack) {return "Mysterywood Bark";});

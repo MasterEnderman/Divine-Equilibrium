@@ -169,10 +169,31 @@ var crushingAdd as double[IItemStack][IItemStack] = {
         <evilcraft:dark_gem_crushed>*2 : 0.3
     },
     bloodCrystal["full"] : {
+        <soulus:crystal_blood_broken> : 1.0
+    },
+    <soulus:crystal_blood_broken> : {
         <evilcraft:condensed_blood>*8 : 0.3,
         <evilcraft:condensed_blood>*10 : 0.3,
         <evilcraft:condensed_blood>*12 : 0.3,
         <evilcraft:condensed_blood>*14 : 0.1
+    },
+    <soulus:crystal_dark> : {
+        <forbidden_arcanus:corrupti_dust>*2 : 0.5,
+        <forbidden_arcanus:corrupti_dust>*3 : 0.3,
+        <forbidden_arcanus:corrupti_dust>*4 : 0.2
+    },
+    <minecraft:coal> : {
+        <contenttweaker:pellet>*8 : 1.0
+    },
+    <minecraft:coal:1> : {
+        <contenttweaker:pellet>*8 : 1.0
+    },
+    <evilcraft:blood_waxed_coal> : {
+        <contenttweaker:pellet>*16 : 1.0
+    },
+    <contenttweaker:golem_corpse> : {
+        <forbidden_arcanus:soul> : 0.5,
+        <forbidden_arcanus:dark_soul> : 0.5
     }
 };
 

@@ -19,5 +19,14 @@
         "mob": "mysticalworld:entity_sprout",
         "item": "roots:wildroot",
         "itemcount": "0-1/1/1-2/1-3"
+    },
+    {
+        "mob": "strawgolem:strawgolem",
+        "remove": "minecraft:wheat"
+    },
+    {
+        "mob": "strawgolem:strawgolem",
+        "item": "contenttweaker:golem_corpse",
+        "itemcount": "1"
     }
 ]

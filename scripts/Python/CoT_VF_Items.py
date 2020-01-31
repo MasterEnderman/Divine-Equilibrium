@@ -12,7 +12,8 @@ items = {
         "Pebble" : "pebble",
         "Azurite Pebble" : "azurite",
         "Fuel Pellet" : "pellet",
-        "Heavy Ring" : "heavy_ring"
+        "Heavy Ring" : "heavy_ring",
+        "Golem Corpse" : "golem_corpse"
     },
     "bark" : {
         "Mysterywood Bark" : "bark_mysterywood",

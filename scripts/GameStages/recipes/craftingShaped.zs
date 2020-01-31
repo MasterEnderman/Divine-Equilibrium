@@ -183,7 +183,113 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 ]
             ]
         }
-    }
+    },
+    <minecraft:dispenser> : {
+        "null" : {
+            1 : [
+                [
+                    [<mysticalworld:mud_brick>,<mysticalworld:mud_brick>,<mysticalworld:mud_brick>],
+                    [<mysticalworld:mud_brick>,<minecraft:bow>,<mysticalworld:mud_brick>],
+                    [<minecraft:stonebrick>,<ore:dustRedstone>,<minecraft:stonebrick>]
+                ],
+                [
+                    [null,<ore:stickWood>,<ore:string>],
+                    [<ore:stickWood>,<minecraft:dropper>,<ore:string>],
+                    [null,<ore:stickWood>,<ore:string>]
+                ]
+            ]
+        }
+    },
+    <minecraft:dropper> : {
+        "null" : {
+            1 : [
+                [
+                    [<mysticalworld:mud_brick>,<mysticalworld:mud_brick>,<mysticalworld:mud_brick>],
+                    [<mysticalworld:mud_brick>,null,<mysticalworld:mud_brick>],
+                    [<minecraft:stonebrick>,<ore:dustRedstone>,<minecraft:stonebrick>]
+                ]
+            ]
+        }
+    },
+    <forbidden_arcanus:skull> : {
+        "null" : {
+            1 : [
+                [
+                    [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>],
+                    [<soulus:bone_normal>,null,<soulus:bone_normal>],
+                    [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>]
+                ]
+            ]
+        }
+    },
+    <evilcraft:blood_orb> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<forbidden_arcanus:dark_runic_glass>,<forbidden_arcanus:dark_runic_glass>,<forbidden_arcanus:dark_runic_glass>],
+                    [<forbidden_arcanus:dark_runic_glass>,<hwell:asul_block>,<forbidden_arcanus:dark_runic_glass>],
+                    [<forbidden_arcanus:dark_runic_glass>,<forbidden_arcanus:dark_runic_glass>,<forbidden_arcanus:dark_runic_glass>]
+                ]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_sword> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<minecraft:bone_block>],
+                    [<minecraft:bone_block>],
+                    [<ore:bone>]
+                ]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_shovel> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<minecraft:bone_block>],
+                    [<ore:bone>],
+                    [<ore:bone>]
+                ]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_pickaxe> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<minecraft:bone_block>,<minecraft:bone_block>,<minecraft:bone_block>],
+                    [null,<ore:bone>,null],
+                    [null,<ore:bone>,null]
+                ]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_axe> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<minecraft:bone_block>,<minecraft:bone_block>],
+                    [null,<ore:bone>],
+                    [null,<ore:bone>]
+                ]
+            ]
+        }
+    },
+    <forbidden_arcanus:bone_hoe> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<minecraft:bone_block>,<minecraft:bone_block>],
+                    [null,<ore:bone>],
+                    [null,<ore:bone>]
+                ]
+            ]
+        }
+    },
+
+
 
 };
 

@@ -32,6 +32,12 @@ var mapItemToItem as IItemStack[][IItemStack] = {
     ],
     <mysticalworld:silk_thread> : [
         <mysticalworld:silk_cocoon>
+    ],
+    <mysticalworld:mud_block> : [
+        <mysticalworld:wet_mud_block>
+    ],
+    <mysticalworld:mud_brick> : [
+        <mysticalworld:wet_mud_brick>
     ]
 };
 
@@ -67,6 +73,16 @@ var mapItemAndFluidToItem as IItemStack[][ILiquidStack][IItemStack] = {
     <soulus:emerald_coated> : {
         <liquid:evilcraftblood>*1000 : [
             <soulus:emerald_burnt>
+        ]
+    },
+    <treetweaker:edelwoodtree> : {
+        <liquid:evilcraftblood>*1000 : [
+            <corvus:frankinsence_sapling>
+        ]
+    },
+    <evilcraft:blood_potash> : {
+        <liquid:evilcraftblood>*200 : [
+            <minecraft:dye:15>
         ]
     }
 };

@@ -308,6 +308,48 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
                 [<ore:stickWood>*6, <minecraft:vine>]
             ]
         }
+    },
+    <forbidden_arcanus:dark_stone> : {
+        "gaia_finish" : {
+            1 : [
+                [<ore:stone>, <evilcraft:dark_gem_crushed>]
+            ]
+        }
+    },
+    <evilcraft:bowl_of_promises:1> : {
+        "gaia_finish" : {
+            1 : [
+                [<minecraft:bowl>, <evilcraft:dark_power_gem>*3]
+            ]
+        }
+    },
+    <evilcraft:bowl_of_promises> : {
+        "gaia_finish" : {
+            1 : [
+                [<evilcraft:bowl_of_promises:1>, <evilcraft:dark_gem_crushed>*8]
+            ]
+        }
+    },
+    <evilcraft:environmental_accumulation_core> : {
+        "gaia_finish" : {
+            1 : [
+                [<evilcraft:blood_orb:1>, <forbidden_arcanus:dark_matter>]
+            ]
+        }
+    },
+    <evilcraft:promise:4> : {
+        "gaia_finish" : {
+            1 : [
+                [<evilcraft:promise>,<hwell:asul_block>]
+            ]
+        }
+    },
+    <evilcraft:promise:3> : {
+        "gaia_finish" : {
+            1 : [
+                [<evilcraft:promise>,<evilcraft:blood_infusion_core>]
+            ]
+        }
     }
 };
 

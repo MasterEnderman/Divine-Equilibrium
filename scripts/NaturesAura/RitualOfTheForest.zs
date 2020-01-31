@@ -109,7 +109,8 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <naturesaura:auto_crafter> : {
         <treetweaker:ritualtree> : {
-            "auto_crafter" : [<soulus:gear_bone>,<soulus:gear_bone_dry>,<soulus:gear_bone_fungal>,<soulus:gear_bone_frozen>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>]
+            "auto_crafter" : [<soulus:gear_bone>,<soulus:gear_bone_dry>,<soulus:gear_bone_fungal>,<soulus:gear_bone_frozen>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>,<rootsclassic:runicfocus:1>],
+            "auto_crafter_2" : [<soulus:gear_bone>,<hwell:core_stone>,<hwell:core_stone>,<hwell:core_stone>,<contenttweaker:bark_ancient>,<contenttweaker:bark_ancient>,<contenttweaker:bark_ancient>,<contenttweaker:bark_ancient>]
         }
     },
     <contenttweaker:heart_token> : {
@@ -135,6 +136,31 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     <naturesaura:ancient_sapling> : {
         <treetweaker:ritualtree> : {
             "ancient_sapling" : [<evilcraft:dark_gem_crushed>,<evilcraft:dark_gem_crushed>,<hwell:mutation_paste>,<hwell:mutation_paste>,<naturesaura:gold_powder>,<naturesaura:gold_powder>,<naturesaura:gold_powder>,<naturesaura:gold_powder>]
+        }
+    },
+    <forbidden_arcanus:mortem_helmet> : {
+        <treetweaker:edelwoodtree> : {
+            "bone_fabric_helmet" : [<forbidden_arcanus:skull>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>]
+        }
+    },
+    <forbidden_arcanus:mortem_chestplate> : {
+        <treetweaker:edelwoodtree> : {
+            "bone_fabric_chestplate" : [<soulus:bone_normal>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>]
+        }
+    },
+    <forbidden_arcanus:mortem_leggings> : {
+        <treetweaker:edelwoodtree> : {
+            "bone_fabric_leggings" : [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>]
+        }
+    },
+    <forbidden_arcanus:mortem_boots> : {
+        <treetweaker:edelwoodtree> : {
+            "bone_fabric_boots" : [<soulus:bone_normal>,<minecraft:leather>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>]
+        }
+    },
+    <treetweaker:ritualtree> : {
+        <treetweaker:edelwoodtree> : {
+            "ritualtree_dupe" : [<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>]
         }
     }
 };

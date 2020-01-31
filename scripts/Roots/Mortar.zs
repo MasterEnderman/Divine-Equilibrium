@@ -21,6 +21,7 @@ var mortarRemove as IItemStack[] = [
     <mysticalworld:gold_dust>,
     <mysticalworld:copper_dust>,
     <mysticalworld:silver_dust>,
+    <mysticalworld:silk_thread>
 ];
 
 for item in mortarRemove {
@@ -54,6 +55,11 @@ var mapMortar as IIngredient[][][int][IItemStack] = {
     <naturesaura:gold_powder> : {
         2 : [
             [<naturesaura:gold_leaf>]
+        ]
+    },
+    <mysticalworld:silk_thread> : {
+        2 : [
+            [<mysticalworld:silk_cocoon>]
         ]
     }
 };

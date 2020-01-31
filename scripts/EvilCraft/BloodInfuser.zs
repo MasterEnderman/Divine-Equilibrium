@@ -36,6 +36,55 @@ var mapInfuser as IItemStack[int][int][int][IItemStack] = {
                 10 : <minecraft:cobblestone>
             }
         }
+    },
+    <evilcraft:blood_potash> : {
+        0 : {
+            100 : {
+                10 : <minecraft:dye:15>
+            }
+        }
+    },
+    <evilcraft:bowl_of_promises:2> : {
+        0 : {
+            10000 : {
+                100 : <evilcraft:bowl_of_promises>
+            }
+        }
+    },
+    <evilcraft:promise_acceptor> : {
+        0 : {
+            10000 : {
+                100 : <hwell:heavy_block>
+            }
+        }
+    },
+    <forbidden_arcanus:dark_rune> : {
+        1 : {
+            2000 : {
+                20 : <forbidden_arcanus:rune>
+            }
+        }
+    },
+    <evilcraft:blood_orb:1> : {
+        1 : {
+            5000 : {
+                50 : <evilcraft:blood_orb>
+            }
+        }
+    },
+    <evilcraft:vengeance_ring> : {
+        1 : {
+            5000 : {
+                50 : <contenttweaker:heavy_ring>
+            }
+        }
+    },
+    <harvestersnight:harvester_scythe> : {
+        1 : {
+            20000 : {
+                200 : <forbidden_arcanus:bone_hoe>
+            }
+        }
     }
 };
 

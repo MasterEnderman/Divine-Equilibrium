@@ -16,11 +16,9 @@ print("Loading MS_Registration");
 var brassFluidData as MaterialPartData = materials.brass.registerPart("molten").getData();
 addDefaultMoltenData(brassFluidData);
 
-materials.brass.registerParts(["nugget", "ingot", "plate"] as string[]);
 
 //thaumium
 
 var thaumiumFluidData as MaterialPartData = materials.thaumium.registerPart("molten").getData();
 addDefaultMoltenData(thaumiumFluidData);
 
-materials.thaumium.registerParts(["nugget", "ingot", "plate"] as string[]);

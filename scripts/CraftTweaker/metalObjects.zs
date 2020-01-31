@@ -11,13 +11,7 @@ print("Loading metalObjects");
 
 global metalObjects as IOreDictEntry[string][string] = {
     "brass" : {
-        "nugget" : <ore:nuggetBrass>,
-        "ingot" : <ore:ingotBrass>,
-        "plate" : <ore:plateBrass>
     },
     "thaumium" : {
-        "nugget" : <ore:nuggetThaumium>,
-        "ingot" : <ore:ingotThaumium>,
-        "plate" : <ore:plateThaumium>
     }
 };

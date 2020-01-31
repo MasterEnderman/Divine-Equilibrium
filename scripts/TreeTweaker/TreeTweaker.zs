@@ -19,3 +19,12 @@ ritualTree.setDimWhitelist(-1);
 ritualTree.setMinHeight(4);
 ritualTree.addSapling();
 ritualTree.register();
+
+var edelwoodTree = TreeFactory.createTree("edelwoodTree");
+edelwoodTree.setTreeType("OAK");
+edelwoodTree.setLog("forbidden_arcanus:edelwood_log");
+edelwoodTree.setLeaf("evilcraft:undead_leaves");
+edelwoodTree.setDimWhitelist(-1);
+edelwoodTree.setMinHeight(4);
+edelwoodTree.addSapling();
+edelwoodTree.register();
