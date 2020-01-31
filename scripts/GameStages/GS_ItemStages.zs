@@ -104,11 +104,15 @@ var itemsToStage as IIngredient[][string] = {
         <roots:runestone_brick_alt_pressure_plate>,
         <contenttweaker:bark_ancient>,
         <arcaneworld:ritual_table>,
-        <naturesaura:auto_crafter>
+        <naturesaura:auto_crafter>,
+        <contenttweaker:bark_cherrywood>,
     ],
     "gaia_finish" : [
-        <contenttweaker:bark_cherrywood>,
-        <contenttweaker:bark_mysterywood>
+        <contenttweaker:bark_mysterywood>,
+        <forbidden_arcanus:mortem_helmet>,
+        <forbidden_arcanus:mortem_chestplate>,
+        <forbidden_arcanus:mortem_leggings>,
+        <forbidden_arcanus:mortem_boots>,
     ],
     "tools_2" : [
         <naturesaura:infused_iron_pickaxe>,

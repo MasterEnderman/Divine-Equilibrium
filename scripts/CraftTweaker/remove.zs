@@ -85,7 +85,10 @@ var removeAll as IIngredient[] = [
     <forbidden_arcanus:corrupti_dust>,
     <forbidden_arcanus:cloth>,
     <evilcraft:promise>,
-    <evilcraft:effortless_ring>
+    <evilcraft:effortless_ring>,
+    <patchouli:guide_book>,
+    <soulus:dust_midnight>,
+    <hwell:asul_machine_case>
 ];
 
 for item in removeAll {

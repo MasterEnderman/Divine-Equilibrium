@@ -24,6 +24,16 @@ var itemMap as IIngredient[][string][string][IItemStack] = {
         "Craft Effortless Ring" : {
             "effortless_ring" : [<evilcraft:vengeance_ring>,<evilcraft:promise:3>,<evilcraft:promise:4>,<forbidden_arcanus:rune>,<forbidden_arcanus:dark_rune>]
         }
+    },
+    <soulus:dust_midnight>*4 : {
+        "Craft Star Dust" : {
+            "star_dust" : [<soulus:crystal_dark>,<arcanearchives:radiant_dust>,<arcanearchives:radiant_dust>,<arcanearchives:radiant_dust>,<arcanearchives:radiant_dust>]
+        }
+    },
+    <hwell:asul_machine_case> : {
+        "Craft Asul Machine Case" : {
+            "asul_machine_case" : [<hwell:asul_block>,<hwell:heavy_block>,<minecraft:furnace>,<soulus:gear_bone>,<forbidden_arcanus:soul>]
+        }
     }
 };
 

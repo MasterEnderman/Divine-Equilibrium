@@ -39,6 +39,7 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 - `4oz`
 - `br1c`
 - `Dasky`
+- `Dr. Game`
 - `Hurja`
 - `JJ`
 - `Kr0nos`

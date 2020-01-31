@@ -288,9 +288,28 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
             ]
         }
     },
-
-
-
+    <minecraft:hopper> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<ore:ingotHeavy>,<soulus:gear_bone>,<ore:ingotHeavy>],
+                    [<ore:ingotHeavy>,<ore:chestWood>,<ore:ingotHeavy>],
+                    [null,<ore:ingotHeavy>,null]
+                ]
+            ]
+        }
+    },
+    <minecraft:chest> : {
+        "gaia_finish" : {
+            1 : [
+                [
+                    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+                    [<ore:plankWood>,null,<ore:plankWood>],
+                    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
+                ]
+            ]
+        }
+    }
 };
 
 for item, data in recipeMapShaped {
