@@ -1,5 +1,17 @@
 # Changelog #
 
+## 0.2.3 ##
+
+- fixed skull recipes
+- fixed chest recipe
+- fixed reappearing researches
+- fixed progression in gaia dimension
+- fixed ore gen in gaia dimension
+- fixed missing itemstages
+- fixed RitualOfTheForest recipe conflicts
+- fixed blood infuser crafting time
+- improved some recipes
+
 ## 0.2.2 ##
 
 - localized all quest titles

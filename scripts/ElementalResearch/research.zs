@@ -19,6 +19,7 @@ wood.airCost = 5;
 wood.earthCost = 20;
 wood.experienceGiven = 3;
 wood.addGivenStage("wood");
+wood.saleQuantity = 1;
 wood.build();
 
 var heart = Util.createEntry("Recover a Life");
@@ -41,6 +42,7 @@ fire_1.fireCost = 5;
 fire_1.experienceGiven = 2;
 fire_1.addRequiredStagesWithModifier("FOREACH_OR", 1.2, ["air_1", "water_1", "earth_1", "wood"]);
 fire_1.addGivenStage("fire_1");
+fire_1.saleQuantity = 1;
 fire_1.build();
 
 var earth_1 = Util.createEntry("Earth 1");
@@ -50,6 +52,7 @@ earth_1.earthCost = 20;
 earth_1.experienceGiven = 2;
 earth_1.addRequiredStagesWithModifier("FOREACH_OR", 1.2, ["air_1", "fire_1", "water_1", "wood"]);
 earth_1.addGivenStage("earth_1");
+earth_1.saleQuantity = 1;
 earth_1.build();
 
 var air_1 = Util.createEntry("Air 1");
@@ -59,6 +62,7 @@ air_1.airCost = 20;
 air_1.experienceGiven = 2;
 air_1.addRequiredStagesWithModifier("FOREACH_OR", 1.2, ["water_1", "fire_1", "earth_1", "wood"]);
 air_1.addGivenStage("air_1");
+air_1.saleQuantity = 1;
 air_1.build();
 
 var water_1 = Util.createEntry("Water 1");
@@ -68,6 +72,7 @@ water_1.waterCost = 5;
 water_1.experienceGiven = 2;
 water_1.addRequiredStagesWithModifier("FOREACH_OR", 1.2, ["air_1", "fire_1", "earth_1", "wood"]);
 water_1.addGivenStage("water_1");
+water_1.saleQuantity = 1;
 water_1.build();
 
 var solidified_fire = Util.createEntry("Solidified Fire");
@@ -116,6 +121,7 @@ crafting_1.waterCost = 40;
 crafting_1.experienceGiven = 10;
 crafting_1.addRequiredStages("AND", ["earth_1","air_1","fire_1","water_1"]);
 crafting_1.addGivenStage("crafting_1");
+crafting_1.saleQuantity = 1;
 crafting_1.build();
 
 var tools_1 = Util.createEntry("Tools 1");
@@ -127,6 +133,7 @@ tools_1.earthCost = 400;
 tools_1.waterCost = 20;
 tools_1.addRequiredStages("AND", ["earth_1","air_1","fire_1","water_1"]);
 tools_1.addGivenStage("tools_1");
+tools_1.saleQuantity = 1;
 tools_1.build();
 
 var tools_2 = Util.createEntry("Tools 2");
@@ -138,6 +145,7 @@ tools_2.earthCost = 500;
 tools_2.waterCost = 20;
 tools_2.addRequiredStages("AND", ["tools_1","gaia"]);
 tools_2.addGivenStage("tools_2");
+tools_2.saleQuantity = 1;
 tools_2.build();
 
 var pyre = Util.createEntry("Pyre");

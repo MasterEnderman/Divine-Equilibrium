@@ -153,6 +153,25 @@
                 ]
             }
         },
+        "fossil_sand": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "soulus:fossil_sand",
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 16,
+            "min-height": 60,
+            "max-height": 255,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    939
+                ]
+            }
+        },
         "charred_cobblestone": {
             "distribution": "uniform",
             "generator": {

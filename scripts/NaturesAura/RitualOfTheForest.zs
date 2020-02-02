@@ -24,7 +24,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <theoneprobe:probe_goggles> : {
         <forbidden_arcanus:mysterywood_sapling> : {
-            "probe" : [<soulus:gear_bone>,<hwell:heavy_ingot>,<minecraft:glass>,<minecraft:glass>]
+            "probe" : [<forbidden_arcanus:soul>,<hwell:heavy_ingot>,<minecraft:glass>,<minecraft:glass>]
         }
     },
     <corvus:oil_growth> : {
@@ -100,6 +100,9 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     <treetweaker:ritualtree> : {
         <forbidden_arcanus:cherrywood_sapling> : {
             "small_ancient_sapling" : [<rootsclassic:verdantsprig>,<roots:cloud_berry>,<naturesaura:token_sorrow>,<naturesaura:token_sorrow>,<roots:wildewheet>,<mysticalworld:aubergine>,<roots:moonglow_leaf>,<roots:spirit_herb>]
+        },
+        <treetweaker:edelwoodtree> : {
+            "ritualtree_dupe" : [<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>]
         }
     },
     <rootsclassic:runicfocus> : {
@@ -158,16 +161,41 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
             "bone_fabric_boots" : [<soulus:bone_normal>,<minecraft:leather>,<forbidden_arcanus:cloth>,<forbidden_arcanus:cloth>]
         }
     },
-    <treetweaker:ritualtree> : {
-        <treetweaker:edelwoodtree> : {
-            "ritualtree_dupe" : [<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>]
-        }
-    },
     <corvus:orb_of_imprisonment> : {
         <forbidden_arcanus:mysterywood_sapling> : {
             "orb_of_imprisonment" : [<contenttweaker:azurite>,<contenttweaker:azurite>,<contenttweaker:heavy_ring>,<contenttweaker:heavy_ring>,endBottle,endBottle,endBottle,endBottle]
         }
-    }
+    },
+    <soulus:gear_bone> : {
+        <treetweaker:ritualtree> : {
+            "gear_bone" : [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+        }
+    },
+    <soulus:gear_bone_dry> : {
+        <treetweaker:ritualtree> : {
+            "gear_bone_dry" : [<soulus:bone_dry>,<soulus:bone_dry>,<soulus:bone_dry>,<soulus:bone_dry>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+        }
+    },
+    <soulus:gear_bone_fungal> : {
+        <treetweaker:ritualtree> : {
+            "gear_bone_fungal" : [<soulus:bone_fungal>,<soulus:bone_fungal>,<soulus:bone_fungal>,<soulus:bone_fungal>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+        }
+    },
+    <soulus:gear_bone_frozen> : {
+        <treetweaker:ritualtree> : {
+            "gear_bone_frozen" : [<soulus:bone_frozen>,<soulus:bone_frozen>,<soulus:bone_frozen>,<soulus:bone_frozen>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+        }
+    },
+    <soulus:gear_bone_ender> : {
+        <treetweaker:ritualtree> : {
+            "gear_bone_ender" : [<soulus:bone_ender>,<soulus:bone_ender>,<soulus:bone_ender>,<soulus:bone_ender>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+        }
+    },
+    <soulus:gear_bone_nether> : {
+        <treetweaker:ritualtree> : {
+            "gear_bone_nether" : [<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+        }
+    },
 };
 
 var time as int = 200;
@@ -181,3 +209,9 @@ for output, data in treeRitualMap {
         }
     }
 }
+
+
+
+
+
+

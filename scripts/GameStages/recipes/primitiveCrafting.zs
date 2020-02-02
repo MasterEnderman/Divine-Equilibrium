@@ -372,8 +372,8 @@ for output, data in recipePrimitiveCrafting {
     }
     if (data.keySet.length == 1) {
         if (data.keySet[0] != "null") {
-        ItemStages.removeItemStage(output);
-        ItemStages.addItemStage(data.keySet[0], output);
+            ItemStages.removeItemStage(output);
+            ItemStages.addItemStage(data.keySet[0], output);
         } else {
             ItemStages.removeItemStage(output);
         }

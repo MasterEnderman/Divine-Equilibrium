@@ -194,6 +194,10 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     <contenttweaker:golem_corpse> : {
         <forbidden_arcanus:soul> : 0.5,
         <forbidden_arcanus:dark_soul> : 0.5
+    },
+    <forbidden_arcanus:mysterywood_sapling> : {
+        <minecraft:stick> : 0.5,
+        <naturesaura:gold_leaf> : 0.3
     }
 };
 

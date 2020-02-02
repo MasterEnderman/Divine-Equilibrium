@@ -28,9 +28,23 @@ function transformString(item as IIngredient){
 }
 
 function removeAllRecipesFromMod(modname as string){
+    var filter as IItemStack[] = [
+        <embers:dust_ash>
+    ];
+    
+    var test as string = "false";
+
     for item in loadedMods[modname].items {
-        JEI.removeAndHide(item);
-        // recipes.remove(item);
-        item.addTooltip(format.red("[NOT IMPLEMENTED YET]"));
+        for entry in filter {
+            if (item.name != entry.name) {
+                test = "true";
+            }
+        }
+        if (test == "true") {
+            JEI.removeAndHide(item);
+            // recipes.remove(item);
+            item.addTooltip(format.red("[NOT IMPLEMENTED YET]"));
+            test = "false";
+        }
     }
 }

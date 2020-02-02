@@ -32,8 +32,6 @@ scripts/*.zsrc
 
 config/jei/**
 
-config/InvTweaks/**
-
 mods/
 
 *.log

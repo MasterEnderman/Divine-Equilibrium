@@ -44,55 +44,6 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
             ]
         }
     },
-    <soulus:gear_bone> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_normal>*4]
-            ]
-        }
-    },
-    <soulus:gear_bone_dry> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_dry>*4]
-            ]
-        }
-    },
-    <soulus:gear_bone> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_normal>*4]
-            ]
-        }
-    },
-    <soulus:gear_bone_fungal> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_fungal>*4]
-            ]
-        }
-    },
-    <soulus:gear_bone_frozen> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_frozen>*4]
-            ]
-        }
-    },
-    <soulus:gear_bone_ender> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_ender>*4]
-            ]
-        }
-    },
-    <soulus:gear_bone_nether> : {
-        <liquid:frankencense_essence> : {
-            "true" : [
-                [<soulus:bone_nether>*4]
-            ]
-        }
-    },
     <evilcraft:dark_gem> : {
         <liquid:frankencense_essence> : {
             "true" : [

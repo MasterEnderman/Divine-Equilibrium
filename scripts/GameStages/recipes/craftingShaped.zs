@@ -298,17 +298,6 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 ]
             ]
         }
-    },
-    <minecraft:chest> : {
-        "gaia_finish" : {
-            1 : [
-                [
-                    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-                    [<ore:plankWood>,null,<ore:plankWood>],
-                    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
-                ]
-            ]
-        }
     }
 };
 

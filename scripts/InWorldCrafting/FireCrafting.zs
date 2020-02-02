@@ -37,7 +37,9 @@ var FireCraftingMap as IIngredient[][IItemStack] = {
     <defiledlands:defilement_powder> : [<evilcraft:dark_gem_crushed>],
     <soulus:emerald_burnt> : [<minecraft:emerald>],
     <evilcraft:burning_gem_stone> : [<evilcraft:dark_block>],
-    <hwell:shard_c> : [<forbidden_arcanus:dark_stone>]
+    <hwell:shard_c> : [<forbidden_arcanus:dark_stone>],
+    <minecraft:skull> : [<minecraft:skull:2>,<minecraft:skull:4>,<minecraft:skull:5>,<minecraft:skull:1>],
+    <minecraft:deadbush> : [<ore:treeSapling>]
 };
 
 var burntime as int = 120;

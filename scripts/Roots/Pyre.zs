@@ -43,6 +43,10 @@ var pyreMap as IIngredient[][string][IItemStack] = {
     },
     <owncrops:dark_seed> : {
         "dark_seed" : [<roots:terra_moss>,<roots:wildroot>,<contenttweaker:bark_mysterywood>,<soulus:bone_meal_nether>,<rootsclassic:blackcurrant>]
+    },
+    <corvus:blazing_tulip>*5 : {
+        "poppy_to_blaze" : [<minecraft:red_flower>,<minecraft:red_flower>,<minecraft:red_flower>,<minecraft:red_flower>,<minecraft:red_flower>],
+        "tulip_to_blaze" : [<minecraft:red_flower:4>,<minecraft:red_flower:4>,<minecraft:red_flower:4>,<minecraft:red_flower:4>,<minecraft:red_flower:4>]
     }
 };
 

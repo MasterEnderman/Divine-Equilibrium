@@ -6477,7 +6477,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "evilcraft:origins_of_darkness",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "102:10": {
       "questID:3": 102,
@@ -7582,7 +7595,13 @@
               "OreDict:8": ""
             },
             "8:10": {
-              "id:8": "questbook:itemquestbook",
+              "id:8": "evilcraft:origins_of_darkness",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "integrateddynamics:on_the_dynamics_of_integration",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""

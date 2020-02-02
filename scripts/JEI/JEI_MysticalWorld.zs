@@ -39,7 +39,7 @@ static JEI_MysticalWorld as IIngredient[] = [
     <mysticalworld:copper_ore>,
     <mysticalworld:silver_block>,
     <mysticalworld:silver_ore>,
-    <mysticalworld:spindle>
+    <mysticalworld:spindle>,
 ];
 
 disableItems(JEI_MysticalWorld);

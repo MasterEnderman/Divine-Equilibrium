@@ -23,6 +23,13 @@ var mapInfuser as IItemStack[int][int][int][IItemStack] = {
             }
         }
     },
+    <mysticalworld:silkworm_egg> : {
+        0 : {
+            100 : {
+                60 : <roots:terra_moss>
+            }
+        }
+    },
     <evilcraft:dark_power_gem> : {
         0 : {
             1000 : {
@@ -47,14 +54,14 @@ var mapInfuser as IItemStack[int][int][int][IItemStack] = {
     <evilcraft:bowl_of_promises:2> : {
         0 : {
             10000 : {
-                100 : <evilcraft:bowl_of_promises>
+                120 : <evilcraft:bowl_of_promises>
             }
         }
     },
     <evilcraft:promise_acceptor> : {
         0 : {
             10000 : {
-                100 : <hwell:heavy_block>
+                120 : <hwell:heavy_block>
             }
         }
     },
@@ -68,21 +75,21 @@ var mapInfuser as IItemStack[int][int][int][IItemStack] = {
     <evilcraft:blood_orb:1> : {
         1 : {
             5000 : {
-                50 : <evilcraft:blood_orb>
+                60 : <evilcraft:blood_orb>
             }
         }
     },
     <evilcraft:vengeance_ring> : {
         1 : {
             5000 : {
-                50 : <contenttweaker:heavy_ring>
+                60 : <contenttweaker:heavy_ring>
             }
         }
     },
     <harvestersnight:harvester_scythe> : {
         1 : {
             20000 : {
-                200 : <forbidden_arcanus:bone_hoe>
+                180 : <forbidden_arcanus:bone_hoe>
             }
         }
     }
@@ -92,7 +99,7 @@ for output, data_0 in mapInfuser {
     for tier, data_1 in data_0 {
         for blood, data_2 in data_1 {
             for time, input in data_2 {
-                BloodInfuser.addRecipe(input, <liquid:evilcraftblood> * blood, tier, output, time, 3);
+                BloodInfuser.addRecipe(input, <liquid:evilcraftblood> * blood, tier, output, time*20, 3);
             }
         }
     }
