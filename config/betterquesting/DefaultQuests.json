@@ -28,8 +28,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The Roof",
-          "desc:8": "I can only imagine all of the horrible things that may have happened to my potato, but I have bigger fish to fry. I need to get out of this place, whatever it is. \n\nWhen I look closely, I notice that there seems to be a small patch on what must be the ceiling that looks different than the rest of this dark room. Maybe it\u0027s a vent or something. I should try interacting with it to see if it does anything. (shift+left-click with an empty hand)"
+          "name:8": "diveq.quest000.title.name",
+          "desc:8": "diveq.quest000.description.name"
         }
       },
       "tasks:9": {
@@ -80,8 +80,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The Floor",
-          "desc:8": "This whole place smells like it could go up in flames at any moment with the smallest spark. For lack of a better idea I\u0027m going to just (SLOWLY) punch the ground below me until something happens. If the entire place goes up in flames and this is how my life ends, well, we had a good run. \n\nJust maybe, though, it will be only enough to start a small fire that I can throw my little pebbles into to see if anything happens. Sounds ridiculous doesn\u0027t it? It\u0027s not like I have any better ideas."
+          "name:8": "diveq.quest001.title.name",
+          "desc:8": "diveq.quest001.description.name"
         }
       },
       "tasks:9": {
@@ -132,8 +132,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "I Quit",
-          "desc:8": "For all my troubles, all I got was some bigger stones (this place is weird). These won\u0027t do me any good, and I can\u0027t find anything else that could possibly be useful. I knew it was hopeless. I don\u0027t want to just sit here until I die, I want to go out on my own terms... (stay in a fire for too long)"
+          "name:8": "diveq.quest002.title.name",
+          "desc:8": "diveq.quest002.description.name"
         }
       },
       "tasks:9": {
@@ -184,8 +184,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "You\u0027re boned",
-          "desc:8": "Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier. That just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn\u0027t pick up, and click again)"
+          "name:8": "diveq.quest003.title.name",
+          "desc:8": "diveq.quest003.description.name"
         }
       },
       "tasks:9": {
@@ -261,8 +261,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Burned field",
-          "desc:8": "I\u0027m free! Well, not really. I escaped the dark room I woke up only to discover that I\u0027m stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\n\n§o(Burn Bones to get bone torches. Place a cobblestone on top of the bedrock (the top site of the bedrock) and light it with the bone torch (leftclick). Now you have charred cobblestone. Mine the charred cobblestone to acquire gravel.)"
+          "name:8": "diveq.quest004.title.name",
+          "desc:8": "diveq.quest004.description.name"
         }
       },
       "tasks:9": {
@@ -332,8 +332,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Cut yourself",
-          "desc:8": "If you burn gravel in fire you get flint, craft it with a sharped bone to create a flint knife, which can be used to cut yourself and get more food out of yourself. Use 8 raw player meat on a charred cobblestone, which is placed on bedrock to obtain a flesh block, which you can transform into dirt later."
+          "name:8": "diveq.quest005.title.name",
+          "desc:8": "diveq.quest005.description.name"
         }
       },
       "tasks:9": {
@@ -402,8 +402,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Dirty Harry",
-          "desc:8": "Apply 4 bone meal to a flesh block that is placed on bedrock to transform it into dirt."
+          "name:8": "diveq.quest006.title.name",
+          "desc:8": "diveq.quest006.description00.name\n\ndiveq.quest006.description01.name"
         }
       },
       "tasks:9": {
@@ -473,8 +473,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Let it grow",
-          "desc:8": "Unlock the \"wood\" stage by purchasing the research in the research menu (use the book to open the GUI). After that you can rightclick a dirt block which is placed on bedrock with a piece of bone meal to spawn a sapling."
+          "name:8": "diveq.quest007.title.name",
+          "desc:8": "diveq.quest007.description.name"
         }
       },
       "tasks:9": {
@@ -529,8 +529,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "What?",
-          "desc:8": "Where am I? I uh... this uh... this can\u0027t be good. This can\u0027t be good at all. Why is it so dark? I\u0027m not even quite sure which way is up."
+          "name:8": "diveq.quest008.title.name",
+          "desc:8": "diveq.quest008.description.name"
         }
       },
       "tasks:9": {
@@ -568,8 +568,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Hmm",
-          "desc:8": "Okay... I need to think back to this morning to try and figure out how I got here. Let\u0027s see now... my alarm woke me up at 7:00 a.m., I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. I\u0027m really hungry now, where did my potato go? I don\u0027t remember ever eating it, and it doesn\u0027t seem to be in my pockets. Where is my potato? \u003d("
+          "name:8": "diveq.quest009.title.name",
+          "desc:8": "diveq.quest009.description.name"
         }
       },
       "tasks:9": {
@@ -608,8 +608,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "RIP",
-          "desc:8": "What? I\u0027m not dead? I see my old body just laying there, but I\u0027m standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of my new found regeneration power. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire."
+          "name:8": "diveq.quest010.title.name",
+          "desc:8": "diveq.quest010.description.name"
         }
       },
       "tasks:9": {
@@ -660,8 +660,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Solidified Earth Knowledge",
-          "desc:8": "Collect Earth Research Points by Breaking Nature Blocks. For 20 Research Points you can obtain a solidified Version."
+          "name:8": "diveq.quest011.title.name",
+          "desc:8": "diveq.quest011.description.name"
         }
       },
       "tasks:9": {
@@ -712,8 +712,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Solidified Air Knowledge",
-          "desc:8": "Collect Air Research Points by Jumping. For 20 Research Points you can obtain a solidified Version."
+          "name:8": "diveq.quest012.title.name",
+          "desc:8": "diveq.quest012.description.name"
         }
       },
       "tasks:9": {
@@ -764,8 +764,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Solidified Fire Knowledge",
-          "desc:8": "Collect Fire Research Points by Burning yourself. For 5 Research Points you can obtain a solidified Version."
+          "name:8": "diveq.quest013.title.name",
+          "desc:8": "diveq.quest013.description.name"
         }
       },
       "tasks:9": {
@@ -816,8 +816,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Magnifying Glass",
-          "desc:8": "Place down the Block you want to melt and stack 2-8 Amplifying Tubes on top. The more you stack the faster the Block melts."
+          "name:8": "diveq.quest014.title.name",
+          "desc:8": "diveq.quest014.description.name"
         }
       },
       "tasks:9": {
@@ -884,8 +884,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Scorch Glass",
-          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
+          "name:8": "diveq.quest015.title.name",
+          "desc:8": "diveq.quest015.description.name"
         }
       },
       "tasks:9": {
@@ -942,8 +942,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Turf Block",
-          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
+          "name:8": "diveq.quest016.title.name",
+          "desc:8": "diveq.quest016.description.name"
         }
       },
       "tasks:9": {
@@ -994,8 +994,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Moonstone",
-          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
+          "name:8": "diveq.quest017.title.name",
+          "desc:8": "diveq.quest017.description.name"
         }
       },
       "tasks:9": {
@@ -1046,8 +1046,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Make it balanced",
-          "desc:8": "\"It\u0027s balanced, because it takes effort\""
+          "name:8": "diveq.quest018.title.name",
+          "desc:8": "diveq.quest018.description.name"
         }
       },
       "tasks:9": {
@@ -1099,8 +1099,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Solidified Water Knowledge",
-          "desc:8": "Collect Water Research Points by drowning damage. For 5 Research Points you can obtain a solidified Version."
+          "name:8": "diveq.quest019.title.name",
+          "desc:8": "diveq.quest019.description.name"
         }
       },
       "tasks:9": {
@@ -1151,8 +1151,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Actually pretty light",
-          "desc:8": "Some kind of metal created from the basic resources you can access."
+          "name:8": "diveq.quest020.title.name",
+          "desc:8": "diveq.quest020.description.name"
         }
       },
       "tasks:9": {
@@ -1203,8 +1203,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Golden Leaves \u0026 Magic",
-          "desc:8": "Play with the strong aura around you."
+          "name:8": "diveq.quest021.title.name",
+          "desc:8": "diveq.quest021.description.name"
         }
       },
       "tasks:9": {
@@ -1277,8 +1277,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "See the Aura",
-          "desc:8": "No Description"
+          "name:8": "diveq.quest022.title.name",
+          "desc:8": "diveq.quest022.description.name"
         }
       },
       "tasks:9": {
@@ -1330,8 +1330,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "More Trees",
-          "desc:8": "Squeeze one, keep one."
+          "name:8": "diveq.quest023.title.name",
+          "desc:8": "diveq.quest023.description.name"
         }
       },
       "tasks:9": {
@@ -1382,8 +1382,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Eternal Flame",
-          "desc:8": "Light it with a Flint and Steel"
+          "name:8": "diveq.quest024.title.name",
+          "desc:8": "diveq.quest024.description.name"
         }
       },
       "tasks:9": {
@@ -1450,8 +1450,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The One Probe",
-          "desc:8": "Seeing more is always better."
+          "name:8": "diveq.quest025.title.name",
+          "desc:8": "diveq.quest025.description.name"
         }
       },
       "tasks:9": {
@@ -1515,8 +1515,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Crushing",
-          "desc:8": "Drop your Items on the ground. Place the Crushing block a few blocks higher and let it fall. Thats how you use this block.\n\n§a!TIP! This pack uses Carry on. You can pick up the Crushing Block with shift-rightclick so you don\u0027t have to break it every time you wan\u0027t to use it."
+          "name:8": "diveq.quest026.title.name",
+          "desc:8": "diveq.quest026.description.name"
         }
       },
       "tasks:9": {
@@ -1567,8 +1567,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Squeezing and Drying",
-          "desc:8": "Place them next to each other to transfer the fluid from the squeezer to the basin"
+          "name:8": "diveq.quest027.title.name",
+          "desc:8": "diveq.quest027.description.name"
         }
       },
       "tasks:9": {
@@ -1641,8 +1641,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Growth Candle",
-          "desc:8": "Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health.\n\nYou apply the oil by rightclicking it onto a lit candle. A candle can be lit by rightclicking it with a flint and steel. (The oil won\u0027t be used in this process)\n\n§c!ATTENTION! If you break a Growth Candle it\u0027ll convert back to a normal Candle. It also will convert to a normal Candle over time."
+          "name:8": "diveq.quest028.title.name",
+          "desc:8": "diveq.quest028.description.name"
         }
       },
       "tasks:9": {
@@ -1695,8 +1695,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Where do I go now?",
-          "desc:8": "A strange Fruit and I\u0027m still hungry. Maybe I should eat it?"
+          "name:8": "diveq.quest029.title.name",
+          "desc:8": "diveq.quest029.description.name"
         }
       },
       "tasks:9": {
@@ -1808,8 +1808,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Time to make Glass",
-          "desc:8": "A fancy, transparent Block."
+          "name:8": "diveq.quest030.title.name",
+          "desc:8": "diveq.quest030.description.name"
         }
       },
       "tasks:9": {
@@ -1880,8 +1880,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Water Transport",
-          "desc:8": "Get your water from one Point to another"
+          "name:8": "diveq.quest031.title.name",
+          "desc:8": "diveq.quest031.description.name"
         }
       },
       "tasks:9": {
@@ -1944,8 +1944,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "I\u0027m blue...",
-          "desc:8": "First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation."
+          "name:8": "diveq.quest032.title.name",
+          "desc:8": "diveq.quest032.description.name"
         }
       },
       "tasks:9": {
@@ -1996,8 +1996,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "More Bones",
-          "desc:8": "Use Moonstone to increase your Bone reservoir"
+          "name:8": "diveq.quest033.title.name",
+          "desc:8": "diveq.quest033.description.name"
         }
       },
       "tasks:9": {
@@ -2058,8 +2058,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Take some Air with you",
-          "desc:8": "Rightclick with a Bottle and Cork in the Air to collect your Surroundings."
+          "name:8": "diveq.quest034.title.name",
+          "desc:8": "diveq.quest034.description.name"
         }
       },
       "tasks:9": {
@@ -2119,8 +2119,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Where did all my Items go?",
-          "desc:8": "My Baubles are still there. But where is the rest?"
+          "name:8": "diveq.quest035.title.name",
+          "desc:8": "diveq.quest035.description.name"
         }
       },
       "tasks:9": {
@@ -2176,8 +2176,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Need to breath",
-          "desc:8": "Maybe I enter a place where there isn\u0027t enough air for me to breath. This should help me."
+          "name:8": "diveq.quest036.title.name",
+          "desc:8": "diveq.quest036.description.name"
         }
       },
       "tasks:9": {
@@ -2234,8 +2234,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Ignition",
-          "desc:8": "Start a Fire whereever you want."
+          "name:8": "diveq.quest037.title.name",
+          "desc:8": "diveq.quest037.description.name"
         }
       },
       "tasks:9": {
@@ -2286,8 +2286,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Now cut other things",
-          "desc:8": "That way making water becomes much easier."
+          "name:8": "diveq.quest038.title.name",
+          "desc:8": "diveq.quest038.description.name"
         }
       },
       "tasks:9": {
@@ -2339,8 +2339,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Destroy those Trees",
-          "desc:8": "You can use OreExcavation to chop down trees easier, but you need to have an axe. just check the controls to set the keybind."
+          "name:8": "diveq.quest039.title.name",
+          "desc:8": "diveq.quest039.description.name"
         }
       },
       "tasks:9": {
@@ -2399,8 +2399,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Miner\u0027s hate that trick",
-          "desc:8": "Haste is the way to go"
+          "name:8": "diveq.quest040.title.name",
+          "desc:8": "diveq.quest040.description.name"
         }
       },
       "tasks:9": {
@@ -2457,8 +2457,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Getting back on Track",
-          "desc:8": "Finally I\u0027m able to craft some basic Tools now. Let\u0027s go mining.\n\nBreaking Leaves while holding a piece of Flint sometimes yields some Sticks."
+          "name:8": "diveq.quest041.title.name",
+          "desc:8": "diveq.quest041.description.name"
         }
       },
       "tasks:9": {
@@ -2521,8 +2521,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Alternative Food Source",
-          "desc:8": "Stop eating yourself"
+          "name:8": "diveq.quest042.title.name",
+          "desc:8": "diveq.quest042.description.name"
         }
       },
       "tasks:9": {
@@ -2573,8 +2573,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Lost your Questbook?",
-          "desc:8": "Get a new One."
+          "name:8": "diveq.quest043.title.name",
+          "desc:8": "diveq.quest043.description.name"
         }
       },
       "tasks:9": {
@@ -2625,8 +2625,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Questbook doesn\u0027t work?",
-          "desc:8": "Try to reload it with this Quest."
+          "name:8": "diveq.quest044.title.name",
+          "desc:8": "diveq.quest044.description.name"
         }
       },
       "tasks:9": {
@@ -2676,8 +2676,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Even better Food",
-          "desc:8": "Gives a Regeneration Buff when eaten."
+          "name:8": "diveq.quest045.title.name",
+          "desc:8": "diveq.quest045.description.name"
         }
       },
       "tasks:9": {
@@ -2729,8 +2729,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Storing Liquids",
-          "desc:8": "If you don\u0027t have an other place to put it.\n\nThe iTank stores it\u0027s content when broken and auto-outputs to the bottom side."
+          "name:8": "diveq.quest046.title.name",
+          "desc:8": "diveq.quest046.description.name"
         }
       },
       "tasks:9": {
@@ -2781,8 +2781,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Resource Collection",
-          "desc:8": "Well, whereever my items went, now it\u0027s not the time to sit here and wait until something happens. Maybe I should try to create some basic tools again to further explore this place.\n\nCollect some Gravel with your bare hands and throw it into a nearby puddle to obtain some flint. Smash the flint against some stone to break it into small pieces."
+          "name:8": "diveq.quest047.title.name",
+          "desc:8": "diveq.quest047.description.name"
         }
       },
       "tasks:9": {
@@ -2851,8 +2851,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Time to hunt",
-          "desc:8": "By making a knife you get access to more resources which might be needed later."
+          "name:8": "diveq.quest048.title.name",
+          "desc:8": "diveq.quest048.description.name"
         }
       },
       "tasks:9": {
@@ -2903,8 +2903,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Herbs",
-          "desc:8": "While wondering around I found some Lakes underground with some mossy cobblestone. Try to carve some of the moss with your knife.\n\n§o(rightclick the mossy cobblestone with the knife)"
+          "name:8": "diveq.quest049.title.name",
+          "desc:8": "diveq.quest049.description.name"
         }
       },
       "tasks:9": {
@@ -2955,8 +2955,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "This is not a bug.",
-          "desc:8": "This is a bug."
+          "name:8": "diveq.quest050.title.name",
+          "desc:8": "diveq.quest050.description.name"
         }
       },
       "tasks:9": {
@@ -3126,8 +3126,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "A Furry",
-          "desc:8": "uwu"
+          "name:8": "diveq.quest051.title.name",
+          "desc:8": "diveq.quest051.description.name"
         }
       },
       "tasks:9": {
@@ -3305,8 +3305,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Alternative Food Source",
-          "desc:8": "Get youself some meat"
+          "name:8": "diveq.quest052.title.name",
+          "desc:8": "diveq.quest052.description.name"
         }
       },
       "tasks:9": {
@@ -3480,8 +3480,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Wood Stripping",
-          "desc:8": "Obtain some Bark from the surrounding Trees"
+          "name:8": "diveq.quest053.title.name",
+          "desc:8": "diveq.quest053.description.name"
         }
       },
       "tasks:9": {
@@ -3538,8 +3538,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Shiny Gems",
-          "desc:8": "Almost a Rainbow"
+          "name:8": "diveq.quest054.title.name",
+          "desc:8": "diveq.quest054.description.name"
         }
       },
       "tasks:9": {
@@ -3614,8 +3614,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Awake the Forest",
-          "desc:8": "Use the Fiber on Leaves to slowly convert them into Golden Leaves"
+          "name:8": "diveq.quest055.title.name",
+          "desc:8": "diveq.quest055.description.name"
         }
       },
       "tasks:9": {
@@ -3701,8 +3701,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Not so heavy",
-          "desc:8": "Do you remember how to make them?"
+          "name:8": "diveq.quest056.title.name",
+          "desc:8": "diveq.quest056.description.name"
         }
       },
       "tasks:9": {
@@ -3754,8 +3754,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Wood to Planks and Planks to Sticks",
-          "desc:8": "Get a Flint Knife again to process Logs."
+          "name:8": "diveq.quest057.title.name",
+          "desc:8": "diveq.quest057.description.name"
         }
       },
       "tasks:9": {
@@ -3806,8 +3806,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Mortar \u0026 Pestle",
-          "desc:8": "What kind of Druid are you?"
+          "name:8": "diveq.quest058.title.name",
+          "desc:8": "diveq.quest058.description.name"
         }
       },
       "tasks:9": {
@@ -3881,8 +3881,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The Stick of Truth",
-          "desc:8": "Infuse your stick with some magic powder.\nPlace down the Imbuer and insert your powder and stuff to start the imbuing process.\nIt\u0027ll later be used to awaken your Grove Stone."
+          "name:8": "diveq.quest059.title.name",
+          "desc:8": "diveq.quest059.description.name"
         }
       },
       "tasks:9": {
@@ -3963,8 +3963,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The Spirit of the Forest",
-          "desc:8": "Channel the natural energy through your hands.\n\nEmpower the Grove Stone by casting your newly made Spell on it.\n\nUse your Knife on the Fay Crafter to start the Crafting Ritual."
+          "name:8": "diveq.quest060.title.name",
+          "desc:8": "diveq.quest060.description.name"
         }
       },
       "tasks:9": {
@@ -4023,8 +4023,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Storing Herbs",
-          "desc:8": "In order to cast Spells you need to put the required Herbs inside this Pouch.\n\nFurthermore it allows you to store some Items in it."
+          "name:8": "diveq.quest061.title.name",
+          "desc:8": "diveq.quest061.description.name"
         }
       },
       "tasks:9": {
@@ -4075,8 +4075,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "A great Stick",
-          "desc:8": "Bigger than the normal one"
+          "name:8": "diveq.quest062.title.name",
+          "desc:8": "diveq.quest062.description.name"
         }
       },
       "tasks:9": {
@@ -4127,8 +4127,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Bonfire",
-          "desc:8": "Burn it down.\n\nUse a Flint and Steel to start the Ritual."
+          "name:8": "diveq.quest063.title.name",
+          "desc:8": "diveq.quest063.description.name"
         }
       },
       "tasks:9": {
@@ -4180,8 +4180,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "This shouldn\u0027t exist",
-          "desc:8": "Why is it still here?"
+          "name:8": "diveq.quest064.title.name",
+          "desc:8": "diveq.quest064.description.name"
         }
       },
       "tasks:9": {
@@ -4232,8 +4232,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Use the Aura for something",
-          "desc:8": "You remember the magical energy around you? It\u0027s time to utilize it.\n\nThe Altar requires a Multiblock placed around it to function. Take a look at the Natures Aura Manual to see the setup."
+          "name:8": "diveq.quest065.title.name",
+          "desc:8": "diveq.quest065.description.name"
         }
       },
       "tasks:9": {
@@ -4309,8 +4309,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Natural Metalurgy",
-          "desc:8": "Infuse a Heavy Ingot with the Power of Nature"
+          "name:8": "diveq.quest066.title.name",
+          "desc:8": "diveq.quest066.description.name"
         }
       },
       "tasks:9": {
@@ -4361,8 +4361,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Advanced Magic",
-          "desc:8": "Used for all kinds of Rituals"
+          "name:8": "diveq.quest067.title.name",
+          "desc:8": "diveq.quest067.description.name"
         }
       },
       "tasks:9": {
@@ -4416,8 +4416,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Boss #1",
-          "desc:8": "Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier."
+          "name:8": "diveq.quest068.title.name",
+          "desc:8": "diveq.quest068.description.name"
         }
       },
       "tasks:9": {
@@ -4626,8 +4626,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Protect yourself",
-          "desc:8": "Better safe then sorry"
+          "name:8": "diveq.quest069.title.name",
+          "desc:8": "diveq.quest069.description.name"
         }
       },
       "tasks:9": {
@@ -4696,8 +4696,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Verdant Sprig",
-          "desc:8": "Concentrated Nature"
+          "name:8": "diveq.quest070.title.name",
+          "desc:8": "diveq.quest070.description.name"
         }
       },
       "tasks:9": {
@@ -4748,8 +4748,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Basic Armor",
-          "desc:8": "Only for the cold days."
+          "name:8": "diveq.quest071.title.name",
+          "desc:8": "diveq.quest071.description.name"
         }
       },
       "tasks:9": {
@@ -4818,8 +4818,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "That\u0027s what i call an Upgrade!",
-          "desc:8": "It\u0027s time for the green Thumb"
+          "name:8": "diveq.quest072.title.name",
+          "desc:8": "diveq.quest072.description.name"
         }
       },
       "tasks:9": {
@@ -4890,8 +4890,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Awake the Forest",
-          "desc:8": "Grow the old Trees that nobody seen before. To Accomplish this task setup the \"Wildwood Growth\" ritual near a fully grown wild root crop."
+          "name:8": "diveq.quest073.title.name",
+          "desc:8": "diveq.quest073.description.name"
         }
       },
       "tasks:9": {
@@ -4942,8 +4942,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Token of Joy",
-          "desc:8": "Don\u0027t worry, be happy"
+          "name:8": "diveq.quest074.title.name",
+          "desc:8": "diveq.quest074.description.name"
         }
       },
       "tasks:9": {
@@ -4994,8 +4994,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Botanist\u0027s Tools",
-          "desc:8": "Fancy green."
+          "name:8": "diveq.quest075.title.name",
+          "desc:8": "diveq.quest075.description.name"
         }
       },
       "tasks:9": {
@@ -5064,8 +5064,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Diamonds!",
-          "desc:8": "Fancy Gem."
+          "name:8": "diveq.quest076.title.name",
+          "desc:8": "diveq.quest076.description.name"
         }
       },
       "tasks:9": {
@@ -5116,8 +5116,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Stunning Dahlia",
-          "desc:8": "Collected by using a Diamond on it."
+          "name:8": "diveq.quest077.title.name",
+          "desc:8": "diveq.quest077.description.name"
         }
       },
       "tasks:9": {
@@ -5168,8 +5168,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Runic Shears",
-          "desc:8": "The magic cut."
+          "name:8": "diveq.quest078.title.name",
+          "desc:8": "diveq.quest078.description.name"
         }
       },
       "tasks:9": {
@@ -5220,8 +5220,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The oldest Tree",
-          "desc:8": "No one have seen this before."
+          "name:8": "diveq.quest079.title.name",
+          "desc:8": "diveq.quest079.description.name"
         }
       },
       "tasks:9": {
@@ -5272,8 +5272,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Harvest Mania",
-          "desc:8": "Collect all the seeds and set up a little Farm. You\u0027ll need them.\n\n§a!TIP! : The Pyre \"Transmutation Ritual\" will help you with that."
+          "name:8": "diveq.quest080.title.name",
+          "desc:8": "diveq.quest080.description.name"
         }
       },
       "tasks:9": {
@@ -5354,8 +5354,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Token of Sorrow",
-          "desc:8": "After sunshine comes rain"
+          "name:8": "diveq.quest081.title.name",
+          "desc:8": "diveq.quest081.description.name"
         }
       },
       "tasks:9": {
@@ -5406,8 +5406,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Magic Fabric",
-          "desc:8": "Using Runic Shears on Deers sometimes yields a magical leather."
+          "name:8": "diveq.quest082.title.name",
+          "desc:8": "diveq.quest082.description.name"
         }
       },
       "tasks:9": {
@@ -5458,8 +5458,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Runic Focus",
-          "desc:8": "Storing the Nature in Stone"
+          "name:8": "diveq.quest083.title.name",
+          "desc:8": "diveq.quest083.description.name"
         }
       },
       "tasks:9": {
@@ -5512,8 +5512,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "The Journey continues",
-          "desc:8": "It\u0027s time to continue"
+          "name:8": "diveq.quest084.title.name",
+          "desc:8": "diveq.quest084.description.name"
         }
       },
       "tasks:9": {
@@ -5594,8 +5594,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "3x3 Crafting?",
-          "desc:8": "Kind of cool, but it\u0027s still not the same."
+          "name:8": "diveq.quest085.title.name",
+          "desc:8": "diveq.quest085.description.name"
         }
       },
       "tasks:9": {
@@ -5646,8 +5646,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Getting my Health back",
-          "desc:8": "There is an Item you can craft to get some of your health back."
+          "name:8": "diveq.quest086.title.name",
+          "desc:8": "diveq.quest086.description.name"
         }
       },
       "tasks:9": {
@@ -5698,8 +5698,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "More water",
-          "desc:8": "You can process azurite to obtain more water."
+          "name:8": "diveq.quest087.title.name",
+          "desc:8": "diveq.quest087.description.name"
         }
       },
       "tasks:9": {
@@ -5749,8 +5749,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Don\u0027t get boned again.",
-          "desc:8": "After collecting some Rocks I should be able to replace the primitive tools with something better."
+          "name:8": "diveq.quest088.title.name",
+          "desc:8": "diveq.quest088.description.name"
         }
       },
       "tasks:9": {
@@ -5812,8 +5812,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Time to wake up",
-          "desc:8": "Was all of this just a Dream? How did I end up in here, didn\u0027t I eat that strange fruit? Better I leave this place behind. It\u0027s time to go.\n\n§o(Jump from the edge of the Island.)"
+          "name:8": "diveq.quest089.title.name",
+          "desc:8": "diveq.quest089.description.name"
         }
       },
       "tasks:9": {
@@ -5873,8 +5873,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Flora",
-          "desc:8": "Obtain some Grass and use your bone meal on it."
+          "name:8": "diveq.quest090.title.name",
+          "desc:8": "diveq.quest090.description.name"
         }
       },
       "tasks:9": {
@@ -5924,8 +5924,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "The flesh of trees",
-          "desc:8": "Cut the Trees instead of yourself"
+          "name:8": "diveq.quest091.title.name",
+          "desc:8": "diveq.quest091.description.name"
         }
       },
       "tasks:9": {
@@ -5981,8 +5981,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Resource Management Vol. I",
-          "desc:8": "An easier way to obtain some basic resources."
+          "name:8": "diveq.quest092.title.name",
+          "desc:8": "diveq.quest092.description.name"
         }
       },
       "tasks:9": {
@@ -6038,8 +6038,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "This isn\u0027t a crafting table",
-          "desc:8": "At least I can craft 3x3 recipes now..."
+          "name:8": "diveq.quest093.title.name",
+          "desc:8": "diveq.quest093.description.name"
         }
       },
       "tasks:9": {
@@ -6090,8 +6090,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Dark Magic",
-          "desc:8": "After infusing the basic runes with life essence I created a dark looking stone, which burns my skin while holding it. I guess this it\u0027s strong enough to create a way out of here."
+          "name:8": "diveq.quest094.title.name",
+          "desc:8": "diveq.quest094.description.name"
         }
       },
       "tasks:9": {
@@ -6143,8 +6143,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Magician\u0027s Table",
-          "desc:8": "After discovering this table in my dreams I may aswell start using it in this place aswell"
+          "name:8": "diveq.quest095.title.name",
+          "desc:8": "diveq.quest095.description.name"
         }
       },
       "tasks:9": {
@@ -6194,8 +6194,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Farming Time",
-          "desc:8": "Use your new Hoe to create some simple farms."
+          "name:8": "diveq.quest096.title.name",
+          "desc:8": "diveq.quest096.description.name"
         }
       },
       "tasks:9": {
@@ -6245,8 +6245,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Don\u0027t burn yourself",
-          "desc:8": "Is this some kind og ritual?"
+          "name:8": "diveq.quest097.title.name",
+          "desc:8": "diveq.quest097.description.name"
         }
       },
       "tasks:9": {
@@ -6296,8 +6296,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Strange Gem",
-          "desc:8": "After processing the dark seeds I obtained a dark gem which pulsates while holding it in my hands, what could it be used for?"
+          "name:8": "diveq.quest098.title.name",
+          "desc:8": "diveq.quest098.description.name"
         }
       },
       "tasks:9": {
@@ -6349,8 +6349,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Strange Seeds",
-          "desc:8": "After aquiring the pyre I should be able to create a strange set of seeds to obtain some new resources."
+          "name:8": "diveq.quest099.title.name",
+          "desc:8": "diveq.quest099.description.name"
         }
       },
       "tasks:9": {
@@ -6400,8 +6400,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Glitches and Corruption",
-          "desc:8": "After burning the crushed pieces of the dark gems I discovered a powder, which defiles specific blocks. I wonder what these can be used for."
+          "name:8": "diveq.quest100.title.name",
+          "desc:8": "diveq.quest100.description.name"
         }
       },
       "tasks:9": {
@@ -6453,8 +6453,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Blood Infusion",
-          "desc:8": "After containing the finest of the living liquids I have to utilize them. Maybe I can create some kind of machinery to inject this liquid into other objects."
+          "name:8": "diveq.quest101.title.name",
+          "desc:8": "diveq.quest101.description.name"
         }
       },
       "tasks:9": {
@@ -6505,8 +6505,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Runed Stones",
-          "desc:8": "msybe I can use these to create some kind of portal..."
+          "name:8": "diveq.quest102.title.name",
+          "desc:8": "diveq.quest102.description.name"
         }
       },
       "tasks:9": {
@@ -6556,8 +6556,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Darkness at midnight",
-          "desc:8": "This gem can\u0027t be good for my sanity."
+          "name:8": "diveq.quest103.title.name",
+          "desc:8": "diveq.quest103.description.name"
         }
       },
       "tasks:9": {
@@ -6608,8 +6608,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Magic Fabric?",
-          "desc:8": "What kind of clothing is this?"
+          "name:8": "diveq.quest104.title.name",
+          "desc:8": "diveq.quest104.description.name"
         }
       },
       "tasks:9": {
@@ -6660,8 +6660,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "When nightmares become reality",
-          "desc:8": "Didn\u0027t I already killed this \"thing\" in my dreams?"
+          "name:8": "diveq.quest105.title.name",
+          "desc:8": "diveq.quest105.description.name"
         }
       },
       "tasks:9": {
@@ -6856,8 +6856,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Metallurgy?",
-          "desc:8": "At least I can properly smelt my stuff now."
+          "name:8": "diveq.quest106.title.name",
+          "desc:8": "diveq.quest106.description"
         }
       },
       "tasks:9": {
@@ -6907,8 +6907,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Cheater?!",
-          "desc:8": "Well I guess you don\u0027t deserve to die...yet."
+          "name:8": "diveq.quest107.title.name",
+          "desc:8": "diveq.quest107.description.name"
         }
       },
       "tasks:9": {
@@ -6958,8 +6958,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "The Taste of human flesh",
-          "desc:8": "Death doesn\u0027t behave normally here... I should find something to eat, even if it\u0027s part of myself. If I only had my potato."
+          "name:8": "diveq.quest108.title.name",
+          "desc:8": "diveq.quest108.description.name"
         }
       },
       "tasks:9": {
@@ -6998,7 +6998,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "corvus:orb_of_imprisonment",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -7009,11 +7009,29 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "diveq.quest109.title.name",
+          "desc:8": "diveq.quest109.description.name"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "corvus:orb_of_imprisonment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "110:10": {
@@ -7042,8 +7060,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Scary faces?",
-          "desc:8": "Those eyes will always follow me..."
+          "name:8": "diveq.quest110.title.name",
+          "desc:8": "diveq.quest110.description.name"
         }
       },
       "tasks:9": {
@@ -7096,11 +7114,28 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "That\u0027s not what i aspected",
-          "desc:8": "This place doens\u0027t look like my homeplace at all. Did I take the wrong turn? At least there is this portal behind me, which takes me back, if I really want to go back to this lost place..."
+          "name:8": "diveq.quest111.title.name",
+          "desc:8": "diveq.quest111.description.name"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "Defiled Lands",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
       "rewards:9": {}
     },
     "112:10": {
@@ -7129,8 +7164,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Armor of the dead",
-          "desc:8": "Better then nothing."
+          "name:8": "diveq.quest112.title.name",
+          "desc:8": "diveq.quest112.description.name"
         }
       },
       "tasks:9": {
@@ -7198,8 +7233,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Kill the Innocent",
-          "desc:8": "Besides using these silly golems for automation purposes I should be able to use their corpses to satisfy my needs of raw souls"
+          "name:8": "diveq.quest113.title.name",
+          "desc:8": "diveq.quest113.description.name"
         }
       },
       "tasks:9": {
@@ -7385,8 +7420,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Infused Stone",
-          "desc:8": "What will it drop?"
+          "name:8": "diveq.quest114.title.name",
+          "desc:8": "diveq.quest114.description.name"
         }
       },
       "tasks:9": {
@@ -7449,8 +7484,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Sharing is caring",
-          "desc:8": "Got a leftover book? Transform it into something useful."
+          "name:8": "diveq.quest115.title.name",
+          "desc:8": "diveq.quest115.description.name"
         }
       },
       "tasks:9": {
@@ -7582,8 +7617,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Bloody Catalyst",
-          "desc:8": "After experimenting with the blood infuder I discovered a way to make this construct even more efficient."
+          "name:8": "diveq.quest116.title.name",
+          "desc:8": "diveq.quest116.description.name"
         }
       },
       "tasks:9": {
@@ -7633,8 +7668,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Bloody fingertips",
-          "desc:8": "After researching the strange behavior of blood I may be able to improve my baubles aswell"
+          "name:8": "diveq.quest117.title.name",
+          "desc:8": "diveq.quest117.description.name"
         }
       },
       "tasks:9": {
@@ -7684,8 +7719,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "A Key to another world",
-          "desc:8": "After utilizing the dark matter I created by accidient, I should have an Item that is powerfull enough to lighten up the portal i already made. If only I was able to stabilize all of this energy."
+          "name:8": "diveq.quest118.title.name",
+          "desc:8": "diveq.quest118.description.name"
         }
       },
       "tasks:9": {
@@ -7721,7 +7756,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forbidden_arcanus:runic_battleaxe",
@@ -7735,8 +7770,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Crush your enemies",
-          "desc:8": "A powerfull weapon"
+          "name:8": "diveq.quest119.title.name",
+          "desc:8": "diveq.quest119.description.name"
         }
       },
       "tasks:9": {
@@ -7787,8 +7822,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Advanced Machinery",
-          "desc:8": "What kind of contraption could I build with them?"
+          "name:8": "diveq.quest120.title.name",
+          "desc:8": "diveq.quest120.description.name"
         }
       },
       "tasks:9": {
@@ -7838,8 +7873,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Time for automation",
-          "desc:8": "It\u0027s time to create some basic automation, so the tasks are a bit less tedious."
+          "name:8": "diveq.quest121.title.name",
+          "desc:8": "diveq.quest121.description.name"
         }
       },
       "tasks:9": {
@@ -7895,8 +7930,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "This into that",
-          "desc:8": "Mutate, transform, change...then do it again."
+          "name:8": "diveq.quest122.title.name",
+          "desc:8": "diveq.quest122.description.name"
         }
       },
       "tasks:9": {
@@ -7946,8 +7981,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Evil Dust",
-          "desc:8": "Destroy to create"
+          "name:8": "diveq.quest123.title.name",
+          "desc:8": "diveq.quest123.description.name"
         }
       },
       "tasks:9": {
@@ -7997,8 +8032,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Older then the oldest tree",
-          "desc:8": "It\u0027s time to unleash the energy of the original ancient tree."
+          "name:8": "diveq.quest124.title.name",
+          "desc:8": "diveq.quest124.description.name"
         }
       },
       "tasks:9": {
@@ -8381,16 +8416,16 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Where am I?",
+          "name:8": "diveq.chapter00.title.name",
           "icon:10": {
-            "id:8": "minecraft:writable_book",
+            "id:8": "contenttweaker:spawn_chamber",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "How did i end up here?"
+          "desc:8": "diveq.chapter00.description.name"
         }
       },
       "order:3": 0
@@ -8710,16 +8745,16 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "It\u0027s so pretty here!",
+          "name:8": "diveq.chapter01.title.name",
           "icon:10": {
-            "id:8": "minecraft:golden_apple",
+            "id:8": "contenttweaker:apple_gaia",
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "I\u0027ll never leave this place again..."
+          "desc:8": "diveq.chapter01.description.name"
         }
       },
       "order:3": 1
@@ -8962,16 +8997,16 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Nightmare",
+          "name:8": "diveq.chapter02.title.name",
           "icon:10": {
-            "id:8": "defiledlands:vilespine",
+            "id:8": "forbidden_arcanus:dark_matter",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "Everything is just a Dream. There is no reality."
+          "desc:8": "diveq.chapter02.description.name"
         }
       },
       "order:3": 2
@@ -8980,15 +9015,15 @@
   "questSettings:10": {
     "betterquesting:10": {
       "livesdef:3": 20,
-      "pack_name:8": "divine-equilibrium",
+      "pack_name:8": "diveq",
       "home_anchor_y:5": 0.0,
       "livesmax:3": 20,
       "home_anchor_x:5": 0.5,
       "editmode:1": 0,
       "hardcore:1": 1,
-      "home_image:8": "divine-equilibrium:textures/gui/title.png",
+      "home_image:8": "diveq:textures/gui/title.png",
       "party_enable:1": 1,
-      "pack_version:3": 0,
+      "pack_version:3": 1,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

@@ -88,7 +88,8 @@ var removeAll as IIngredient[] = [
     <evilcraft:effortless_ring>,
     <patchouli:guide_book>,
     <soulus:dust_midnight>,
-    <hwell:asul_machine_case>
+    <hwell:asul_machine_case>,
+    <evilcraft:vengeance_ring>
 ];
 
 for item in removeAll {
@@ -112,7 +113,16 @@ for item in removeShapeless {
 }
 
 var removeModList as string[] = [
-    "arcanearchives"
+    "arcanearchives",
+    "embers",
+    "clockworkphase",
+    "thaumcraft",
+    "embers",
+    "thaumicperiphery",
+    "thaumicaugmentation",
+    "tieredmagnets",
+    "aetherworks",
+    "soot"
 ];
 
 for mod in removeModList {

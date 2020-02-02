@@ -1,5 +1,13 @@
 # Changelog #
 
+## 0.2.2 ##
+
+- localized all quest titles
+- localized all quest descriptions
+- improved discord rich presentation
+- cleaned up JEI
+- worked towards official beta release on curseforge
+
 ## 0.2.1 ##
 
 - worked on chapter 3

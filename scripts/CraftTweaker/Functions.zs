@@ -29,6 +29,8 @@ function transformString(item as IIngredient){
 
 function removeAllRecipesFromMod(modname as string){
     for item in loadedMods[modname].items {
-        recipes.remove(item);
+        JEI.removeAndHide(item);
+        // recipes.remove(item);
+        item.addTooltip(format.red("[NOT IMPLEMENTED YET]"));
     }
 }

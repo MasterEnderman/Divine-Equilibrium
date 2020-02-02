@@ -8,23 +8,23 @@
   "dimensions": [
     {
       "dimName": "the_nether",
-      "template": "Hell"
+      "template": "Currently stuck in Hell."
     },
     {
       "dimName": "the_end",
-      "template": "Darkness"
+      "template": "Currently stuck in Darkness."
     },
     {
       "dimName": "overworld",
-      "template": "the Void"
+      "template": "Currently stuck in the Void."
     },
     {
       "dimName": "DIM_0",
-      "template": "the Void"
+      "template": "Currently stuck in the Void."
     },
     {
       "dimName": "gaia",
-      "template": "a Dream"
+      "template": "Currently stuck in a Dream."
     }
   ]
 }

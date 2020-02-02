@@ -1,0 +1,393 @@
+#PARSE_ESCAPES
+
+#CHAPTERS
+
+diveq.chapter00.title.name=Where am I?
+diveq.chapter00.description.name=How did i end up here?
+
+diveq.chapter01.title.name=It's so pretty here!
+diveq.chapter01.description.name=I'll never leave this place again...
+
+diveq.chapter02.title.name=Nightmare
+diveq.chapter02.description.name=Everything is just a Dream. There is no reality.
+
+diveq.chapter03.title.name=
+diveq.chapter03.description.name=
+
+#QUESTS
+
+diveq.quest000.title.name=The Roof
+diveq.quest000.description.name=I can only imagine all of the horrible things that may have happened to my potato, but I have bigger fish to fry. I need to get out of this place, whatever it is. \nWhen I look closely, I notice that there seems to be a small patch on what must be the ceiling that looks different than the rest of this dark room. Maybe it's a vent or something. I should try interacting with it to see if it does anything. (shift+left-click with an empty hand)
+
+diveq.quest001.title.name=The Floor
+diveq.quest001.description.name=This whole place smells like it could go up in flames at any moment with the smallest spark. For lack of a better idea I'm going to just (SLOWLY) punch the ground below me until something happens. If the entire place goes up in flames and this is how my life ends, well, we had a good run. \nJust maybe, though, it will be only enough to start a small fire that I can throw my little pebbles into to see if anything happens. Sounds ridiculous doesn't it? It's not like I have any better ideas.
+
+diveq.quest002.title.name=I Quit
+diveq.quest002.description.name=For all my troubles, all I got was some bigger stones (this place is weird). These won't do me any good, and I can't find anything else that could possibly be useful. I knew it was hopeless. I don't want to just sit here until I die, I want to go out on my own terms... (stay in a fire for too long)
+
+diveq.quest003.title.name=You're boned
+diveq.quest003.description.name=Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier. That just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn't pick up, and click again)
+
+diveq.quest004.title.name=Burned field
+diveq.quest004.description.name=I'm free! Well, not really. I escaped the dark room I woke up only to discover that I'm stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\nIn fact, that gives me an idea. Perhaps I can light my old bones on fire to make some sort of light source.\n\nWhile very morbid, these bone torches seem to be a suitable light source. Interestingly, they also don't appear to go out. I wonder if this is related to my new regeneration powers. Now that I can see better, I can take a closer look at the stone in the ceiling. It doesn't appear to be any stone I've ever seen - well, I suppose nothing about this experience has been normal so far. Something about this stone feels especially odd, though. It's as if it's ever so slightly pulling on me, at my bones. I can't quite explain it. Maybe it has some sort of mysterious powers as well. I should get a better look from the top and experiment with it. I know, I'll use the cobblestone that I got from it! Magic stone plus magic stone must yeild something, right?\n\nHmm... nothing's happened yet. Maybe I can try using my bone torch to light it on fire.\n\nWoah! The stone in the ceiling catalyzed the fire and burnt the cobblestone to a crisp, making it brittle. I wonder if this could be useful.
+
+diveq.quest005.title.name=Cut yourself
+diveq.quest005.description.name=I'm starting to get pretty hungry. If only I had my potato. Well, the only thing to eat around here is... myself... this is going to suck.\n\nI need to make a knife. First, I'll need a handle. If I sharpen one of these bones on the ceiling stone, it should yield a suitable handle.\n\nBreaking the charred cobblestone gave me gravel. I should use a fire to separate out the remaining pebbles and see if there's anything useful in this gravel.\n\nI now have a piece of flint. A rather sharp piece of flint at that. I can now craft this with the sharp bone to make the knife. Now then, which organs were the non-vital ones?
+
+diveq.quest006.title.name=Dirty Harry
+diveq.quest006.description.name=Maybe I should work towards growing crops as a more reliable (and less painful) source of food. The first thing I'll need is dirt to grow them on, but without any dirt around I'll need to make my own. Maybe the ceiling stone can help with that.\n\nThe charred stone I made before could work as a decent base. I can add some of my flesh to it for nutrients (right-click flesh on charred stone that's on bedrock). Lastly, I need a fertilizer. I can grind down a sharpened bone on the ceiling stone into a powder and add it to the mixture.
+
+diveq.quest007.title.name=Let it grow
+diveq.quest007.description.name=As I sprinkle the pulverized remains of my past skull over the mixture of stone and my flesh, the mixture transforms into dirt. Great, just what I needed! I knew there was some knowledge up in this 'ol noggin.\n\nWhen I picked up the dirt, I found a book with strange symbols on it buried underneath, laying just ontop of the ceiling stone. Picking up the book, I feel something within my mind. Some sort of static that's barely audible without being sound at all, as well as hushed, unintelligible whispers. It becomes very hard to focus. The strange symbols on the book change, rearranging and distorting themselves. Slowly, the symbols turn into words.\n\n"Elemental Research and the Arts of the Arcane"\n\nThe static and whispers stop, and I can focus again. It was as if the book was scanning my mind. I don't know how, but I can sense that this book is incredibly powerful.\n\nI open the book to a random place. The left page is mostly blank, though there are a few of the symbols that I don't understand. On the right page, there are drawings in purple ink, showing two symbols and arrows pointing from the symbols to some sort of plant. A plant! Food! Potato!\n\nWith this, my visioned blurred. The static and whispers returned, louder now. I felt some part of my mind stir, as if somehow this book if manipulating my thoughts. Then my vision snapped back into focus, and the noises abruptly stopped.\n\nI now have a small headache, yet some part of my mind feels... warm? What did that book do to me?\n\nThe page I was looking at has changed. It still shows the plant, but now, instead of a symbol, it shows a pile of dust with a label reading "Bone Meal". I know what I must do.\n\nWelp, it's not food, but wood might still be useful. This wood looks pretty strange. I shall name it Mystery Wood. Creative, right?
+	
+diveq.quest008.title.name=What?
+diveq.quest008.description.name=Where am I? I uh... this uh... this can't be good. This can't be good at all. Why is it so dark? I'm not even quite sure which way is up.
+
+diveq.quest009.title.name=Hmm
+diveq.quest009.description.name=Okay... I need to think back to this morning to try and figure out how I got here. Let's see now... my alarm woke me up at 7:00 a.m., I got up, took a shower, got dressed, brushed my teeth and went on my daily walk to work. Actually wait, before I left for work I grabbed a potato to eat on my lunch break.\n\nHmm.. I'm really hungry now, where did my potato go? I don't remember ever eating it, and it doesn't seem to be in my pockets. Where is my potato? :(
+
+diveq.quest010.title.name=RIP
+diveq.quest010.description.name=What? I'm not dead? I see my old body just laying there, but I'm standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of my new found regeneration power. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire.
+
+diveq.quest011.title.name=Solidified Earth Knowledge
+diveq.quest011.description.name=Collect Earth Research Points by Breaking Nature Blocks. For 20 Research Points you can obtain a solidified Version.
+
+diveq.quest012.title.name=Solidified Air Knowledge
+diveq.quest012.description.name=Collect Air Research Points by Jumping. For 20 Research Points you can obtain a solidified Version.
+
+diveq.quest013.title.name=Solidified Fire Knowledge
+diveq.quest013.description.name=Collect Fire Research Points by Burning yourself. For 5 Research Points you can obtain a solidified Version.
+
+diveq.quest014.title.name=Magnifying Glass
+diveq.quest014.description.name=Place down the Block you want to melt and stack 2-8 Amplifying Tubes on top. The more you stack the faster the Block melts.
+
+diveq.quest015.title.name=Scorch Glass
+diveq.quest015.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+
+diveq.quest016.title.name=Turf Block
+diveq.quest016.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+
+diveq.quest017.title.name=Moonstone
+diveq.quest017.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+
+diveq.quest018.title.name=Make it balanced
+diveq.quest018.description.name="It's balanced, because it takes effort" - Slowpoke
+
+diveq.quest019.title.name=Solidified Water Knowledge
+diveq.quest019.description.name=Collect Water Research Points by drowning damage. For 5 Research Points you can obtain a solidified Version.
+
+diveq.quest020.title.name=Actually pretty light
+diveq.quest020.description.name=Some kind of metal created from the basic resources you can access.
+
+diveq.quest021.title.name=Golden Leaves & Magic
+diveq.quest021.description.name=Play with the strong aura around you.
+
+diveq.quest022.title.name=See the Aura
+diveq.quest022.description.name=No Description
+
+diveq.quest023.title.name=More Trees
+diveq.quest023.description.name=Squeeze one, keep one.
+
+diveq.quest024.title.name=Eternal Flame
+diveq.quest024.description.name=Light it with a Flint and Steel
+
+diveq.quest025.title.name=The One Probe
+diveq.quest025.description.name=Seeing more is always better.
+
+diveq.quest026.title.name=Crushing
+diveq.quest026.description.name=Drop your Items on the ground. Place the Crushing block a few blocks higher and let it fall. Thats how you use this block.\n\n§a!TIP! This pack uses Carry on. You can pick up the Crushing Block with shift-rightclick so you don't have to break it every time you wan't to use it.
+
+diveq.quest027.title.name=Squeezing and Drying
+diveq.quest027.description.name=Place them next to each other to transfer the fluid from the squeezer to the basin
+
+diveq.quest028.title.name=Growth Candle
+diveq.quest028.description.name=Boost Plantgrowth. The Oil can also be used as Potion to regenerate some health. \n\nYou apply the oil by rightclicking it onto a lit candle. A candle can be lit by rightclicking it with a flint and steel. (The oil won't be used in this process)\n\n§c!ATTENTION! If you break a Growth Candle it'll convert back to a normal Candle. It also will convert to a normal Candle over time.
+
+diveq.quest029.title.name=Where do I go now?
+diveq.quest029.description.name=A strange Fruit and I'm still hungry. Maybe I should eat it?
+
+diveq.quest030.title.name=Time to make Glass
+diveq.quest030.description.name=A fancy, transparent Block.
+
+diveq.quest031.title.name=Water Transport
+diveq.quest031.description.name=Get your water from one Point to another
+
+diveq.quest032.title.name=I'm blue...
+diveq.quest032.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+
+diveq.quest033.title.name=More Bones
+diveq.quest033.description.name=Use Moonstone to increase your Bone reservoir
+
+diveq.quest034.title.name=Take some Air with you
+diveq.quest034.description.name=Rightclick with a Bottle and Cork in the Air to collect your Surroundings.
+
+diveq.quest035.title.name=Where did all my Items go?
+diveq.quest035.description.name=My Baubles are still there. But where is the rest?
+
+diveq.quest036.title.name=Need to breath
+diveq.quest036.description.name=Maybe I enter a place where there isn't enough air for me to breath. This should help me.
+
+diveq.quest037.title.name=Ignition
+diveq.quest037.description.name=Start a Fire whereever you want.
+
+diveq.quest038.title.name=Now cut other things
+diveq.quest038.description.name=That way making water becomes much easier.
+
+diveq.quest039.title.name=Destroy those Trees
+diveq.quest039.description.name=You can use OreExcavation to chop down trees easier, but you need to have an axe. just check the controls to set the keybind.
+
+diveq.quest040.title.name=Miner's hate that trick
+diveq.quest040.description.name=Haste is the way to go
+
+diveq.quest041.title.name=Getting back on Track
+diveq.quest041.description.name=Finally I'm able to craft some basic Tools now. Let's go mining.\n\nBreaking Leaves while holding a piece of Flint sometimes yields some Sticks.
+
+diveq.quest042.title.name=Alternative Food Source
+diveq.quest042.description.name=Stop eating yourself
+
+diveq.quest043.title.name=Lost your Questbook?
+diveq.quest043.description.name=Get a new One.
+
+diveq.quest044.title.name=Questbook doesn't work?
+diveq.quest044.description.name=Try to reload it with this Quest.
+
+diveq.quest045.title.name=Even better Food
+diveq.quest045.description.name=Gives a Regeneration Buff when eaten.
+
+diveq.quest046.title.name=Storing Liquids
+diveq.quest046.description.name=If you don't have an other place to put it.\n\nThe iTank stores it's content when broken and auto-outputs to the bottom side.
+
+diveq.quest047.title.name=Resource Collection
+diveq.quest047.description.name=Well, whereever my items went, now it's not the time to sit here and wait until something happens. Maybe I should try to create some basic tools again to further explore this place.\n\nCollect some Gravel with your bare hands and throw it into a nearby puddle to obtain some flint. Smash the flint against some stone to break it into small pieces.
+
+diveq.quest048.title.name=Time to hunt
+diveq.quest048.description.name=By making a knife you get access to more resources which might be needed later.
+
+diveq.quest049.title.name=Herbs
+diveq.quest049.description.name=While wondering around I found some Lakes underground with some mossy cobblestone. Try to carve some of the moss with your knife.\n\n§o(rightclick the mossy cobblestone with the knife)
+
+diveq.quest050.title.name=This is not a bug.
+diveq.quest050.description.name=This is a bug.
+
+diveq.quest051.title.name=A Furry
+diveq.quest051.description.name=uwu
+
+diveq.quest052.title.name=Alternative Food Source
+diveq.quest052.description.name=Get youself some meat
+
+diveq.quest053.title.name=Wood Stripping
+diveq.quest053.description.name=Obtain some Bark from the surrounding Trees
+
+diveq.quest054.title.name=Shiny Gems
+diveq.quest054.description.name=Almost a Rainbow
+
+diveq.quest055.title.name=Awake the Forest
+diveq.quest055.description.name=Use the Fiber on Leaves to slowly convert them into Golden Leaves
+
+diveq.quest056.title.name=Not so heavy
+diveq.quest056.description.name=Do you remember how to make them?
+
+diveq.quest057.title.name=Wood to Planks and Planks to Sticks
+diveq.quest057.description.name=Get a Flint Knife again to process Logs.
+
+diveq.quest058.title.name=Mortar & Pestle
+diveq.quest058.description.name=What kind of Druid are you?
+
+diveq.quest059.title.name=The Stick of Truth
+diveq.quest059.description.name=Infuse your stick with some magic powder.\nPlace down the Imbuer and insert your powder and stuff to start the imbuing process.\nIt'll later be used to awaken your Grove Stone.
+
+diveq.quest060.title.name=The Spirit of the Forest
+diveq.quest060.description.name=Channel the natural energy through your hands.\n\nEmpower the Grove Stone by casting your newly made Spell on it.\n\nUse your Knife on the Fay Crafter to start the Crafting Ritual.
+
+diveq.quest061.title.name=Storing Herbs
+diveq.quest061.description.name=In order to cast Spells you need to put the required Herbs inside this Pouch.\n\nFurthermore it allows you to store some Items in it.
+
+diveq.quest062.title.name=A great Stick
+diveq.quest062.description.name=Bigger than the normal one
+
+diveq.quest063.title.name=Bonfire
+diveq.quest063.description.name=Burn it down.\n\nUse a Flint and Steel to start the Ritual.
+
+diveq.quest064.title.name=This shouldn't exist
+diveq.quest064.description.name=Why is it still here?
+
+diveq.quest065.title.name=Use the Aura for something
+diveq.quest065.description.name=You remember the magical energy around you? It's time to utilize it.\n\nThe Altar requires a Multiblock placed around it to function. Take a look at the Natures Aura Manual to see the setup.
+
+diveq.quest066.title.name=Natural Metalurgy
+diveq.quest066.description.name=Infuse a Heavy Ingot with the Power of Nature
+
+diveq.quest067.title.name=Advanced Magic
+diveq.quest067.description.name=Used for all kinds of Rituals
+
+diveq.quest068.title.name=Boss #1
+diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier.
+
+diveq.quest069.title.name=Protect yourself
+diveq.quest069.description.name=Better safe then sorry
+
+diveq.quest070.title.name=Verdant Sprig
+diveq.quest070.description.name=Concentrated Nature
+
+diveq.quest071.title.name=Basic Armor
+diveq.quest071.description.name=Only for the cold days.
+
+diveq.quest072.title.name=That's what i call an Upgrade!
+diveq.quest072.description.name=It's time for the green Thumb
+
+diveq.quest073.title.name=Awake the Forest
+diveq.quest073.description.name=Grow the old Trees that nobody seen before. To Accomplish this task setup the "Wildwood Growth" ritual near a fully grown wild root crop.
+
+diveq.quest074.title.name=Token of Joy
+diveq.quest074.description.name=Don't worry, be happy
+
+diveq.quest075.title.name=Botanist's Tools
+diveq.quest075.description.name=Fancy green.
+
+diveq.quest076.title.name=Diamonds!
+diveq.quest076.description.name=Fancy Gem.
+
+diveq.quest077.title.name=Stunning Dahlia
+diveq.quest077.description.name=Collected by using a Diamond on it.
+
+diveq.quest078.title.name=Runic Shears
+diveq.quest078.description.name=The magic cut.
+
+diveq.quest079.title.name=The oldest Tree
+diveq.quest079.description.name=No one have seen this before.
+
+diveq.quest080.title.name=Harvest Mania
+diveq.quest080.description.name=Collect all the seeds and set up a little Farm. You'll need them.\n\n§a!TIP! : The Pyre "Transmutation Ritual" will help you with that.
+
+diveq.quest081.title.name=Token of Sorrow
+diveq.quest081.description.name=After sunshine comes rain
+
+diveq.quest082.title.name=Magic Fabric
+diveq.quest082.description.name=Using Runic Shears on Deers sometimes yields a magical leather.
+
+diveq.quest083.title.name=Runic Focus
+diveq.quest083.description.name=Storing the Nature in Stone
+
+diveq.quest084.title.name=The Journey continues
+diveq.quest084.description.name=It's time to continue
+
+diveq.quest085.title.name=3x3 Crafting?
+diveq.quest085.description.name=Kind of cool, but it's still not the same.
+
+diveq.quest086.title.name=Getting my Health back
+diveq.quest086.description.name=There is an Item you can craft to get some of your health back.
+
+diveq.quest087.title.name=More water
+diveq.quest087.description.name=You can process azurite to obtain more water.
+
+diveq.quest088.title.name=Don't get boned again.
+diveq.quest088.description.name=After collecting some Rocks I should be able to replace the primitive tools with something better.
+
+diveq.quest089.title.name=Time to wake up
+diveq.quest089.description.name=Was all of this just a Dream? How did I end up in here, didn't I eat that strange fruit? Better I leave this place behind. It's time to go.\n\n§o(Jump from the edge of the Island.)
+
+diveq.quest090.title.name=New Flora
+diveq.quest090.description.name=Obtain some Grass and use your bone meal on it.
+
+diveq.quest091.title.name=The flesh of trees
+diveq.quest091.description.name=Cut the Trees instead of yourself
+
+diveq.quest092.title.name=Resource Management Vol. I
+diveq.quest092.description.name=An easier way to obtain some basic resources.
+
+diveq.quest093.title.name=This isn't a crafting table
+diveq.quest093.description.name=At least I can craft 3x3 recipes now...
+
+diveq.quest094.title.name=Dark Magic
+diveq.quest094.description.name=After infusing the basic runes with life essence I created a dark looking stone, which burns my skin while holding it. I guess this it's strong enough to create a way out of here.
+
+diveq.quest095.title.name=Magician's Table
+diveq.quest095.description.name=After discovering this table in my dreams I may aswell start using it in this place aswell
+
+diveq.quest096.title.name=Farming Time
+diveq.quest096.description.name=Use your new Hoe to create some simple farms.
+
+diveq.quest097.title.name=Don't burn yourself
+diveq.quest097.description.name=Is this some kind og ritual?
+
+diveq.quest098.title.name=Strange Gem
+diveq.quest098.description.name=After processing the dark seeds I obtained a dark gem which pulsates while holding it in my hands, what could it be used for?
+
+diveq.quest099.title.name=Strange Seeds
+diveq.quest099.description.name=After aquiring the pyre I should be able to create a strange set of seeds to obtain some new resources.
+
+diveq.quest100.title.name=Glitches and Corruption
+diveq.quest100.description.name=After burning the crushed pieces of the dark gems I discovered a powder, which defiles specific blocks. I wonder what these can be used for.
+
+diveq.quest101.title.name=Blood Infusion
+diveq.quest101.description.name=After containing the finest of the living liquids I have to utilize them. Maybe I can create some kind of machinery to inject this liquid into other objects.
+
+diveq.quest102.title.name=Runed Stones
+diveq.quest102.description.name=Maybe I can use these to create some kind of portal...
+
+diveq.quest103.title.name=Darkness at midnight
+diveq.quest103.description.name=This gem can't be good for my sanity.
+
+diveq.quest104.title.name=Magic Fabric?
+diveq.quest104.description.name=What kind of clothing is this?
+
+diveq.quest105.title.name=When nightmares become reality
+diveq.quest105.description.name=Didn't I already killed this "thing" in my dreams?
+
+diveq.quest106.title.name=Metallurgy?
+diveq.quest106.description.name=At least I can properly smelt my stuff now.
+
+diveq.quest107.title.name=Cheater?!
+diveq.quest107.description.name=Well I guess you don't deserve to die...yet.
+
+diveq.quest108.title.name=The Taste of human flesh
+diveq.quest108.description.name=Death doesn't behave normally here... I should find something to eat, even if it's part of myself. If I only had my potato.
+
+diveq.quest109.title.name=OOOOOOOOOOOrb!
+diveq.quest109.description.name=It's like this Anime I watched some time ago.
+
+diveq.quest110.title.name=Scary faces?
+diveq.quest110.description.name=Those eyes will always follow me...
+
+diveq.quest111.title.name=That's not what i aspected
+diveq.quest111.description.name=This place doens't look like my homeplace at all. Did I take the wrong turn? At least there is this portal behind me, which takes me back, if I really want to go back to this lost place...
+
+diveq.quest112.title.name=Armor of the dead
+diveq.quest112.description.name=Better then nothing.
+
+diveq.quest113.title.name=Kill the Innocent
+diveq.quest113.description.name=Besides using these silly golems for automation purposes I should be able to use their corpses to satisfy my needs of raw souls.
+
+diveq.quest114.title.name=Infused Stone
+diveq.quest114.description.name=What will it drop?
+
+diveq.quest115.title.name=Sharing is caring
+diveq.quest115.description.name=Got a leftover book? Transform it into something useful.
+
+diveq.quest116.title.name=Bloody Catalyst
+diveq.quest116.description.name=After experimenting with the blood infuder I discovered a way to make this construct even more efficient.
+
+diveq.quest117.title.name=Bloody fingertips
+diveq.quest117.description.name=After researching the strange behavior of blood I may be able to improve my baubles aswell
+
+diveq.quest118.title.name=A Key to another world
+diveq.quest118.description.name=After utilizing the dark matter I created by accidient, I should have an Item that is powerfull enough to lighten up the portal i already made. If only I was able to stabilize all of this energy.
+
+diveq.quest119.title.name=Crush your enemies
+diveq.quest119.description.name=A powerfull weapon
+
+diveq.quest120.title.name=Advanced Machinery
+diveq.quest120.description.name=What kind of contraption could I build with them?
+
+diveq.quest121.title.name=Time for automation
+diveq.quest121.description.name=It's time to create some basic automation, so the tasks are a bit less tedious.
+
+diveq.quest122.title.name=This into that
+diveq.quest122.description.name=Mutate, transform, change...then do it again.
+
+diveq.quest123.title.name=Evil Dust
+diveq.quest123.description.name=Destroy to create
+
+diveq.quest124.title.name=Older then the oldest tree
+diveq.quest124.description.name=It's time to unleash the energy of the original ancient tree.
+

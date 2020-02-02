@@ -162,6 +162,11 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <treetweaker:edelwoodtree> : {
             "ritualtree_dupe" : [<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>,<naturesaura:ancient_log>]
         }
+    },
+    <corvus:orb_of_imprisonment> : {
+        <forbidden_arcanus:mysterywood_sapling> : {
+            "orb_of_imprisonment" : [<contenttweaker:azurite>,<contenttweaker:azurite>,<contenttweaker:heavy_ring>,<contenttweaker:heavy_ring>,endBottle,endBottle,endBottle,endBottle]
+        }
     }
 };
 

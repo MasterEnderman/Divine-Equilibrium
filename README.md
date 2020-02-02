@@ -34,19 +34,27 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 - Twitter:<https://twitter.com/al132mc>
 - Youtube: <https://www.youtube.com/channel/UCbvuz7eq55a6snmvRI6gXLA>
 
+`Klebestreifen`
+
+- Curseforge: <https://www.curseforge.com/members/klebe99336644>
+- Discord: <https://discord.gg/nva5gGt>
+- Github: <https://github.com/Klebestreifen>
+- Website: <https://klebe.io/>
+
 ## Tester ##
 
 - `4oz`
-- `br1c`
+- `Burrito Tiger`
 - `Dasky`
+- `Dreamin' Boy`
 - `Dr. Game`
 - `Hurja`
 - `JJ`
 - `Kr0nos`
 - `next_victim`
-- `NoFall`
 - `PeachizXD`
 - `SahraSingt`
 - `Silver_hunt_X`
 - `taint19711`
+- `Thanos is gay`
 - `Vertex101`

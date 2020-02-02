@@ -1,11 +1,13 @@
 {
   "name": "Divine Equilibrium",
   "description": "An interdimensional Journey",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "url": "https://discord.gg/4swu3fy",
   "authorList": [
     "_MasterEnderman_",
-    "al132"
+    "al132",
+    "Klebe0815",
+    "Dr. Game"
   ],
   "credits": "https://github.com/MasterEnderman/Divine-Equilibrium"
 }
