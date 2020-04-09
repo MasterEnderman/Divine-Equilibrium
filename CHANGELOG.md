@@ -1,5 +1,10 @@
 # Changelog #
 
+## 0.2.4 ##
+
+- fixed missing itemstages
+- fixed primitive crafting bug
+
 ## 0.2.3 ##
 
 - fixed skull recipes

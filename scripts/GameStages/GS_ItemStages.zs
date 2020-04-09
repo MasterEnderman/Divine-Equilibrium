@@ -175,6 +175,7 @@ var itemsToStage as IIngredient[][string] = {
         <evilcraft:promise>,
         <evilcraft:bowl_of_promises:2>,
         <evilcraft:promise_acceptor>,
+        <evilcraft:effortless_ring>,
     ],
     "tools_2" : [
         <naturesaura:infused_iron_pickaxe>,
