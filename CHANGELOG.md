@@ -1,5 +1,11 @@
 # Changelog #
 
+## 0.2.5 ##
+
+- finished chapter 3
+- cleaned up modpack for beta release
+- fixed everything left in the bugtracker
+
 ## 0.2.4 ##
 
 - fixed missing itemstages

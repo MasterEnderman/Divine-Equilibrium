@@ -90,7 +90,8 @@ var removeAll as IIngredient[] = [
     <soulus:dust_midnight>,
     <hwell:asul_machine_case>,
     <evilcraft:vengeance_ring>,
-    <minecraft:deadbush>
+    <minecraft:deadbush>,
+    <defiledlands:defilement_powder>
 ];
 
 for item in removeAll {

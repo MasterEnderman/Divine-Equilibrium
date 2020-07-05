@@ -3,7 +3,7 @@
 import mods.treetweaker.TreeFactory;
 
 var mystWillow = TreeFactory.createTree("mystWillow");
-mystWillow.setTreeType("WILLOW");
+mystWillow.setTreeType("SPRUCE");
 mystWillow.setLog("hwell:myst_log");
 mystWillow.setLeaf("hwell:myst_leaves");
 mystWillow.setDimWhitelist(-1);

@@ -11,8 +11,8 @@ diveq.chapter01.description.name=I'll never leave this place again...
 diveq.chapter02.title.name=Nightmare
 diveq.chapter02.description.name=Everything is just a Dream. There is no reality.
 
-diveq.chapter03.title.name=
-diveq.chapter03.description.name=
+diveq.chapter03.title.name=Insomnia
+diveq.chapter03.description.name=I'll never find a way to sleep again.
 
 #QUESTS
 
@@ -343,13 +343,13 @@ diveq.quest107.description.name=Well I guess you don't deserve to die...yet.
 diveq.quest108.title.name=The Taste of human flesh
 diveq.quest108.description.name=Death doesn't behave normally here... I should find something to eat, even if it's part of myself. If I only had my potato.\n\nI shouldn't try to die too often, though. I may be regenerating, but death still doesn't feel too good. It's almost as if part of me is still being left behind. (You'll lose one heart of max HP every time you die)
 
-diveq.quest109.title.name=New Quest
-diveq.quest109.description.name=No Description
+diveq.quest109.title.name=Captured in Darkness
+diveq.quest109.description.name=If I imbue a pair of rings with the darkness around me, I may be able to lock other living thins inside it. This could be handy, if I have to carry them around.
 
 diveq.quest110.title.name=Scary faces?
 diveq.quest110.description.name=Those eyes will always follow me...
 
-diveq.quest111.title.name=That's not what i aspected
+diveq.quest111.title.name=That's not what I expected
 diveq.quest111.description.name=This place doens't look like my homeplace at all. Did I take the wrong turn? At least there is this portal behind me, which takes me back, if I really want to go back to this lost place...
 
 diveq.quest112.title.name=Armor of the dead
@@ -391,3 +391,5 @@ diveq.quest123.description.name=Destroy to create
 diveq.quest124.title.name=Older then the oldest tree
 diveq.quest124.description.name=It's time to unleash the energy of the original ancient tree.
 
+diveq.quest125.title.name=Living hurts.
+diveq.quest125.description.name=Welcome, this is the current end of the Divine Equilibrium Modpack. But no need to be worried as the next content update is already on it's way.
