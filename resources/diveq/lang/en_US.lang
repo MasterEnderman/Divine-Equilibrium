@@ -3,7 +3,7 @@
 #CHAPTERS
 
 diveq.chapter00.title.name=Where am I?
-diveq.chapter00.description.name=How did i end up here?
+diveq.chapter00.description.name=How did I end up here?
 
 diveq.chapter01.title.name=It's so pretty here!
 diveq.chapter01.description.name=I'll never leave this place again...
@@ -29,17 +29,17 @@ diveq.quest003.title.name=You're boned
 diveq.quest003.description.name=Great, now I can break this big chunk of my old skull down into smaller bones (break with fists). Once I do that I can rig something together with these bones and that stone from earlier. That just might be strong enough to break me out of here. \n\n§o(To craft a bone pickaxe, open your inventory, click either your bones or cobblestone, then hold shift, drag it on top of the ingredient that you didn't pick up, and click again)
 
 diveq.quest004.title.name=Burned field
-diveq.quest004.description.name=I'm free! Well, not really. I escaped the dark room I woke up only to discover that I'm stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\nIn fact, that gives me an idea. Perhaps I can light my old bones on fire to make some sort of light source.\n\nWhile very morbid, these bone torches seem to be a suitable light source. Interestingly, they also don't appear to go out. I wonder if this is related to my new regeneration powers. Now that I can see better, I can take a closer look at the stone in the ceiling. It doesn't appear to be any stone I've ever seen - well, I suppose nothing about this experience has been normal so far. Something about this stone feels especially odd, though. It's as if it's ever so slightly pulling on me, at my bones. I can't quite explain it. Maybe it has some sort of mysterious powers as well. I should get a better look from the top and experiment with it. I know, I'll use the cobblestone that I got from it! Magic stone plus magic stone must yeild something, right?\n\nHmm... nothing's happened yet. Maybe I can try using my bone torch to light it on fire.\n\nWoah! The stone in the ceiling catalyzed the fire and burnt the cobblestone to a crisp, making it brittle. I wonder if this could be useful.
+diveq.quest004.description.name=I'm free! Well, not really. I escaped the dark room I woke up in only to discover that I'm stuck in some sort of empty void. On the plus side, this ability to start fires wherever I want is proving to be quite handy. I should keep lighting different things on fire to see where it takes me.\nIn fact, that gives me an idea. Perhaps I can light my old bones on fire to make some sort of light source.(Throw a bone into fire)\n\nWhile very morbid, these bone torches seem to be a suitable light source. Interestingly, they also don't appear to go out. I wonder if this is related to my new regeneration powers.\nNow that I can see better, I can take a closer look at the stone in the ceiling. It doesn't appear to be any stone I've ever seen - well, I suppose nothing about this experience has been normal so far.\nSomething about this stone feels especially odd, though. It's as if it's ever so slightly pulling on me, at my bones. I can't quite explain it. Maybe it has some sort of mysterious powers as well. I should get a better look from the top and experiment with it. I know, I'll use the cobblestone that I got from it! Magic stone plus magic stone must yeild something, right?(Place cobblestone on top side of bedrock)\n\nHmm... nothing's happened yet. Maybe I can try using my bone torch to light it on fire.(Left-click the cobblestone with bone torch in hand)\n\nWoah! The stone in the ceiling catalyzed the fire and burnt the cobblestone to a crisp, making it brittle. I wonder if this could be useful.
 
 diveq.quest005.title.name=Cut yourself
-diveq.quest005.description.name=I'm starting to get pretty hungry. If only I had my potato. Well, the only thing to eat around here is... myself... this is going to suck.\n\nI need to make a knife. First, I'll need a handle. If I sharpen one of these bones on the ceiling stone, it should yield a suitable handle.\n\nBreaking the charred cobblestone gave me gravel. I should use a fire to separate out the remaining pebbles and see if there's anything useful in this gravel.\n\nI now have a piece of flint. A rather sharp piece of flint at that. I can now craft this with the sharp bone to make the knife. Now then, which organs were the non-vital ones?
+diveq.quest005.description.name=I'm starting to get pretty hungry. If only I had my potato. Well, the only thing to eat around here is... myself... this is going to suck.\n\nI need to make a knife. First, I'll need a handle. If I sharpen one of these bones on a pebble, it should yield a suitable handle.\n\nBreaking the charred cobblestone gave me gravel. I should use a fire to separate out the remaining pebbles and see if there's anything useful in this gravel.\n\nI now have a piece of flint. A rather sharp piece of flint at that. I can now craft this with the sharp bone to make the knife. Now then, which organs were the non-vital ones? (Shift-rightclick with the knife in hand to trade health for meat.)\n\n(Pro-tip: The knife does anywhere from 2-3.5 hearts of damage, so if you want to minimize dying, don't use the knife until you have at least 4 hearts.)
 
 diveq.quest006.title.name=Dirty Harry
 diveq.quest006.description.name=Maybe I should work towards growing crops as a more reliable (and less painful) source of food. The first thing I'll need is dirt to grow them on, but without any dirt around I'll need to make my own. Maybe the ceiling stone can help with that.\n\nThe charred stone I made before could work as a decent base. I can add some of my flesh to it for nutrients (right-click flesh on charred stone that's on bedrock). Lastly, I need a fertilizer. I can grind down a sharpened bone on the ceiling stone into a powder and add it to the mixture.
 
 diveq.quest007.title.name=Let it grow
-diveq.quest007.description.name=As I sprinkle the pulverized remains of my past skull over the mixture of stone and my flesh, the mixture transforms into dirt. Great, just what I needed! I knew there was some knowledge up in this 'ol noggin.\n\nWhen I picked up the dirt, I found a book with strange symbols on it buried underneath, laying just ontop of the ceiling stone. Picking up the book, I feel something within my mind. Some sort of static that's barely audible without being sound at all, as well as hushed, unintelligible whispers. It becomes very hard to focus. The strange symbols on the book change, rearranging and distorting themselves. Slowly, the symbols turn into words.\n\n"Elemental Research and the Arts of the Arcane"\n\nThe static and whispers stop, and I can focus again. It was as if the book was scanning my mind. I don't know how, but I can sense that this book is incredibly powerful.\n\nI open the book to a random place. The left page is mostly blank, though there are a few of the symbols that I don't understand. On the right page, there are drawings in purple ink, showing two symbols and arrows pointing from the symbols to some sort of plant. A plant! Food! Potato!\n\nWith this, my visioned blurred. The static and whispers returned, louder now. I felt some part of my mind stir, as if somehow this book if manipulating my thoughts. Then my vision snapped back into focus, and the noises abruptly stopped.\n\nI now have a small headache, yet some part of my mind feels... warm? What did that book do to me?\n\nThe page I was looking at has changed. It still shows the plant, but now, instead of a symbol, it shows a pile of dust with a label reading "Bone Meal". I know what I must do.\n\nWelp, it's not food, but wood might still be useful. This wood looks pretty strange. I shall name it Mystery Wood. Creative, right?
-	
+diveq.quest007.description.name=As I sprinkle the pulverized remains of my past skull over the mixture of stone and my flesh, the mixture transforms into dirt. Great, just what I needed! I knew there was some knowledge up in this 'ol noggin.\n\nWhen I picked up the dirt, I found a book with strange symbols on it buried underneath, laying just ontop of the ceiling stone. Picking up the book, I feel something within my mind. Some sort of static that's barely audible without being sound at all, as well as hushed, unintelligible whispers. It becomes very hard to focus. The strange symbols on the book change, rearranging and distorting themselves. Slowly, the symbols turn into words.\n\n"Elemental Research and the Arts of the Arcane"\n\nThe static and whispers stop, and I can focus again. It was as if the book was scanning my mind. I don't know how, but I can sense that this book is incredibly powerful.\n\nI open the book to a random place. The left page is mostly blank, though there are a few of the symbols that I don't understand. On the right page, there are drawings in purple ink, showing two symbols and arrows pointing from the symbols to some sort of plant. A plant! Food! Potato!\n\nWith this, my visioned blurs. The static and whispers return, louder now. I feel some part of my mind stir, as if somehow this book is manipulating my thoughts. My vision snaps back into focus, and the noises abruptly stop.\n\nI now have a small headache, yet some part of my mind feels... warm? What did that book do to me?\n\nThe page I was looking at has changed. It still shows the plant, but now, instead of a symbol, it shows a pile of dust with a label reading "Bone Meal" and an arrow pointing from this dust to the dirt that the plant is on.(If you don't have enough research to unlock the gamestage, just keep placing and breaking the dirt block and/or jump around a bit)\n\nWelp, it's not food, but wood might still be useful. This wood looks pretty strange. I shall name it Mystery Wood. Creative, right?
+
 diveq.quest008.title.name=What?
 diveq.quest008.description.name=Where am I? I uh... this uh... this can't be good. This can't be good at all. Why is it so dark? I'm not even quite sure which way is up.
 
@@ -50,37 +50,37 @@ diveq.quest010.title.name=RIP
 diveq.quest010.description.name=What? I'm not dead? I see my old body just laying there, but I'm standing right here in a different body. Things are making even less sense then they did before, but maybe I can take advantage of my new found regeneration power. Maybe if I try reducing my old body to bone I can use it for some sort of tools. The first step would be to get all of the excess material off by tossing my old head in a fire.
 
 diveq.quest011.title.name=Solidified Earth Knowledge
-diveq.quest011.description.name=Collect Earth Research Points by Breaking Nature Blocks. For 20 Research Points you can obtain a solidified Version.
+diveq.quest011.description.name=The third of the pages has the title "Earth", and shows yet another figure holding some sort of tool and breaking what appears to be dirt. Wait, no, it's a rock? Wait a minute... The object that the figure it breaking keeps changing as I blink, but all of them appear to be similar to the Earth. Again, this is followed by the figure producing anther symbol.
 
 diveq.quest012.title.name=Solidified Air Knowledge
-diveq.quest012.description.name=Collect Air Research Points by Jumping. For 20 Research Points you can obtain a solidified Version.
+diveq.quest012.description.name=Remember how I said my mind feels warm? Well not only that, it somehow feels expanded. I can sense some new part me, deep inside of my mind. Not only new knowledge that I didn't have before, but also a new capacity to learn things I couldn't before. It must have come from the book.\n\nIf I want to have any chance of escaping this... whatever this is, I should get a better sense of what I'm dealing with. I open the book to the first page, hoping to find a table of contents. After more static as the page translates itself, it appears to be exactly that. The first entry reads, "Fundamental Elementals," and spans three pages. It's as good a place to start as any.\n\nThe first of those pages has the title "Air". Under that, drawings show a figure jumping followed by it producing yet another glyph. Is trying to tell me that I can manifest something by jumping?\n\nWhat... what is this thing? It's air, but it's more viscous; it stays in my hand when I hold it, yet it moves around and pools in some places while dissipating in others. It doesn't seem to have any weight, but it seems to stick my hand in a way. It even seems react to my hand movements. Perhaps this can be used as a tool.
 
 diveq.quest013.title.name=Solidified Fire Knowledge
-diveq.quest013.description.name=Collect Fire Research Points by Burning yourself. For 5 Research Points you can obtain a solidified Version.
+diveq.quest013.description.name=The second of the pages has the title "Fire", and shows another figure in a fire and producing another kind of symbol. This doesn't seem very pleasant...
 
 diveq.quest014.title.name=Magnifying Glass
-diveq.quest014.description.name=Place down the Block you want to melt and stack 2-8 Amplifying Tubes on top. The more you stack the faster the Block melts.
+diveq.quest014.description.name=I'm definitely going to need water if I want to survive to get out of here. I can try to extract water out of the leaves, but I have no way of getting them. However, this turf seems to have some moisture in it. I just need to dry it out to extract the water. That'll be tricky with it being perpetually night, so I'll need to magnify what little light there is. If I carefully cut some of this scorch glass into a lens, I can stack them ontop of whatever I want to melt. 2-8 of these lenses should be enough.\n\nThe elemental book starts vibrating again. Oh good, another book! This time it glows a dark purple. After the same ritual as last time, it produces a book that reads:\n\n"Book of the Well: First Edition"\n\nOh joy, there's multiple editions of this one.
 
 diveq.quest015.title.name=Scorch Glass
-diveq.quest015.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+diveq.quest015.description.name=Underneath the fire shard is a sand-like material, which can be refined into what looks like some sort of primitive glass.
 
 diveq.quest016.title.name=Turf Block
-diveq.quest016.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+diveq.quest016.description.name=Underneath the earth shard is a meshy green substance that looks sort of like dirt. However, it seems that this not-quite-dirt can be turned into dirt, which is a significantly more convenient way to obtain it.
 
 diveq.quest017.title.name=Moonstone
-diveq.quest017.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+diveq.quest017.description.name=Let's see what this air essence thing can do. The next section of the book is labelled "Elemental Refining and Imbuing". The first page shows many symbols going through a fire and coming out as some sort of crystals.(Must have solidified fire knowledge unlocked first)\n\nInteresting. The air condensed into a shiny yellow crystal of some kind. The next page shows the shards being able to imbue a stone to transform it into something else. Underneath this is something that described the process of making a suitable stone to imbue. The stone must have certain carvings as well as a relatively smooth surface. I can probably accomplish this with a piece of flint.\n\nAfter marking the carved stone with the correct pattern using the yellow shard (right-click the stone with it), the book opened to a page full of symbols that I still can't read. However, the symbols start flying out of the book, manifesting themselves into the space around the stone. The whispers start again, picking up until they're practically yelling in my ear, while the symbols swirl around this rock core. The sphere of symbols shrink around the core, and a bright wave of light temporarily blinds me. As it fades, I can see the stone has become white and smooth, and seems to slightly reflect the light from the stars in the perpetually-night sky.
 
 diveq.quest018.title.name=Make it balanced
 diveq.quest018.description.name="It's balanced, because it takes effort" - Slowpoke
 
 diveq.quest019.title.name=Solidified Water Knowledge
-diveq.quest019.description.name=Collect Water Research Points by drowning damage. For 5 Research Points you can obtain a solidified Version.
+diveq.quest019.description.name=With water, it seems I can now collect water essence. The elemental book say that I can get this essence by... drowning myself? Why must everything be obtained by harming myself. (Must have earth_1 reserached)
 
 diveq.quest020.title.name=Actually pretty light
-diveq.quest020.description.name=Some kind of metal created from the basic resources you can access.
+diveq.quest020.description.name=I need a stronger material to work with, some sort of metal that I can use to make tools and equipment. Maybe that new Book of the Well has info on something.\n\nHmm, this should do. After some searching, I found a pseudo-metal listed simply as "Heavy," which I can use for some other tools. In order to make an ingot of Heavy, I'll need some clay and charred bonemeal.
 
 diveq.quest021.title.name=Golden Leaves & Magic
-diveq.quest021.description.name=Play with the strong aura around you.
+diveq.quest021.description.name=Some of the leaves from these MysteryWood trees are golden! I wonder what magical properties they hold.\n\nApparently I can use these for some sort of ritual. I can imbue wooden logs to make wooden stands, and I can put these stands in some sort of pattern for these rituals.\n\nAfter crafting the last of the wooden stands, the book starts vibrating in my back pocket. Taking it out, it's also glowing a dark green color. The book suddenly flies from my hand and floats above the bedrock, glowing brighter by the second. The book opens to the page showing how the wooden stands can be used for rituals. The pages then turn back and forth, too fast for me to register what pages they're flipping to. The book starts vibrating more rapidly, and it becomes impossible to focus on it. It starts calming down, but something's different: there are now two books. The new book is the shade of green that the original one was glowing. They both rest on the ground, and I pick up the new book.\n\n"Book of Natural Aura"\n\nI now wonder how many of these books I'll accumulate before I escape back to my normal life, if that's even possible.\n\nOne of the first pages shows the pattern that I need for these rituals.\n\n(Clarification: You need a fully grown tree in the center, not just a sapling)
 
 diveq.quest022.title.name=See the Aura
 diveq.quest022.description.name=No Description
@@ -89,13 +89,13 @@ diveq.quest023.title.name=More Trees
 diveq.quest023.description.name=Squeeze one, keep one.
 
 diveq.quest024.title.name=Eternal Flame
-diveq.quest024.description.name=Light it with a Flint and Steel
+diveq.quest024.description.name=It's not much, but it can help make this barren place seem more homely.(Light it with a Flint and Steel.)\n\nAnother book? This one reads "Book of Crows: First Edition." This book seems to be of spellcasting and other magical phenomenon.
 
 diveq.quest025.title.name=The One Probe
-diveq.quest025.description.name=Seeing more is always better.
+diveq.quest025.description.name=One of the indices of the elemental book catch my attention: Extrasensory Visual Inspection. Flipping to that page, it appears that I can perform a ritual to get an item that acts as some sort of sixth sense, which lets me know the name of whatever I look at. With so many new items that I've never seen before, this sounds pretty convenient.
 
 diveq.quest026.title.name=Crushing
-diveq.quest026.description.name=Drop your Items on the ground. Place the Crushing block a few blocks higher and let it fall. Thats how you use this block.\n\n§a!TIP! This pack uses Carry on. You can pick up the Crushing Block with shift-rightclick so you don't have to break it every time you wan't to use it.
+diveq.quest026.description.name=This Heavy substance sure lives up to its name. I can probably use this to make some sort of crushing block.\n\nGreat, now if I throw an item on the ground and drop this crushing block high enough over that item, it should, well, crush it. It's just going to be backbreaking work to keep lifting this.\n\n(Protip: This pack uses Carry On. You can pick up the Crushing Block with shift-rightclick (default - can be changed in controls) so you don't have to break it every time you wan't to use it.)
 
 diveq.quest027.title.name=Squeezing and Drying
 diveq.quest027.description.name=Place them next to each other to transfer the fluid from the squeezer to the basin
@@ -110,13 +110,13 @@ diveq.quest030.title.name=Time to make Glass
 diveq.quest030.description.name=A fancy, transparent Block.
 
 diveq.quest031.title.name=Water Transport
-diveq.quest031.description.name=Get your water from one Point to another
+diveq.quest031.description.name=I need something to carry water. I can probably make a wooden bowl and mold these Heavy ingots over it to make a bucket. (You can make planks by breaking logs with the flint knife. Also, you cannot make an infinite water source.)
 
 diveq.quest032.title.name=I'm blue...
-diveq.quest032.description.name=First you need to create a Rock Core. Then you apply the right shard to it to initialize the Transformation.
+diveq.quest032.description.name=Underneath the water shard is a blue rocky material that the book calls Azurite, which can be used to craft a container that can store liquid.
 
 diveq.quest033.title.name=More Bones
-diveq.quest033.description.name=Use Moonstone to increase your Bone reservoir
+diveq.quest033.description.name=There has to be a better way to get bones without constantly dying. Every time I die, I feel more and more depleted, as if I come back with slightly less of myself. This book has become my lifeline now; it must have the answer.\n\nOn the page with the shards, it shows that I can burn the moonstone into anther kind of shard, which can be imbued onto a rock core. This core can then be used to transform glass into bone! Perfect! But now how do I get glass?
 
 diveq.quest034.title.name=Take some Air with you
 diveq.quest034.description.name=Rightclick with a Bottle and Cork in the Air to collect your Surroundings.
@@ -127,14 +127,14 @@ diveq.quest035.description.name=My Baubles are still there. But where is the res
 diveq.quest036.title.name=Need to breath
 diveq.quest036.description.name=Maybe I enter a place where there isn't enough air for me to breath. This should help me.
 
-diveq.quest037.title.name=Ignition
-diveq.quest037.description.name=Start a Fire whereever you want.
+diveq.quest037.title.name=Burn all the things
+diveq.quest037.description.name=Now that I have this Heavy, I can now make a fire starter with some flint, which will make burning things easier. I should watch out for the trees, though.
 
 diveq.quest038.title.name=Now cut other things
-diveq.quest038.description.name=That way making water becomes much easier.
+diveq.quest038.description.name=I need to make something sharp to harvest these leaves. Once I do, making water will be much easier, as I can just extract water from the leaves.
 
 diveq.quest039.title.name=Destroy those Trees
-diveq.quest039.description.name=You can use OreExcavation to chop down trees easier, but you need to have an axe. just check the controls to set the keybind.
+diveq.quest039.description.name=Now that I have a tree, I should make something that's more effective at chopping it. But despite my best efforts, I can't split a rock into the right shape for an axe. Maybe I can use that new air essence stuff on a pickaxe to form the head into an axe head.\n\nAs I bring my handful of viscous-air-that-I-still-have-no-idea-what-it-is to my pickaxe, I try to concentrate on what an axe head looks like. The slurry of air engulfs the pickaxe head and starts swirling around it. It spins faster and faster around the stone, and to my surprise the stone starts to warp. Er, is it starting to liquify? No, it's somewhat dissolving in the air, quickly eroding and being carried around by the air. As more of the stone pickaxe head is dissolved, some of the particles also settle back onto the handle and solidifies back into stone. After a minute, the slurry dissipates, and my crude pickaxe is now a crude axe.\n\n(Pro tip: You can use excavation to chop down trees easier. You can also throw a *full-durability* primitive axe in fire to upgrade it.)
 
 diveq.quest040.title.name=Miner's hate that trick
 diveq.quest040.description.name=Haste is the way to go
@@ -143,7 +143,7 @@ diveq.quest041.title.name=Getting back on Track
 diveq.quest041.description.name=Finally I'm able to craft some basic Tools now. Let's go mining.\n\nBreaking Leaves while holding a piece of Flint sometimes yields some Sticks.
 
 diveq.quest042.title.name=Alternative Food Source
-diveq.quest042.description.name=Stop eating yourself
+diveq.quest042.description.name=Alright, I've had enough of eating myself! Now that I can harvest these leaves, I can make a sort of salad out of them. Time to go vegetarian.
 
 diveq.quest043.title.name=Lost your Questbook?
 diveq.quest043.description.name=Get a new One.
@@ -155,7 +155,7 @@ diveq.quest045.title.name=Even better Food
 diveq.quest045.description.name=Gives a Regeneration Buff when eaten.
 
 diveq.quest046.title.name=Storing Liquids
-diveq.quest046.description.name=If you don't have an other place to put it.\n\nThe iTank stores it's content when broken and auto-outputs to the bottom side.
+diveq.quest046.description.name=I can make a tank to store liquids.
 
 diveq.quest047.title.name=Resource Collection
 diveq.quest047.description.name=Well, whereever my items went, now it's not the time to sit here and wait until something happens. Maybe I should try to create some basic tools again to further explore this place.\n\nCollect some Gravel with your bare hands and throw it into a nearby puddle to obtain some flint. Smash the flint against some stone to break it into small pieces.
@@ -275,10 +275,10 @@ diveq.quest085.title.name=3x3 Crafting?
 diveq.quest085.description.name=Kind of cool, but it's still not the same.
 
 diveq.quest086.title.name=Getting my Health back
-diveq.quest086.description.name=There is an Item you can craft to get some of your health back.
+diveq.quest086.description.name=I can't deal with losing part of myself every time I die. I need a way to get that back. There's a page in the elemental book that shows a ritual to get some health back. This is something I really need.
 
 diveq.quest087.title.name=More water
-diveq.quest087.description.name=You can process azurite to obtain more water.
+diveq.quest087.description.name=Whatever this azurite stuff is, it's actually not as solid as it looks. I could probably squeeze more water out of this "stone", but first I should crush it.
 
 diveq.quest088.title.name=Don't get boned again.
 diveq.quest088.description.name=After collecting some Rocks I should be able to replace the primitive tools with something better.
@@ -341,10 +341,10 @@ diveq.quest107.title.name=Cheater?!
 diveq.quest107.description.name=Well I guess you don't deserve to die...yet.
 
 diveq.quest108.title.name=The Taste of human flesh
-diveq.quest108.description.name=Death doesn't behave normally here... I should find something to eat, even if it's part of myself. If I only had my potato.
+diveq.quest108.description.name=Death doesn't behave normally here... I should find something to eat, even if it's part of myself. If I only had my potato.\n\nI shouldn't try to die too often, though. I may be regenerating, but death still doesn't feel too good. It's almost as if part of me is still being left behind. (You'll lose one heart of max HP every time you die)
 
-diveq.quest109.title.name=OOOOOOOOOOOrb!
-diveq.quest109.description.name=It's like this Anime I watched some time ago.
+diveq.quest109.title.name=New Quest
+diveq.quest109.description.name=No Description
 
 diveq.quest110.title.name=Scary faces?
 diveq.quest110.description.name=Those eyes will always follow me...
