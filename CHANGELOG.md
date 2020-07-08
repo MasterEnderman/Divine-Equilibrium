@@ -1,5 +1,11 @@
 # Changelog #
 
+## 0.2.7 ##
+
+- replaced gravestone mod because Corail_31 deleted all his mods
+- readded map preset to play the pack on hardcore
+- improved topography presets
+
 ## 0.2.6 ##
 
 - switched to curseforge version of some mods

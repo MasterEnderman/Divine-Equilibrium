@@ -3,17 +3,13 @@ default configs and documentation will be printed.
 
 
 
-setAsDefaultWorldType:
-    Notes:
-        Sets the Topography WorldType as default.
-
-setSpawnStructureSpacing:
+registerPreset:
     Arguments:
-        int
+        String, String, String, String, String
     Usage:
-        spacing
+        preset name, image location, description, WorldType, generator options
     Notes:
-        Sets the spacing between spawn structures.
+        Creates a preset object and returns it. Image references a file in the topography folder. Setting a WorldType uses that WorldType as the base for the preset, allowing for things like using BoP for the overworld while having a custom nether dimension. Generator options sets the generator options for the chosen WorldType. Image/description/worldtype/generator options may be null.
 
 registerPreset:
     Arguments:
@@ -33,14 +29,6 @@ registerPreset:
 
 registerPreset:
     Arguments:
-        String
-    Usage:
-        preset name
-    Notes:
-        Creates a preset object and returns it.
-
-registerPreset:
-    Arguments:
         String, String, String
     Usage:
         preset name, image location, description
@@ -49,9 +37,21 @@ registerPreset:
 
 registerPreset:
     Arguments:
-        String, String, String, String, String
+        String
     Usage:
-        preset name, image location, description, WorldType, generator options
+        preset name
     Notes:
-        Creates a preset object and returns it. Image references a file in the topography folder. Setting a WorldType uses that WorldType as the base for the preset, allowing for things like using BoP for the overworld while having a custom nether dimension. Generator options sets the generator options for the chosen WorldType. Image/description/worldtype/generator options may be null.
+        Creates a preset object and returns it.
+
+setAsDefaultWorldType:
+    Notes:
+        Sets the Topography WorldType as default.
+
+setSpawnStructureSpacing:
+    Arguments:
+        int
+    Usage:
+        spacing
+    Notes:
+        Sets the spacing between spawn structures.
 

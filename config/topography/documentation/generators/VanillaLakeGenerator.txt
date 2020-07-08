@@ -10,6 +10,14 @@ Constructor:
     Notes:
         This constructs a VanillaLakeGenerator. Generates lakes filled with the supplied block.
 
+blacklistBiome:
+    Arguments:
+        Non_Null_Biome_ID_Array
+    Usage:
+        biomes to blacklist
+    Notes:
+        Adds biomes that the generator will not attempt to spawn in.
+
 setHeight:
     Arguments:
         int, int
@@ -25,12 +33,4 @@ setSpawnChance:
         spawn chance
     Notes:
         Sets the 1/chance per chunk for the generator to attempt to generate lakes.
-
-blacklistBiome:
-    Arguments:
-        Non_Null_Biome_ID_Array
-    Usage:
-        biomes to blacklist
-    Notes:
-        Adds biomes that the generator will not attempt to spawn in.
 

@@ -65,10 +65,6 @@ var removeAll as IIngredient[] = [
     <corvus:candle_rage>,
     <corvus:candle_growth>,
     <corvus:candle_wind>,
-    <tombstone:decorative_grave_simple>,
-    <tombstone:decorative_grave_normal>,
-    <tombstone:decorative_grave_cross>,
-    <tombstone:decorative_tombstone>,
     <roots:staff>,
     <naturesaura:ancient_stick>,
     <mysticalworld:silk_thread>,
@@ -91,7 +87,8 @@ var removeAll as IIngredient[] = [
     <hwell:asul_machine_case>,
     <evilcraft:vengeance_ring>,
     <minecraft:deadbush>,
-    <defiledlands:defilement_powder>
+    <defiledlands:defilement_powder>,
+    <gravestone:gravestone>
 ];
 
 for item in removeAll {
