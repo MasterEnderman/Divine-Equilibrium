@@ -1,5 +1,10 @@
 # Changelog #
 
+## 0.2.6 ##
+
+- switched to curseforge version of some mods
+- updated README.md
+
 ## 0.2.5 ##
 
 - finished chapter 3
