@@ -1,5 +1,13 @@
 # Changelog #
 
+## 0.2.8 ##
+
+- added more QoL recipes
+- improved quest description
+- fixed scythe not working as hoe in gaia dimension
+- fixed progression of the second chapter
+- tweaked third chapter
+
 ## 0.2.7 ##
 
 - replaced gravestone mod because Corail_31 deleted all his mods

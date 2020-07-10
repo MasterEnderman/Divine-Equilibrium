@@ -221,7 +221,7 @@ diveq.quest067.title.name=Advanced Magic
 diveq.quest067.description.name=Used for all kinds of Rituals
 
 diveq.quest068.title.name=Boss #1
-diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier.
+diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§c!ATTENTION! The Boss can only be summoned at night time otherwise he will despawn. Furthermore don't kill him with fire as this wouldn't complete the Quest.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier.
 
 diveq.quest069.title.name=Protect yourself
 diveq.quest069.description.name=Better safe then sorry
@@ -242,10 +242,10 @@ diveq.quest074.title.name=Token of Joy
 diveq.quest074.description.name=Don't worry, be happy
 
 diveq.quest075.title.name=Botanist's Tools
-diveq.quest075.description.name=Fancy green.
+diveq.quest075.description.name=Fancy green. It's time to invest some more time into research. I thought about a method to improve these bone tools i used for what felt like an eternity.
 
 diveq.quest076.title.name=Diamonds!
-diveq.quest076.description.name=Fancy Gem.
+diveq.quest076.description.name=Fancy Gem. I heared voices that whispered things about an incredibly string gem found in the deepest depth of this cursed island.
 
 diveq.quest077.title.name=Stunning Dahlia
 diveq.quest077.description.name=Collected by using a Diamond on it.
@@ -268,8 +268,8 @@ diveq.quest082.description.name=Using Runic Shears on Deers sometimes yields a m
 diveq.quest083.title.name=Runic Focus
 diveq.quest083.description.name=Storing the Nature in Stone
 
-diveq.quest084.title.name=The Journey continues
-diveq.quest084.description.name=It's time to continue
+diveq.quest084.title.name=Do I even need those yet?
+diveq.quest084.description.name=At least I can make them if I need them later.
 
 diveq.quest085.title.name=3x3 Crafting?
 diveq.quest085.description.name=Kind of cool, but it's still not the same.
@@ -308,7 +308,7 @@ diveq.quest096.title.name=Farming Time
 diveq.quest096.description.name=Use your new Hoe to create some simple farms.
 
 diveq.quest097.title.name=Don't burn yourself
-diveq.quest097.description.name=Is this some kind og ritual?
+diveq.quest097.description.name=Is this some kind of ritual? I remember seeing this in my dream, guess I have to do further researches to obtain it.
 
 diveq.quest098.title.name=Strange Gem
 diveq.quest098.description.name=After processing the dark seeds I obtained a dark gem which pulsates while holding it in my hands, what could it be used for?

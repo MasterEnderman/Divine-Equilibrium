@@ -20,6 +20,9 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
                 [<primitivetools:flint_point>],
                 [<primitivetools:flint_shard>],
                 [<primitivetools:flint_flake>]
+            ],
+            "false" : [
+                [<soulus:dust_stone>]
             ]
         }
     },
@@ -111,6 +114,13 @@ var FluidToItemMap as IIngredient[][][string][ILiquidStack][IItemStack] = {
         <liquid:frankencense_essence> : {
             "true" : [
                 [<forbidden_arcanus:edelwood_log>,<roots:terra_moss>,<evilcraft:blood_potash>]
+            ]
+        }
+    },
+    <minecraft:rotten_flesh> : {
+        <liquid:water> : {
+            "true" : [
+                [<cannibalism:playerflesh>]
             ]
         }
     }

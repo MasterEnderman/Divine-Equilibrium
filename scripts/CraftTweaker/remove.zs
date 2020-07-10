@@ -50,6 +50,7 @@ var removeAll as IIngredient[] = [
     <naturesaura:infused_iron_shoes>,
     <minecraft:crafting_table>,
     <forbidden_arcanus:mundabitur_dust>,
+    <forbidden_arcanus:edelwood_planks>,
     <naturesaura:infused_iron_sword>,
     <naturesaura:infused_iron_axe>,
     <naturesaura:infused_iron_pickaxe>,
@@ -120,9 +121,12 @@ var removeModList as string[] = [
     "thaumicaugmentation",
     "tieredmagnets",
     "aetherworks",
-    "soot"
+    "soot",
+    "aetheriumashenarmor"
 ];
 
 for mod in removeModList {
     removeAllRecipesFromMod(mod);
 }
+
+recipes.removeShapeless(<minecraft:dye:1>,[<minecraft:beetroot>]);

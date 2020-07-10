@@ -33,7 +33,7 @@ var pyreMap as IIngredient[][string][IItemStack] = {
         "moonglow_leaf" : [<forbidden_arcanus:mundabitur_dust>,<corvus:wormwood>,<arcaneworld:sapphire>,<minecraft:glass>,<corvus:crystal_quartz>]
     },
     <corvus:wormwood> : {
-        "wormwood" : [<forbidden_arcanus:mundabitur_dust>,<roots:terra_moss>,<roots:wildwood_leaves>,<rootsclassic:verdantsprig>,<corvus:crystal_quartz>]
+        "wormwood" : [<forbidden_arcanus:mundabitur_dust>,<roots:terra_moss>,<minecraft:leaves>,<rootsclassic:verdantsprig>,<corvus:crystal_quartz>]
     },
     <roots:pereskia> : {
         "pereskia" : [<forbidden_arcanus:mundabitur_dust>,<corvus:stunning_dahlia>,<minecraft:melon>,<mysticalworld:amethyst_gem>,<corvus:crystal_quartz>]

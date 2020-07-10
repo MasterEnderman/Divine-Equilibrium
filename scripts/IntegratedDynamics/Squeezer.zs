@@ -26,7 +26,7 @@ var mapItemToFluid as int[IItemStack][ILiquidStack] = {
     },
     <liquid:evilcraftblood> : {
         <minecraft:rotten_flesh> : 50,
-        <cannibalism:playerflesh> : 100,
+        <contenttweaker:flesh_block> : 800,
         <cannibalism:villagerflesh> : 100,
         <cannibalism:witchflesh> : 100,
         <cannibalism:wendigoheart> : 1000,

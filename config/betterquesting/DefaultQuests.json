@@ -5558,10 +5558,10 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Unlocks the next Chapter",
+          "description:8": "Unlocks better Equipment",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "title:8": "This isn\u0027t your place",
+          "title:8": "There\u0027s always room for improvment",
           "command:8": "/gamestage add @p wood_2"
         }
       }
@@ -8747,8 +8747,8 @@
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -36,
+          "x:3": 252,
+          "y:3": 0,
           "id:3": 79,
           "sizeY:3": 24
         },
@@ -8762,7 +8762,7 @@
         "37:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 0,
+          "y:3": 36,
           "id:3": 81,
           "sizeY:3": 24
         },
@@ -8775,22 +8775,22 @@
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": -108,
+          "x:3": 216,
+          "y:3": -72,
           "id:3": 83,
           "sizeY:3": 24
         },
         "40:10": {
-          "sizeX:3": 60,
+          "sizeX:3": 24,
           "x:3": 216,
-          "y:3": -72,
+          "y:3": -36,
           "id:3": 84,
-          "sizeY:3": 60
+          "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -72,
+          "x:3": 252,
+          "y:3": -36,
           "id:3": 85,
           "sizeY:3": 24
         },
@@ -8802,11 +8802,11 @@
           "sizeY:3": 24
         },
         "43:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
+          "sizeX:3": 60,
+          "x:3": 252,
           "y:3": -108,
           "id:3": 89,
-          "sizeY:3": 24
+          "sizeY:3": 60
         }
       },
       "lineID:3": 1,
