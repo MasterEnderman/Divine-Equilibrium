@@ -11,6 +11,3 @@ import crafttweaker.oredict.IOreDictEntry;
 import scripts.CraftTweaker.Functions.transformString;
 
 import mods.roots.AnimalHarvest;
-
-AnimalHarvest.removeEntity(<entity:minecraft:cow>);
-AnimalHarvest.removeEntity(game.getEntity("cow"));

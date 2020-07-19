@@ -5558,10 +5558,10 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Unlocks the next Chapter",
+          "description:8": "Unlocks better Equipment",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "title:8": "This isn\u0027t your place",
+          "title:8": "There\u0027s always room for improvment",
           "command:8": "/gamestage add @p wood_2"
         }
       }
@@ -8075,6 +8075,55 @@
         }
       },
       "rewards:9": {}
+    },
+    "125:10": {
+      "questID:3": 125,
+      "preRequisites:11": [
+        111
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "defiledlands:vilespine",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "diveq.quest125.title.name",
+          "desc:8": "diveq.quest125.description.name"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "You completed the pack at it\u0027s current stage. Congratulation!",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "execute @p ~ ~ ~ kill @p"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -8698,8 +8747,8 @@
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -36,
+          "x:3": 252,
+          "y:3": 0,
           "id:3": 79,
           "sizeY:3": 24
         },
@@ -8713,7 +8762,7 @@
         "37:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 0,
+          "y:3": 36,
           "id:3": 81,
           "sizeY:3": 24
         },
@@ -8726,22 +8775,22 @@
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": -108,
+          "x:3": 216,
+          "y:3": -72,
           "id:3": 83,
           "sizeY:3": 24
         },
         "40:10": {
-          "sizeX:3": 60,
+          "sizeX:3": 24,
           "x:3": 216,
-          "y:3": -72,
+          "y:3": -36,
           "id:3": 84,
-          "sizeY:3": 60
+          "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -72,
+          "x:3": 252,
+          "y:3": -36,
           "id:3": 85,
           "sizeY:3": 24
         },
@@ -8753,11 +8802,11 @@
           "sizeY:3": 24
         },
         "43:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
+          "sizeX:3": 60,
+          "x:3": 252,
           "y:3": -108,
           "id:3": 89,
-          "sizeY:3": 24
+          "sizeY:3": 60
         }
       },
       "lineID:3": 1,
@@ -9029,6 +9078,41 @@
         }
       },
       "order:3": 2
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 111,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 0,
+          "id:3": 125,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "diveq.chapter03.title.name",
+          "icon:10": {
+            "id:8": "defiledlands:idol_sorrow",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "diveq.chapter03.description.name"
+        }
+      },
+      "order:3": 3
     }
   },
   "questSettings:10": {

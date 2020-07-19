@@ -1,5 +1,30 @@
 # Changelog #
 
+## 0.2.8 ##
+
+- added more QoL recipes
+- improved quest description
+- fixed scythe not working as hoe in gaia dimension
+- fixed progression of the second chapter
+- tweaked third chapter
+
+## 0.2.7 ##
+
+- replaced gravestone mod because Corail_31 deleted all his mods
+- readded map preset to play the pack on hardcore
+- improved topography presets
+
+## 0.2.6 ##
+
+- switched to curseforge version of some mods
+- updated README.md
+
+## 0.2.5 ##
+
+- finished chapter 3
+- cleaned up modpack for beta release
+- fixed everything left in the bugtracker
+
 ## 0.2.4 ##
 
 - fixed missing itemstages

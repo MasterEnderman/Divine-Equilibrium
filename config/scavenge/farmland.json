@@ -48,6 +48,10 @@
                         {
                             "dim": 0,
                             "required": true
+                        },
+                        {
+                            "dim": 939,
+                            "required": true
                         }
                     ]
                 },

@@ -38,6 +38,9 @@ var mapItemToItem as IItemStack[][IItemStack] = {
     ],
     <mysticalworld:mud_brick> : [
         <mysticalworld:wet_mud_brick>
+    ],
+    <soulus:bone_dry> : [
+        <soulus:bone_fungal>
     ]
 };
 

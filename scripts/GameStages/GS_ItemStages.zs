@@ -130,6 +130,15 @@ var itemsToStage as IIngredient[][string] = {
         <soulus:gear_bone_nether>,
         <soulus:gear_bone>,
         <treetweaker:ritualtree>,
+        <forbidden_arcanus:mundabitur_dust>,
+        <forbidden_arcanus:arcane_crystal_dust>,
+        <forbidden_arcanus:arcane_crystal>,
+        <roots:moonglow_seed>,
+        <roots:moonglow_leaf>,
+        <roots:pereskia_bulb>,
+        <roots:pereskia>,
+        <roots:terra_moss>,
+        <roots:spirit_herb_seed>
     ],
     "gaia_finish" : [
         <contenttweaker:bark_mysterywood>,
@@ -202,6 +211,12 @@ var itemsToStage as IIngredient[][string] = {
         <roots:living_axe>,
         <roots:living_shovel>,
         <roots:living_sword>,
+    ],
+    "wood_2" : [
+        <roots:wildwood_helmet>,
+        <roots:wildwood_chestplate>,
+        <roots:wildwood_leggings>,
+        <roots:wildwood_boots>,
     ]
 };
 

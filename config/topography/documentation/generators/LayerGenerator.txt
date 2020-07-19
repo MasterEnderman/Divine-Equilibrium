@@ -5,6 +5,14 @@ file with 'new LayerGenerator()'.
 
 addLayer:
     Arguments:
+        MinMaxBounds, ItemBlockData, ItemBlockData
+    Usage:
+        y axis bounds, block to place, block to replace
+    Notes:
+        Adds a layer of blocks to be generated within the provided bounds, made of the provided block, replacing only the provided block.
+
+addLayer:
+    Arguments:
         MinMaxBounds, ItemBlockData
     Usage:
         y axis bounds, block to place

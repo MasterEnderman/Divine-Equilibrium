@@ -6,28 +6,15 @@ printDocumentation(false)
 //Sets the Topography WorldType as default
 setAsDefaultWorldType()
 
+setSpawnStructureSpacing(5)
+
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
-//basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.")
-//basicSkyIslands.registerDimension(4, "examples/Basic_Sky_Islands")
 
-//overworld = registerPreset("Overworld", "images/Overworld", "Basic overworld. Uses multithreaded noise to generate a bit faster than vanilla.")
-//overworld.registerDimension(0, "examples/Overworld")
+normalMap = registerPreset("Normal Difficulty", "images/void", "The Map Preset for a normal Playthrough")
+normalMap.registerDimension(0, "diveq/Spooky_Void")
+normalMap.setDifficulty(3)
+normalMap.lockDifficulty()
 
-//cellNether = registerPreset("Cell Nether", "images/Cell_Nether", "Replaces the nether with a nether made with cell noise tendrils.")
-//cellNether.registerDimension(-1, "examples/Cell_Nether")
-
-//structureExample = registerPreset("Spawn Structure Example", "images/Basic_Tree", "A basic tree spawn structure.")
-//structureExample.registerDimension(0, "examples/Spawn_Structure")
-
-//layerGeneratorExample = registerPreset("Layer Example", "images/Basic_Tree_With_Water", "A basic tree spawn structure over a layer of bedrock and 59 layers of water.")
-//layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
-
-//fogExample = registerPreset("Fog Transition Example", "", "Fog that transitions between blue in the day and purple at night.")
-//fogExample.registerDimension(0, "examples/Transitioning_Fog")
-
-//skyboxExample = registerPreset("Sky Box Transition Example", "", "A sky box that transitions between the light blue concrete texture in the day and the black concrete texture at night.")
-//skyboxExample.registerDimension(0, "examples/Transitioning_Skybox")
-
-
-structureExample = registerPreset("Normal Difficulty", "images/void", "The Map Preset for a normal Playthrough")
-structureExample.registerDimension(0, "Spooky_Void")
+hardcoreMap = registerPreset("Hardcore Difficulty", "images/void", "The Map Preset for a Playthrough on Hardcore")
+hardcoreMap.registerDimension(0, "diveq/Hardcore_Void")
+hardcoreMap.enableHardcore()

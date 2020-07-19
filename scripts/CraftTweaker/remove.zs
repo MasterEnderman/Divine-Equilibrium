@@ -50,6 +50,7 @@ var removeAll as IIngredient[] = [
     <naturesaura:infused_iron_shoes>,
     <minecraft:crafting_table>,
     <forbidden_arcanus:mundabitur_dust>,
+    <forbidden_arcanus:edelwood_planks>,
     <naturesaura:infused_iron_sword>,
     <naturesaura:infused_iron_axe>,
     <naturesaura:infused_iron_pickaxe>,
@@ -65,10 +66,6 @@ var removeAll as IIngredient[] = [
     <corvus:candle_rage>,
     <corvus:candle_growth>,
     <corvus:candle_wind>,
-    <tombstone:decorative_grave_simple>,
-    <tombstone:decorative_grave_normal>,
-    <tombstone:decorative_grave_cross>,
-    <tombstone:decorative_tombstone>,
     <roots:staff>,
     <naturesaura:ancient_stick>,
     <mysticalworld:silk_thread>,
@@ -90,7 +87,9 @@ var removeAll as IIngredient[] = [
     <soulus:dust_midnight>,
     <hwell:asul_machine_case>,
     <evilcraft:vengeance_ring>,
-    <minecraft:deadbush>
+    <minecraft:deadbush>,
+    <defiledlands:defilement_powder>,
+    <gravestone:gravestone>
 ];
 
 for item in removeAll {
@@ -122,9 +121,12 @@ var removeModList as string[] = [
     "thaumicaugmentation",
     "tieredmagnets",
     "aetherworks",
-    "soot"
+    "soot",
+    "aetheriumashenarmor"
 ];
 
 for mod in removeModList {
     removeAllRecipesFromMod(mod);
 }
+
+recipes.removeShapeless(<minecraft:dye:1>,[<minecraft:beetroot>]);

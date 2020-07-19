@@ -11,8 +11,8 @@ diveq.chapter01.description.name=I'll never leave this place again...
 diveq.chapter02.title.name=Nightmare
 diveq.chapter02.description.name=Everything is just a Dream. There is no reality.
 
-diveq.chapter03.title.name=
-diveq.chapter03.description.name=
+diveq.chapter03.title.name=Insomnia
+diveq.chapter03.description.name=I'll never find a way to sleep again.
 
 #QUESTS
 
@@ -221,7 +221,7 @@ diveq.quest067.title.name=Advanced Magic
 diveq.quest067.description.name=Used for all kinds of Rituals
 
 diveq.quest068.title.name=Boss #1
-diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier.
+diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§c!ATTENTION! The Boss can only be summoned at night time otherwise he will despawn. Furthermore don't kill him with fire as this wouldn't complete the Quest.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier.
 
 diveq.quest069.title.name=Protect yourself
 diveq.quest069.description.name=Better safe then sorry
@@ -242,10 +242,10 @@ diveq.quest074.title.name=Token of Joy
 diveq.quest074.description.name=Don't worry, be happy
 
 diveq.quest075.title.name=Botanist's Tools
-diveq.quest075.description.name=Fancy green.
+diveq.quest075.description.name=Fancy green. It's time to invest some more time into research. I thought about a method to improve these bone tools i used for what felt like an eternity.
 
 diveq.quest076.title.name=Diamonds!
-diveq.quest076.description.name=Fancy Gem.
+diveq.quest076.description.name=Fancy Gem. I heared voices that whispered things about an incredibly string gem found in the deepest depth of this cursed island.
 
 diveq.quest077.title.name=Stunning Dahlia
 diveq.quest077.description.name=Collected by using a Diamond on it.
@@ -268,8 +268,8 @@ diveq.quest082.description.name=Using Runic Shears on Deers sometimes yields a m
 diveq.quest083.title.name=Runic Focus
 diveq.quest083.description.name=Storing the Nature in Stone
 
-diveq.quest084.title.name=The Journey continues
-diveq.quest084.description.name=It's time to continue
+diveq.quest084.title.name=Do I even need those yet?
+diveq.quest084.description.name=At least I can make them if I need them later.
 
 diveq.quest085.title.name=3x3 Crafting?
 diveq.quest085.description.name=Kind of cool, but it's still not the same.
@@ -308,7 +308,7 @@ diveq.quest096.title.name=Farming Time
 diveq.quest096.description.name=Use your new Hoe to create some simple farms.
 
 diveq.quest097.title.name=Don't burn yourself
-diveq.quest097.description.name=Is this some kind og ritual?
+diveq.quest097.description.name=Is this some kind of ritual? I remember seeing this in my dream, guess I have to do further researches to obtain it.
 
 diveq.quest098.title.name=Strange Gem
 diveq.quest098.description.name=After processing the dark seeds I obtained a dark gem which pulsates while holding it in my hands, what could it be used for?
@@ -349,7 +349,7 @@ diveq.quest109.description.name=If I imbue a pair of rings with the darkness aro
 diveq.quest110.title.name=Scary faces?
 diveq.quest110.description.name=Those eyes will always follow me...
 
-diveq.quest111.title.name=That's not what i aspected
+diveq.quest111.title.name=That's not what I expected
 diveq.quest111.description.name=This place doens't look like my homeplace at all. Did I take the wrong turn? At least there is this portal behind me, which takes me back, if I really want to go back to this lost place...
 
 diveq.quest112.title.name=Armor of the dead
@@ -391,3 +391,5 @@ diveq.quest123.description.name=Destroy to create
 diveq.quest124.title.name=Older then the oldest tree
 diveq.quest124.description.name=It's time to unleash the energy of the original ancient tree.
 
+diveq.quest125.title.name=Living hurts.
+diveq.quest125.description.name=Welcome, this is the current end of the Divine Equilibrium Modpack. But no need to be worried as the next content update is already on it's way.

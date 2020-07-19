@@ -168,32 +168,32 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     },
     <soulus:gear_bone> : {
         <treetweaker:ritualtree> : {
-            "gear_bone" : [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+            "gear_bone" : [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
         }
     },
     <soulus:gear_bone_dry> : {
         <treetweaker:ritualtree> : {
-            "gear_bone_dry" : [<soulus:bone_dry>,<soulus:bone_dry>,<soulus:bone_dry>,<soulus:bone_dry>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+            "gear_bone_dry" : [<soulus:bone_dry>,<soulus:bone_dry>,<soulus:bone_dry>,<soulus:bone_dry>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
         }
     },
     <soulus:gear_bone_fungal> : {
         <treetweaker:ritualtree> : {
-            "gear_bone_fungal" : [<soulus:bone_fungal>,<soulus:bone_fungal>,<soulus:bone_fungal>,<soulus:bone_fungal>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+            "gear_bone_fungal" : [<soulus:bone_fungal>,<soulus:bone_fungal>,<soulus:bone_fungal>,<soulus:bone_fungal>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
         }
     },
     <soulus:gear_bone_frozen> : {
         <treetweaker:ritualtree> : {
-            "gear_bone_frozen" : [<soulus:bone_frozen>,<soulus:bone_frozen>,<soulus:bone_frozen>,<soulus:bone_frozen>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+            "gear_bone_frozen" : [<soulus:bone_frozen>,<soulus:bone_frozen>,<soulus:bone_frozen>,<soulus:bone_frozen>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
         }
     },
     <soulus:gear_bone_ender> : {
         <treetweaker:ritualtree> : {
-            "gear_bone_ender" : [<soulus:bone_ender>,<soulus:bone_ender>,<soulus:bone_ender>,<soulus:bone_ender>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+            "gear_bone_ender" : [<soulus:bone_ender>,<soulus:bone_ender>,<soulus:bone_ender>,<soulus:bone_ender>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
         }
     },
     <soulus:gear_bone_nether> : {
         <treetweaker:ritualtree> : {
-            "gear_bone_nether" : [<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>,<evilcraft:hardened_blood_shard>]
+            "gear_bone_nether" : [<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
         }
     },
 };
