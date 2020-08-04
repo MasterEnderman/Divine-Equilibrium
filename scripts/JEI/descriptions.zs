@@ -40,3 +40,5 @@ JEI.addDescription(<minecraft:mossy_cobblestone>, ["Generates around Underground
 JEI.addDescription(<corvus:candle_rage>, ["Obtained by using an Oil of Enraged Spirits on a lit candle"]);
 JEI.addDescription(<corvus:candle_growth>, ["Obtained by using an Oil of Growth on a lit candle"]);
 JEI.addDescription(<corvus:candle_wind>, ["Obtained by using an Oil of Protective Winds on a lit candle"]);
+
+JEI.addDescription(<soulus:crystal_blood>, ["Charge it by pouring your own Blood over it. (Right Click, while holding it in your hand)"]);

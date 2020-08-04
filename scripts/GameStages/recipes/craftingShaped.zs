@@ -271,7 +271,7 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
             1 : [
                 [
                     [<minecraft:bone_block>,<minecraft:bone_block>],
-                    [null,<ore:bone>],
+                    [<minecraft:bone_block>,<ore:bone>],
                     [null,<ore:bone>]
                 ]
             ]

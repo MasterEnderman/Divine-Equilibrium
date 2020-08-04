@@ -1,5 +1,15 @@
 # Changelog #
 
+## 0.2.9 ##
+
+- added easter egg to play pack deathless
+- changed gravestone mod
+- fixed bone axe recipe
+- increased diamond ore generation in the gaia dimension
+- made the blood crystal less deadly
+- removed hardcore map preset
+- removed sulfur generation from gaia dimension
+
 ## 0.2.8 ##
 
 - added more QoL recipes

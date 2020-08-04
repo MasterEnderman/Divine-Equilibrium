@@ -403,7 +403,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "diveq.quest006.title.name",
-          "desc:8": "diveq.quest006.description00.name\n\ndiveq.quest006.description01.name"
+          "desc:8": "diveq.quest006.description.name"
         }
       },
       "tasks:9": {
@@ -4635,7 +4635,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -4757,7 +4757,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -4827,7 +4827,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {

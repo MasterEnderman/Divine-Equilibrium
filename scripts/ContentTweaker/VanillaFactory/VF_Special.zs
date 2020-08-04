@@ -27,7 +27,7 @@ salad_frankinsence.setSaturation(0.9);
 salad_frankinsence.textureLocation = ResourceLocation.create("contenttweaker:items/food/salad_frankinsence");
 salad_frankinsence.onItemFoodEaten = function(item, world, player) {
     Commands.call("give @p minecraft:bowl", player, world, false, true);
-    Commands.call("effect @p minecraft:regeneration 3 1", player, world, false, true);
+    Commands.call("effect @p minecraft:regeneration 3 1 true", player, world, false, true);
 };
 salad_frankinsence.register();
 
@@ -36,9 +36,19 @@ var apple_gaia as Item = VanillaFactory.createItem("apple_gaia");
 apple_gaia.setLocalizedNameSupplier(function(itemStack) {return "Gaia Fruit";});
 apple_gaia.textureLocation = ResourceLocation.create("contenttweaker:items/food/apple_gaia");
 apple_gaia.itemRightClick = function(item, world, player, hand) {
-    if (world.getDimension() == 0) {
-        Commands.call("tpp @p 939 0 140 0", player, world, false, true);
-        player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(60, 1));
+    if (player.health > 2.0) {
+        if (world.getDimension() == 0) {
+            Commands.call("effect @p minecraft:weakness 20 1 true", player, world, false, true);
+            Commands.call("effect @p minecraft:resistance 5 5 true", player, world, false, true);
+
+            //var hearts = player.maxHealth;
+            //var healthcommand = "unhealthydying setmaxhealth @p " + hearts as int;
+            //Commands.call(healthcommand, player, world, false, true);
+
+            Commands.call("tpp @p 939 0 140 0", player, world, false, true);
+        }
+    } else {
+        player.sendChat("You feel to weak to taste this Fruit. Regain some Health first.");
     }
     return "Pass";
 };

@@ -275,6 +275,11 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
         }
     },
     <elementalresearch:research_book> : {
+        "wood" : {
+            1 : [
+                [<questbook:itemquestbook>,<cannibalism:playerflesh>*2]
+            ]
+        },
         "gaia" : {
             1 : [
                 [<ore:rootsBark>*2, <roots:terra_moss>]

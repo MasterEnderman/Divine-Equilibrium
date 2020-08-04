@@ -191,6 +191,25 @@
                 ]
             }
         },
+		"diamond_gaia": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 25,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					939
+				]
+			}
+		},
         "lake": {
             "distribution": "uniform",
             "generator": {
