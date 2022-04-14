@@ -355,6 +355,13 @@ var recipePrimitiveCrafting as IIngredient[][][int][string][IItemStack] = {
                 [<evilcraft:promise>,<evilcraft:blood_infusion_core>]
             ]
         }
+    },
+    <forbidden_arcanus:skull> : {
+        "wood" : {
+            1 : [
+                [<minecraft:skull:3>,<soulus:bone_normal>*4]
+            ]
+        }
     }
 };
 

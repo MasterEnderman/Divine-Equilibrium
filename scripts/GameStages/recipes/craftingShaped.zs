@@ -168,7 +168,7 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                 [
                     [<mysticalworld:mud_brick>,<mysticalworld:mud_brick>,<mysticalworld:mud_brick>],
                     [<mysticalworld:mud_brick>,null,<mysticalworld:mud_brick>],
-                    [<minecraft:stonebrick>,<roots:bonfire>,<minecraft:stonebrick>]
+                    [<minecraft:stonebrick>,<roots:pyre>,<minecraft:stonebrick>]
                 ]
             ]
         }
@@ -207,17 +207,6 @@ var recipeMapShaped as IIngredient[][][][int][string][IItemStack] = {
                     [<mysticalworld:mud_brick>,<mysticalworld:mud_brick>,<mysticalworld:mud_brick>],
                     [<mysticalworld:mud_brick>,null,<mysticalworld:mud_brick>],
                     [<minecraft:stonebrick>,<ore:dustRedstone>,<minecraft:stonebrick>]
-                ]
-            ]
-        }
-    },
-    <forbidden_arcanus:skull> : {
-        "null" : {
-            1 : [
-                [
-                    [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>],
-                    [<soulus:bone_normal>,null,<soulus:bone_normal>],
-                    [<soulus:bone_normal>,<soulus:bone_normal>,<soulus:bone_normal>]
                 ]
             ]
         }

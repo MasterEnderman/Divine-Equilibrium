@@ -56,7 +56,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <forbidden_arcanus:mysterywood_sapling> : {
             "haste_ring" : [<forbidden_arcanus:soul>,<contenttweaker:heavy_ring>,<primitivetools:primitive_hatchet_cbf>,<primitivetools:primitive_pick_cbf>,<hwell:shard_ca>,<hwell:shard_ca>,<hwell:shard_ca>,<hwell:shard_ca>]
         }
-    },
+    },/*
     <roots:imbuer> : {
         <minecraft:sapling:3> : {
             "imbuer" : [<roots:terra_moss>,<hwell:citrinic_stone>,<hwell:shard_p>,<hwell:shard_p>,<roots:bark_oak>,<roots:bark_jungle>,<roots:bark_oak>,<roots:bark_jungle>]
@@ -66,7 +66,7 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <minecraft:sapling:3> : {
             "pouch_basic" : [<corvus:wiser_gem>,<mysticalworld:pelt>,<mysticalworld:pelt>,<mysticalworld:pelt>,<hwell:shard_au>,<hwell:shard_n>,<hwell:shard_p>,<hwell:shard_o>]
         }
-    },
+    },*/
     <roots:fey_crafter> : {
         <minecraft:sapling> : {
             "fey_crafter" : [<corvus:wiser_gem>,<naturesaura:wood_stand>,<arcaneworld:sapphire>,<mysticalworld:amethyst_gem>,<forbidden_arcanus:arcane_crystal_dust>,<forbidden_arcanus:arcane_crystal_dust>,<forbidden_arcanus:arcane_crystal_dust>,<forbidden_arcanus:arcane_crystal_dust>]
@@ -125,12 +125,12 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
         <forbidden_arcanus:mysterywood_sapling> : {
             "player_skull" : [<soulus:bone_normal>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>,<cannibalism:playerflesh>]
         }
-    },
+    },/*
     <roots:staff> : {
         <minecraft:sapling:3> : {
             "roots_staff" : [<roots:wildroot>,<roots:wildroot>,<roots:wildroot>,<roots:wildroot>,<roots:terra_moss>,<roots:terra_moss>,<roots:terra_moss>,<roots:terra_moss>]
         }
-    },
+    },*/
     <naturesaura:nature_altar> : {
         <forbidden_arcanus:cherrywood_sapling> : {
             "nature_altar" : [<rootsclassic:verdantsprig>,<naturesaura:gold_brick>,<hwell:shard_n>,<hwell:shard_n>,<roots:runestone>,<roots:runestone>,<roots:runestone>,<roots:runestone>]
@@ -194,6 +194,11 @@ var treeRitualMap as IIngredient[][string][IIngredient][IItemStack] = {
     <soulus:gear_bone_nether> : {
         <treetweaker:ritualtree> : {
             "gear_bone_nether" : [<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<soulus:bone_nether>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>,<corvus:crystal_quartz>]
+        }
+    },
+    <roots:pyre> : {
+        <minecraft:sapling> : {
+            "pyre" : [<contenttweaker:solidified_fire_knowledge>,<roots:wildroot>,<minecraft:cobblestone>,<roots:wildroot>,<roots:bark_oak>,<roots:bark_jungle>,<roots:bark_oak>,<roots:bark_jungle>],
         }
     },
 };

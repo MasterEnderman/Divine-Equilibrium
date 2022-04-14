@@ -10,15 +10,15 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Functions.transformString;
 
-import mods.roots.Ritual;
+import mods.roots.Rituals;
 
-//Ritual.modifyRitual("ritual_windwall", [<minecraft:feather>, <minecraft:glass>, <roots:cloud_berry>, <roots:cloud_berry>, <minecraft:web>]);
+//Rituals.modifyRitual("ritual_windwall", [<minecraft:feather>, <minecraft:flint_and_steel>.anyDamage().transformDamage(1), <roots:cloud_berry>, <roots:cloud_berry>, <minecraft:web>]);
 
 var ritualMap as IIngredient[][string] = {
-    "ritual_wild_growth" : [<roots:wildroot>,<roots:spirit_herb>,<roots:bark_oak>,<roots:bark_jungle>,<rootsclassic:verdantsprig>],
+    "ritual_wildroot_growth" : [<roots:wildroot>,<roots:spirit_herb>,<roots:bark_oak>,<roots:bark_jungle>,<rootsclassic:verdantsprig>],
     "ritual_transmutation" : [<forbidden_arcanus:mundabitur_dust>,<hwell:shard_p>,<hwell:shard_o>,<hwell:shard_n>,<hwell:shard_au>]
 };
 
 for ritual, ingredients in ritualMap {
-    Ritual.modifyRitual(ritual, ingredients);
+    Rituals.modifyRitual(ritual, ingredients);
 }

@@ -36,9 +36,6 @@ var feyRecipes as IIngredient[][string][IItemStack] = {
     <rootsclassic:verdantsprig> : {
         "verdant" : [<roots:terra_moss>,<roots:bark_oak>,<roots:bark_jungle>,<minecraft:vine>,<hwell:shard_n>]
     },
-    <roots:bonfire> : {
-        "bonfire" : [<contenttweaker:solidified_fire_knowledge>,<roots:bark_oak>,<roots:bark_jungle>,<roots:wildroot>,<minecraft:cobblestone>],
-    },
     <minecraft:leather_helmet>.withTag({Unbreakable: 1}) : {
         "leather_helmet" : [<hwell:shard_n>,<mysticalworld:pelt>,<mysticalworld:pelt>,<mysticalworld:pelt>,<mysticalworld:pelt>]
     },

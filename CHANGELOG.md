@@ -1,5 +1,16 @@
 # Changelog #
 
+## 0.2.10 ##
+
+- added new topography background
+- added a button to Vallens showcase video in the main menu
+- fixed gears being unobtainable in the void dimension
+- fixed quest description loading problems
+- reduced loading tips
+- tweaked main menu graphics
+- tweaked quest progression in second chapter due to modupdates
+- updated GitHub page
+
 ## 0.2.9 ##
 
 - added easter egg to play pack deathless

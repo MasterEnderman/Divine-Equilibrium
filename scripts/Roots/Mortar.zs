@@ -9,6 +9,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Functions.transformString;
+import scripts.functions.toString;
 
 import mods.roots.Mortar;
 
@@ -29,7 +30,7 @@ for item in mortarRemove {
 }
 
 var spellChange as IIngredient[][string] = {
-    "spell_supplication" : [<roots:petals>,<naturesaura:gold_leaf>,<forbidden_arcanus:arcane_crystal_dust>,<corvus:blazing_tulip>,<mysticalworld:carapace>]
+    "spell_growth_infusion" : [<roots:petals>,<naturesaura:gold_leaf>,<forbidden_arcanus:arcane_crystal_dust>,<corvus:blazing_tulip>,<mysticalworld:carapace>]
 };
 
 for spell, recipe in spellChange {
@@ -67,7 +68,7 @@ var mapMortar as IIngredient[][][int][IItemStack] = {
 for output, data in mapMortar {
     for amount, recipes in data {
         for recipe in recipes {
-            Mortar.addRecipe(output*amount, recipe);
+            Mortar.addRecipe("mortar_recipe_"~toString(output),output*amount, recipe);
         }
     }
 }

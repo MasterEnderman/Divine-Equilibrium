@@ -83,7 +83,7 @@ var removeAll as IIngredient[] = [
     // Qusetbook
     <questbook:itemquestbook>,
     // Roots
-    <roots:bonfire>,
+    <roots:pyre>,
     <roots:staff>,
     // Roots Classic
     <rootsclassic:growthsalve>,
@@ -110,7 +110,6 @@ var removeAll as IIngredient[] = [
     <tombstone:ankh_of_pray>,
     <tombstone:book_of_disenchantment>,
     <tombstone:crafting_ingredient:1>,
-    <tombstone:crafting_ingredient:2>,
     <tombstone:crafting_ingredient>,
     <tombstone:dust_of_vanishing>,
     <tombstone:familiar_receptacle>,
@@ -155,16 +154,16 @@ for item in removeShapeless {
 }
 
 var removeModList as string[] = [
-    "arcanearchives",
-    "embers",
-    "clockworkphase",
-    "thaumcraft",
-    "thaumicperiphery",
-    "thaumicaugmentation",
-    "tieredmagnets",
+    "aetheriumashenarmor",
     "aetherworks",
+    "arcanearchives",
+    "clockworkphase",
+    "embers",
     "soot",
-    "aetheriumashenarmor"
+    "thaumcraft",
+    "thaumicaugmentation",
+    "thaumicperiphery",
+    "tieredmagnets"
 ];
 
 for mod in removeModList {

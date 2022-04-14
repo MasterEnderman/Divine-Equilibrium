@@ -1,8 +1,12 @@
-# Divine Equilibrium #
+<img src="resources/menu/textures/DivEqCurse.png" align="left" width="180px"/>
 
-An interdimensional Journey
+# Divine Equilibrium - An interdimensional Journey
 
-A Modpack made by `_MasterEnderman_`.
+[![License](https://img.shields.io/github/license/MasterEnderman/divine-equilibrium.svg)](LICENSE) ![Versions](http://cf.way2muchnoise.eu/versions/minecraft_divine-equilibrium_all.svg) [![Downloads](http://cf.way2muchnoise.eu/divine-equilibrium.svg)](https://www.curseforge.com/minecraft/modpacks/divine-equilibrium)
+
+*An old Classic remade in a newer Version* • [CurseForge](https://www.curseforge.com/minecraft/modpacks/divine-equilibrium) • [Changelog](CHANGELOG.md) • [Bugtracker](https://github.com/MasterEnderman/Divine-Equilibrium/issues)
+
+<p>&nbsp;</p>
 
 ## Story ##
 
@@ -10,37 +14,16 @@ Where am I? I uh... this uh... this can't be good. This can't be good at all. Wh
 
 Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eating it, and it doesn't seem to be in my pockets. Where is my potato? =(
 
-## Developer ##
+## Pack-Developer
 
-`_MasterEnderman_`
+`_MasterEnderman_` - Project-Manager, Lead-Artist, Developer
 
-- BuyMeACoffee: <https://www.buymeacoffee.com/masterenderman>
-- Curseforge: <https://minecraft.curseforge.com/members/Bitfabrik>
-- Discord: <https://discord.gg/JF7x2vG>
-- Github: <https://github.com/masterenderman>
-- Patreon: <https://www.patreon.com/_masterenderman_>
-- Twitch: <https://www.twitch.tv/endermanwhosearchthebeast>
-- Twitter: <https://twitter.com/_bitfabrik_>
-- Youtube: <https://www.youtube.com/user/xxmasterendermanxx>
+[♥ Socials](https://ender.bio.link)
 
 ## Contributor ##
 
-`al132`
-
-- Akliz Server Referral: <https://www.akliz.net/al132>
-- CurseForge: <https://minecraft.curseforge.com/members/al132mc/projects>
-- Discord: <https://discord.gg/4swu3fy>
-- Github: <https://github.com/al132mc>
-- Patreon: <https://www.patreon.com/al132>
-- Twitter:<https://twitter.com/al132mc>
-- Youtube: <https://www.youtube.com/channel/UCbvuz7eq55a6snmvRI6gXLA>
-
-`Klebestreifen`
-
-- Curseforge: <https://www.curseforge.com/members/klebe99336644>
-- Discord: <https://discord.gg/nva5gGt>
-- Github: <https://github.com/Klebestreifen>
-- Website: <https://klebe.io/>
+- [`al132`](https://github.com/al132mc)
+- [`Klebestreifen`](https://github.com/Klebestreifen)
 
 ## Tester ##
 

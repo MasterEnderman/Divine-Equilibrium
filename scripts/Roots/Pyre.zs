@@ -47,6 +47,9 @@ var pyreMap as IIngredient[][string][IItemStack] = {
     <corvus:blazing_tulip>*5 : {
         "poppy_to_blaze" : [<minecraft:red_flower>,<minecraft:red_flower>,<minecraft:red_flower>,<minecraft:red_flower>,<minecraft:red_flower>],
         "tulip_to_blaze" : [<minecraft:red_flower:4>,<minecraft:red_flower:4>,<minecraft:red_flower:4>,<minecraft:red_flower:4>,<minecraft:red_flower:4>]
+    },
+    <corvus:crystal_quartz>*3 : {
+        "crystal_quartz" : [<hwell:shard_ca>,<minecraft:glass>,<minecraft:glass>,<hwell:shard_ca>,<hwell:shard_ca>]
     }
 };
 

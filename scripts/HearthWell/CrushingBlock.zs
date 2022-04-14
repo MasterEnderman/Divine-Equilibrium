@@ -38,7 +38,7 @@ for item in crushingRemove {
 //mods.hwell.addCrushingBlockRecipe(IItemStack input, IItemStack[] outputs, double[] probabilities);
 
 var crushingAdd as double[IItemStack][IItemStack] = {
-    <minecraft:skull:3> : {
+    <forbidden_arcanus:skull> : {
         <forbidden_arcanus:soul> : 0.9,
         <forbidden_arcanus:dark_soul> : 0.1
     },
@@ -198,6 +198,9 @@ var crushingAdd as double[IItemStack][IItemStack] = {
     <forbidden_arcanus:mysterywood_sapling> : {
         <minecraft:stick> : 0.5,
         <naturesaura:gold_leaf> : 0.3
+    },
+    <corvus:lily_toxic> : {
+        <rootsclassic:growthsalve> : 1.0
     }
 };
 

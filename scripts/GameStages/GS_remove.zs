@@ -15,6 +15,7 @@ import scripts.GameStages.GS_Initialization.stageDisableItems;
 import scripts.JEI.JEI_Minecraft.JEI_Minecraft as Minecraft;
 import scripts.JEI.JEI_ArcaneWorld.JEI_ArcaneWorld as ArcaneWorld;
 import scripts.JEI.JEI_Corvus.JEI_Corvus as Corvus;
+import scripts.JEI.JEI_Embers.JEI_Embers as Embers;
 import scripts.JEI.JEI_HearthWell.JEI_HearthWell as HearthWell;
 import scripts.JEI.JEI_PrimitiveTools.JEI_PrimitiveTools as PrimitiveTools;
 import scripts.JEI.JEI_RootsClassic.JEI_RootsClassic as RootsClassic;
@@ -36,6 +37,7 @@ print("Disabling Items.");
 var ItemsToDisable as IIngredient[][] = [
     ArcaneWorld,
     Corvus,
+    Embers,
     Minecraft,
     RootsClassic,
     Roots,

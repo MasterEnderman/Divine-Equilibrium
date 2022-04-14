@@ -193,17 +193,17 @@ diveq.quest057.description.name=Get a Flint Knife again to process Logs.
 diveq.quest058.title.name=Mortar & Pestle
 diveq.quest058.description.name=What kind of Druid are you?
 
-diveq.quest059.title.name=The Stick of Truth
-diveq.quest059.description.name=Infuse your stick with some magic powder.\nPlace down the Imbuer and insert your powder and stuff to start the imbuing process.\nIt'll later be used to awaken your Grove Stone.
+diveq.quest059.title.name=[Unused]
+diveq.quest059.description.name=[Unused]
 
 diveq.quest060.title.name=The Spirit of the Forest
-diveq.quest060.description.name=Channel the natural energy through your hands.\n\nEmpower the Grove Stone by casting your newly made Spell on it.\n\nUse your Knife on the Fay Crafter to start the Crafting Ritual.
+diveq.quest060.description.name=Channel the natural energy through your hands.\n\nEmpower the Grove Stone by using the Grove Supplication Ritual in your Pyre.\n\nUse your Knife on the Fay Crafter to start the Crafting Ritual.
 
-diveq.quest061.title.name=Storing Herbs
-diveq.quest061.description.name=In order to cast Spells you need to put the required Herbs inside this Pouch.\n\nFurthermore it allows you to store some Items in it.
+diveq.quest061.title.name=[Unused]
+diveq.quest061.description.name=[Unused]
 
-diveq.quest062.title.name=A great Stick
-diveq.quest062.description.name=Bigger than the normal one
+diveq.quest062.title.name=[Unused]
+diveq.quest062.description.name=[Unused]
 
 diveq.quest063.title.name=Bonfire
 diveq.quest063.description.name=Burn it down.\n\nUse a Flint and Steel to start the Ritual.
@@ -221,7 +221,7 @@ diveq.quest067.title.name=Advanced Magic
 diveq.quest067.description.name=Used for all kinds of Rituals
 
 diveq.quest068.title.name=Boss #1
-diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§c!ATTENTION! The Boss can only be summoned at night time otherwise he will despawn. Furthermore don't kill him with fire as this wouldn't complete the Quest.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools or some extra Spells to make the fight easier.
+diveq.quest068.description.name=Time to defeat your first enemy. Summon him by using the Ritual Table.\n\nThe Scythe can also be used as Hoe. Happy farming.\n\n§c!ATTENTION! The Boss can only be summoned at night time otherwise he will despawn. Furthermore don't kill him with fire as this wouldn't complete the Quest.\n\n§a!TIP! Maybe you should consider making some better Armor / Tools to make the fight easier.
 
 diveq.quest069.title.name=Protect yourself
 diveq.quest069.description.name=Better safe then sorry

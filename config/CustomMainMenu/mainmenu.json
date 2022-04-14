@@ -4,10 +4,10 @@
             "image": "mainmenu:title.png",
             "posX": 20,
             "posY": 35,
-            "width": 320,
-            "height": 50,
-            "imageWidth": 1180,
-            "imageHeight": 187,
+            "width": 500,
+            "height": 120,
+            "imageWidth": 3911,
+            "imageHeight": 652,
             "mode": "center"
         }
     },
@@ -16,9 +16,9 @@
             "text": "menu.singleplayer",
             "pressSound": "minecraft:block.portal.ambient",
             "hoverTextColor": 11534512,
-            "posX": 30,
-            "posY": 100,
-            "width": 100,
+            "posX": 20,
+            "posY": 175,
+            "width": 125,
             "height": 35,
             "imageWidth": 200,
             "imageHeight": 50,
@@ -30,31 +30,13 @@
                 "gui": "singleplayer"
             }
         },
-        "multiplayer": {
-            "text": "menu.multiplayer",
-            "pressSound": "minecraft:block.portal.ambient",
-            "hoverTextColor": 11534512,
-            "posX": 130,
-            "posY": 100,
-            "width": 100,
-            "height": 35,
-            "imageWidth": 200,
-            "imageHeight": 50,
-            "alignment": "left",
-            "texture": "mainmenu:button.png",
-            "hoverText": "Find a friend!",
-            "action": {
-                "type": "openGui",
-                "gui": "multiplayer"
-            }
-        },
         "mods": {
             "text": "Mods (#modsloaded#/#modsactive#)",
             "pressSound": "minecraft:block.portal.ambient",
             "hoverTextColor": 11534512,
-            "posX": 30,
-            "posY": 135,
-            "width": 100,
+            "posX": 145,
+            "posY": 175,
+            "width": 125,
             "height": 35,
             "imageWidth": 200,
             "imageHeight": 50,
@@ -65,31 +47,13 @@
                 "gui": "mods"
             }
         },
-        "server": {
-            "text": "Rent a Server",
-            "pressSound": "minecraft:block.portal.ambient",
-            "hoverTextColor": 11534512,
-            "posX": 130,
-            "posY": 135,
-            "width": 100,
-            "height": 35,
-            "imageWidth": 200,
-            "imageHeight": 50,
-            "alignment": "left",
-            "texture": "mainmenu:button.png",
-            "hoverText": "Don't play alone!",
-            "action": {
-                "type": "openLink",
-                "link": "https://www.akliz.net/al132"
-            }
-        },
         "options": {
             "text": "menu.options",
             "pressSound": "minecraft:block.portal.ambient",
             "hoverTextColor": 11534512,
-            "posX": 230,
-            "posY": 100,
-            "width": 100,
+            "posX": 270,
+            "posY": 175,
+            "width": 125,
             "height": 35,
             "imageWidth": 200,
             "imageHeight": 50,
@@ -104,9 +68,9 @@
             "text": "menu.quit",
             "pressSound": "minecraft:block.portal.ambient",
             "hoverTextColor": 14483456,
-            "posX": 230,
-            "posY": 135,
-            "width": 100,
+            "posX": 395,
+            "posY": 175,
+            "width": 125,
             "height": 35,
             "imageWidth": 200,
             "imageHeight": 50,
@@ -117,10 +81,26 @@
                 "type": "quit"
             }
         },
+        "youtube": {
+            "text": " ",
+            "pressSound": "minecraft:block.portal.ambient",
+            "posX": -60,
+            "posY": -55,
+            "width": 35,
+            "height": 35,
+            "imageWidth": 356,
+            "imageHeight": 355,
+            "alignment": "bottom_right",
+            "texture": "mainmenu:youtube.png",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.youtube.com/watch?v=Bg_yshuX6oA"
+            }
+        },
         "discord": {
             "text": " ",
             "pressSound": "minecraft:block.portal.ambient",
-            "posX": -55,
+            "posX": -105,
             "posY": -55,
             "width": 35,
             "height": 35,
@@ -136,7 +116,7 @@
         "github": {
             "text": " ",
             "pressSound": "minecraft:block.portal.ambient",
-            "posX": -100,
+            "posX": -150,
             "posY": -55,
             "width": 35,
             "height": 35,
@@ -168,8 +148,8 @@
             "image": "mainmenu:background.png"
         },
         "splash-text": {
-            "posX": 345,
-            "posY": 70,
+            "posX": 510,
+            "posY": 145,
             "color": 11534512,
             "alignment": "top_left"
         }

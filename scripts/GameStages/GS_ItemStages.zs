@@ -88,7 +88,7 @@ var itemsToStage as IIngredient[][string] = {
         <roots:bark_jungle>,
         <roots:bark_oak>,
         <roots:bark_spruce>,
-        <roots:bonfire>,
+        <roots:pyre>,
         <roots:chiseled_runestone>,
         <roots:component_pouch>,
         <roots:diamond_knife>,
@@ -185,6 +185,7 @@ var itemsToStage as IIngredient[][string] = {
         <evilcraft:bowl_of_promises:2>,
         <evilcraft:promise_acceptor>,
         <evilcraft:effortless_ring>,
+        <treetweaker:edelwoodtree>
     ],
     "tools_2" : [
         <naturesaura:infused_iron_pickaxe>,
@@ -199,7 +200,7 @@ var itemsToStage as IIngredient[][string] = {
         <roots:wildwood_planks>,
         <roots:wildwood_sapling>,
         <roots:wildwood_stairs>,
-        <roots:wildwood_rune>,
+        <roots:runed_wildwood>,
         <roots:wildwood_trapdoor>,
         <roots:wildwood_fence>,
         <roots:wildwood_ladder>,

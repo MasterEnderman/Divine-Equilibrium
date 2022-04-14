@@ -10,7 +10,7 @@ setSpawnStructureSpacing(5)
 
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 
-normalMap = registerPreset("Normal Difficulty", "images/void", "The Map Preset for a normal Playthrough")
+normalMap = registerPreset("Normal Difficulty", "images/default", "The Map Preset for a normal Playthrough")
 normalMap.registerDimension(0, "diveq/Spooky_Void")
 normalMap.setDifficulty(3)
 normalMap.lockDifficulty()

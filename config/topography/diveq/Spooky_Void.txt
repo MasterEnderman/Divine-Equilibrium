@@ -10,8 +10,8 @@ disableSkylight()
 setCelestialAngle(0.5)
 
 sky = setSkyRenderer()
-night = sky.addSkybox("sky:textures/skybox/sky_3.png")
-day = sky.addSkybox("sky:textures/skybox/sky_3.png")
+night = sky.addSkybox("sky:textures/skybox/sky_rift.png")
+day = sky.addSkybox("sky:textures/skybox/sky_rift.png")
 
 day.addAlpha(0.19904304~0.29625022, 1~0)
 day.addAlpha(0.29625022~0.719889, 0~0)
