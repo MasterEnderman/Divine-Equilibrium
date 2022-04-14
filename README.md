@@ -1,10 +1,10 @@
 <img src="resources/menu/textures/DivEqCurse.png" align="left" width="180px"/>
 
-# Divine Equilibrium - An interdimensional Journey
+# Divine Equilibrium
 
 [![License](https://img.shields.io/github/license/MasterEnderman/divine-equilibrium.svg)](LICENSE) ![Versions](http://cf.way2muchnoise.eu/versions/minecraft_divine-equilibrium_all.svg) [![Downloads](http://cf.way2muchnoise.eu/divine-equilibrium.svg)](https://www.curseforge.com/minecraft/modpacks/divine-equilibrium)
 
-*An old Classic remade in a newer Version* • [CurseForge](https://www.curseforge.com/minecraft/modpacks/divine-equilibrium) • [Changelog](CHANGELOG.md) • [Bugtracker](https://github.com/MasterEnderman/Divine-Equilibrium/issues)
+*An interdimensional Journey* • [CurseForge](https://www.curseforge.com/minecraft/modpacks/divine-equilibrium) • [Changelog](CHANGELOG.md) • [Bugtracker](https://github.com/MasterEnderman/Divine-Equilibrium/issues)
 
 <p>&nbsp;</p>
 
