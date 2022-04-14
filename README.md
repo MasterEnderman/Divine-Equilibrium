@@ -22,8 +22,9 @@ Hmm.. i'm really hungry now, where did my potato go? I don't remember ever eatin
 
 ## Contributor ##
 
-- [`al132`](https://github.com/al132mc)
-- [`Klebestreifen`](https://github.com/Klebestreifen)
+- [`al132`](https://github.com/al132mc) - Elemental Research Mod
+- [`Dr-Game`](https://github.com/Dr-Game) - Quest Descriptions
+- [`Klebestreifen`](https://github.com/Klebestreifen) - Custom Crops Mod
 
 ## Tester ##
 
